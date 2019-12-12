@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="mechanismOfInjuryVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/mechanismOfInjuryVS"/>
+    <version value="0.01"/>
+    <name value="MechanismofInjuryvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. An example set of codes that describe how an injury occured."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="242879005"/>
+				<display value ="Assault by stabbing"/>
+			</concept>	
+			<concept>	
+				<code value ="418019003"/>
+				<display value ="Accidental event"/>
+			</concept>	
+			<concept>	
+				<code value ="219236005"/>
+				<display value ="Assault by striking with blunt object"/>
+			</concept>	
+			<concept>	
+				<code value ="418975000"/>
+				<display value ="Bite of animal"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

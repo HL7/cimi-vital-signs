@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="woundBedAppearanceVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundBedAppearanceVS"/>
+    <version value="0.01"/>
+    <name value="WoundBedAppearanceValueSet"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes and expressions. A set of codes that describe how the wound bed looks."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="449746002"/>
+				<display value ="Wound slough"/>
+			</concept>	
+			<concept>	
+				<code value ="225541009"/>
+				<display value ="Granulation of tissue"/>
+			</concept>	
+			<concept>	
+				<code value ="449745003"/>
+				<display value ="Fibrinous wound bed"/>
+			</concept>	
+			<concept>	
+				<code value ="449743005"/>
+				<display value ="Wound epithelialization"/>
+			</concept>	
+			<concept>	
+				<code value ="421306004"/>
+				<display value ="Necrotic eschar"/>
+			</concept>	
+			<concept>	
+				<code value ="609410002"/>
+				<display value ="Necrosis of anatomical site"/>
+			</concept>	
+			<concept>	
+				<code value ="409590008:58158008"/>
+				<display value ="Stable Eschar"/>
+			</concept>	
+		</include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="MeanArterialPressure"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/MeanArterialPressure"/>
+  <version value="0.1.0"/>
+  <name value="MeanAreterialBloodPressure"/>
+  <status value="draft"/>
+  <date value="2019-05-29"/>
+  <publisher value="HSPC"/>
+  <description value="Mean Areterial Blood Pressure, the average arterial pressure during one cardiac cycle."/>
+  <fhirVersion value="4.0.0"/>
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="Observation"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Observation:cimiMeanArterialBloodPressure">
+      <path value="Observation"/>
+      <short value="Mean Areterial Blood Pressure"/>
+      <definition value="The average arterial pressure during one cardiac cycle."/>
+      <mustSupport value="false"/>
+    </element>
+    <element id="Observation:cimiMeanArterialBloodPressure.extension:bodyposition$Extension">
+      <path value="Observation.extension"/>
+      <sliceName value="BodyPosition"/>
+      <type>
+        <code value="Extension"/>
+        <profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
+      </type>
+      <mustSupport value="true"/>
+      <binding>
+        <strength value="extensible"/>
+        <description value="The position that a patient is in when a heart rate measurement is taken."/>
+        <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyPositionVS"/>
+      </binding>
+    </element>
+	<element id="Observation:cimiMeanArterialBloodPressure.status">
+		<path value="Observation.status"/>
+		<mustSupport value="true"/>
+	</element>
+	<element id="Observation.cimiMeanArterialBloodPressure.category">
+		<path value="Observation.category"/>
+		<sliceName value="VitalSignsCategory"/>
+		<min value="1"/>
+		<max value="1"/>
+		<mustSupport value="true"/>
+	</element>
+	<element id="Observation.cimiMeanArterialBloodPressure.category.coding">
+		<path value="Observation.category.coding"/>
+		<min value="1"/>
+		<max value="*"/>
+		<mustSupport value="true"/>
+	</element>
+	<element id="Observation.cimiMeanArterialBloodPressure.category.coding.system">
+		<path value="Observation.category.coding.system"/> 
+		<min value="1"/> 
+		<max value="1"/>
+		<fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
+		<mustSupport value="true"/>
+	</element>
+	<element id="Observation:cimiMeanArterialBloodPressure.category.coding.code">
+		<path value="Observation.category.coding.code"/>
+		<min value="1"/>
+		<max value="1"/>
+		<fixedCode value="vital-signs"/>
+		<mustSupport value="true"/>
+	</element>
+    <element id="Observation:cimiMeanArterialBloodPressure.code">
+        <path value="Observation.code"/>
+    </element>
+	<element id="Observation:cimiMeanArterialBloodPressure.code.coding">
+		<path value="Observation.code.coding"/>
+	</element>
+	<element id="Observation:cimiMeanArterialBloodPressure.code.coding.system">
+		<path value="Observation.code.coding.system"/>
+		<fixedUri value="http://loinc.org"/>
+	</element>
+	<element id="Observation:cimiMeanArterialBloodPressure.code.coding.code">
+		<path value="Observation.code.coding.code"/>
+		<fixedCode value="8478-0"/>
+	</element>
+	<element id="Observation:cimiMeanArterialBloodPressure.code.coding.display">
+		<path value="Observation.code.coding.display"/>
+		<fixedString value="Mean blood pressure"/>
+	</element>
+	<element id="Observation:cimiMeanArterialBloodPressure.subject">
+		<path value="Observation.subject"/>
+		<min value="1"/>
+		<max value="1"/>
+		<type>
+			<code value="Reference"/>
+			<targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+		</type>
+		<mustSupport value="true"/>
+	</element>
+	<element id="Observation:cimiMeanArterialBloodPressure.effective[x]">
+		<path value="Observation.effective[x]"/>
+		<min value="1"/>
+		<max value="1"/>
+		<mustSupport value="true"/>
+	</element>
+    <element id="Observation:cimiMeanArterialBloodPressure.valueQuantity">
+      <path value="Observation.valueQuantity"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Quantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/Quantity"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+	<element id="Observation:cimiMeanArterialBloodPressure.valueQuantity.value">
+		<path value="Observation.valueQuantity.value"/>
+		<min value="1"/>
+		<max value="1"/>
+		<mustSupport value="true"/>
+	</element>
+	<element id="Observation:cimiMeanArterialBloodPressure.valueQuantity.unit">
+		<path value="Observation.valueQuantity.unit"/>
+		<min value="1"/>
+		<max value="1"/>
+		<mustSupport value="true"/>
+	</element>
+    <element id="Observation:cimiMeanArterialBloodPressure.valueQuantity.system">
+      <path value="Observation.valueQuantity.system"/>
+		<min value="1"/>
+		<max value="1"/>
+      <type>
+        <code value="uri"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
+      </type>
+      <fixedUri value="http://unitsofmeasure.org"/>
+	  <mustSupport value="true"/>
+    </element>
+    <element id="Observation:cimiMeanArterialBloodPressure.valueQuantity.code">
+      <path value="Observation.valueQuantity.code"/>
+		<min value="1"/>
+		<max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
+      </type>
+      <fixedCode value="mm[Hg]"/>
+	  <mustSupport value="true"/>
+    </element>
+	<element id="Observation:cimiMeanArterialBloodPressure.dataAbsentReason">
+		<path value="Observation.dataAbsentReason"/>
+		<mustSupport value="true"/>
+	</element>
+    <element id="Observation:cimiMeanArterialBloodPressure.bodySite">
+      <path value="Observation.bodySite"/>
+      <mustSupport value="true"/>
+      <binding>
+        <strength value="extensible"/>
+        <description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
+        <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"/>
+      </binding>
+    </element>
+    <element id="Observation:cimiMeanArterialBloodPressure.method">
+      <path value="Observation.method"/>
+      <mustSupport value="true"/>
+      <binding>
+        <strength value="extensible"/>
+        <description value="A set of codes that describe the method used to measure a blood pressure"/>
+        <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS"/>
+      </binding>
+    </element>
+    <element id="Observation:cimiMeanArterialBloodPressure.specimen">
+      <path value="Observation.specimen"/>
+      <min value="0"/>
+      <max value="0"/>
+    </element>
+  </differential>
+</StructureDefinition>

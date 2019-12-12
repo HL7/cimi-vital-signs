@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="bodyLocationOrientationVS"/>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/bodyLocationOrientationVS"/>
+  <version value="0.01"/>
+  <name value="BodyLocationOrientationvalueset"/>
+  <status value="draft"/>
+  <date value="2019-06-19"/>
+  <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+  <description value="Select SNOMED code system values.  Codes that describe a spatial qualification of a body structure."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  
+    <compose>
+		<include>
+			<system value ="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="14414005"/>
+				<display value ="Peripheral"/>
+			</concept>	
+			<concept>	
+				<code value ="255549009"/>
+				<display value ="Anterior"/>
+			</concept>	
+			<concept>	
+				<code value ="261122009"/>
+				<display value ="Lower"/>
+			</concept>	
+			<concept>	
+				<code value ="261183002"/>
+				<display value ="Upper"/>
+			</concept>	
+			<concept>	
+				<code value ="255551008"/>
+				<display value ="Posterior"/>
+			</concept>	
+			<concept>	
+				<code value ="421812003"/>
+				<display value ="Top"/>
+			</concept>	
+			<concept>	
+				<code value ="261089000"/>
+				<display value ="Inferior"/>
+			</concept>	
+			<concept>	
+				<code value ="49370004"/>
+				<display value ="Lateral"/>
+			</concept>	
+			<concept>	
+				<code value ="255561001"/>
+				<display value ="Medial"/>
+			</concept>	
+			<concept>	
+				<code value ="264217000"/>
+				<display value ="Superior"/>
+			</concept>	
+			<concept>	
+				<code value ="131185001"/>
+				<display value ="Vertical long axis"/>
+			</concept>	
+			<concept>	
+				<code value ="33096000"/>
+				<display value ="Vertical"/>
+			</concept>	
+			<concept>	
+				<code value ="62824007"/>
+				<display value ="Transverse"/>
+			</concept>	
+			<concept>	
+				<code value ="103340004"/>
+				<display value ="Short axis"/>
+			</concept>	
+			<concept>	
+				<code value ="255584008"/>
+				<display value ="Septal"/>
+			</concept>	
+			<concept>	
+				<code value ="263869007"/>
+				<display value ="Separate"/>
+			</concept>	
+			<concept>	
+				<code value ="62372003"/>
+				<display value ="Segmental"/>
+			</concept>	
+			<concept>	
+				<code value ="32400000"/>
+				<display value ="Preaxial"/>
+			</concept>	
+			<concept>	
+				<code value ="90069004"/>
+				<display value ="Posterolateral"/>
+			</concept>	
+			<concept>	
+				<code value ="264153007"/>
+				<display value ="Posterior pole"/>
+			</concept>	
+			<concept>	
+				<code value ="261165005"/>
+				<display value ="Posterior dorsal"/>
+			</concept>	
+			<concept>	
+				<code value ="60583000"/>
+				<display value ="Postaxial"/>
+			</concept>	
+			<concept>	
+				<code value ="103343002"/>
+				<display value ="Parasagittal"/>
+			</concept>	
+			<concept>	
+				<code value ="264114003"/>
+				<display value ="Ostium"/>
+			</concept>	
+			<concept>	
+				<code value ="298107004"/>
+				<display value ="Orthotopic"/>
+			</concept>	
+			<concept>	
+				<code value ="103341000"/>
+				<display value ="Off axis"/>
+			</concept>	
+			<concept>	
+				<code value ="261136004"/>
+				<display value ="Mural"/>
+			</concept>	
+			<concept>	
+				<code value ="103342007"/>
+				<display value ="Mid-longitudinal"/>
+			</concept>	
+			<concept>	
+				<code value ="261129000"/>
+				<display value ="Mediolateral"/>
+			</concept>	
+			<concept>	
+				<code value ="260528009"/>
+				<display value ="Median"/>
+			</concept>	
+			<concept>	
+				<code value ="112233002"/>
+				<display value ="Marginal"/>
+			</concept>	
+			<concept>	
+				<code value ="38717003"/>
+				<display value ="Longitudinal"/>
+			</concept>	
+			<concept>	
+				<code value ="103339001"/>
+				<display value ="Long axis"/>
+			</concept>	
+			<concept>	
+				<code value ="18769003"/>
+				<display value ="Juxta-posed"/>
+			</concept>	
+			<concept>	
+				<code value ="83167003"/>
+				<display value ="Intracellular"/>
+			</concept>	
+			<concept>	
+				<code value ="131186000"/>
+				<display value ="Horizontal long axis"/>
+			</concept>	
+			<concept>	
+				<code value ="298108009"/>
+				<display value ="Heterotopic"/>
+			</concept>	
+			<concept>	
+				<code value ="263759007"/>
+				<display value ="Foraminal"/>
+			</concept>	
+			<concept>	
+				<code value ="69320009"/>
+				<display value ="Extracellular"/>
+			</concept>	
+			<concept>	
+				<code value ="261788001"/>
+				<display value ="Exteriorized"/>
+			</concept>	
+			<concept>	
+				<code value ="33843005"/>
+				<display value ="Efferent"/>
+			</concept>	
+			<concept>	
+				<code value ="298109001"/>
+				<display value ="Ectopic"/>
+			</concept>	
+			<concept>	
+				<code value ="65424008"/>
+				<display value ="Contiguous"/>
+			</concept>	
+			<concept>	
+				<code value ="37197008"/>
+				<display value ="Anterolateral"/>
+			</concept>	
+			<concept>	
+				<code value ="261045000"/>
+				<display value ="Anterior dorsal"/>
+			</concept>	
+			<concept>	
+				<code value ="255593009"/>
+				<display value ="Circumferential"/>
+			</concept>	
+		</include>
+    </compose>
+</ValueSet>

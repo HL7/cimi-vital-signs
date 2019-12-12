@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="qualitativeWoundDepthVS"/>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/qualitativeWoundDepthVS"/>
+  <version value="0.01"/>
+  <name value="QualitativeWoundDepthvalueset"/>
+  <status value="draft"/>
+  <date value="2019-06-19"/>
+  <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+  <description value="Select SNOMED code system values.  Codes that describe the depth of a wound in qualitative terms."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  
+    <compose>
+		<include>
+			<system value ="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="4360006"/>
+				<display value ="Stratum spinosum"/>
+			</concept>	
+			<concept>	
+				<code value ="20281003"/>
+				<display value ="Stratum corneum"/>
+			</concept>	
+			<concept>	
+				<code value ="62650009"/>
+				<display value ="Stratum germinativum"/>
+			</concept>	
+			<concept>	
+				<code value ="49874001"/>
+				<display value ="Stratum granulosum"/>
+			</concept>	
+			<concept>	
+				<code value ="795002"/>
+				<display value ="Deep"/>
+			</concept>	
+			<concept>	
+				<code value ="261074009"/>
+				<display value ="External"/>
+			</concept>	
+			<concept>	
+				<code value ="260521003"/>
+				<display value ="Internal"/>
+			</concept>	
+			<concept>	
+				<code value ="26283006"/>
+				<display value ="Superficial"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

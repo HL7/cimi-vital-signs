@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="BodyMassIndex"/>
+    <url value="http://hl7.org/fhir/hspc/StructureDefinition/BodyMassIndex"/>
+	<version value="1.0"/>
+    <name value="BodyMassIndex"/>
+    <status value="draft"/>
+    <date value="2019-05-29"/>
+    <publisher value="HSPC"/>
+    <description value="Body Mass Index, the measurement of body fat based on an individual's height and weight and given as a ration of kilograms per square meter."/>
+    <fhirVersion value="4.0.0"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:cimiBodyMassIndex">
+            <path value="Observation"/>
+			<short value="Body Mass Index"/>
+            <definition value="Body Mass Index, the measurement of body fat based on an individual's height and weight and given as a ration of kilograms per square meter."/>
+        </element>
+		<element id="Observation:cimiBodyMassIndex.status">
+			<path value="Observation.status"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiBodyMassIndex.category">
+			<path value="Observation.category"/>
+			<sliceName value="VitalSignsCategory"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiBodyMassIndex.category.coding">
+			<path value="Observation.category.coding"/>
+			<min value="1"/>
+			<max value="*"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiBodyMassIndex.category.coding.system">
+			<path value="Observation.category.coding.system"/> 
+		    <min value="1"/> 
+		    <max value="1"/>
+		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
+		    <mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.category.coding.code">
+			<path value="Observation.category.coding.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<fixedCode value="vital-signs"/>
+			<mustSupport value="true"/>
+		</element>
+        <element id="Observation:cimiBodyMassIndex.code">
+            <path value="Observation.code"/>
+			<mustSupport value="true"/>
+        </element>
+		<element id="Observation:cimiBodyMassIndex.code.coding">
+			<path value="Observation.code.coding"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.code.coding.system">
+			<path value="Observation.code.coding.system"/>
+			<fixedUri value="http://loinc.org"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.code.coding.code">
+			<path value="Observation.code.coding.code"/>
+			<fixedCode value="39156-5"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.code.coding.display">
+			<path value="Observation.code.coding.display"/>
+			<fixedString value="Body mass index (BMI) [Ratio]"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.subject">
+			<path value="Observation.subject"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.effective[x]">
+			<path value="Observation.effective[x]"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+        <element id="Observation:cimiBodyMassIndex.valueQuantity">
+            <path value="Observation.valueQuantity"/>
+            <type>
+                <code value="Quantity"/>
+            </type>
+			<mustSupport value="true"/>
+        </element>
+		<element id="Observation:cimiBodyMassIndex.valueQuantity.value">
+			<path value="Observation.valueQuantity.value"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.valueQuantity.unit">
+			<path value="Observation.valueQuantity.unit"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.component.valueQuantity.system">
+			<path value="Observation.valueQuantity.system"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+                <code value="uri"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
+            </type>
+            <fixedUri value="http://unitsofmeasure.org"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.component.valueQuantity.code">
+			<path value="Observation.valueQuantity.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+                <code value="code"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
+            </type>
+            <fixedCode value="kg/m2"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.dataAbsentReason">
+			<path value="Observation.dataAbsentReason"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyMassIndex.interpretation">
+			<path value="Observation.interpretation"/>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+			</binding>
+		</element>
+    </differential>
+</StructureDefinition>

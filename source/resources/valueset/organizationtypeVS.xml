@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="organizationtypeVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/organizationtypeVS"/>
+  <version value="0.01"/>
+  <name value="OrganizationType"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2019-06-19"/>
+  <publisher value="HSPC"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://healthcaresoa.org"/>
+    </telecom>
+  </contact>
+  <description value="The set of codes that describe a kind of organization."/>
+  <immutable value="true"/>
+  <copyright value="Intermountain Healthcare"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/skinwoundassessment/organization-hspc-organizationtype"/>
+        <concept>
+            <code value="526758010" />
+            <display value="Clinic" />
+        </concept>
+        <concept>
+            <code value="526758011" />
+            <display value="Cancer Center" />
+        </concept>
+        <concept>
+            <code value="526758012" />
+            <display value="Dental Office" />
+        </concept>
+        <concept>
+            <code value="526758013" />
+            <display value="Diagnostic Imaging Center" />
+        </concept>
+        <concept>
+            <code value="526758014" />
+            <display value="Dialysis Center" />
+        </concept>
+        <concept>
+            <code value="526758015" />
+            <display value="Educational Institute" />
+        </concept>
+        <concept>
+            <code value="526758016" />
+            <display value="Federal Agency" />
+        </concept>
+        <concept>
+            <code value="526758017" />
+            <display value="Home Health" />
+        </concept>
+        <concept>
+            <code value="526758018" />
+            <display value="Hospital" />
+        </concept>
+        <concept>
+            <code value="526758019" />
+            <display value="Hospital Network" />
+        </concept>
+        <concept>
+            <code value="526758020" />
+            <display value="Insurance Company" />
+        </concept>
+        <concept>
+            <code value="526758021" />
+            <display value="Medical Laboratory" />
+        </concept>
+        <concept>
+            <code value="526758022" />
+            <display value="Nursing Care Facility" />
+        </concept>
+        <concept>
+            <code value="526758023" />
+            <display value="Pharmacy" />
+        </concept>
+        <concept>
+            <code value="526758024" />
+            <display value="Surgical Center" />
+        </concept>
+    </include>
+  </compose>
+</ValueSet>

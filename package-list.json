@@ -1,0 +1,17 @@
+{
+  "package-id": "hl7.fhir.us.skinwoundassessment",
+  "title": "Skin Wound Assessment FHIR IG",
+  "canonical": "http://hl7.org/fhir/us/skinwoundassessment",
+  "introduction": "The scope of this project is to produce and ballot a Standard for Trial Use (STU) Fast Healthcare Interoperability Resources (FHIR) implementation guide (IG) for use in reporting of Skin Wound Assessments to a Wound Assessment Template (WAT) repository.",
+  "list": [
+    {
+      "version": "current",
+      "fhir-version": "4.0.1",
+      "date" : "n/a",
+      "desc": "Continuous Integration Build for SkinWoundAssessment (latest in version control)",
+      "path": "http://build.fhir.org/ig/HL7/SkinWoundAssessment",
+      "status": "ci-build",
+      "current": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="exertionPhaseVS"/>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/exertionPhaseVS"/>
+    <version value="0.01"/>
+    <name value="ExertionPhaseVS"/>
+	<title value="Exertion Phase value set"/>
+    <status value="draft"/>
+    <date value="2019-10-14"/>
+    <publisher value="HSPC"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>	
+			<concept>	
+				<code value ="309604004"/>
+				<display value ="During exercise"/>
+			</concept>	
+			<concept>	
+				<code value ="255214003"/>
+				<display value ="After exercise"/>
+			</concept>	
+			<concept>	
+				<code value ="307166007"/>
+				<display value ="Before exercise"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

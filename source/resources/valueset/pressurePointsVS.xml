@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="pressurePointsVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/pressurePointsVS"/>
+    <version value="0.01"/>
+    <name value="PressurePointsvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describe locations on the body that are succeptible to pressure ulcers."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="79951008"/>
+				<display value ="Skin of occipital region"/>
+			</concept>	
+			<concept>	
+				<code value ="1902009"/>
+				<display value ="Skin structure of ear"/>
+			</concept>
+			<concept>	
+				<code value ="76552005"/>
+				<display value ="Skin structure of shoulder"/>
+			</concept>
+			<concept>	
+				<code value ="74757004"/>
+				<display value ="Skin structure of elbow"/>
+			</concept>
+			<concept>	
+				<code value ="49812005"/>
+				<display value ="Skin structure of hip"/>
+			</concept>
+			<concept>	
+				<code value ="22180002"/>
+				<display value ="Skin structure of buttock"/>
+			</concept>
+			<concept>	
+				<code value ="371305003"/>
+				<display value ="Skin structure of thigh"/>
+			</concept>
+			<concept>	
+				<code value ="63464009"/>
+				<display value ="Skin structure of knee"/>
+			</concept>
+			<concept>	
+				<code value ="84607009"/>
+				<display value ="Skin structure of heel"/>
+			</concept>
+			<concept>	
+				<code value ="52034004"/>
+				<display value ="Skin structure of toe"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

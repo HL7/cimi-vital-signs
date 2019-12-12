@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="heightLengthMeasDeviceVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
+    <version value="0.01"/>
+    <name value="HeightLengthMeasurementDevicevalueset"/>
+    <status value="draft"/>
+	<experimental value="false"/>
+    <date value="2019-05-29"/>
+    <publisher value="HSPC"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+				<code value="51791000"/>
+				<display value="Measuring tape, device"/>
+			</concept>
+            <concept>
+				<code value="24311000205101"/>
+				<display value="Stadiometer"/>
+			</concept>
+            <concept>
+				<code value="102304005"/>
+				<display value="Measuring ruler, device"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="recurrenceVS"/>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/recurrenceVS"/>
+  <version value="0.01"/>
+  <name value="Recurrencevalueset"/>
+  <status value="draft"/>
+  <date value="2019-06-19"/>
+  <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+  <description value="Select SNOMED code values.  A code that describes the number of recurrence of an event."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  
+    <compose>
+		<include>
+			<system value ="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="255216001"/>
+				<display value ="First"/>
+			</concept>	
+			<concept>	
+				<code value ="81170007"/>
+				<display value ="Second"/>
+			</concept>	
+			<concept>	
+				<code value ="70905002"/>
+				<display value ="Third"/>
+			</concept>	
+			<concept>	
+				<code value ="29970001"/>
+				<display value ="Fourth"/>
+			</concept>	
+			<concept>	
+				<code value ="32088001"/>
+				<display value ="Fifth"/>
+			</concept>	
+			<concept>	
+				<code value ="53046009"/>
+				<display value ="Sixth"/>
+			</concept>	
+			<concept>	
+				<code value ="86777004"/>
+				<display value ="Seventh"/>
+			</concept>	
+			<concept>	
+				<code value ="51601003"/>
+				<display value ="Eigth"/>
+			</concept>	
+			<concept>	
+				<code value ="58584009"/>
+				<display value ="Ninth"/>
+			</concept>	
+			<concept>	
+				<code value ="28226006"/>
+				<display value ="Tenth"/>
+			</concept>	
+			<concept>	
+				<code value ="40397004"/>
+				<display value ="Eleventh"/>
+			</concept>	
+			<concept>	
+				<code value ="46213005"/>
+				<display value ="Twelfth"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

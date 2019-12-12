@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="bodySideVS"/>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/bodySideVS"/>
+  <version value="0.01"/>
+  <name value="BodySidevalueset"/>
+  <status value="draft"/>
+  <date value="2019-06-19"/>
+  <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+  <description value="Select SNOMED code system values.  Codes that describe sides of the body."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  
+    <compose>
+		<include>
+			<system value ="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="51440002"/>
+				<display value ="Right and left"/>
+			</concept>	
+			<concept>	
+				<code value ="399488007"/>
+				<display value ="Midline"/>
+			</concept>	
+			<concept>	
+				<code value ="85421007"/>
+				<display value ="Structure of right half of body"/>
+			</concept>	
+			<concept>	
+				<code value ="31156008"/>
+				<display value ="Structure of left half of body"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

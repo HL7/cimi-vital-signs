@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="periwoundConditionVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/periwoundConditionVS"/>
+    <version value="0.01"/>
+    <name value="PeriwoundConditionvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes and expressions. The set of codes and expressions that describe the state of the skin surrounding a wound."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="302227002"/>
+				<display value ="Ecchymosis"/>
+			</concept>	
+			<concept>	
+				<code value ="95322002"/>
+				<display value ="Edematous skin"/>
+			</concept>	
+			<concept>	
+				<code value ="247444006"/>
+				<display value ="Excoriation of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="247427007"/>
+				<display value ="Fragile skin"/>
+			</concept>	
+			<concept>	
+				<code value ="449742000"/>
+				<display value ="Hemorrhage of periwound skin"/>
+			</concept>	
+			<concept>	
+				<code value ="19843006"/>
+				<display value ="Hypertrophic scar"/>
+			</concept>	
+			<concept>	
+				<code value ="17038008"/>
+				<display value ="Increased skin temperature"/>
+			</concept>	
+			<concept>	
+				<code value ="449744004"/>
+				<display value ="Induration of wound"/>
+			</concept>	
+			<concept>	
+				<code value ="449738003"/>
+				<display value ="Inflammation of periwound skin"/>
+			</concept>	
+			<concept>	
+				<code value ="444884003"/>
+				<display value ="Intact skin"/>
+			</concept>	
+			<concept>	
+				<code value ="33659008"/>
+				<display value ="Keloid scar"/>
+			</concept>	
+			<concept>	
+				<code value ="3644009"/>
+				<display value ="Macerated skin"/>
+			</concept>	
+			<concept>	
+				<code value ="16514006"/>
+				<display value ="Moist skin"/>
+			</concept>	
+			<concept>	
+				<code value ="420356000"/>
+				<display value ="Persistent erythema of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="423902002"/>
+				<display value ="Purpura"/>
+			</concept>	
+			<concept>	
+				<code value ="449739006"/>
+				<display value ="Rupture of periwound skin"/>
+			</concept>	
+			<concept>	
+				<code value ="275322007"/>
+				<display value ="Scar"/>
+			</concept>	
+			<concept>	
+				<code value ="201040000"/>
+				<display value ="Callosity"/>
+			</concept>	
+			<concept>	
+				<code value ="16386004"/>
+				<display value ="Dry skin"/>
+			</concept>	
+			<concept>	
+				<code value ="274165007"/>
+				<display value ="Laceration of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="271807003"/>
+				<display value ="Eruption"/>
+			</concept>	
+			<concept>	
+				<code value ="239163008"/>
+				<display value ="Wound erythema"/>
+			</concept>	
+			<concept>	
+				<code value ="271767006:13880007"/>
+				<display value ="Dry Desquamation"/>
+			</concept>	
+			<concept>	
+				<code value ="22253000:35105006"/>
+				<display value ="Increased Pain"/>
+			</concept>	
+			<concept>	
+				<code value ="417237009:11163003"/>
+				<display value ="Intact Blister"/>
+			</concept>	
+			<concept>	
+				<code value ="271767006:17461003"/>
+				<display value ="Moist Desquamation"/>
+			</concept>	
+			<concept>	
+				<code value ="417237009:263862003"/>
+				<display value ="Ruptured Blister"/>
+			</concept>	
+		</include>
+    </compose>
+</ValueSet>

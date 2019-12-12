@@ -1,0 +1,182 @@
+{
+  "do-transforms": "false",
+  "topofpage": "true",
+  "license": "CC0-1.0",
+  "igtemplate-dir": "",
+  "gen-examples": "false",
+  "special-urls": [],
+  "npm-name": "hl7.fhir.us.vitalsigns",
+  "publisher": "HL7 International - Clinical Information Modeling Initiative",
+  "fixed-business-version": "0.1.0",
+  "extraTemplates": [
+    "mappings"
+  ],
+  "status": "active",
+  "tool": "jekyll",
+  "jurisdiction": "US",
+  "title": "Vital Signs",
+  "source": "implementationguide/ig.xml",
+  "version": "4.0.1",
+  "broken-links": "warning",
+  "logging": [
+    "progress"
+  ],
+  "allviews": "true",
+  "working-dir": "C:/Users/nrdavis1/trialIG",
+  "defaults": {
+    "CapabilityStatement": {
+      "template-base": "base.html"
+    },
+    "StructureDefinition": {
+      "template-base": "sd.html",
+      "template-mappings": "sd-mappings.html",
+      "template-defns": "sd-definitions.html"
+    },
+    "OperationDefinition": {
+      "template-base": "base.html"
+    },
+    "SearchParameter": {
+      "template-base": "base.html"
+    },
+    "TestScript": {
+      "template-base": "base.html"
+    },
+    "ValueSet": {
+      "template-base": "base.html"
+    },
+    "Any": {
+      "template-format": "format.html",
+      "swagger": "true",
+      "template-base": "base.html"
+    },
+    "CodeSystem": {
+      "template-base": "base.html"
+    },
+    "ConceptMap": {
+      "template-base": "base.html"
+    },
+    "StructureMap": {
+      "template-base": "ex.html",
+      "profiles": false,
+      "script": false,
+      "content": false
+    }
+  },
+  "canonicalBase": "http://hl7.org/fhir/hspc",
+  "contact": [
+    {
+      "system": "url",
+      "value": "https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative"
+    }
+  ],
+  "no-inactive-codes": "false",
+  "sct-edition": "http://snomed.info/sct/731000124108",
+  "name": "VitalSigns",
+  "dependencyList": [
+    {
+      "location": "http://hl7.org/fhir/us/core/2019Sep",
+      "name": "USCoreR4",
+      "version": "3.0.1",
+      "package": "hl7.fhir.us.core"
+    }
+  ],
+  "swagger": [
+    {
+      "mode": "single",
+      "capabilities": "server"
+    }
+  ],
+  "paths": {
+    "temp": "generated_output/temp",
+    "output": "output",
+    "txCache": "generated_output/txCache",
+    "qa": "generated_output/qa",
+    "specification": "http://hl7.org/fhir/R4",
+    "history": "http://hl7.org/fhir/hspc/vitalsigns/history.cfml",
+    "resources": [
+      "source/resources",
+      "source/examples"
+    ],
+    "pages": [
+      "framework",
+      "source/pages"
+    ]
+  },
+  "spreadsheets": [],
+  "resources": {
+    
+    
+    "StructureDefinition/DeviceExt":{"base":"StructureDefinition-DeviceExt.html"},
+	"StructureDefinition/DataAbsentReasonExt":{"base":"StructureDefinition-DataAbsentReasonExt.html"},
+    "StructureDefinition/AssociatedPreconditionExt":{"base":"StructureDefinition-AssociatedPreconditionExt.html"},
+	"StructureDefinition/BodyPositionExt":{"base":"StructureDefinition-BodyPositionExt.html"},
+	"StructureDefinition/MeasurementDeviceExt":{"base":"StructureDefinition-MeasurementDeviceExt.html"},
+	"StructureDefinition/BloodPressureCuffSizeExt":{"base":"StructureDefinition-BloodPressureCuffSizeExt.html"},
+	"StructureDefinition/SensorDescriptionExt":{"base":"StructureDefinition-SensorDescriptionExt.html"},
+	"StructureDefinition/SleepStatusExt":{"base":"StructureDefinition-SleepStatusExt.html"},
+	"StructureDefinition/MethodDeviceExt":{"base":"StructureDefinition-MethodDeviceExt.html"},
+	"StructureDefinition/ClothingWornDuringMeasureExt":{"base":"StructureDefinition-ClothingWornDuringMeasureExt.html"},
+
+    "StructureDefinition/organization":{"base":"StructureDefinition-organization.html"},
+    "StructureDefinition/practitioner":{"base":"StructureDefinition-practitioner.html"},
+    "StructureDefinition/OxygenSaturationArterialBlood":{"base":"StructureDefinition-OxygenSaturationArterialBlood.html"},
+	"StructureDefinition/BloodPressurePanel":{"base":"StructureDefinition-BloodPressurePanel.html"},
+	"StructureDefinition/BodyLength":{"base":"StructureDefinition-BodyLength.html"},
+	"StructureDefinition/BodyMassIndex":{"base":"StructureDefinition-BodyMassIndex.html"},
+	"StructureDefinition/BodyTemperature":{"base":"StructureDefinition-BodyTemperature.html"},
+	"StructureDefinition/BodyWeight":{"base":"StructureDefinition-BodyWeight.html"},
+	"StructureDefinition/DiastolicBloodPressure":{"base":"StructureDefinition-DiastolicBloodPressure.html"},
+	"StructureDefinition/HeadOccipitalFrontalCircumference":{"base":"StructureDefinition-HeadOccipitalFrontalCircumference.html"},
+	"StructureDefinition/HeartRate":{"base":"StructureDefinition-HeartRate.html"},
+	"StructureDefinition/Height":{"base":"StructureDefinition-Height.html"},
+	"StructureDefinition/MeanArterialPressure":{"base":"StructureDefinition-MeanArterialPressure.html"},
+	"StructureDefinition/RespiratoryRate":{"base":"StructureDefinition-RespiratoryRate.html"},
+	"StructureDefinition/SystolicBloodPressure":{"base":"StructureDefinition-SystolicBloodPressure.html"},
+	"StructureDefinition/VitalSignsPanel":{"base":"StructureDefinition-VitalSignsPanel.html"},
+
+    "CodeSystem/organization-hspc-organizationtype":{"base":"CodeSystem-organization-hspc-organizationtype.html","source":"codesystem/organization-hspc-organizationtype.xml"},
+
+    "ValueSet/organizationtypeVS":{"base":"ValueSet-organizationtypeVS.html"},
+	"ValueSet/abnIntNumericNomVS":{"base":"ValueSet-abnIntNumericNomVS.html"},
+	"ValueSet/sensorDescriptionVS":{"base":"ValueSet-sensorDescriptionVS.html"},
+	"ValueSet/bodyPositionVS":{"base":"ValueSet-bodyPositionVS.html"},
+	"ValueSet/bodyTempMeasBodyLocationPrecoordVS":{"base":"ValueSet-bodyTempMeasBodyLocationPrecoordVS.html"},
+	"ValueSet/bodyTempMeasMethodDeviceVS":{"base":"ValueSet-bodyTempMeasMethodDeviceVS.html"},
+	"ValueSet/bodyWeightMeasurementAssociatedPrecondVS":{"base":"ValueSet-bodyWeightMeasurementAssociatedPrecondVS.html"},
+	"ValueSet/bpCuffSizeVS":{"base":"ValueSet-bpCuffSizeVS.html"},
+	"ValueSet/bpmeasbodylocationprecoord":{"base":"ValueSet-bpmeasbodylocationprecoord.html"},
+	"ValueSet/bpMeasDeviceVS":{"base":"ValueSet-bpMeasDeviceVS.html"},
+	"ValueSet/bpMeasMethodVS":{"base":"ValueSet-bpMeasMethodVS.html"},
+	"ValueSet/clothingWornDuringMeasureVS":{"base":"ValueSet-clothingWornDuringMeasureVS.html"},
+	"ValueSet/definedLimitsVS":{"base":"ValueSet-definedLimitsVS.html"},
+	"ValueSet/exertionPhaseVS":{"base":"ValueSet-exertionPhaseVS.html"},
+	"ValueSet/heartRateMeasBodyLocationPrecoordVS":{"base":"ValueSet-heartRateMeasBodyLocationPrecoordVS.html"},
+	"ValueSet/heartRateMeasDeviceVS":{"base":"ValueSet-heartRateMeasDeviceVS.html"},
+	"ValueSet/heartRateMeasMethodVS":{"base":"ValueSet-heartRateMeasMethodVS.html"},
+	"ValueSet/heightBodyPositionVS":{"base":"ValueSet-heightBodyPositionVS.html"},
+	"ValueSet/heightLengthMeasDeviceVS":{"base":"ValueSet-heightLengthMeasDeviceVS.html"},
+	"ValueSet/heightLengthMeasMethodVS":{"base":"ValueSet-heightLengthMeasMethodVS.html"},
+	"ValueSet/respiratoryRateMeasDeviceVS":{"base":"ValueSet-respiratoryRateMeasDeviceVS.html"},
+	"ValueSet/respiratoryRateMeasMethodVS":{"base":"ValueSet-respiratoryRateMeasMethodVS.html"},
+	"ValueSet/sleepStatusVS":{"base":"ValueSet-sleepStatusVS.html"},
+	"ValueSet/sPO2BodyLocationVS":{"base":"ValueSet-sPO2BodyLocationVS.html"},
+	"ValueSet/vitalSignAssociatedPrecondVS":{"base":"ValueSet-vitalSignAssociatedPrecondVS.html"},
+	"ValueSet/weightMeasurementDeviceVS":{"base":"ValueSet-weightMeasurementDeviceVS.html"},
+    
+	"Observation/BloodPressurePanelExample":{"base":"Observation-BloodPressurePanelExample.html"},
+	"Observation/BMIExample":{"base":"Observation-BMIExample.html"},
+	"Observation/BodyLengthExample":{"base":"Observation-BodyLengthExample.html"},
+	"Observation/BodyTemperatureExample":{"base":"Observation-BodyTemperatureExample.html"},
+	"Observation/BodyWeightExample":{"base":"Observation-BodyWeightExample.html"},
+	"Observation/DiastolicBloodPressureExample":{"base":"Observation-DiastolicBloodPressureExample.html"},
+	"Observation/HeadCircumferenceExample":{"base":"Observation-HeadCircumferenceExample.html"},
+	"Observation/HeartRateExample":{"base":"Observation-HeartRateExample.html"},
+	"Observation/HeightExample":{"base":"Observation-HeightExample.html"},
+	"Observation/MeanArterialPressureExample":{"base":"Observation-MeanArterialPressureExample.html"},
+	"Observation/OxygenSaturationExample":{"base":"Observation-OxygenSaturationExample.html"},
+	"Observation/RespiratoryRateExample":{"base":"Observation-RespiratoryRateExample.html"},
+	"Observation/SystolicBloodPressureExample":{"base":"Observation-SystolicBloodPressureExample.html"}, 
+    "Patient/patient-example": {"base": "Patient-patient-example.html"},
+    "Practitioner/practitioner-example": {"base": "Practitioner-practitioner-example.html"}
+  }
+}

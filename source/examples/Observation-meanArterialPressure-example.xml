@@ -1,0 +1,59 @@
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="meanArterialPressure-example"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeanArterialPressureMeas"/>
+  </meta>
+  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt">
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value ="10904000"/>
+			<display value ="Orthostatic body position"/>
+		</coding>
+	</valueCodeableConcept>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="Vital Signs"/>
+    </coding>
+    <text value="Vital Signs"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="8478-0"/>
+      <display value="Mean blood pressure"/>
+    </coding>
+    <text value="Mean arterial pressure"/>
+  </code>
+  <subject>
+    <display value="Small Child1234"/>
+  </subject>
+  <encounter>
+    <display value="GP Visit"/>
+  </encounter>
+  <effectiveDateTime value="2019-10-16T12:12:29-09:00"/>
+  <valueQuantity>
+    <value value="110"/>
+    <unit value="mm[Hg]"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="mm[Hg]"/>
+  </valueQuantity>
+  <bodySite>
+	<coding>
+		<system value="http://snomed.info/sct"/>
+		<code value="368503001"/>
+		<display value="Structure of right radial artery"/>
+	</coding>
+  </bodySite>
+  <method>
+	<coding>
+		<system value="http://snomed.info/sct"/>
+		<code value="37931006"/>
+		<display value="Auscultation"/>
+	</coding>
+  </method>
+</Observation>

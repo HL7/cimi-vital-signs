@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="woundShapeVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundShapeVS"/>
+    <version value="0.01"/>
+    <name value="WoundShapeVS"/>
+	<title value="Wound Shape value set"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-09-30"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describes the shape of the wound bed."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="73847003"/>
+				<display value ="Club shape"/>
+			</concept>	
+			<concept>	
+				<code value ="102281001"/>
+				<display value ="Dumbbell shape"/>
+			</concept>	
+			<concept>	
+				<code value ="36394000"/>
+				<display value ="Funnel shape"/>
+			</concept>	
+			<concept>	
+				<code value ="42620005"/>
+				<display value ="Fusiform shape"/>
+			</concept>	
+			<concept>	
+				<code value ="63068002"/>
+				<display value ="Horseshoe shape"/>
+			</concept>	
+			<concept>	
+				<code value ="260666003"/>
+				<display value ="J shaped"/>
+			</concept>	
+			<concept>	
+				<code value ="84360004"/>
+				<display value ="Ovoid shape"/>
+			</concept>	
+			<concept>	
+				<code value ="65101006"/>
+				<display value ="Pear shape"/>
+			</concept>	
+			<concept>	
+				<code value ="30899007"/>
+				<display value ="Quadrangular"/>
+			</concept>	
+			<concept>	
+				<code value ="59410002"/>
+				<display value ="Rectangular"/>
+			</concept>	
+			<concept>	
+				<code value ="42700002"/>
+				<display value ="Round shape"/>
+			</concept>	
+			<concept>	
+				<code value ="71712007"/>
+				<display value ="Saddle shape"/>
+			</concept>	
+			<concept>	
+				<code value ="56924007"/>
+				<display value ="Square"/>
+			</concept>	
+			<concept>	
+				<code value ="255294004"/>
+				<display value ="V shaped"/>
+			</concept>	
+			<concept>	
+				<code value ="20446002"/>
+				<display value ="Wedge shape"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

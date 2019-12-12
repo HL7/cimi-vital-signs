@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="woundGradationVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundGradationVS"/>
+    <version value="0.01"/>
+    <name value="WoundGradationValueSet"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes and expressions. A set of codes that describe the stage of the wound or the degree of a burn."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="416462003:{258214002=258215001}"/>
+				<display value ="Wound Stage=Stage One"/>
+			</concept>	
+			<concept>	
+				<code value ="416462003:{258214002=258219007}"/>
+				<display value ="Wound Stage=Stage Two"/>
+			</concept>	
+			<concept>	
+				<code value ="416462003:{258214002=258224005}"/>
+				<display value ="Wound Stage=Stage Three"/>
+			</concept>	
+			<concept>	
+				<code value ="416462003:{258214002=258228008}"/>
+				<display value ="Wound Stage=Stage Four"/>
+			</concept>	
+			<concept>	
+				<code value ="403190006"/>
+				<display value ="First degree burn"/>
+			</concept>	
+			<concept>	
+				<code value ="403191005"/>
+				<display value ="Second degree burn"/>
+			</concept>	
+			<concept>	
+				<code value ="403192003"/>
+				<display value ="Third degree burn"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

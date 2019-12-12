@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="bodyLocationQualifierVS"/>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/bodyLocationQualifierVS"/>
+  <version value="0.01"/>
+  <name value="BodyLocationQualifiervalueset"/>
+  <status value="draft"/>
+  <date value="2019-06-19"/>
+  <publisher value="Health Services Platform Consortium (HSPC)"/>
+  <description value="Select SNOMED code system values.  Codes that add further description to a body location."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  
+    <compose>
+		<include>
+			<system value ="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="32088001"/>
+				<display value ="Fifth"/>
+			</concept>	
+			<concept>	
+				<code value ="11896004"/>
+				<display value ="Intermediate"/>
+			</concept>	
+			<concept>	
+				<code value ="263871007"/>
+				<display value ="Sinusoidal"/>
+			</concept>	
+			<concept>	
+				<code value ="38033009"/>
+				<display value ="Amputation stump"/>
+			</concept>	
+			<concept>	
+				<code value ="13351007"/>
+				<display value ="Structure of bursa"/>
+			</concept>	
+			<concept>	
+				<code value ="66787007"/>
+				<display value ="Cephalic"/>
+			</concept>	
+			<concept>	
+				<code value ="255286006"/>
+				<display value ="Glandular"/>
+			</concept>	
+			<concept>	
+				<code value ="255509001"/>
+				<display value ="Large"/>
+			</concept>	
+			<concept>	
+				<code value ="385494008"/>
+				<display value ="Hematoma"/>
+			</concept>	
+			<concept>	
+				<code value ="39352004"/>
+				<display value ="Joint structure"/>
+			</concept>	
+			<concept>	
+				<code value ="264082005"/>
+				<display value ="Lumbar"/>
+			</concept>	
+			<concept>	
+				<code value ="260642009"/>
+				<display value ="Retroperitoneal"/>
+			</concept>	
+			<concept>	
+				<code value ="272432007"/>
+				<display value ="Wall structure"/>
+			</concept>	
+			<concept>	
+				<code value ="397406000"/>
+				<display value ="Collateral branch of vessel"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

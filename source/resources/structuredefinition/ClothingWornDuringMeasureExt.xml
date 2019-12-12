@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ClothingWornDuringMeasureExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt"/>
+  <version value="0.1.0"/>
+  <name value="ClothingWornDuringMeasure"/>
+  <title value="Clothing Worn During Measure Extension"/>
+  <status value="draft"/>
+  <date value="2019-09-26"/>
+  <publisher value="HSPC"/>
+  <description value="The amount of clothing worn during the measurement of height or weight."/>
+  <fhirVersion value="4.0.0"/>  
+  <mapping>
+	<identity value="LOINC"/>
+	<uri value="http://loinc.org/8352-7"/>
+	<name value="Clothing worn during measure"/>
+  </mapping>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <context>
+	<type value="element"/>
+	<expression value="StructureDefinition"/>
+  </context>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="Extension:clothingWornDuringMeasureExt">
+      <path value="Extension"/>
+      <short value="Clothing Worn During Measure Ext"/>
+      <definition value="The amount of clothing worn during the measurement of height or weight."/>
+      <min value="0"/>
+      <max value="1"/>
+      
+    </element>
+    <element id="Extension:clothingWornDuringMeasureExt.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt"/>
+    </element>
+    <element id="Extension:clothingWornDuringMeasureExt.valueCodeableConcept">
+      <path value="Extension.valueCodeableConcept"/>
+      <type>
+        <code value="CodeableConcept"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

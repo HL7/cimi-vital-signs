@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="BloodPressureCuffSizeExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt"/>
+  <version value="0.1.0"/>
+  <name value="BloodPressureCuffSizeExt"/>
+  <title value="Blood Pressure Cuff Size"/>
+  <status value="draft"/>
+  <date value="2019-05-29"/>
+  <publisher value="HSPC"/>
+  <description value="The size of pressure cuff used to measure blood pressure."/>
+  <fhirVersion value="4.0.0"/>
+  <mapping>
+    <identity value="LOINC"/>
+    <uri value="http://loinc.org/8358-4"/>
+    <name value="Blood pressure device Cuff size"/>
+  </mapping>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <context>
+	<type value="element"/>
+	<expression value="StructureDefinition"/>
+  </context>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="Extension:BloodPressureCuffSizeExt">
+      <path value="Extension"/>
+      <short value="BloodPressureCuffSizeExt"/>
+      <definition value="The size of pressure cuff used to measure blood pressure."/>
+      <min value="0"/>
+      <max value="1"/>
+      
+    </element>
+    <element id="Extension:BloodPressureCuffSizeExt.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt"/>
+    </element>
+    <element id="Extension:BloodPressureCuffSizeExt.valueCodeableConcept">
+      <path value="Extension.valueCodeableConcept"/>
+      <type>
+        <code value="CodeableConcept"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

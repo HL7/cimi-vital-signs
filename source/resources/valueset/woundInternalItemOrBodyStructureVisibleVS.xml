@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="woundInternalItemOrBodyStructureVisibleVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundInternalItemOrBodyStructureVisibleVS"/>
+    <version value="0.01"/>
+    <name value="WoundInternalItemOrBodyStructureVisiblevalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describe things seen within a wound."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="3138006"/>
+				<display value ="Bone (tissue) structure"/>
+			</concept>	
+			<concept>	
+				<code value ="71616004"/>
+				<display value ="Muscle structure"/>
+			</concept>	
+			<concept>	
+				<code value ="53350007"/>
+				<display value ="Prosthesis"/>
+			</concept>	
+			<concept>	
+				<code value ="13024002"/>
+				<display value ="Tendon structure"/>
+			</concept>	
+			<concept>	
+				<code value ="71966008"/>
+				<display value ="Subcutaneous tissue structure"/>
+			</concept>	
+			<concept>	
+				<code value ="19227008"/>
+				<display value ="Foreign body"/>
+			</concept>	
+			<concept>	
+				<code value ="61496007"/>
+				<display value ="Cartilaginous tissue structure"/>
+			</concept>	
+			<concept>	
+				<code value ="59820001"/>
+				<display value ="Blood vessel structure"/>
+			</concept>	
+			<concept>	
+				<code value ="32551008"/>
+				<display value ="Structure of articular capsule"/>
+			</concept>	
+			<concept>	
+				<code value ="84820005"/>
+				<display value ="Structure of fascia"/>
+			</concept>	
+			<concept>	
+				<code value ="77444004"/>
+				<display value ="Bone pin"/>
+			</concept>	
+			<concept>	
+				<code value ="303503009"/>
+				<display value ="Musculoskeletal implant"/>
+			</concept>	
+			<concept>	
+				<code value ="404213007"/>
+				<display value ="Mesh"/>
+			</concept>	
+		</include>
+    </compose>
+</ValueSet>

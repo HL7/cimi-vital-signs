@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="woundTypeEtiologyVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundTypeEtiologyVS"/>
+    <version value="0.01"/>
+    <name value="WoundTypeEtiologyvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes and expressions. A set of codes that describe the causitive agent of a wound."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="64572001"/>
+				<display value ="Disease"/>
+			</concept>	
+			<concept>	
+				<code value ="49062001"/>
+				<display value ="Device"/>
+			</concept>	
+			<concept>	
+				<code value ="31986002"/>
+				<display value ="Animal bite"/>
+			</concept>	
+			<concept>	
+				<code value ="43028005"/>
+				<display value ="Human bite"/>
+			</concept>	
+			<concept>	
+				<code value ="276853009"/>
+				<display value ="Self inflicted injury"/>
+			</concept>	
+			<concept>	
+				<code value ="16514006"/>
+				<display value ="Moist skin"/>
+			</concept>	
+			<concept>	
+				<code value ="24734008"/>
+				<display value ="Insect bite"/>
+			</concept>	
+			<concept>	
+				<code value ="449753006"/>
+				<display value ="Pressure point of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="699533003"/>
+				<display value ="Shear injury"/>
+			</concept>	
+			<concept>	
+				<code value ="19130008"/>
+				<display value ="Traumatic abnormality"/>
+			</concept>	
+	
+		</include>
+    </compose>
+</ValueSet>

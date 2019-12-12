@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="woundExudateColorVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundExudateColorVS"/>
+    <version value="0.01"/>
+    <name value="WoundExudateColorValueSet"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describe what the color of the exudate is."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="263716002"/>
+				<display value ="Colorless"/>
+			</concept>	
+			<concept>	
+				<code value ="371244009"/>
+				<display value ="Yellow color"/>
+			</concept>	
+			<concept>	
+				<code value ="371252007"/>
+				<display value ="Black color"/>
+			</concept>	
+			<concept>	
+				<code value ="371254008"/>
+				<display value ="Brown color"/>
+			</concept>	
+			<concept>	
+				<code value ="371246006"/>
+				<display value ="Green color"/>
+			</concept>	
+			<concept>	
+				<code value ="456131000124100"/>
+				<display value ="Tan color"/>
+			</concept>	
+			<concept>	
+				<code value ="449121000124107"/>
+				<display value ="Amber color"/>
+			</concept>	
+			<concept>	
+				<code value ="405738005"/>
+				<display value ="Blue color"/>
+			</concept>	
+			<concept>	
+				<code value ="371242008"/>
+				<display value ="Orange color"/>
+			</concept>	
+			<concept>	
+				<code value ="371243003"/>
+				<display value ="Pink color"/>
+			</concept>	
+			<concept>	
+				<code value ="371240000"/>
+				<display value ="Red color"/>
+			</concept>	
+			<concept>	
+				<code value ="371251000"/>
+				<display value ="White color"/>
+			</concept>	
+			<concept>	
+				<code value ="371250004"/>
+				<display value ="Purple color"/>
+			</concept>	
+			<concept>	
+				<code value ="405739002"/>
+				<display value ="Blue green color"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

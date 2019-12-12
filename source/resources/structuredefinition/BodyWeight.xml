@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="BodyWeight"/>
+    <url value="http://hl7.org/fhir/hspc/StructureDefinition/BodyWeight"/>
+	<version value="0.1.0"/>
+    <name value="BodyWeight"/>
+    <status value="draft"/>
+    <date value="2019-05-29"/>
+    <publisher value="HSPC"/>
+    <description value="Body Weight, the measured mass of an individual's body."/>
+    <fhirVersion value="4.0.0"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:cimiBodyWeight">
+            <path value="Observation"/>
+			<short value="Body Weight"/>
+            <definition value="Body Weight, the measured mass of an individual's body."/>
+        </element>
+		<element id="Observation:cimiBodyWeight.extension:measurementDevice">
+			<path value="Observation.extension"/>
+			<sliceName value="measurementDevice"/>
+			<short value="Measurement Device"/>
+			<type>
+				<code value="extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
+			</type>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
+            </binding>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.extension:associatedPrecondition">
+			<path value="Observation.extension"/>
+			<sliceName value="associatedPrecondition"/>
+			<short value="Associated Precondition"/>
+			<type>
+				<code value="extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
+			</type>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
+            </binding>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.extension:clothingWornDuringMeasure">
+			<path value="Observation.extension"/>
+			<sliceName value="clothingWornDuringMeasure"/>
+			<short value="Cothing Worn During Measure"/>
+			<type>
+				<code value="extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/clothingWornDuringMeasureVS"/>
+			</binding>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.status">
+			<path value="Observation.status"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiBodyWeight.category">
+			<path value="Observation.category"/>
+			<sliceName value="VitalSignsCategory"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiBodyWeight.category.coding">
+			<path value="Observation.category.coding"/>
+			<min value="1"/>
+			<max value="*"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiBodyWeight.category.coding.system">
+			<path value="Observation.category.coding.system"/> 
+		    <min value="1"/> 
+		    <max value="1"/>
+		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
+		    <mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.category.coding.code">
+			<path value="Observation.category.coding.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<fixedCode value="vital-signs"/>
+			<mustSupport value="true"/>
+		</element>
+        <element id="Observation:cimiBodyWeight.code">
+            <path value="Observation.code"/>
+			<mustSupport value="true"/>
+        </element>
+		<element id="Observation:cimiBodyWeight.code.coding">
+			<path value="Observation.code.coding"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.code.coding.system">
+			<path value="Observation.code.coding.system"/>
+			<fixedUri value="http://loinc.org"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.code.coding.code">
+			<path value="Observation.code.coding.code"/>
+			<fixedCode value="29463-7"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.code.coding.display">
+			<path value="Observation.code.coding.display"/>
+			<fixedString value="Body weight"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.subject">
+			<path value="Observation.subject"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.effective[x]">
+			<path value="Observation.effective[x]"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+        <element id="Observation:cimiBodyWeight.valueQuantity">
+            <path value="Observation.valueQuantity"/>
+            <type>
+                <code value="Quantity"/>
+            </type>
+			<mustSupport value="true"/>
+        </element>
+		<element id="Observation:cimiBodyWeight.valueQuantity.value">
+			<path value="Observation.valueQuantity.value"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.valueQuantity.unit">
+			<path value="Observation.valueQuantity.unit"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.component.valueQuantity.system">
+			<path value="Observation.valueQuantity.system"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+                <code value="uri"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
+            </type>
+            <fixedUri value="http://unitsofmeasure.org"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.component.valueQuantity.code">
+			<path value="Observation.valueQuantity.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+                <code value="code"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
+            </type>
+            <fixedCode value="kg"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.dataAbsentReason">
+			<path value="Observation.dataAbsentReason"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiBodyWeight.interpretation">
+			<path value="Observation.interpretation"/>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+            </binding>
+		</element>
+    </differential>
+</StructureDefinition>

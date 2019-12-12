@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="woundTypeVS"/>
+
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundTypeVS"/>
+  <version value="0.01"/>
+  <name value="CIMIWoundTypevalueset"/>
+  <status value="draft"/>
+  <date value="2019-06-19"/>
+  <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+  <description value="Select SNOMED code system values.  Codes that describe a kind of wound."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  
+    <compose>
+		<include>
+			<system value ="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="125667009"/>
+				<display value ="Contusion"/>
+			</concept>	
+			<concept>	
+				<code value ="271761007"/>
+				<display value ="Scaly skin"/>
+			</concept>	
+			<concept>	
+				<code value ="128045006"/>
+				<display value ="Cellulitis"/>
+			</concept>	
+			<concept>	
+				<code value ="271807003"/>
+				<display value ="Eruption"/>
+			</concept>	
+			<concept>	
+				<code value ="274165007"/>
+				<display value ="Laceration of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="95321009"/>
+				<display value ="Fissure in skin"/>
+			</concept>	
+			<concept>	
+				<code value ="13954005"/>
+				<display value ="Ischemic ulcer"/>
+			</concept>	
+			<concept>	
+				<code value ="247444006"/>
+				<display value ="Excoriation of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="428220001"/>
+				<display value ="Tear of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="283545005"/>
+				<display value ="Gunshot wound"/>
+			</concept>	
+			<concept>	
+				<code value ="312609001"/>
+				<display value ="Puncture wound - injury"/>
+			</concept>	
+			<concept>	
+				<code value ="425322008"/>
+				<display value ="Stab wound"/>
+			</concept>	
+			<concept>	
+				<code value ="403601003"/>
+				<display value ="Neuropathic ulcer"/>
+			</concept>	
+			<concept>	
+				<code value ="371032004"/>
+				<display value ="Stasis ulcer"/>
+			</concept>	
+			<concept>	
+				<code value ="399912005"/>
+				<display value ="Pressure sore"/>
+			</concept>	
+			<concept>	
+				<code value ="271767006"/>
+				<display value ="Peeling of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="400012003"/>
+				<display value ="Abrasion and/or friction burn of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="429349001"/>
+				<display value ="Avulsion of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="283682007"/>
+				<display value ="Bite - wound"/>
+			</concept>	
+			<concept>	
+				<code value ="247464001"/>
+				<display value ="Blistering eruption"/>
+			</concept>	
+			<concept>	
+				<code value ="284196006"/>
+				<display value ="Burn of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="444827008"/>
+				<display value ="Erythema of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="279420009"/>
+				<display value ="Hematoma of skin"/>
+			</concept>	
+			<concept>	
+				<code value ="402276007"/>
+				<display value ="Irritant contact dermatitis due to incontinence"/>
+			</concept>	
+			<concept>	
+				<code value ="3644009"/>
+				<display value ="Macerated skin"/>
+			</concept>	
+			<concept>	
+				<code value ="421594008"/>
+				<display value ="Nonstageable pressure ulcer"/>
+			</concept>	
+			<concept>	
+				<code value ="129902007"/>
+				<display value ="Skin incision finding"/>
+			</concept>	
+			<concept>	
+				<code value ="723071003"/>
+				<display value ="Deep tissue pressure injury"/>
+			</concept>	
+			<concept>	
+				<code value ="238792006"/>
+				<display value ="Mixed arteriovenous leg ulcer"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="heartRateMeasDeviceVS"/>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasDeviceVS"/>
+    <version value="0.01"/>
+    <name value="HeartRateMeasurementDevicevalueset"/>
+    <status value="draft"/>
+    <date value="2019-05-29"/>
+    <publisher value="HSPC"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="43770009"/>
+				<display value ="Doppler device"/>
+			</concept>	
+			<concept>	
+				<code value ="448703006"/>
+				<display value ="Pulse oximeter"/>
+			</concept>	
+			<concept>	
+				<code value ="467178001"/>
+				<display value ="Bedside heart rate monitor"/>
+			</concept>	
+			<concept>	
+				<code value ="469801002"/>
+				<display value ="Invasive blood pressure monitor"/>
+			</concept>	
+			<concept>	
+				<code value ="258057004"/>
+				<display value ="Non-invasive blood pressure monitor"/>
+			</concept>	
+			<concept>	
+				<code value ="86184003"/>
+				<display value ="Electrocardiographic monitor and recorder"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

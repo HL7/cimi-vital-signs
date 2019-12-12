@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="OxygenSaturationArterialBlood"/>
+    <url value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBlood"/>
+	<version value="0.1.0"/>
+    <name value="OxygenSaturationArterialBloodMeas"/>
+	<title value="Oxygen Saturation in Arterial Blood by Pulse Oximetery"/>
+    <status value="draft"/>
+    <date value="2019-05-29"/>
+    <publisher value="HSPC"/>
+    <description value="Oxygen Saturation in Arterial Blood."/>
+    <fhirVersion value="4.0.0"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:cimiSPO2">
+            <path value="Observation"/>
+			<short value="SPO2"/>
+            <definition value="Oxygen Saturation in Arterial Blood."/>
+        </element>
+		<element id="Observation:cimiSPO2.extension:sensorDescription">
+			<path value="Observation.extension"/>
+			<sliceName value="sensorDescription"/>
+			<short value="Sensor Description"/>
+			<type>
+				<code value="extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/SensorDescriptionExt"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
+			</binding>
+		</element>
+		<element id="Observation:cimiSPO2.status">
+			<path value="Observation.status"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiSPO2.category">
+			<path value="Observation.category"/>
+			<sliceName value="VitalSignsCategory"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiSPO2.category.coding">
+			<path value="Observation.category.coding"/>
+			<min value="1"/>
+			<max value="*"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation.cimiSPO2.category.coding.system">
+			<path value="Observation.category.coding.system"/> 
+		    <min value="1"/> 
+		    <max value="1"/>
+		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
+		    <mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiSPO2.category.coding.code">
+			<path value="Observation.category.coding.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<fixedCode value="vital-signs"/>
+			<mustSupport value="true"/>
+		</element>
+        <element id="Observation:cimiSPO2.code">
+            <path value="Observation.code"/>
+		    <min value="1"/> 
+		    <max value="1"/>
+			<mustSupport value="true"/>
+        </element>
+		<element id="Observation:cimiSPO2.code.coding">
+			<path value="Observation.code.coding"/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.system">
+			<path value="Observation.code.coding.system"/>
+			<fixedUri value="http://loinc.org"/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.code">
+			<path value="Observation.code.coding.code"/>
+			<fixedCode value=""/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.display">
+			<path value="Observation.code.coding.display"/>
+			<fixedString value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
+		</element>
+		<element id="Observation:cimiSPO2.subject">
+			<path value="Observation.subject"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiSPO2.effective[x]">
+			<path value="Observation.effective[x]"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+        <element id="Observation:cimiSPO2.valueQuantity">
+            <path value="Observation.valueQuantity"/>
+            <type>
+                <code value="Quantity"/>
+            </type>
+			<mustSupport value="true"/>
+        </element>
+		<element id="Observation:cimiSPO2.valueQuantity.value">
+			<path value="Observation.valueQuantity.value"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiSPO2.valueQuantity.unit">
+			<path value="Observation.valueQuantity.unit"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiSPO2.component.valueQuantity.system">
+			<path value="Observation.valueQuantity.system"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+                <code value="uri"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
+            </type>
+            <fixedUri value="http://unitsofmeasure.org"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiSPO2.component.valueQuantity.code">
+			<path value="Observation.valueQuantity.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+                <code value="code"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
+            </type>
+            <fixedCode value="%"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiSPO2.dataAbsentReason">
+			<path value="Observation.dataAbsentReason"/>
+			<mustSupport value="true"/>
+		</element>
+        <element id="Observation:cimiSPO2.interpretation">
+            <path value="Observation.interpretation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+		  <binding>
+			<strength value="extensible"/>
+			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+		  </binding>
+        </element>
+		<element id="Observation:cimiSPO2.bodySite">
+		  <path value="Observation.bodySite"/>
+		  <mustSupport value="false"/>
+		  <binding>
+			<strength value="extensible"/>
+			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
+			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
+		  </binding>
+		</element>
+    </differential>
+</StructureDefinition>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="drainageFluidDescriptionVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/drainageFluidDescriptionVS"/>
+    <version value="0.01"/>
+    <name value="DrainageFluidDescriptionvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describe drainage fluid."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="263707001"/>
+				<display value ="Clear"/>
+			</concept>	
+			<concept>	
+				<code value ="371244009"/>
+				<display value ="Yellow"/>
+			</concept>	
+			<concept>	
+				<code value ="371246006"/>
+				<display value ="Green"/>
+			</concept>	
+			<concept>	
+				<code value ="307491001"/>
+				<display value ="Purulent discharge"/>
+			</concept>	
+			<concept>	
+				<code value ="447547000"/>
+				<display value ="Foul wound odor"/>
+			</concept>	
+			<concept>	
+				<code value ="255445001"/>
+				<display value ="Serosanguineous"/>
+			</concept>	
+			<concept>	
+				<code value ="256913008"/>
+				<display value ="Serous"/>
+			</concept>	
+			<concept>	
+				<code value ="448749002"/>
+				<display value ="Sanguineous exudate from wound"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="sPO2BodyLocationVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
+    <version value="0.01"/>
+    <name value="OxygenSaturationBodyLocationvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2018-11-09"/>
+    <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+    <description value="Select SNOMED CT codes. An set of codes for the location at which oxygen saturation was assessed."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="48800003"/>
+				<display value ="Ear lobule structure"/>
+			</concept>	
+			<concept>	
+				<code value ="52795006"/>
+				<display value ="Forehead structure"/>
+			</concept>	
+			<concept>	
+				<code value ="29707007"/>
+				<display value ="Toe structure"/>
+			</concept>	
+			<concept>	
+				<code value ="7569003"/>
+				<display value ="Finger structure"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

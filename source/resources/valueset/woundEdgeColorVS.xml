@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="woundEdgeColorVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundEdgeColorVS"/>
+    <version value="0.01"/>
+    <name value="WoundEdgeColorValueSet"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describes the color of the wound boundaries."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="371244009"/>
+				<display value ="Yellow color"/>
+			</concept>	
+			<concept>	
+				<code value ="371252007"/>
+				<display value ="Black color"/>
+			</concept>	
+			<concept>	
+				<code value ="371254008"/>
+				<display value ="Brown color"/>
+			</concept>	
+			<concept>	
+				<code value ="371243003"/>
+				<display value ="Pink color"/>
+			</concept>	
+			<concept>	
+				<code value ="371240000"/>
+				<display value ="Red color"/>
+			</concept>	
+			<concept>	
+				<code value ="371251000"/>
+				<display value ="White color"/>
+			</concept>	
+			<concept>	
+				<code value ="371253002"/>
+				<display value ="Gray color"/>
+			</concept>	
+			<concept>	
+				<code value ="371250004"/>
+				<display value ="Purple color"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="underlyingAnatomicalStructureVS"/>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/underlyingAnatomicalStructureVS"/>
+  <version value="0.01"/>
+  <name value="UnderlyingAnatomicalStructurevalueset"/>
+  <status value="draft"/>
+  <date value="2019-06-19"/>
+  <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+  <description value="Select SNOMED code system values.  Codes that describe bosy structure(s) that are beneath on observed artifact."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  
+    <compose>
+		<include>
+			<system value ="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="67169006"/>
+				<display value ="First metatarsal head"/>
+			</concept>	
+			<concept>	
+				<code value ="9677004"/>
+				<display value ="Second metatarsal head"/>
+			</concept>	
+			<concept>	
+				<code value ="46971007"/>
+				<display value ="Third metatarsal head"/>
+			</concept>	
+			<concept>	
+				<code value ="3134008"/>
+				<display value ="Fourth metatarsal head"/>
+			</concept>	
+			<concept>	
+				<code value ="71822005"/>
+				<display value ="Fifth metatarsal head"/>
+			</concept>	
+			<concept>	
+				<code value ="720662005"/>
+				<display value ="Structure of distal phalanx of great toe of left foot"/>
+			</concept>	
+			<concept>	
+				<code value ="720660002"/>
+				<display value ="Structure of distal phalanx of great toe of right foot"/>
+			</concept>	
+			<concept>	
+				<code value ="76986006"/>
+				<display value ="Distal phalanx of second toe"/>
+			</concept>	
+			<concept>	
+				<code value ="65258003"/>
+				<display value ="Distal phalanx of third toe"/>
+			</concept>	
+			<concept>	
+				<code value ="54333003"/>
+				<display value ="Distal phalanx of fourth toe"/>
+			</concept>	
+			<concept>	
+				<code value ="10770001"/>
+				<display value ="Distal phalanx of fifth toe"/>
+			</concept>	
+			<concept>	
+				<code value ="2986006"/>
+				<display value ="Talar facet of navicular bone of foot"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

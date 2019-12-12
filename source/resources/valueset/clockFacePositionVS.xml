@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="clockFacePositionVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/clockFacePositionVS"/>
+    <version value="0.01"/>
+    <name value="ClockFacePositionValueSet"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describe a things orientation based on a hourly positions of a clock face."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="260318004"/>
+				<display value ="1 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260328008"/>
+				<display value ="2 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260330005"/>
+				<display value ="3 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260333007"/>
+				<display value ="4 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260335000"/>
+				<display value ="5 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260337008"/>
+				<display value ="6 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260339006"/>
+				<display value ="7 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260341007"/>
+				<display value ="8 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260343005"/>
+				<display value ="9 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260322009"/>
+				<display value ="10 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260324005"/>
+				<display value ="11 o'clock position"/>
+			</concept>	
+			<concept>	
+				<code value ="260326007"/>
+				<display value ="12 o'clock position"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

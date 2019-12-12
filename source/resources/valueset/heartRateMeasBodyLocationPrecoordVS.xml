@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="heartRateMeasBodyLocationPrecoordVS"/>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
+    <version value="0.01"/>
+    <name value="HeartRateMeasurementBodyLocationPrecoordinatedvalueset"/>
+    <status value="draft"/>
+	<experimental value="false"/>
+    <date value="2019-05-29"/>
+    <publisher value="HSPC"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="17137000"/>
+				<display value ="Structure of brachial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="13383001"/>
+				<display value ="Structure of apex of heart"/>
+			</concept>	
+			<concept>	
+				<code value ="69105007"/>
+				<display value ="Carotid artery structure"/>
+			</concept>		
+			<concept>	
+				<code value ="25885001"/>
+				<display value ="Left popliteal artery structure"/>
+			</concept>	
+			<concept>	
+				<code value ="57832007"/>
+				<display value ="Structure of right popliteal artery"/>
+			</concept>	
+			<concept>	
+				<code value ="214912001"/>
+				<display value ="Structure of left posterior tibial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="214811007"/>
+				<display value ="Structure of right posterior tibial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="368504007"/>
+				<display value ="Structure of left radial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="368503001"/>
+				<display value ="Structure of right radial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="368506009"/>
+				<display value ="Structure of left ulnar artery"/>
+			</concept>	
+			<concept>	
+				<code value ="368505008"/>
+				<display value ="Structure of right ulnar artery"/>
+			</concept>	
+			<concept>	
+				<code value ="43899006"/>
+				<display value ="Structure of popliteal artery"/>
+			</concept>	
+			<concept>	
+				<code value ="15672000"/>
+				<display value ="Structure of superficial temporal artery"/>
+			</concept>	
+			<concept>	
+				<code value ="7657000"/>
+				<display value ="Structure of femoral artery"/>
+			</concept>	
+			<concept>	
+				<code value ="45631007"/>
+				<display value ="Structure of radial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="44984001"/>
+				<display value ="Structure of ulnar artery"/>
+			</concept>	
+			<concept>	
+				<code value ="113270003"/>
+				<display value ="Structure of left femoral artery"/>
+			</concept>	
+			<concept>	
+				<code value ="69833005"/>
+				<display value ="Structure of right femoral artery"/>
+			</concept>	
+			<concept>	
+				<code value ="86547008"/>
+				<display value ="Structure of dorsalis pedis artery"/>
+			</concept>	
+			<concept>	
+				<code value ="13363002"/>
+				<display value ="Structure of posterior tibial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="113263003"/>
+				<display value ="Left common carotid artery structure"/>
+			</concept>	
+			<concept>	
+				<code value ="65355003"/>
+				<display value ="Right common carotid artery structure"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

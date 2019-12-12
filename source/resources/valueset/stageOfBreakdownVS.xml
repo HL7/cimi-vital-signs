@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="stageOfBreakdownVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/stageOfBreakdownVS"/>
+    <version value="0.01"/>
+    <name value="StageofBreakdownvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. The set of codes that describe the level of skin breakdown."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="258215001"/>
+				<display value ="Stage I"/>
+			</concept>	
+			<concept>	
+				<code value ="258219007"/>
+				<display value ="Stage II"/>
+			</concept>	
+			<concept>	
+				<code value ="258224005"/>
+				<display value ="Stage III"/>
+			</concept>	
+			<concept>	
+				<code value ="258228008"/>
+				<display value ="Stage IV"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

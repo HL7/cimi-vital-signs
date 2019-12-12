@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="heightLengthMeasMethodVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
+    <version value="0.01"/>
+    <name value="HeightLengthMeasurementMethodvalueset"/>
+    <status value="draft"/>
+	<experimental value="false"/>
+    <date value="2019-05-29"/>
+    <publisher value="HSPC"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+				<code value="414135002"/>
+				<display value="Estimated"/>
+			</concept>
+			<concept>
+				<code value="258104002"/>
+				<display value="Measured"/>
+			</concept>
+			<concept>
+				<code value="733985002"/>
+				<display value="Reported"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

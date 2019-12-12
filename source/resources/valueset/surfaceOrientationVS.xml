@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="surfaceOrientationVS"/>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/surfaceOrientationVS"/>
+  <version value="0.01"/>
+  <name value="SurfaceOrientationvalueset"/>
+  <status value="draft"/>
+  <date value="2019-06-19"/>
+  <publisher value="Health Services Platform Consortium (HSPC)"/>
+  <description value="Select SNOMED code system values.  The surface area a body location is in relation to a landmark."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  
+    <compose>
+		<include>
+			<system value ="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="46053002"/>
+				<display value ="Distal"/>
+			</concept>	
+			<concept>	
+				<code value ="255554000"/>
+				<display value ="Dorsal"/>
+			</concept>	
+			<concept>	
+				<code value ="264147007"/>
+				<display value ="Plantar"/>
+			</concept>		
+			<concept>	
+				<code value ="255561001"/>
+				<display value ="Medial"/>
+			</concept>		
+			<concept>	
+				<code value ="49370004"/>
+				<display value ="Lateral"/>
+			</concept>		
+			<concept>	
+				<code value ="255549009"/>
+				<display value ="Anterior"/>
+			</concept>		
+			<concept>	
+				<code value ="255551008"/>
+				<display value ="Posterior"/>
+			</concept>		
+		</include>
+    </compose>
+</ValueSet>

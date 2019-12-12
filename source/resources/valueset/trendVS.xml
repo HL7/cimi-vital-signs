@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="trendVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/trendVS"/>
+    <version value="0.01"/>
+    <name value="Trendvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describe the way in which something is developing or changing."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="390772001"/>
+				<display value ="Deterioration of status"/>
+			</concept>	
+			<concept>	
+				<code value ="390771008"/>
+				<display value ="Improvement of status"/>
+			</concept>	
+			<concept>	
+				<code value ="723506003"/>
+				<display value ="Resolved"/>
+			</concept>	
+			<concept>	
+				<code value ="409052007"/>
+				<display value ="Stabilization of status"/>
+			</concept>	
+		</include>
+    </compose>
+</ValueSet>

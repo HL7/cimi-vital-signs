@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataAbsentReasonExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/DataAbsentReasonExt"/>
+  <version value="0.1.0"/>
+  <name value="DataAbsentReasonExt"/>
+  <status value="draft"/>
+  <date value="2019-05-29"/>
+  <publisher value="HSPC"/>
+  <description value="Why there is no data for a given element."/>
+  <fhirVersion value="4.0.0"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <context>
+	<type value="element"/>
+	<expression value="StructureDefinition"/>
+  </context>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="Extension:DataAbsentReasonExt">
+      <path value="Extension"/>
+      <short value="DataAbsentReasonExt"/>
+      <definition value="Why there is no data for a given element."/>
+      <min value="0"/>
+      <max value="1"/>
+      
+    </element>
+    <element id="Extension:DataAbsentReasonExt.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/DataAbsentReasonExt"/>
+    </element>
+    <element id="Extension:DataAbsentReasonExt.valueCodeableConcept">
+      <path value="Extension.valueCodeableConcept"/>
+      <type>
+        <code value="CodeableConcept"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

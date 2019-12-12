@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="drainageFluidAmountDescriptionVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/drainageFluidAmountDescriptionVS"/>
+    <version value="0.01"/>
+    <name value="DrainageFluidAmountDescriptionvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. The set of codes that describe how much fliud is draining from a wound."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="263865001"/>
+				<display value ="Scanty"/>
+			</concept>	
+			<concept>	
+				<code value ="6736007"/>
+				<display value ="Moderate"/>
+			</concept>	
+			<concept>	
+				<code value ="255509001"/>
+				<display value ="Large"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>
