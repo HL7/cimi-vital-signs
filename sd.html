@@ -18,15 +18,14 @@ mappings: false
 <!-- introductiontext here-->
 <a name="introduction"> </a>
 
-
 {% capture my-include %}{% include {{[id]}}-intro.md id="{{[id]}}" %}{% endcapture %}{{ my-include | markdownify }}
-<h3>Scope and Usage</h3>
 
 
-<!-- include examples -->
+<!-- include examples 
+<h3>Examples</h3>
 {% capture my-include %}{% include {{[id]}}-examples.md id="{{[id]}}" %}{% endcapture %}{{ my-include | markdownify }}
 
-<h3>Formal Views of Profile Content</h3>
+<h3>Formal Views of Profile Content</h3> -->
 
 <p>
 <a href="{{site.data.fhir.path}}profiling.html#representation">Description of Profiles, Differentials, and Snapshots</a>.

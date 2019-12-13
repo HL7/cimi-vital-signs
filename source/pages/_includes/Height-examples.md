@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Height Example](height-xample.html)
+- [Height Example](Observation-height-example.html)

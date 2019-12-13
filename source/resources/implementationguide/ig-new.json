@@ -3,19 +3,19 @@
   "id" : "vitalsigns",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Users\\nrdavis1\\trialIG\\source\\resources"
+    "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\source\\resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Users\\nrdavis1\\trialIG\\source\\examples"
+    "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\source\\examples"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Users\\nrdavis1\\trialIG\\framework"
+    "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\framework"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Users\\nrdavis1\\trialIG\\source\\pages"
+    "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\source\\pages"
   }],
   "url" : "http://hl7.org/fhir/hspc/ImplementationGuide/vitalsigns",
   "version" : "0.1.0",

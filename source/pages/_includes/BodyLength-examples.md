@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Body Length Example](bodyLength-example.html)
+- [Body Length Example](Observation-bodyLength-example.html)

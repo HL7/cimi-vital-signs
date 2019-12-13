@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="vitalsigns"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\Users\nrdavis1\trialIG\source\resources"/>
+    <valueString value="C:\Users\nrdavis1\cimi-vital-signs\source\resources"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\Users\nrdavis1\trialIG\source\examples"/>
+    <valueString value="C:\Users\nrdavis1\cimi-vital-signs\source\examples"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="C:\Users\nrdavis1\trialIG\framework"/>
+    <valueString value="C:\Users\nrdavis1\cimi-vital-signs\framework"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="C:\Users\nrdavis1\trialIG\source\pages"/>
+    <valueString value="C:\Users\nrdavis1\cimi-vital-signs\source\pages"/>
   </extension>
   <url value="http://hl7.org/fhir/hspc/ImplementationGuide/vitalsigns"/>
   <version value="0.1.0"/>

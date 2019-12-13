@@ -1,7 +1,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="bmi-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyMassIndexMeas"/>
+    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyMassIndex"/>
   </meta>
   <status value="final"/>
   <category>

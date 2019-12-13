@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Mean Arterial Pressure Example](meanArterialPressure-example.html)
+- [Mean Arterial Pressure Example](Observation-meanArterialPressure-example.html)

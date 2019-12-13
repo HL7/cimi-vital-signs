@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Body Mass Index Example](bmi-example.html)
+- [Body Mass Index Example](Observation-bmi-example.html)

@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Respiratory Rate Example](respiratoryRate-example.html)
+- [Respiratory Rate Example](Observation-respiratoryRate-example.html)

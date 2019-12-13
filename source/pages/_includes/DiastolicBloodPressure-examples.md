@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Diastolic Pressure Example](diastolicBloodPressure-example.html)
+- [Diastolic Pressure Example](Observation-diastolicBloodPressure-example.html)

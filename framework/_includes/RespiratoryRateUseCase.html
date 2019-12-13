@@ -1,0 +1,113 @@
+<div>
+	<h4>1.	Respiratory rate taken with patient sleeping in a supine position.</h4>
+	<table class="grid">
+		<thead>
+			<tr>
+			  <th width="20%">FHIR resource path</th>
+			  <th width="40%">Text Description</th>
+			  <th width="20%">Code</th>
+			  <th width="20%">Terminology</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			  <td>Observation.code</td>
+			  <td>Respiratory Rate</td>
+			  <td>9279-1</td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td><i>Body Position extension bindings</i></td>
+			  <td></td>
+			  <td></td>
+			  <td></td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(bodyPositionExt) mapping</td>
+			  <td>Body position with respect to gravity</td>
+			  <td>8361-8</td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(bodyPositionExt) refsets</td>
+			  <td>Body position reference set (foundation metadata concept) <br> Body Position reference set</td>
+			  <td>81000205109 <br> 2.16.840.1.113762.1.4.1181.38</td>
+			  <td>SNOMED CT Solor extension <br> VSAC</td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(bodyPositionExt).value</td>
+			  <td>Supine body position (finding)</td>
+			  <td>40199007</td>
+			  <td>SNOMED CT</td>
+			</tr>
+			<tr>
+			  <td><i>Sleep Status extension bindings</i></td>
+			  <td></td>
+			  <td></td>
+			  <td></td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(sleepStatusExt) mapping</td>
+			  <td>Sleep Status</td>
+			  <td><i>need to request LOINC code</i></td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(sleepStatusExt) refsets</td>
+			  <td>Sleep Status Refset</td>
+			  <td>24011000205104</td>
+			  <td>SNOMED CT Solor extension</td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(sleepStatusExt).value</td>
+			  <td>Asleep (finding)</td>
+			  <td>248220008</td>
+			  <td>SNOMED CT</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<h4>2.  Respiratory Rate taken during exercise.</h4>
+	<table class="grid">
+		<thead>
+			<tr>
+			  <th width="20%">FHIR resource path</th>
+			  <th width="40%">Text Description</th>
+			  <th width="20%">Code</th>
+			  <th width="20%">Terminology</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			  <td>Observation.code</td>
+			  <td>Respiratory Rate</td>
+			  <td>9279-1</td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td><i>Exercise Association extension bindings</i></td>
+			  <td></td>
+			  <td></td>
+			  <td></td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(exerciseAssociationExt) mapping</td>
+			  <td>Exercise Association</td>
+			  <td>8361-8</td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(exerciseAssociationExt) refsets</td>
+			  <td>Exercise Association reference set (foundation metadata concept) <br> Exercise Association reference set</td>
+			  <td>24371000205107 <br> 2.16.840.1.113762.1.4.1181.36</td>
+			  <td>SNOMED CT Solor extension <br> VSAC</td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(exerciseAssociationExt).value</td>
+			  <td>During exercise (qualifier value)</td>
+			  <td>309604004</td>
+			  <td>SNOMED CT</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

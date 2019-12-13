@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Body Temperature Example](bodyTemperature-example.html)
+- [Body Temperature Example](Observation-bodyTemperature-example.html)

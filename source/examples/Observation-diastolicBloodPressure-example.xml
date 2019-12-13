@@ -1,7 +1,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="diastolicBloodPressure-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/DiastolicBloodPressureMeas"/>
+    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/DiastolicBloodPressure"/>
   </meta>
   <status value="final"/>
   <category>

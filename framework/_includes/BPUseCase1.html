@@ -1,0 +1,63 @@
+<div>
+	<h4>1.	Blood pressure taken while in a lying position</h4>
+	<table class="grid">
+		<thead>
+			<tr>
+			  <th width="20%">FHIR resource path</th>
+			  <th width="40%">Text Description</th>
+			  <th width="20%">Code</th>
+			  <th width="20%">Terminology</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			  <td>Observation.code</td>
+			  <td>Blood Pressure Panel with all children optional</td>
+			  <td>85354-9</td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td>Observation.component.code</td>
+			  <td>Systolic Blood Pressure</td>
+			  <td>8480-6</td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td>Observation.component.code</td>
+			  <td>Diastolic BloodPressure Meas</td>
+			  <td>8462-4</td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td>Body Position extension bindings</td>
+			  <td></td>
+			  <td></td>
+			  <td></td>
+			</tr>
+			<tr>
+			  <td>Observation.extension(bodyPositionExt) mapping</td>
+			  <td>Body position with respect to gravity</td>
+			  <td>8361-8</td>
+			  <td>LOINC</td>
+			</tr>
+			<tr>
+			  <td><a href="StructureDefinition-BodyLength.html">Body Length</a></td>
+			  <td>The measurement in centimeters from the top of the head to bottom of the heel, take while lying down</td>
+			  <td></td>
+			  <td></td>
+			</tr>
+			<tr>
+			  <td>bodyPositionExt.value value sets</td>
+			  <td>Body Position reference set (foundation metadata concept) <br> Body position reference set</td>
+			  <td>881000205109 <br> 2.16.840.1.113762.1.4.1181.38</td>
+			  <td>SNOMED Solor Extension <br> VSAC</td>
+			</tr>
+			<tr>
+			  <td>bodyPositionExt.value</td>
+			  <td>Supine body position (finding) </td>
+			  <td>40199007</td>
+			  <td>SNOMED CT</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

@@ -1,7 +1,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="systolicBloodPressure-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/SystolicBloodPressureMeas"/>
+    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/SystolicBloodPressure"/>
   </meta>
   <extension url="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt">
 	<valueCodeableConcept>

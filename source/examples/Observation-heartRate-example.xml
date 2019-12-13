@@ -1,7 +1,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="heartRate-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/HeartRateMeas"/>
+    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/HeartRate"/>
   </meta>
   <extension url="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
 	<valueCodeableConcept>

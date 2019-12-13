@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Heart Rate Example](heartRate-xample.html)
+- [Heart Rate Example](Observation-heartRate-example.html)

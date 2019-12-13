@@ -5,4 +5,4 @@
 The following examples are provided to illustrate conformant resource content to this profile.
 </p>
 
-- [Head (Occipital-Frontal) Circumference Example](headOccipitalFrontalCircumference-example.html)
+- [Head Occipital-Frontal Circumference Example](Observation-headOccipitalFrontalCircumference-example.html)
