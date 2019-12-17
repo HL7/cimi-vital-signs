@@ -130,11 +130,6 @@
 			<type>
 				<code value="CodeableConcept"/>
 			</type>
-			<!-- <patternCodeableConcept>
-				<system value="http://loinc.org"/>
-				<code value="85354-9"/>
-				<display value="Blood pressure panel with all children optional"/>
-			</patternCodeableConcept> -->
         </element>
 		<element id="Observation:cimiBloodPressurePanel.code.coding">
 			<path value="Observation.code.coding"/>
