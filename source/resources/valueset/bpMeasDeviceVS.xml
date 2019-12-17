@@ -19,20 +19,20 @@
         <include>
             <system value="http://snomed.info/sct"/>
             <concept>
-				<code value="43770009"/>
-				<display value="Doppler device"/>
-			</concept>
-			<concept>
-				<code value="309642005"/>
-				<display value="Mercury sphygmomanometer"/>
-			</concept>
-            <concept>
 				<code value="309641003"/>
 				<display value="Aneroid sphygmomanometer"/>
 			</concept>
             <concept>
+				<code value="43770009"/>
+				<display value="Doppler device"/>
+			</concept>
+            <concept>
 				<code value="469801002"/>
 				<display value="Invasive blood pressure monitor"/>
+			</concept>
+			<concept>
+				<code value="309642005"/>
+				<display value="Mercury sphygmomanometer"/>
 			</concept>
         </include>
     </compose>

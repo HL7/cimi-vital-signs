@@ -18,16 +18,16 @@
         <include>
             <system value="http://snomed.info/sct"/>
             <concept>
+				<code value="102304005"/>
+				<display value="Measuring ruler, device"/>
+			</concept>
+            <concept>
 				<code value="51791000"/>
 				<display value="Measuring tape, device"/>
 			</concept>
             <concept>
 				<code value="24311000205101"/>
 				<display value="Stadiometer"/>
-			</concept>
-            <concept>
-				<code value="102304005"/>
-				<display value="Measuring ruler, device"/>
 			</concept>
         </include>
     </compose>

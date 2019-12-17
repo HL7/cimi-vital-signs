@@ -69,10 +69,21 @@
         <element id="Observation:cimiSPO2.code">
             <path value="Observation.code"/>
 		    <min value="1"/> 
-		    <max value="1"/>
+		    <max value="*"/>
 			<mustSupport value="true"/>
         </element>
 		<element id="Observation:cimiSPO2.code.coding">
+			<path value="Observation.code.coding"/>
+			<slicing id="1">
+				<discriminator>
+					<type value="value"/>
+					<path value="Observation.code.coding.code"/>
+				</discriminator>
+				<ordered value="false"/>
+				<rules value="open"/>
+			</slicing>
+		</element>
+		<element id="Observation.cimiSPO2.code.coding:2708-6">
 			<path value="Observation.code.coding"/>
 		</element>
 		<element id="Observation:cimiSPO2.code.coding.system">
@@ -81,7 +92,22 @@
 		</element>
 		<element id="Observation:cimiSPO2.code.coding.code">
 			<path value="Observation.code.coding.code"/>
-			<fixedCode value=""/>
+			<fixedCode value="2708-6"/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.display">
+			<path value="Observation.code.coding.display"/>
+			<fixedString value="Oxygen saturation in Arterial blood"/>
+		</element>
+		<element id="Observation.cimiSPO2.code.coding:59408-5">
+			<path value="Observation.code.coding"/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.system">
+			<path value="Observation.code.coding.system"/>
+			<fixedUri value="http://loinc.org"/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.code">
+			<path value="Observation.code.coding.code"/>
+			<fixedCode value="59408-5"/>
 		</element>
 		<element id="Observation:cimiSPO2.code.coding.display">
 			<path value="Observation.code.coding.display"/>

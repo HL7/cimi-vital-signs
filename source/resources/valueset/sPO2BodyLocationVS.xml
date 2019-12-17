@@ -23,16 +23,16 @@
 				<display value ="Ear lobule structure"/>
 			</concept>	
 			<concept>	
+				<code value ="7569003"/>
+				<display value ="Finger structure"/>
+			</concept>	
+			<concept>	
 				<code value ="52795006"/>
 				<display value ="Forehead structure"/>
 			</concept>	
 			<concept>	
 				<code value ="29707007"/>
 				<display value ="Toe structure"/>
-			</concept>	
-			<concept>	
-				<code value ="7569003"/>
-				<display value ="Finger structure"/>
 			</concept>
 		</include>
     </compose>

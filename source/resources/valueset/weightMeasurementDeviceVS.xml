@@ -18,28 +18,12 @@
 				<display value="Bed scale"/>
 			</concept>
 			<concept>
-				<code value="720689000"/>
-				<display value="Chair scale"/>
-			</concept>
-			<concept>
-				<code value="466532009"/>
-				<display value="Wheelchair scale"/>
-			</concept>
-			<concept>
-				<code value="462242008"/>
-				<display value="Patient sling scale"/>
-			</concept>
-			<concept>
-				<code value="24181000205106"/>
-				<display value="Patient lift scale"/>
-			</concept>
-			<concept>
-				<code value="58514003"/>
-				<display value="Infant scale"/>
-			</concept>
-			<concept>
 				<code value="444063009"/>
 				<display value="Broselow Luten color coding system for pediatric weight estimation"/>
+			</concept>
+			<concept>
+				<code value="720689000"/>
+				<display value="Chair scale"/>
 			</concept>
 			<concept>
 				<code value="469204003"/>
@@ -48,6 +32,22 @@
 			<concept>
 				<code value="469787007"/>
 				<display value="Floor scale, mechanical"/>
+			</concept>
+			<concept>
+				<code value="58514003"/>
+				<display value="Infant scale"/>
+			</concept>
+			<concept>
+				<code value="24181000205106"/>
+				<display value="Patient lift scale"/>
+			</concept>
+			<concept>
+				<code value="462242008"/>
+				<display value="Patient sling scale"/>
+			</concept>
+			<concept>
+				<code value="466532009"/>
+				<display value="Wheelchair scale"/>
 			</concept>
         </include>
     </compose>

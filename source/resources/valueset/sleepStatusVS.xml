@@ -16,13 +16,13 @@
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>
-            <concept>
-				<code value="248218005"/>
-				<display value="Awake"/>
-			</concept>
 			<concept>
 				<code value="248220008"/>
 				<display value="Asleep"/>
+			</concept>
+            <concept>
+				<code value="248218005"/>
+				<display value="Awake"/>
 			</concept>
         </include>
     </compose>

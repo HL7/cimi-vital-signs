@@ -18,12 +18,12 @@
 				<display value ="Capnograph sensor device"/>
 			</concept>
 			<concept>	
-				<code value ="334990001"/>
-				<display value ="Peak flow meter"/>
-			</concept>
-			<concept>	
 				<code value ="717730001"/>
 				<display value ="Impedance pneumography recording/analysis system"/>
+			</concept>
+			<concept>	
+				<code value ="334990001"/>
+				<display value ="Peak flow meter"/>
 			</concept>
 			<concept>	
 				<code value ="23921000205109"/>

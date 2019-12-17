@@ -16,10 +16,38 @@
     
     <compose>
         <include>
-            <system value="http://snomed.info/sct"/>
+            <system value="http://snomed.info/sct"/>	
+			<concept>	
+				<code value ="117590005"/>
+				<display value ="Ear structure"/>
+			</concept>	
+			<concept>	
+				<code value ="7569003"/>
+				<display value ="Finger structure"/>
+			</concept>
             <concept>	
 				<code value ="52795006"/>
 				<display value ="Forehead structure"/>
+			</concept>	
+			<concept>	
+				<code value ="279549004"/>
+				<display value ="Nasal cavity structure"/>
+			</concept>	
+			<concept>	
+				<code value ="71836000"/>
+				<display value ="Nasopharyngeal structure"/>
+			</concept>	
+			<concept>	
+				<code value ="74262004"/>
+				<display value ="Oral cavity structure"/>
+			</concept>	
+			<concept>	
+				<code value ="34402009"/>
+				<display value ="Rectum structure"/>
+			</concept>	
+			<concept>	
+				<code value ="422543003"/>
+				<display value ="Structure of axillary fossa"/>
 			</concept>	
 			<concept>	
 				<code value ="29707007"/>
@@ -28,38 +56,10 @@
 			<concept>	
 				<code value ="42859004"/>
 				<display value ="Tympanic membrane structure"/>
-			</concept>	
-			<concept>	
-				<code value ="117590005"/>
-				<display value ="Ear structure"/>
-			</concept>	
-			<concept>	
-				<code value ="422543003"/>
-				<display value ="Structure of axillary fossa"/>
-			</concept>	
-			<concept>	
-				<code value ="7569003"/>
-				<display value ="Finger structure"/>
 			</concept>
 			<concept>	
 				<code value ="89837001"/>
 				<display value ="Urinary bladder structure"/>
-			</concept>	
-			<concept>	
-				<code value ="71836000"/>
-				<display value ="Nasopharyngeal structure"/>
-			</concept>	
-			<concept>	
-				<code value ="34402009"/>
-				<display value ="Rectum structure"/>
-			</concept>	
-			<concept>	
-				<code value ="279549004"/>
-				<display value ="Nasal cavity structure"/>
-			</concept>	
-			<concept>	
-				<code value ="74262004"/>
-				<display value ="Oral cavity structure"/>
 			</concept>
         </include>
     </compose>

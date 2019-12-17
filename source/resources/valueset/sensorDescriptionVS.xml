@@ -16,14 +16,14 @@
     
     <compose>
         <include>
-            <system value="http://snomed.info/sct"/>
-            <concept>	
-				<code value="462664005"/>
-				<display value="Pulse oximeter probe, single-use"/>
-			</concept>	
+            <system value="http://snomed.info/sct"/>	
 			<concept>	
 				<code value="462513001"/>
 				<display value="Pulse oximeter probe, reusable"/>
+			</concept>
+            <concept>	
+				<code value="462664005"/>
+				<display value="Pulse oximeter probe, single-use"/>
 			</concept>
         </include>
     </compose>

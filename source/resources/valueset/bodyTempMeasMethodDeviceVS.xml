@@ -13,6 +13,34 @@
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="467862000"/>
+				<display value ="Capillary patient thermometer, mercury"/>
+			</concept>	
+			<concept>	
+				<code value ="1461000205102"/>
+				<display value ="Digital thermometer"/>
+			</concept>	
+			<concept>	
+				<code value ="706158001"/>
+				<display value ="Electronic patient thermometer"/>
+			</concept>	
+			<concept>	
+				<code value ="448735006"/>
+				<display value ="Forehead thermometer"/>
+			</concept>	
+			<concept>	
+				<code value ="24041000205103"/>
+				<display value ="Infrared thermometer"/>
+			</concept>	
+			<concept>	
+				<code value ="462983001"/>
+				<display value ="Liquid-crystal patient thermometer"/>
+			</concept>	
+			<concept>	
+				<code value ="2331000205106"/>
+				<display value ="Non-contact infrared thermometer"/>
+			</concept>
             <concept>	
 				<code value ="260548002"/>
 				<display value ="Oral"/>
@@ -20,50 +48,22 @@
 			<concept>	
 				<code value ="255582007"/>
 				<display value ="Rectal"/>
-			</concept>
-			<concept>	
-				<code value ="467862000"/>
-				<display value ="Capillary patient thermometer, mercury"/>
-			</concept>	
-			<concept>	
-				<code value ="462983001"/>
-				<display value ="Liquid-crystal patient thermometer"/>
 			</concept>	
 			<concept>	
 				<code value ="118376009"/>
 				<display value ="Thermocouple"/>
 			</concept>	
 			<concept>	
-				<code value ="448349000"/>
-				<display value ="Tympanic thermometer"/>
-			</concept>	
-			<concept>	
-				<code value ="448735006"/>
-				<display value ="Forehead thermometer"/>
-			</concept>	
-			<concept>	
-				<code value ="706158001"/>
-				<display value ="Electronic patient thermometer"/>
-			</concept>	
-			<concept>	
 				<code value ="464210001"/>
 				<display value ="Thermographic camera"/>
-			</concept>	
-			<concept>	
-				<code value ="1461000205102"/>
-				<display value ="Digital thermometer"/>
-			</concept>	
-			<concept>	
-				<code value ="2331000205106"/>
-				<display value ="Non-contact infrared thermometer"/>
 			</concept>	
 			<concept>	
 				<code value ="24031000205108"/>
 				<display value ="Thermoluminescent diode thermometer"/>
 			</concept>	
 			<concept>	
-				<code value ="24041000205103"/>
-				<display value ="Infrared thermometer"/>
+				<code value ="448349000"/>
+				<display value ="Tympanic thermometer"/>
 			</concept>
         </include>
     </compose>

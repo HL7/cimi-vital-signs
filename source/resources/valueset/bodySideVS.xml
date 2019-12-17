@@ -13,22 +13,22 @@
   
     <compose>
 		<include>
-			<system value ="http://snomed.info/sct"/>
+			<system value ="http://snomed.info/sct"/>	
+			<concept>	
+				<code value ="399488007"/>
+				<display value ="Midline"/>
+			</concept>
 			<concept>	
 				<code value ="51440002"/>
 				<display value ="Right and left"/>
 			</concept>	
 			<concept>	
-				<code value ="399488007"/>
-				<display value ="Midline"/>
+				<code value ="31156008"/>
+				<display value ="Structure of left half of body"/>
 			</concept>	
 			<concept>	
 				<code value ="85421007"/>
 				<display value ="Structure of right half of body"/>
-			</concept>	
-			<concept>	
-				<code value ="31156008"/>
-				<display value ="Structure of left half of body"/>
 			</concept>
 		</include>
     </compose>

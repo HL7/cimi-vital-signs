@@ -15,16 +15,16 @@
         <include>
             <system value="http://snomed.info/sct"/>	
 			<concept>	
-				<code value ="309604004"/>
-				<display value ="During exercise"/>
-			</concept>	
-			<concept>	
 				<code value ="255214003"/>
 				<display value ="After exercise"/>
 			</concept>	
 			<concept>	
 				<code value ="307166007"/>
 				<display value ="Before exercise"/>
+			</concept>	
+			<concept>	
+				<code value ="309604004"/>
+				<display value ="During exercise"/>
 			</concept>
         </include>
     </compose>

@@ -18,16 +18,32 @@
         <include>
             <system value="http://snomed.info/sct"/>
             <concept>
+				<code value="77938009"/>
+				<display value="Arterial pressure monitoring, invasive method"/>
+			</concept>
+            <concept>
+				<code value="17146006"/>
+				<display value="Arterial pressure monitoring, non-invasive method"/>
+			</concept>
+            <concept>
 				<code value="37931006"/>
 				<display value="Auscultation"/>
 			</concept>
-			<concept>
-				<code value="13385008"/>
-				<display value="Mediate auscultation"/>
+            <concept>
+				<code value="641000205104"/>
+				<display value="Computer aided auscultation"/>
 			</concept>
             <concept>
 				<code value="268447006"/>
 				<display value="Doppler studies"/>
+			</concept>
+            <concept>
+				<code value="911000205109"/>
+				<display value="Measurement of blood pressure using intravascular transducer"/>
+			</concept>
+			<concept>
+				<code value="13385008"/>
+				<display value="Mediate auscultation"/>
 			</concept>
             <concept>
 				<code value="113011001"/>
@@ -36,22 +52,6 @@
             <concept>
 				<code value="31813000"/>
 				<display value="Vascular oscillometry"/>
-			</concept>
-            <concept>
-				<code value="17146006"/>
-				<display value="Arterial pressure monitoring, non-invasive method"/>
-			</concept>
-            <concept>
-				<code value="77938009"/>
-				<display value="Arterial pressure monitoring, invasive method"/>
-			</concept>
-            <concept>
-				<code value="641000205104"/>
-				<display value="Computer aided auscultation"/>
-			</concept>
-            <concept>
-				<code value="911000205109"/>
-				<display value="Measurement of blood pressure using intravascular transducer"/>
 			</concept>
         </include>
     </compose>

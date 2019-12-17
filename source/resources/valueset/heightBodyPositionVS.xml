@@ -16,10 +16,22 @@
     
     <compose>
         <include>
-            <system value="http://snomed.info/sct"/>
-            <concept>	
-				<code value ="40199007"/>
-				<display value ="Supine body position"/>
+            <system value="http://snomed.info/sct"/>	
+			<concept>	
+				<code value ="30212006"/>
+				<display value ="Fowler's position"/>
+			</concept>	
+			<concept>	
+				<code value ="26527006"/>
+				<display value ="Inverse Trendelenburg position"/>
+			</concept>	
+			<concept>	
+				<code value ="102536004"/>
+				<display value ="Left lateral decubitus position"/>
+			</concept>	
+			<concept>	
+				<code value ="414585002"/>
+				<display value ="Left lateral tilt"/>
 			</concept>	
 			<concept>	
 				<code value ="10904000"/>
@@ -30,36 +42,24 @@
 				<display value ="Prone body position"/>
 			</concept>	
 			<concept>	
-				<code value ="34106002"/>
-				<display value ="Trendelenburg position"/>
-			</concept>	
-			<concept>	
-				<code value ="26527006"/>
-				<display value ="Inverse Trendelenburg position"/>
-			</concept>	
-			<concept>	
-				<code value ="33586001"/>
-				<display value ="Sitting position"/>
-			</concept>	
-			<concept>	
-				<code value ="102536004"/>
-				<display value ="Left lateral decubitus position"/>
+				<code value ="102538003"/>
+				<display value ="Recumbent body position"/>
 			</concept>	
 			<concept>	
 				<code value ="102535000"/>
 				<display value ="Right lateral decubitus position"/>
 			</concept>	
 			<concept>	
-				<code value ="414585002"/>
-				<display value ="Left lateral tilt"/>
+				<code value ="33586001"/>
+				<display value ="Sitting position"/>
+			</concept>
+            <concept>	
+				<code value ="40199007"/>
+				<display value ="Supine body position"/>
 			</concept>	
 			<concept>	
-				<code value ="30212006"/>
-				<display value ="Fowler's position"/>
-			</concept>	
-			<concept>	
-				<code value ="102538003"/>
-				<display value ="Recumbent body position"/>
+				<code value ="34106002"/>
+				<display value ="Trendelenburg position"/>
 			</concept>	
         </include>
     </compose>

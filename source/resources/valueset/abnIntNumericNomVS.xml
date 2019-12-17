@@ -20,16 +20,16 @@
     <include>
       <system value="http://hl7.org/fhir/ValueSet/observation-interpretation"/>
       <concept>
+        <code value="A"/>
+        <display value="Abnormal"/>
+      </concept>
+      <concept>
         <code value="H"/>
         <display value="Higher Than Normal"/>
       </concept>
       <concept>
         <code value="L"/>
         <display value="Lower Than Normal"/>
-      </concept>
-      <concept>
-        <code value="A"/>
-        <display value="Abnormal"/>
       </concept>
       <concept>
         <code value="HH"/>

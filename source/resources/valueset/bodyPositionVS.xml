@@ -16,14 +16,6 @@
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>
-  			<concept>	
-				<code value ="414585002"/>
-				<display value ="Left lateral tilt"/>
-			</concept>          	
-			<concept>	
-				<code value="415346000"/>
-				<display value="Right lateral tilt"/>
-			</concept>
 			<concept>	
 				<code value ="30212006"/>
 				<display value ="Fowler's position"/>
@@ -35,6 +27,10 @@
 			<concept>	
 				<code value ="102536004"/>
 				<display value ="Left lateral decubitus position"/>
+			</concept>
+  			<concept>	
+				<code value ="414585002"/>
+				<display value ="Left lateral tilt"/>
 			</concept>
 			<concept>
 				<code value ="10904000"/>
@@ -50,11 +46,15 @@
 			</concept>	
             <concept>
 				<code value="423413008"/>
-				<display value="Reverse trendelenburg positioning"/>
+				<display value ="Reverse trendelenburg positioning"/>
 			</concept>
 			<concept>	
 				<code value ="102535000"/>
 				<display value ="Right lateral decubitus position"/>
+			</concept>          	
+			<concept>	
+				<code value="415346000"/>
+				<display value ="Right lateral tilt"/>
 			</concept>	
 			<concept>	
 				<code value ="33586001"/>
