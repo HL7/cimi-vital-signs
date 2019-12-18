@@ -5,31 +5,7 @@
   </li>
 
   <li class="dropdown">
-    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Guidance<b class="caret">
-      </b>  <!-- Skin Wound Assessment Guidance Pages -->
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="generalguidance.html">General Guidance</a>
-      </li>
-    </ul>
-  </li>
-
-  <li class="dropdown">
-    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Use Cases<b class="caret">
-      </b>  <!-- Skin Wound Assessment Individual Use Cases -->
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="usecase-originate.html">Use Case - Originate then Amend</a>
-      </li>
-      <li>
-        <a href="usecase-receive.html">Use Case - Receive and Retain</a>
-      </li>
-      <li>
-        <a href="usecase-search.html">Use Case - Search</a>
-      </li>
-    </ul>
+    <a href="generalguidance.html">General Guidance</a>
   </li>
 
   <li>

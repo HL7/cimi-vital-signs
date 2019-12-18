@@ -140,6 +140,7 @@
 	"ValueSet/abnIntNumericNomVS":{"base":"ValueSet-abnIntNumericNomVS.html"},
 	"ValueSet/sensorDescriptionVS":{"base":"ValueSet-sensorDescriptionVS.html"},
 	"ValueSet/bodyPositionVS":{"base":"ValueSet-bodyPositionVS.html"},
+	"ValueSet/bodySideVS": {"base":"ValueSet-bodySideVS.html"},
 	"ValueSet/bodyTempMeasBodyLocationPrecoordVS":{"base":"ValueSet-bodyTempMeasBodyLocationPrecoordVS.html"},
 	"ValueSet/bodyTempMeasMethodDeviceVS":{"base":"ValueSet-bodyTempMeasMethodDeviceVS.html"},
 	"ValueSet/bodyWeightMeasurementAssociatedPrecondVS":{"base":"ValueSet-bodyWeightMeasurementAssociatedPrecondVS.html"},

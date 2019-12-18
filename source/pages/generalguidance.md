@@ -22,7 +22,5 @@ The conformance verbs used are defined in [FHIR Conformance Rules].
 
 <!-- end TOC -->
 
-## Use Case Guidance
-
 
 {% include link-list.md %}

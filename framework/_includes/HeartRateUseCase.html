@@ -44,7 +44,7 @@
 	</table>
 	<br>
 	<h4>2.  Heart rate measurement during anesthesia</h4>
-	<table>
+	<table class="grid">
 		<thead>
 			<tr>
 			  <th width="20%">FHIR resource path</th>
@@ -56,7 +56,7 @@
 		<tbody>
 			<tr>
 			  <td>Observation.code</td>
-			  <td>eart Rate</td>
+			  <td>Heart Rate</td>
 			  <td>9279-1</td>
 			  <td>LOINC</td>
 			</tr>
@@ -73,13 +73,13 @@
 			  <td>LOINC</td>
 			</tr>
 			<tr>
-			  <td>associatedPrecondition value set</td>
+			  <td>Observation.extension(associatedPrecondition) value set</td>
 			  <td><i>need description <br> need description</i></td>
 			  <td><i>need Solor code <br> need VSAC OID</i></td>
 			  <td>SNOMED CT Solor extension <br> VSAC</td>
 			</tr>
 			<tr>
-			  <td>associatedPreconditionExt.value</td>
+			  <td>Observation.extension(associatedPrecondition).value</td>
 			  <td>During procedure</td>
 			  <td>307154001</td>
 			  <td>SNOMED CT</td>

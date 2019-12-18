@@ -154,14 +154,6 @@ GET [base]/Observation?patient=555580&code=85354-9&date=ge2015-01-14
 •	(Status 401/4xx): unauthorized request
 •	(Status 403): insufficient scope
 
-## Content
-
-**Profiles:**
-
-[VitalSigns](http://hl7.org/fhir/R4/vitalsigns.html) FHIR Vital Signs Profile
-
-
-
 
 
 ## Acknowledgements

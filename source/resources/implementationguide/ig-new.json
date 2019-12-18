@@ -241,6 +241,13 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/bodySideVS"
+      },
+      "description" : "Body Side value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/bpMeasDeviceVS"
       },
       "description" : "Blood Pressure Measurement Device value set",
