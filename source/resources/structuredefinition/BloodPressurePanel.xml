@@ -131,6 +131,7 @@
 				<code value="CodeableConcept"/>
 			</type>
         </element>
+		
 		<element id="Observation:cimiBloodPressurePanel.code.coding">
 			<path value="Observation.code.coding"/>
 		</element>
