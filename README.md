@@ -1,11 +1,11 @@
-# Welcome to the FHIR R4 Skin Wound Assessment respository
+# Welcome to the FHIR R4 Vital Signs respository
 
-Please refer to the [HL7 Skin and Wound PSS](https://confluence.hl7.org/display/CIC/Skin+and+Wound+PSS) for the project details.
+Please refer to the [Vital Signs PSS](https://confluence.hl7.org/display/CIC/Vital+Signs+PSS) for the project details.
 
 Please refer the HL7 Confluence [EHR WG Projects / Podiatry](https://confluence.hl7.org/display/EHR/Podiatry) site for additional information around on-going efforts.
 
 
-Authors:  Reed Gelzer, Michael Brody, Nathan Davis, Richard Ettema
+Authors:  Nathan Davis, Susan Matney, Patrick Langford
 
 -----
 FHIR R4 Implementation Guide
@@ -16,14 +16,10 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 ### Find your rendered IG automatically available at
 
-https://build.fhir.org/ig/HL7/fhir-skin-wound-ig/branches/master/index.html
+https://build.fhir.org/ig/HL7/cimi-vital-signs/branches/master/index.html
 
 ### For a build log see
 
-https://build.fhir.org/ig/HL7/fhir-skin-wound-ig/branches/master/qa.html
+https://build.fhir.org/ig/HL7/cimi-vital-signs/branches/master/qa.html
 
----
 
-### Dependencies Files
-
-For implementation guides that are dependent upon SkinWoundAssessment see the *downloads page in the published CI build of the guide for the most current package files
