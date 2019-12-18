@@ -2,8 +2,6 @@
 
 Please refer to the [Vital Signs PSS](https://confluence.hl7.org/display/CIC/Vital+Signs+PSS) for the project details.
 
-Please refer the HL7 Confluence [EHR WG Projects / Podiatry](https://confluence.hl7.org/display/EHR/Podiatry) site for additional information around on-going efforts.
-
 
 Authors:  Nathan Davis, Susan Matney, Patrick Langford
 
