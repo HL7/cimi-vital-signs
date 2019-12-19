@@ -61,44 +61,18 @@
         </element>
 		<element id="Observation:cimiHeadCircumference.code.coding">
 			<path value="Observation.code.coding"/>
-			<slicing id="1">
-				<discriminator>
-					<type value="value"/>
-					<path value="Observation.code.coding.code"/>
-				</discriminator>
-				<ordered value="false"/>
-				<rules value="open"/>
-			</slicing>
 		</element>
-		<element id="Observation.cimiHeadCircumference.code.coding:9843-4">
-			<path value="Observation.code.coding"/>
-		</element>
-		<element id="Observation:cimiHeadCircumference.code.coding.system:9843-4">
+		<element id="Observation:cimiHeadCircumference.code.coding.system">
 			<path value="Observation.code.coding.system"/>
 			<fixedUri value="http://loinc.org"/>
 		</element>
-		<element id="Observation:cimiHeadCircumference.code.coding.code:9843-4">
+		<element id="Observation:cimiHeadCircumference.code.coding.code">
 			<path value="Observation.code.coding.code"/>
 			<fixedCode value="9843-4"/>
 		</element>
-		<element id="Observation:cimiHeadCircumference.code.coding.display:9843-4">
+		<element id="Observation:cimiHeadCircumference.code.coding.display">
 			<path value="Observation.code.coding.display"/>
 			<fixedString value="Head Occipital-frontal circumference"/>
-		</element>
-		<element id="Observation.cimiHeadCircumference.code.coding:8287-5">
-			<path value="Observation.code.coding"/>
-		</element>
-		<element id="Observation:cimiHeadCircumference.code.coding.system:8287-5">
-			<path value="Observation.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiHeadCircumference.code.coding.code:8287-5">
-			<path value="Observation.code.coding.code"/>
-			<fixedCode value="8287-5"/>
-		</element>
-		<element id="Observation:cimiHeadCircumference.code.coding.display:8287-5">
-			<path value="Observation.code.coding.display"/>
-			<fixedString value="Head Occipital-frontal circumference by Tape measure"/>
 		</element>
 		<element id="Observation:cimiHeadCircumference.subject">
 			<path value="Observation.subject"/>

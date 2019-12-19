@@ -14,10 +14,10 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 ### Find your rendered IG automatically available at
 
-https://build.fhir.org/ig/HL7/cimi-vital-signs/branches/master/index.html
+http://build.fhir.org/ig/HL7/cimi-vital-signs/branches/master/index.html
 
 ### For a build log see
 
-https://build.fhir.org/ig/HL7/cimi-vital-signs/branches/master/qa.html
+http://build.fhir.org/ig/HL7/cimi-vital-signs/branches/master/build.log
 
 
