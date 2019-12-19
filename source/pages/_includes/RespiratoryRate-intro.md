@@ -3,7 +3,7 @@
 ### Scope and Usage
 #### ***Use Cases***
 
-{% include REspiratoryRateUseCase.html %}
+{% include RespiratoryRateUseCase.html %}
 
 
 #### ***Value Sets***
