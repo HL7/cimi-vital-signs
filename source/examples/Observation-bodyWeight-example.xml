@@ -33,10 +33,10 @@
   <code>
     <coding>
       <system value="http://loinc.org"/>
-      <code value="3141-9"/>
-      <display value="Body weight Measured"/>
+      <code value="29463-7"/>
+      <display value="Body weight"/>
     </coding>
-    <text value="Body weight Measured"/>
+    <text value="Body weight"/>
   </code>
   <subject>
     <display value="Small Child1234"/>

@@ -1,7 +1,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="respiratoryRate-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/RespiratoryRateMeas"/>
+    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/RespiratoryRate"/>
   </meta>
   <extension url="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
 	<valueCodeableConcept>
