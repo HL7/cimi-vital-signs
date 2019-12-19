@@ -259,13 +259,13 @@
 			<description value="Sleep Status value set"/>
 			<exampleBoolean value="false"/>
 		</resource>
-		<resource>
+		<!-- <resource>
 			<reference>
 				<reference value="ValueSet/vitalSignAssociatedPrecondVS"/>
 			</reference>
 			<description value="Vital Signs Associated Precondition value set"/>
 			<exampleBoolean value="false"/>
-		</resource>
+		</resource> -->
 		<resource>
 			<reference>
 				<reference value="ValueSet/bpmeasbodylocationprecoord"/>
