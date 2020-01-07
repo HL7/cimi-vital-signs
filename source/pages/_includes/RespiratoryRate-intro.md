@@ -6,6 +6,8 @@ The following examples are provided to illustrate conformant resource content to
 
 - [Respiratory Rate Example](Observation-respiratoryRate-example.html)
 
+<br>
+
 ### Scope and Usage
 #### ***Use Cases***
 
@@ -16,5 +18,6 @@ The following examples are provided to illustrate conformant resource content to
 
 {% include RespiratoryRateValueSets.html %}
 
+<br>
 
 {% include link-list.md %}

@@ -30,9 +30,17 @@
 				<display value ="Forehead thermometer"/>
 			</concept>	
 			<concept>	
-				<code value ="24041000205103"/>
-				<display value ="Infrared thermometer"/>
+				<code value ="700643004"/>
+				<display value ="Infrared patient thermometer, ear"/>
 			</concept>	
+			<concept>	
+				<code value ="700644005"/>
+				<display value ="Infrared patient thermometer, skin"/>
+			</concept>		
+			<concept>	
+				<code value ="781472002"/>
+				<display value ="Infrared thermometer for ear and skin"/>
+			</concept>
 			<concept>	
 				<code value ="462983001"/>
 				<display value ="Liquid-crystal patient thermometer"/>

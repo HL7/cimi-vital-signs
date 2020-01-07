@@ -15,4 +15,6 @@ The following examples are provided to illustrate conformant resource content to
 
 {% include OxygenSatsValueSets.html %}
 
+<br>
+
 {% include link-list.md %}

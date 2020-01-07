@@ -19,4 +19,6 @@ The following examples are provided to illustrate conformant resource content to
 
 {% include BodyWeightValueSets.html %}
 
+<br>
+
 {% include link-list.md %}

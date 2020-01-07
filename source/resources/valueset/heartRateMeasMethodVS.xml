@@ -14,6 +14,10 @@
         <include>
             <system value="http://snomed.info/sct"/>
 			<concept>	
+				<code value ="37931006"/>
+				<display value ="Auscultation"/>
+			</concept>
+			<concept>	
 				<code value ="641000205104"/>
 				<display value ="Computer aided auscultation"/>
 			</concept>	

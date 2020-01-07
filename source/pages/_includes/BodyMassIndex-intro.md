@@ -6,4 +6,6 @@ The following examples are provided to illustrate conformant resource content to
 
 - [Body Mass Index Example](Observation-bmi-example.html)
 
+<br>
+
 {% include link-list.md %}

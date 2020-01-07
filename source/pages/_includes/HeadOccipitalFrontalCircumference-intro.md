@@ -19,5 +19,6 @@ The following examples are provided to illustrate conformant resource content to
 
 {% include HeadCircValueSets.html %}
 
+<br>
 
 {% include link-list.md %}

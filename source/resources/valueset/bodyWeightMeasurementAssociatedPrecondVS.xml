@@ -14,16 +14,20 @@
         <include>
             <system value="http://snomed.info/sct"/>
 			<concept>
-				<code value="961000205106"/>
-				<display value="Wearing street clothes, no shoes"/>
+				<code value="118643004"/>
+				<display value="Cast device"/>
 			</concept>
 			<concept>
-				<code value="971000205103"/>
-				<display value="Wearing street clothes with shoes"/>
+				<code value="190902006"/>
+				<display value="Fluid imbalance"/>
 			</concept>
 			<concept>
-				<code value="951000205108"/>
-				<display value="Wearing underwear or less"/>
+				<code value="257308009"/>
+				<display value="Oxygenator"/>
+			</concept>
+			<concept>
+				<code value="53350007"/>
+				<display value="Prosthesis"/>
 			</concept>
         </include>
     </compose>

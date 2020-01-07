@@ -6,5 +6,5 @@ The following examples are provided to illustrate conformant resource content to
 
 - [Systolic Pressure Example](Observation-systolicBloodPressure-example.html)
 
-
+<br>
 {% include link-list.md %}
