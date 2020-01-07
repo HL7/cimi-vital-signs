@@ -265,13 +265,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/vitalSignAssociatedPrecondVS"/>
-      </reference>
-      <description value="Vital Signs Associated Precondition value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="ValueSet/bpmeasbodylocationprecoord"/>
       </reference>
       <description value="Blood Pressure Measurement Body Location Precoordinated value set"/>

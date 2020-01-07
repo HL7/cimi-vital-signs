@@ -269,13 +269,6 @@
     },
     {
       "reference" : {
-        "reference" : "ValueSet/vitalSignAssociatedPrecondVS"
-      },
-      "description" : "Vital Signs Associated Precondition value set",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
         "reference" : "ValueSet/bpmeasbodylocationprecoord"
       },
       "description" : "Blood Pressure Measurement Body Location Precoordinated value set",
