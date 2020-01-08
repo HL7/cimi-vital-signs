@@ -22,7 +22,7 @@
     "progress"
   ],
   "allviews": "true",
-  "working-dir": "C:/Users/nrdavis1/trialIG",
+  "working-dir": "C:/Users/nrdavis1/cimi-vital-signs",
   "defaults": {
     "CapabilityStatement": {
       "template-base": "base.html"
