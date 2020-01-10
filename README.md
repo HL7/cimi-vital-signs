@@ -12,6 +12,14 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 *Note: a build takes 2-3 minutes to complete. You should see a notification at https://chat.fhir.org/#narrow/stream/179297-committers.2Fnotification/topic/ig-build*
 
+-----
+
+Comments and Suggested changes to this implementation guide may be added to the kanban board 
+[here] (https://github.com/HL7/cimi-vital-signs/projects/1)
+
+-----
+
+
 ### Find your rendered IG automatically available at
 
 http://build.fhir.org/ig/HL7/cimi-vital-signs/branches/master/index.html
