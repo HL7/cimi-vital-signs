@@ -6,7 +6,7 @@ topofpage: true
 r4: http://hl7.org/fhir/R4/
 ---
 
-This section outlines important definitions and interpretations and requirements common to all Vital Signs actors used in this guide.
+This section outlines important definitions, interpretations, and requirements common to all Vital Signs actors used in this guide.
 
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
