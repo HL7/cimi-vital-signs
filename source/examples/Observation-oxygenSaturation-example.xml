@@ -1,0 +1,36 @@
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="oxygenSaturation-example"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBlood"/>
+  </meta>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="Vital Signs"/>
+    </coding>
+    <text value="Vital Signs"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="2708-6"/>
+      <display value="Oxygen saturation in Arterial blood"/>
+    </coding>
+    <text value="Oxygen saturation in Arterial blood, method not specified"/>
+  </code>
+  <subject>
+    <display value="AdultFemale1234"/>
+  </subject>
+  <encounter>
+    <display value="GP Visit"/>
+  </encounter>
+  <effectiveDateTime value="2019-10-16T12:12:29-09:00"/>
+  <valueQuantity>
+    <value value="98"/>
+    <unit value="%"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="%"/>
+  </valueQuantity>
+</Observation>

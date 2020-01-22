@@ -1,7 +1,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="oxygenSaturationPulseOx-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBlood"/>
+    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
   </meta>
   <extension url="http://hl7.org/fhir/hspc/StructureDefinition/SensorDescriptionExt">
 	<valueCodeableConcept>
