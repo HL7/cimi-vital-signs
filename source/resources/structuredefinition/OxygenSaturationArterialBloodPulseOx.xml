@@ -14,7 +14,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:cimiSPO2">
@@ -70,27 +70,15 @@
             <path value="Observation.code"/>
 		    <min value="1"/> 
 		    <max value="*"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="59408-5"/>
+					<display value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
+				</coding>
+			</patternCodeableConcept>
 			<mustSupport value="true"/>
         </element>
-		<element id="Observation:cimiSPO2.code.coding">
-			<path value="Observation.code.coding"/>
-			<min value="1"/>
-			<max value="1"/>
-		</element>
-		<element id="Observation:cimiSPO2.code.coding.system">
-			<path value="Observation.code.coding.system"/>
-			<min value="1"/>
-			<max value="1"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiSPO2.code.coding.code">
-			<path value="Observation.code.coding.code"/>
-			<fixedCode value="59408-5"/>
-		</element>
-		<element id="Observation:cimiSPO2.code.coding.display">
-			<path value="Observation.code.coding.display"/>
-			<fixedString value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
-		</element>
 		<element id="Observation:cimiSPO2.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>
@@ -99,12 +87,6 @@
 				<code value="Reference"/>
 				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
 			</type>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiSPO2.effective[x]">
-			<path value="Observation.effective[x]"/>
-			<min value="1"/>
-			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
         <element id="Observation:cimiSPO2.valueQuantity">

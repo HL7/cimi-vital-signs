@@ -67,22 +67,15 @@
 	</element>
     <element id="Observation:cimiSystolicBloodPressure.code">
         <path value="Observation.code"/>
+		<patternCodeableConcept>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="8480-6"/>
+				<display value="Systolic blood pressure"/>
+			</coding>
+		</patternCodeableConcept>
+		<mustSupport value="true"/>
     </element>
-	<element id="Observation:cimiSystolicBloodPressure.code.coding">
-		<path value="Observation.code.coding"/>
-	</element>
-	<element id="Observation:cimiSystolicBloodPressure.code.coding.system">
-		<path value="Observation.code.coding.system"/>
-		<fixedUri value="http://loinc.org"/>
-	</element>
-	<element id="Observation:cimiSystolicBloodPressure.code.coding.code">
-		<path value="Observation.code.coding.code"/>
-		<fixedCode value="8480-6"/>
-	</element>
-	<element id="Observation:cimiSystolicBloodPressure.code.coding.display">
-		<path value="Observation.code.coding.display"/>
-		<fixedString value="Systolic blood pressure"/>
-	</element>
 	<element id="Observation:cimiSystolicBloodPressure.subject">
 		<path value="Observation.subject"/>
 		<min value="1"/>

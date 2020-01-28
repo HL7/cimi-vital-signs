@@ -14,7 +14,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/vitalspanel"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:cimiVitalSignsPanel">
@@ -66,23 +66,15 @@
 		</element>
         <element id="Observation:cimiVitalSignsPanel.code">
             <path value="Observation.code"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="85353-1"/>
+					<display value="Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"/>
+				</coding>
+			</patternCodeableConcept>
 			<mustSupport value="true"/>
         </element>
-		<element id="Observation:cimiVitalSignsPanel.code.coding">
-			<path value="Observation.code.coding"/>
-		</element>
-		<element id="Observation:cimiVitalSignsPanel.code.coding.system">
-			<path value="Observation.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiVitalSignsPanel.code.coding.code">
-			<path value="Observation.code.coding.code"/>
-			<fixedCode value="85353-1"/>
-		</element>
-		<element id="Observation:cimiVitalSignsPanel.code.coding.display">
-			<path value="Observation.code.coding.display"/>
-			<fixedString value="Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"/>
-		</element>
 		<element id="Observation:cimiVitalSignsPanel.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>
@@ -155,6 +147,13 @@
             <max value="*"/>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:SPO2">
+			<path value="Observation.hasMember"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
+			</type>
+		</element>
+		<element id="Observation:cimiVitalSignsPanel.hasMember:SaO2">
 			<path value="Observation.hasMember"/>
 			<type>
 				<code value="Reference"/>

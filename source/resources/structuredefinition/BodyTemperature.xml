@@ -13,7 +13,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bodytemp"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:cimiBodyTemperature">
@@ -82,22 +82,15 @@
 		</element>
         <element id="Observation:cimiBodyTemperature.code">
             <path value="Observation.code"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="8310-5"/>
+					<display value="Body temperature"/>
+				</coding>
+			</patternCodeableConcept>
+			<mustSupport value="true"/>
         </element>
-		<element id="Observation:cimiBodyTemperature.code.coding">
-			<path value="Observation.code.coding"/>
-		</element>
-		<element id="Observation:cimiBodyTemperature.code.coding.system">
-			<path value="Observation.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiBodyTemperature.code.coding.code">
-			<path value="Observation.code.coding.code"/>
-			<fixedCode value="8310-5"/>
-		</element>
-		<element id="Observation:cimiBodyTemperature.code.coding.display">
-			<path value="Observation.code.coding.display"/>
-			<fixedString value="Body temperature"/>
-		</element>
 		<element id="Observation:cimiBodyTemperature.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>

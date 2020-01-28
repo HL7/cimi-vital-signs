@@ -13,7 +13,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/oxygensat"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs">
@@ -51,34 +51,15 @@
             <path value="Observation.code"/>
 			<min value="1"/>
 			<max value="*"/>
-			<type>
-				<code value="patternCodeableConcept"/>
-			</type>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="2708-6"/>
+					<display value="Oxygen saturation in Arterial blood"/>
+				</coding>
+			</patternCodeableConcept>
 			<mustSupport value="true"/>
         </element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.code.coding">
-			<path value="Observation.code.coding"/>
-			<min value="1"/>
-			<max value="1"/>
-		</element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.code.coding.system">
-			<path value="Observation.code.coding.system"/>
-			<min value="1"/>
-			<max value="1"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.code.coding.code">
-			<path value="Observation.code.coding.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<fixedCode value="2708-6"/>
-		</element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.code.coding.display">
-			<path value="Observation.code.coding.display"/>
-			<min value="0"/>
-			<max value="1"/>
-			<fixedString value="Oxygen saturation in Arterial blood"/>
-		</element>
 		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>
@@ -89,7 +70,7 @@
 			</type>
 			<mustSupport value="true"/>
 		</element>
-        <element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.valueQuantity">
+		<!--<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.valueQuantity">
             <path value="Observation.valueQuantity"/>
             <type>
                 <code value="Quantity"/>
@@ -129,6 +110,6 @@
             </type>
 			<fixedCode value="%"/>
 			<mustSupport value="true"/>
-		</element>
+		</element> -->
     </differential>
 </StructureDefinition>

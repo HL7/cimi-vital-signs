@@ -14,7 +14,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bp"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:cimiBloodPressurePanel">
@@ -127,26 +127,14 @@
 		</element>
         <element id="Observation:cimiBloodPressurePanel.code">
             <path value="Observation.code"/>
-			<type>
-				<code value="CodeableConcept"/>
-			</type>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="85354-9"/>
+					<display value="Blood pressure panel with all children optional"/>
+				</coding>
+			</patternCodeableConcept>
         </element>
-		
-		<element id="Observation:cimiBloodPressurePanel.code.coding">
-			<path value="Observation.code.coding"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.code.coding.system">
-			<path value="Observation.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.code.coding.code">
-			<path value="Observation.code.coding.code"/>
-			<fixedCode value="85354-9"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.code.coding.display">
-			<path value="Observation.code.coding.display"/>
-			<fixedString value="Blood pressure panel with all children optional"/>
-		</element>
 		<element id="Observation:cimiBloodPressurePanel.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>
@@ -212,7 +200,7 @@
 			<path value="Observation.component"/>
 			<sliceName value="systolicBP"/>
 			<short value="Systolic Blood Pressure"/>
-			<min value="1"/>
+			<min value="0"/>
 			<max value="1"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.code:systolicBP">
@@ -279,7 +267,7 @@
 			<path value="Observation.component"/>
 			<sliceName value="diastolicBP"/>
 			<short value="Diastolic Blood Pressure"/>
-			<min value="1"/>
+			<min value="0"/>
 			<max value="1"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.code:diastolicBP">

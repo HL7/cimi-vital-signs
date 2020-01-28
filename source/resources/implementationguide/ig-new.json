@@ -110,7 +110,14 @@
       "reference" : {
         "reference" : "StructureDefinition/OxygenSaturationArterialBlood"
       },
-      "description" : "Oxygen Saturation via Pulse Ox",
+      "description" : "Oxygen Saturation in Arterial blood",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/OxygenSaturationArterialBloodPulseOx"
+      },
+      "description" : "Oxygen Saturation in Arterial blood via Pulse Oximetry",
       "exampleBoolean" : false
     },
     {
@@ -391,6 +398,13 @@
         "reference" : "Observation/oxygenSaturationPulseOx-example"
       },
       "description" : "Oxygen Saturation via Pulse Oximetery example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/oxygenSaturation-example"
+      },
+      "description" : "Oxygen Saturation in Arterial blood",
       "exampleBoolean" : true
     },
     {

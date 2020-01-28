@@ -100,7 +100,14 @@
 			<reference>
 				<reference value="StructureDefinition/OxygenSaturationArterialBlood"/>
 			</reference>
-			<description value="Oxygen Saturation via Pulse Ox"/>
+			<description value="Oxygen Saturation in Arterial blood"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
+			</reference>
+			<description value="Oxygen Saturation in Arterial blood via Pulse Oximetry"/>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
@@ -392,6 +399,13 @@
 				<reference value="Observation/oxygenSaturationPulseOx-example"/>
 			</reference>
 			<description value="Oxygen Saturation via Pulse Oximetery example"/>
+			<exampleBoolean value="true"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Observation/oxygenSaturation-example"/>
+			</reference>
+			<description value="Oxygen Saturation in Arterial blood"/>
 			<exampleBoolean value="true"/>
 		</resource>
 		<resource>
