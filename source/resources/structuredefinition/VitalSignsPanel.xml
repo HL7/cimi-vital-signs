@@ -25,6 +25,9 @@
 			<path value="Observation.extension"/>
 			<sliceName value="associatedPrecondition"/>
 			<short value="AssociatedPrecondition"/>
+		</element>
+		<element id="Observation:cimiVitalSignsPanel.extension.value:AssociatedPreconditionValue">
+			<path value="Observation.extension.value"/>
 			<type>
 				<code value="CodeableConcept"/>
 			</type>
