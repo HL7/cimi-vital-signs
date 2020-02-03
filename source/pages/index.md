@@ -16,7 +16,7 @@ active: terminology
 
 <br />
 
-### Introduction
+## Introduction
 
 Vital signs will be one of the first areas where there is a need for a single, global vocabulary to allow for ubiquitous access and re-use. Particularly with the use of wearables by patients where they want to/need to share information from those devices. To meet this need there must be a consistent vocabulary and a common syntax to achieve semantic interoperability. The FHIR Vital Signs profile provides the mechanism for the Observation resource to record, search and fetch the vital signs associated with a patient that include the primary vital signs, additional measurements such as height, weight and BMI, and the qualifying observations needed for each measurement such as body position, laterality, cuff location, and device type. Support for basic mandatory searching of resources is defined below in the [Quick Start](http://hl7.org/fhir/R4/observation-vitalsigns.html#Quick_Start) section. When a FHIR implementation supports any of the vital signs listed below, the implementation SHALL conform to this profile for the vital sign observation.
 
@@ -28,18 +28,18 @@ The profile was extended by the [Clinical Information Modeling Initiative](https
 
 <br />
 
-### Scope and Usage
+## Scope and Usage
 
-**Example Usage Scenarios:**
+### Example Usage Scenarios:
 
 The following are example usage scenarios for this profile:
 
 •	Query for vital signs of a particular patient
 
-**Mandatory Data Elements and Terminology**
+#### Mandatory Data Elements and Terminology
 The following data-elements are mandatory (i.e. data SHALL be present). These are presented below in a simple human-readable explanation. Profile-specific guidance and valid examples are provided as well. Note that many of the examples capture more than the minimum required. The links to the [Profile Definitions](http://hl7.org/fhir/R4/observation-vitalsigns.html#content) provide the formal views of the profile content, descriptions, mappings and the StructureDefinitions in JSON and XML.
 
-**Each Observation must have:**
+#### Each Observation must have:
 1.	a status
 2.	a category code of 'vital-signs'
 3.	a "magic value" which tells you what is being measured
@@ -49,7 +49,7 @@ o	LOINC was chosen for the "magic values" because this aligns with the most coun
 6.	a numeric result value and standard UCUM unit which is taken from the Unit Code column in the table below.
 7.  Observations with values **cannot** also have a Data Absent Reason.  If there is **no result value** then a valid Data Absent Reason **must** be given
 
-### Formal View of Profile Content
+## Formal View of Profile Content
 [Vital Signs Profile](http://hl7.org/fhir/R4/vitalsigns.html) : Link to the formal definition views for the vital signs listed in this table.
 
 •	The table below represents a minimum set of vital sign concepts, the required codes ("magic values"), and UCUM units of measure codes used for representing vital signs observations. These are extensible bindings and require that when a system supports any of these vital signs concepts, they must represent them using these codes. In addition, if you have a blood pressure observation, you must have both a systolic and a diastolic component, though one or both may have dataAbsentReason instead of a value.
@@ -69,7 +69,7 @@ o	LOINC was chosen for the "magic values" because this aligns with the most coun
 ## Quick Start
 Below is an overview of required search and read operations
 
-**Clients**
+### Clients
 
 •	A client has connected to a server and fetched all of a patient's vital signs by searching by category using GET [base]/Observation?patient=[id]&category=vital-signs.
 
@@ -79,7 +79,7 @@ Below is an overview of required search and read operations
 
 •	A client SHOULD be capable of connecting to a server and fetching any of a patient's vital signs searching by one or more of the codes listed above and date range using GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2...}]vital-signs&date=[date]{&date=[date]}.
 
-**Servers**
+### Servers
 
 •	A server is capable of returning all of a patient's vital signs that it supports using GET [base]/Observation?patient=[id]&category=vital-signs.
 
