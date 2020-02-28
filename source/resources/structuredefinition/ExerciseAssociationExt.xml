@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DataAbsentReasonExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/DataAbsentReasonExt"/>
+  <id value="ExerciseAssociationExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt"/>
   <version value="0.1.0"/>
-  <name value="DataAbsentReasonExt"/>
+  <name value="ExerciseAssociationExt"/>
+  <title value="Exercise Association extension"/>
   <status value="draft"/>
   <date value="2019-05-29"/>
   <publisher value="HSPC"/>
-  <description value="Why there is no data for a given element."/>
+  <description value="The type of exercise being done when the blood pressure was measured."/>
   <fhirVersion value="4.0.0"/>
   <kind value="complex-type"/>
   <abstract value="false"/>
@@ -19,18 +20,18 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:DataAbsentReasonExt">
+    <element id="Extension:ExerciseAssociationExt">
       <path value="Extension"/>
-      <short value="DataAbsentReasonExt"/>
-      <definition value="Why there is no data for a given element."/>
+      <short value="ExerciseAssociationExt"/>
+      <definition value="The type of exercise being done when the blood pressure was measured."/>
       <min value="0"/>
       <max value="1"/>
     </element>
-    <element id="Extension:DataAbsentReasonExt.url">
+    <element id="Extension:ExerciseAssociationExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/DataAbsentReasonExt"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt"/>
     </element>
-    <element id="Extension:DataAbsentReasonExt.valueCodeableConcept">
+    <element id="Extension:ExerciseAssociationExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>

@@ -14,7 +14,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/headcircum"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:cimiHeadCircumference">
@@ -26,37 +26,11 @@
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation.cimiHeadCircumference.category">
-			<path value="Observation.category"/>
-			<sliceName value="VitalSignsCategory"/>
-			<min value="1"/>
-			<max value="1"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiHeadCircumference.category.coding">
-			<path value="Observation.category.coding"/>
-			<min value="1"/>
-			<max value="*"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiHeadCircumference.category.coding.system">
-			<path value="Observation.category.coding.system"/> 
-		    <min value="1"/> 
-		    <max value="1"/>
-		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
-		    <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiHeadCircumference.category.coding.code">
-			<path value="Observation.category.coding.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<fixedCode value="vital-signs"/>
-			<mustSupport value="true"/>
-		</element>
         <element id="Observation:cimiHeadCircumference.code">
             <path value="Observation.code"/>
+			<sliceName value="HeadCircumCode"/>
 			<min value="1"/>
-			<max value="*"/>
+			<max value="1"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>

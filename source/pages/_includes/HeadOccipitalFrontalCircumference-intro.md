@@ -5,7 +5,7 @@ This measurement is usually given in centimeters.
 
 The following examples are provided to illustrate conformant resource content to this profile.
 
-- [Head Occipital-Frontal Circumference Example](Observation-headOccipitalFrontalCircumference-example.html)
+- [Head Occipital-Frontal Circumference Example](Observation-headCircumference-example.html)
 
 <br>
 

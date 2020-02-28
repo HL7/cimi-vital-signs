@@ -9,7 +9,6 @@
     <publisher value="HSPC"/>
     <description value="SELECT SNOMED CT code system values."/>
     <copyright value="TBD"/>
-    
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>	
@@ -28,7 +27,7 @@
 			<concept>	
 				<code value =""/>
 				<display value ="After Condition"/>
-			</concept>	
+			</concept>
 			<concept>	
 				<code value ="307429007"/>
 				<display value ="After menopause"/>

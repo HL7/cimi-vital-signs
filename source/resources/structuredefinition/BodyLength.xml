@@ -13,7 +13,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:cimiBodyLength">
@@ -26,7 +26,7 @@
 			<sliceName value="measurementDevice"/>
 			<short value="Measurement Device"/>
 			<type>
-				<code value="extension"/>
+				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
@@ -36,33 +36,6 @@
 		</element>
 		<element id="Observation:cimiBodyLength.status">
 			<path value="Observation.status"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBodyLength.category">
-			<path value="Observation.category"/>
-			<sliceName value="VitalSignsCategory"/>
-			<min value="1"/>
-			<max value="1"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBodyLength.category.coding">
-			<path value="Observation.category.coding"/>
-			<min value="1"/>
-			<max value="*"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBodyLength.category.coding.system">
-			<path value="Observation.category.coding.system"/> 
-		    <min value="1"/> 
-		    <max value="1"/>
-		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
-		    <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyLength.category.coding.code">
-			<path value="Observation.category.coding.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<fixedCode value="vital-signs"/>
 			<mustSupport value="true"/>
 		</element>
         <element id="Observation:cimiBodyLength.code">

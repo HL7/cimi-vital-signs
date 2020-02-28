@@ -94,6 +94,13 @@
 			<description value="Clothing Worn During Measure Extension"/>
 			<exampleBoolean value="false"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ExerciseAssociationExt"/>
+			</reference>
+			<description value="Exercise Association Extension"/>
+			<exampleBoolean value="false"/>
+		</resource>
 		<!-- =============== end extensions ================ -->
 		<!-- =============== structure defs ================ -->
 		<resource>
@@ -147,13 +154,6 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/DiastolicBloodPressure"/>
-			</reference>
-			<description value="Diastolic Blood Pressure"/>
-			<exampleBoolean value="false"/>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="StructureDefinition/HeadOccipitalFrontalCircumference"/>
 			</reference>
 			<description value="Head-Occipital Frontal Circumference"/>
@@ -175,23 +175,9 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/MeanArterialPressure"/>
-			</reference>
-			<description value="Mean Arterial Pressure"/>
-			<exampleBoolean value="false"/>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="StructureDefinition/RespiratoryRate"/>
 			</reference>
 			<description value="Respiratory Rate"/>
-			<exampleBoolean value="false"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/SystolicBloodPressure"/>
-			</reference>
-			<description value="Systolic Blood Pressure"/>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
@@ -252,13 +238,13 @@
 			<description value="Blood Pressure Measurement Device value set"/>
 			<exampleBoolean value="false"/>
 		</resource>
-		<resource>
+		<!-- <resource>
 			<reference>
 				<reference value="ValueSet/bpCuffSizeVS"/>
 			</reference>
 			<description value="Blood Pressure Cuff Size value set"/>
 			<exampleBoolean value="false"/>
-		</resource>
+		</resource> -->
 		<resource>
 			<reference>
 				<reference value="ValueSet/sleepStatusVS"/>
@@ -392,6 +378,13 @@
 			<description value="Weight Measurement Device value set"/>
 			<exampleBoolean value="false"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/vitalSignAssociatedPrecondVS"/>
+			</reference>
+			<description value="Vital Signs Associated Precondition value set"/>
+			<exampleBoolean value="false"/>
+		</resource>
 		<!-- ================ end value sets ================== -->
 		<!-- ================ examples ================== -->
 		<resource>
@@ -445,20 +438,6 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="Observation/systolicBloodPressure-example"/>
-			</reference>
-			<description value="Systolic Blood Pressure example"/>
-			<exampleBoolean value="true"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="Observation/diastolicBloodPressure-example"/>
-			</reference>
-			<description value="Diastolic Blood Pressure example"/>
-			<exampleBoolean value="true"/>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="Observation/headCircumference-example"/>
 			</reference>
 			<description value="Head Circumference example"/>
@@ -476,13 +455,6 @@
 				<reference value="Observation/height-example"/>
 			</reference>
 			<description value="Height example"/>
-			<exampleBoolean value="true"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="Observation/meanArterialPressure-example"/>
-			</reference>
-			<description value="Mean Arterial Pressure example"/>
 			<exampleBoolean value="true"/>
 		</resource>
 		<resource>
@@ -521,13 +493,6 @@
 				<generation value="markdown"/>
 			</page>
 			<!-- ============ Guidance Pages =============== -->
-			<!-- ============ Use Case Pages =============== -->
-			<page>
-				<nameUrl value="usecases.html"/>
-				<title value="Use Cases"/>
-				<generation value="markdown"/>
-			</page>
-			<!-- ============ Use Case Pages =============== -->
 			<!-- ============ Profiles Page =============== -->
 			<page>
 				<nameUrl value="profiles.html"/>

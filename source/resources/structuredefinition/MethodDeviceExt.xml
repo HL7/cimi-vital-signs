@@ -19,11 +19,15 @@
   <abstract value="false"/>
   <context>
 	<type value="element"/>
+	<expression value="Observation"/>
+  </context>
+  <context>
+	<type value="element"/>
 	<expression value="StructureDefinition"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-  <derivation value="specialization"/>
+  <derivation value="constraint"/>
   <differential>
     <element id="Extension:MethodDeviceExt">
       <path value="Extension"/>
@@ -31,7 +35,6 @@
       <definition value="The means by which a measurement was obtained."/>
       <min value="0"/>
       <max value="1"/>
-      
     </element>
     <element id="Extension:MethodDeviceExt.url">
       <path value="Extension.url"/>

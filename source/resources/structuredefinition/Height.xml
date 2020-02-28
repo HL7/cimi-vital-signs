@@ -26,7 +26,7 @@
 			<sliceName value="bodyPosition"/>
 			<short value="Body Position"/>
 			<type>
-				<code value="extension"/>
+				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
 			</type>
 			<binding>
@@ -40,7 +40,7 @@
 			<sliceName value="measurementDevice"/>
 			<short value="Measurement Device"/>
 			<type>
-				<code value="extension"/>
+				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
@@ -54,7 +54,7 @@
 			<sliceName value="clothingWornDuringMeasure"/>
 			<short value="Cothing Worn During Measure"/>
 			<type>
-				<code value="extension"/>
+				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt"/>
 			</type>
 			<binding>
@@ -65,33 +65,6 @@
 		</element>
 		<element id="Observation:cimiBodyHeight.status">
 			<path value="Observation.status"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBodyHeight.category">
-			<path value="Observation.category"/>
-			<sliceName value="VitalSignsCategory"/>
-			<min value="1"/>
-			<max value="1"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBodyHeight.category.coding">
-			<path value="Observation.category.coding"/>
-			<min value="1"/>
-			<max value="*"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBodyHeight.category.coding.system">
-			<path value="Observation.category.coding.system"/> 
-		    <min value="1"/> 
-		    <max value="1"/>
-		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
-		    <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyHeight.category.coding.code">
-			<path value="Observation.category.coding.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<fixedCode value="vital-signs"/>
 			<mustSupport value="true"/>
 		</element>
         <element id="Observation:cimiBodyHeight.code">

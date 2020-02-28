@@ -24,33 +24,10 @@
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation.hspcOxygenSaturationSFrPtBldAQnLabObs.category">
-			<path value="Observation.category"/>
-			<sliceName value="VitalSignsCategory"/>
-			<min value="1"/>
-			<max value="1"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.hspcOxygenSaturationSFrPtBldAQnLabObs.category.coding">
-			<path value="Observation.category.coding"/>
-			<min value="1"/>
-			<max value="*"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.hspcOxygenSaturationSFrPtBldAQnLabObs.category.coding.system">
-			<path value="Observation.category.coding.system"/>
-		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
-		    <mustSupport value="true"/>
-		</element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.category.coding.code">
-			<path value="Observation.category.coding.code"/>
-			<fixedCode value="vital-signs"/>
-			<mustSupport value="true"/>
-		</element>
         <element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.key">
             <path value="Observation.code"/>
 			<min value="1"/>
-			<max value="*"/>
+			<max value="1"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>

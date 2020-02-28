@@ -53,33 +53,6 @@
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation.cimiBodyTemperature.category">
-			<path value="Observation.category"/>
-			<sliceName value="VitalSignsCategory"/>
-			<min value="1"/>
-			<max value="1"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBodyTemperature.category.coding">
-			<path value="Observation.category.coding"/>
-			<min value="1"/>
-			<max value="*"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBodyTemperature.category.coding.system">
-			<path value="Observation.category.coding.system"/> 
-		    <min value="1"/> 
-		    <max value="1"/>
-		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
-		    <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyTemperature.category.coding.code">
-			<path value="Observation.category.coding.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<fixedCode value="vital-signs"/>
-			<mustSupport value="true"/>
-		</element>
         <element id="Observation:cimiBodyTemperature.code">
             <path value="Observation.code"/>
 			<patternCodeableConcept>

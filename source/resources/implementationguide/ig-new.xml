@@ -104,6 +104,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ExerciseAssociationExt"/>
+      </reference>
+      <description value="Exercise Association Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/OxygenSaturationArterialBlood"/>
       </reference>
       <description value="Oxygen Saturation in Arterial blood"/>
@@ -153,13 +160,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/DiastolicBloodPressure"/>
-      </reference>
-      <description value="Diastolic Blood Pressure"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/HeadOccipitalFrontalCircumference"/>
       </reference>
       <description value="Head-Occipital Frontal Circumference"/>
@@ -181,23 +181,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/MeanArterialPressure"/>
-      </reference>
-      <description value="Mean Arterial Pressure"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/RespiratoryRate"/>
       </reference>
       <description value="Respiratory Rate"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/SystolicBloodPressure"/>
-      </reference>
-      <description value="Systolic Blood Pressure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -254,13 +240,6 @@
         <reference value="ValueSet/bpMeasDeviceVS"/>
       </reference>
       <description value="Blood Pressure Measurement Device value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/bpCuffSizeVS"/>
-      </reference>
-      <description value="Blood Pressure Cuff Size value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -391,6 +370,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/vitalSignAssociatedPrecondVS"/>
+      </reference>
+      <description value="Vital Signs Associated Precondition value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/oxygenSaturationPulseOx-example"/>
       </reference>
       <description value="Oxygen Saturation via Pulse Oximetery example"/>
@@ -440,20 +426,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Observation/systolicBloodPressure-example"/>
-      </reference>
-      <description value="Systolic Blood Pressure example"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Observation/diastolicBloodPressure-example"/>
-      </reference>
-      <description value="Diastolic Blood Pressure example"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="Observation/headCircumference-example"/>
       </reference>
       <description value="Head Circumference example"/>
@@ -471,13 +443,6 @@
         <reference value="Observation/height-example"/>
       </reference>
       <description value="Height example"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Observation/meanArterialPressure-example"/>
-      </reference>
-      <description value="Mean Arterial Pressure example"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -508,11 +473,6 @@
       <page>
         <nameUrl value="generalguidance.html"/>
         <title value="General Guidance"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="usecases.html"/>
-        <title value="Use Cases"/>
         <generation value="markdown"/>
       </page>
       <page>

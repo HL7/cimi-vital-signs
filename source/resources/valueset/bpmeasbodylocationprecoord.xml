@@ -28,7 +28,15 @@
 			<concept>	
 				<code value ="17137000"/>
 				<display value ="Structure of brachial artery"/>
-			</concept>	
+			</concept>		
+			<concept>	
+				<code value ="723961002"/>
+				<display value ="Structure of left brachial artery"/>
+			</concept>		
+			<concept>	
+				<code value ="723962009"/>
+				<display value ="Structure of right brachial artery"/>
+			</concept>
 			<concept>	
 				<code value ="51636004"/>
 				<display value ="Structure of left ankle"/>

@@ -14,7 +14,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bp"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:cimiBloodPressurePanel">
@@ -27,7 +27,7 @@
 		  <sliceName value="BodyPosition"/>
 		  <short value="Body Position"/>
 		  <type>
-			<code value="extension"/>
+			<code value="Extension"/>
 			<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
 		  </type>
 		  <mustSupport value="false"/>
@@ -43,7 +43,7 @@
 			<sliceName value="measurementDevice"/>
 			<short value="Measurement Device"/>
 			<type>
-				<code value="extension"/>
+				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
@@ -52,26 +52,12 @@
             </binding>
 		  <mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBloodPressurePanel.extension:cuffSize">
-			<path value="Observation.extension"/>
-			<sliceName value="cuffSize"/>
-			<short value="Blood Pressure Cuff Size"/>
-			<type>
-				<code value="extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt"/>
-			</type>
-			<binding>
-				<strength value="extensible"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS"/>
-			</binding>
-		    <mustSupport value="true"/>
-		</element>
 		<element id="Observation:cimiBloodPressurePanel.extension:sleepStatus">
 			<path value="Observation.extension"/>
 			<sliceName value="sleepStatus"/>
 			<short value="Sleep Status"/>
 			<type>
-				<code value="extension"/>
+				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/SleepStatusExt"/>
 			</type>
 			<binding>
@@ -80,12 +66,26 @@
 			</binding>
 		    <mustSupport value="true"/>
 		</element>
+		<element id="Observation:cimiBloodPressurePanel.extension:ExerciseAssociationExt">
+			<path value="Observation.extension"/>
+			<sliceName value="exerciseAssociation"/>
+			<short value="Exercise Association"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/exertionPhaseVS"/>
+			</binding>
+		    <mustSupport value="true"/>
+		</element>
 		<element id="Observation:cimiBloodPressurePanel.extension:associatedPrecondition">
 			<path value="Observation.extension"/>
 			<sliceName value="associatedPrecondition"/>
 			<short value="Associated Precondition"/>
 			<type>
-				<code value="extension"/>
+				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
 			</type>
 			<binding>
@@ -96,33 +96,6 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.status">
 			<path value="Observation.status"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBloodPressurePanel.category">
-			<path value="Observation.category"/>
-			<sliceName value="VitalSignsCategory"/>
-			<min value="1"/>
-			<max value="1"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBloodPressurePanel.category.coding">
-			<path value="Observation.category.coding"/>
-			<min value="1"/>
-			<max value="*"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation.cimiBloodPressurePanel.category.coding.system">
-			<path value="Observation.category.coding.system"/> 
-		    <min value="1"/> 
-		    <max value="1"/>
-		    <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/> 
-		    <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.category.coding.code">
-			<path value="Observation.category.coding.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<fixedCode value="vital-signs"/>
 			<mustSupport value="true"/>
 		</element>
         <element id="Observation:cimiBloodPressurePanel.code">
@@ -183,12 +156,8 @@
 			<path value="Observation.component"/>
 			<slicing>
 				<discriminator>
-					<type value="value"/>
-					<path value="code.coding.code"/>
-				</discriminator>
-				<discriminator> 
-				  <type value="value"/> 
-				  <path value="code.coding.system"/> 
+					<type value="pattern"/>
+					<path value="code"/>
 				</discriminator> 
 				<ordered value="false"/>
 				<rules value="open"/>
@@ -198,29 +167,21 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component:systolicBP">
 			<path value="Observation.component"/>
-			<sliceName value="systolicBP"/>
+			<sliceName value="SystolicBP"/>
 			<short value="Systolic Blood Pressure"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="1"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.code:systolicBP">
 			<path value="Observation.component.code"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="8480-6"/>
+					<display value="Systolic blood pressure"/>
+				</coding>
+			</patternCodeableConcept>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding:systolicBP">
-			<path value="Observation.component.code.coding"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.system:systolicBP">
-			<path value="Observation.component.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.code:systolicBP">
-			<path value="Observation.component.code.coding.code"/>
-			<fixedCode value="8480-6"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.display:systolicBP">
-			<path value="Observation.component.code.coding.display"/>
-			<fixedString value="Systolic blood pressure"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity:systolicBP">
 			<path value="Observation.component.valueQuantity"/>
@@ -265,28 +226,21 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component:diastolicBP">
 			<path value="Observation.component"/>
-			<sliceName value="diastolicBP"/>
+			<sliceName value="DiastolicBP"/>
 			<short value="Diastolic Blood Pressure"/>
 			<min value="0"/>
 			<max value="1"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.code:diastolicBP">
 			<path value="Observation.component.code"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding:diastolicBP">
-			<path value="Observation.component.code.coding"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.system:diastolicBP">
-			<path value="Observation.component.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.code:diastolicBP">
-			<path value="Observation.component.code.coding.code"/>
-			<fixedCode value="8462-4"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.display:diastolicBP">
-			<path value="Observation.component.code.coding.display"/>
-			<fixedString value="Diastolic blood pressure"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="8462-4"/>
+					<display value="Diastolic blood pressure"/>
+				</coding>
+			</patternCodeableConcept>
+			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity:diastolicBP">
 			<path value="Observation.component.valueQuantity"/>
@@ -331,7 +285,7 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component:meanArterialBP">
 			<path value="Observation.component"/>
-			<sliceName value="meanArterialBP"/>
+			<sliceName value="MeanArterialBP"/>
 			<short value="Mean Arterial Blood Pressure"/>
 			<min value="0"/>
 			<max value="1"/>
@@ -339,21 +293,14 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.code:meanArterialBP">
 			<path value="Observation.component.code"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding:meanArterialBP">
-			<path value="Observation.component.code.coding"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.system:meanArterialBP">
-			<path value="Observation.component.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.code:meanArterialBP">
-			<path value="Observation.component.code.coding.code"/>
-			<fixedCode value="8478-0"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code.coding.display:meanArterialBP">
-			<path value="Observation.component.code.coding.display"/>
-			<fixedString value="Mean blood pressure"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="8478-0"/>
+					<display value="Mean blood pressure"/>
+				</coding>
+			</patternCodeableConcept>
+			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity:meanArterialBP">
 			<path value="Observation.component.valueQuantity"/>

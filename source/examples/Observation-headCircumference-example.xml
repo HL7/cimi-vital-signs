@@ -1,5 +1,5 @@
 <Observation xmlns="http://hl7.org/fhir">
-  <id value="headOccipitalFrontalCircumference-example"/>
+  <id value="headCircumference-example"/>
   <meta>
     <profile value="http://hl7.org/fhir/hspc/StructureDefinition/HeadOccipitalFrontalCircumference"/>
   </meta>

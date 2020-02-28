@@ -108,6 +108,13 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/ExerciseAssociationExt"
+      },
+      "description" : "Exercise Association Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/OxygenSaturationArterialBlood"
       },
       "description" : "Oxygen Saturation in Arterial blood",
@@ -157,13 +164,6 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/DiastolicBloodPressure"
-      },
-      "description" : "Diastolic Blood Pressure",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/HeadOccipitalFrontalCircumference"
       },
       "description" : "Head-Occipital Frontal Circumference",
@@ -185,23 +185,9 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/MeanArterialPressure"
-      },
-      "description" : "Mean Arterial Pressure",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/RespiratoryRate"
       },
       "description" : "Respiratory Rate",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/SystolicBloodPressure"
-      },
-      "description" : "Systolic Blood Pressure",
       "exampleBoolean" : false
     },
     {
@@ -258,13 +244,6 @@
         "reference" : "ValueSet/bpMeasDeviceVS"
       },
       "description" : "Blood Pressure Measurement Device value set",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
-        "reference" : "ValueSet/bpCuffSizeVS"
-      },
-      "description" : "Blood Pressure Cuff Size value set",
       "exampleBoolean" : false
     },
     {
@@ -395,6 +374,13 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/vitalSignAssociatedPrecondVS"
+      },
+      "description" : "Vital Signs Associated Precondition value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "Observation/oxygenSaturationPulseOx-example"
       },
       "description" : "Oxygen Saturation via Pulse Oximetery example",
@@ -444,20 +430,6 @@
     },
     {
       "reference" : {
-        "reference" : "Observation/systolicBloodPressure-example"
-      },
-      "description" : "Systolic Blood Pressure example",
-      "exampleBoolean" : true
-    },
-    {
-      "reference" : {
-        "reference" : "Observation/diastolicBloodPressure-example"
-      },
-      "description" : "Diastolic Blood Pressure example",
-      "exampleBoolean" : true
-    },
-    {
-      "reference" : {
         "reference" : "Observation/headCircumference-example"
       },
       "description" : "Head Circumference example",
@@ -475,13 +447,6 @@
         "reference" : "Observation/height-example"
       },
       "description" : "Height example",
-      "exampleBoolean" : true
-    },
-    {
-      "reference" : {
-        "reference" : "Observation/meanArterialPressure-example"
-      },
-      "description" : "Mean Arterial Pressure example",
       "exampleBoolean" : true
     },
     {
@@ -512,11 +477,6 @@
       "page" : [{
         "nameUrl" : "generalguidance.html",
         "title" : "General Guidance",
-        "generation" : "markdown"
-      },
-      {
-        "nameUrl" : "usecases.html",
-        "title" : "Use Cases",
         "generation" : "markdown"
       },
       {
