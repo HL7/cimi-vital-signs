@@ -230,13 +230,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/bodySideVS"/>
-      </reference>
-      <description value="Body Side value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="ValueSet/bpMeasDeviceVS"/>
       </reference>
       <description value="Blood Pressure Measurement Device value set"/>

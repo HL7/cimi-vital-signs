@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
   <id value="bodyTempMeasBodyLocationPrecoordVS"/>
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,54 +13,53 @@
     <publisher value="Clinical Information Modeling Inititative (CIMI)"/>
     <description value="SELECT SNOMED CT code system values."/>
     <copyright value="TBD"/>
-    
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>	
-			<concept>    
-                <code value ="117590005"/>
-                <display value ="Ear structure (body structure)"/>
-            </concept>  
-            <concept>   
-                <code value ="7569003"/>
-                <display value ="Finger structure (body structure)"/>
-            </concept>
-            <concept>   
-                <code value ="52795006"/>
-                <display value ="Forehead structure (body structure)"/>
-            </concept>  
-            <concept>   
-                <code value ="279549004"/>
-                <display value ="Nasal cavity structure (body structure)"/>
-            </concept>  
-            <concept>   
-                <code value ="71836000"/>
-                <display value ="Nasopharyngeal structure (body structure)"/>
-            </concept>  
-            <concept>   
-                <code value ="74262004"/>
-                <display value ="Oral cavity structure (body structure)"/>
-            </concept>  
-            <concept>   
-                <code value ="34402009"/>
-                <display value ="Rectum structure (body structure)"/>
-            </concept>  
-            <concept>   
-                <code value ="422543003"/>
-                <display value ="Structure of axillary fossa (body structure)"/>
-            </concept>  
-            <concept>   
-                <code value ="29707007"/>
-                <display value ="Toe structure (body structure)"/>
-            </concept>  
-            <concept>   
-                <code value ="42859004"/>
-                <display value ="Tympanic membrane structure (body structure)"/>
-            </concept>
-            <concept>   
-                <code value ="89837001"/>
-                <display value ="Urinary bladder structure (body structure)"/>
-            </concept>
+			<concept>	
+				<code value ="117590005"/>
+				<display value ="Ear structure (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="7569003"/>
+				<display value ="Finger structure (body structure)"/>
+			</concept>
+            <concept>	
+				<code value ="52795006"/>
+				<display value ="Forehead structure (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="279549004"/>
+				<display value ="Nasal cavity structure (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="71836000"/>
+				<display value ="Nasopharyngeal structure (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="74262004"/>
+				<display value ="Oral cavity structure (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="34402009"/>
+				<display value ="Rectum structure (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="422543003"/>
+				<display value ="Structure of axillary fossa (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="29707007"/>
+				<display value ="Toe structure (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="42859004"/>
+				<display value ="Tympanic membrane structure (body structure)"/>
+			</concept>
+			<concept>	
+				<code value ="89837001"/>
+				<display value ="Urinary bladder structure (body structure)"/>
+			</concept>
         </include>
     </compose>
 </ValueSet>
