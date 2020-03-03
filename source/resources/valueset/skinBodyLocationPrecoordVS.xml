@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="skinBodyLocationPrecoordVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/skinBodyLocationPrecoordVS"/>
+    <version value="0.01"/>
+    <name value="SkinBodyLocatoinPrecoordinatedvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. A set of codes that describe pre-coordinated skin body locations."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="1797002"/>
+				<display value ="Structure of anterior naris"/>
+			</concept>	
+			<concept>	
+				<code value ="22180002"/>
+				<display value ="Skin structure of buttock"/>
+			</concept>	
+			<concept>	
+				<code value ="74160004"/>
+				<display value ="Skin structure of chest"/>
+			</concept>	
+			<concept>	
+				<code value ="19938000"/>
+				<display value ="Skin structure of female genitalia"/>
+			</concept>	
+			<concept>	
+				<code value ="29870000"/>
+				<display value ="Umbilical cord structure"/>
+			</concept>	
+			<concept>	
+				<code value ="52034004"/>
+				<display value ="Skin structure of toe"/>
+			</concept>	
+			<concept>	
+				<code value ="315003"/>
+				<display value ="Skin structure of umbilicus"/>
+			</concept>	
+			<concept>	
+				<code value ="371309009"/>
+				<display value ="Skin structure of upper arm"/>
+			</concept>	
+			<concept>	
+				<code value ="45980000"/>
+				<display value ="Skin structure of scapular region of back"/>
+			</concept>	
+			<concept>	
+				<code value ="81992007"/>
+				<display value ="Skin structure of scrotum"/>
+			</concept>	
+			<concept>	
+				<code value ="76552005"/>
+				<display value ="Skin structure of shoulder"/>
+			</concept>	
+			<concept>	
+				<code value ="16621002"/>
+				<display value ="Skin structure of temporal region"/>
+			</concept>	
+			<concept>	
+				<code value ="371305003"/>
+				<display value ="Skin structure of thigh"/>
+			</concept>	
+			<concept>	
+				<code value ="35900000"/>
+				<display value ="Skin of penis"/>
+			</concept>	
+			<concept>	
+				<code value ="48014002"/>
+				<display value ="Skin structure of perineum"/>
+			</concept>	
+			<concept>	
+				<code value ="43081002"/>
+				<display value ="Skin structure of neck"/>
+			</concept>	
+			<concept>	
+				<code value ="113179006"/>
+				<display value ="Skin structure of nose"/>
+			</concept>	
+			<concept>	
+				<code value ="40069000"/>
+				<display value ="Skin structure of lower eyelid"/>
+			</concept>	
+			<concept>	
+				<code value ="75144006"/>
+				<display value ="Skin structure of lower leg"/>
+			</concept>	
+			<concept>	
+				<code value ="70762009"/>
+				<display value ="Skin structure of head"/>
+			</concept>	
+			<concept>	
+				<code value ="58308009"/>
+				<display value ="Skin structure of head and neck"/>
+			</concept>	
+			<concept>	
+				<code value ="84607009"/>
+				<display value ="Skin structure of heel"/>
+			</concept>	
+			<concept>	
+				<code value ="49812005"/>
+				<display value ="Skin structure of hip"/>
+			</concept>	
+			<concept>	
+				<code value ="39687006"/>
+				<display value ="Skin structure of inguinal region"/>
+			</concept>	
+			<concept>	
+				<code value ="41935005"/>
+				<display value ="Skin structure of jaw"/>
+			</concept>	
+			<concept>	
+				<code value ="63464009"/>
+				<display value ="Skin structure of knee"/>
+			</concept>	
+			<concept>	
+				<code value ="73058008"/>
+				<display value ="Skin structure of labium"/>
+			</concept>	
+			<concept>	
+				<code value ="60496002"/>
+				<display value ="Skin structure of foot"/>
+			</concept>	
+			<concept>	
+				<code value ="5742000"/>
+				<display value ="Skin structure of forearm"/>
+			</concept>	
+			<concept>	
+				<code value ="68698007"/>
+				<display value ="Skin structure of forehead"/>
+			</concept>	
+			<concept>	
+				<code value ="39059001"/>
+				<display value ="Skin of foreskin"/>
+			</concept>	
+			<concept>	
+				<code value ="33712006"/>
+				<display value ="Skin structure of hand"/>
+			</concept>	
+			<concept>	
+				<code value ="2059009"/>
+				<display value ="Skin structure of ear lobule"/>
+			</concept>	
+			<concept>	
+				<code value ="74757004"/>
+				<display value ="Skin structure of elbow"/>
+			</concept>	
+			<concept>	
+				<code value ="73897004"/>
+				<display value ="Skin structure of face"/>
+			</concept>	
+			<concept>	
+				<code value ="56213003"/>
+				<display value ="Skin of finger"/>
+			</concept>	
+			<concept>	
+				<code value ="76261009"/>
+				<display value ="Skin structure of axilla"/>
+			</concept>	
+			<concept>	
+				<code value ="66643007"/>
+				<display value ="Skin structure of back"/>
+			</concept>	
+			<concept>	
+				<code value ="82038008"/>
+				<display value ="Skin structure of breast"/>
+			</concept>	
+			<concept>	
+				<code value ="23747009"/>
+				<display value ="Skin structure of chin"/>
+			</concept>	
+			<concept>	
+				<code value ="75093004"/>
+				<display value ="Skin structure of abdomen"/>
+			</concept>	
+			<concept>	
+				<code value ="67269001"/>
+				<display value ="Skin structure of ankle"/>
+			</concept>	
+			<concept>	
+				<code value ="76784001"/>
+				<display value ="Vaginal structure"/>
+			</concept>	
+			<concept>	
+				<code value ="54468004"/>
+				<display value ="Skin structure of nipple"/>
+			</concept>	
+			<concept>	
+				<code value ="72005009"/>
+				<display value ="Skin structure of areola"/>
+			</concept>	
+			<concept>	
+				<code value ="74358007"/>
+				<display value ="Skin structure of upper back"/>
+			</concept>	
+			<concept>	
+				<code value ="113182001"/>
+				<display value ="Skin structure of lower back"/>
+			</concept>	
+			<concept>	
+				<code value ="51027004"/>
+				<display value ="Skin structure of sacral region"/>
+			</concept>	
+			<concept>	
+				<code value ="22115004"/>
+				<display value ="Skin structure of coccygeal region"/>
+			</concept>	
+			<concept>	
+				<code value ="63029009"/>
+				<display value ="Skin structure of gluteal fold"/>
+			</concept>	
+			<concept>	
+				<code value ="59112000"/>
+				<display value ="Skin structure of anus"/>
+			</concept>	
+			<concept>	
+				<code value ="371311000"/>
+				<display value ="Skin structure of upper extremity"/>
+			</concept>	
+			<concept>	
+				<code value ="371304004"/>
+				<display value ="Skin structure of lower extremity"/>
+			</concept>	
+			<concept>	
+				<code value ="1902009"/>
+				<display value ="Skin structure of ear"/>
+			</concept>	
+			<concept>	
+				<code value ="181493007"/>
+				<display value ="Entire skin of buttock"/>
+			</concept>	
+			<concept>	
+				<code value ="288377007"/>
+				<display value ="Skin of gluteal fold"/>
+			</concept>	
+			<concept>	
+				<code value ="60944009"/>
+				<display value ="Skin of external genitalia"/>
+			</concept>	
+			<concept>	
+				<code value ="86381001"/>
+				<display value ="Skin structure of trunk"/>
+			</concept>	
+			<concept>	
+				<code value ="362916000"/>
+				<display value ="Skin of eye region"/>
+			</concept>	
+			<concept>	
+				<code value ="284539009"/>
+				<display value ="Skin of part of mouth region"/>
+			</concept>	
+			<concept>	
+				<code value ="79951008"/>
+				<display value ="Skin of occipital region"/>
+			</concept>	
+			<concept>	
+				<code value ="48670002"/>
+				<display value ="Skin structure of supraorbital area"/>
+			</concept>	
+			<concept>	
+				<code value ="41935005"/>
+				<display value ="Skin structure of jaw"/>
+			</concept>	
+			<concept>	
+				<code value ="41935005"/>
+				<display value ="Skin structure of jaw"/>
+			</concept>
+		</include>
+    </compose>
+</ValueSet>

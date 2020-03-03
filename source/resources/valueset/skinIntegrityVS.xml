@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="skinIntegrityVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/skinIntegrityVS"/>
+    <version value="0.01"/>
+    <name value="SkinIntegrityvalueset"/>
+    <status value="draft"/>
+	<experimental value="true"/>
+    <date value="2019-06-19"/>
+    <publisher value="HSPC"/>
+    <description value="Select SNOMED CT codes. the set of codes that describe the condition of the skin integrity."/>
+    <immutable value="true"/>
+    <copyright value="TBD"/>
+    
+    <compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="247427007"/>
+				<display value ="Fragile skin"/>
+			</concept>	
+			<concept>	
+				<code value ="225543007"/>
+				<display value ="Skin appearance abnormal"/>
+			</concept>	
+			<concept>	
+				<code value ="444884003"/>
+				<display value ="Intact skin"/>
+			</concept>	
+			<concept>	
+				<code value ="7919002"/>
+				<display value ="Impaired skin integrity"/>
+			</concept>	
+		</include>
+    </compose>
+</ValueSet>
