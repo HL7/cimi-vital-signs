@@ -20,19 +20,19 @@
 			<system value="http://snomed.info/sct"/>
 			<concept>	
 				<code value ="48800003"/>
-				<display value ="Ear lobule structure"/>
+				<display value ="Ear lobule structure (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="7569003"/>
-				<display value ="Finger structure"/>
+				<display value ="Finger structure (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="52795006"/>
-				<display value ="Forehead structure"/>
+				<display value ="Forehead structure (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="29707007"/>
-				<display value ="Toe structure"/>
+				<display value ="Toe structure (body structure)"/>
 			</concept>
 		</include>
     </compose>

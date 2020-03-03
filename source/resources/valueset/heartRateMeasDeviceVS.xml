@@ -15,27 +15,27 @@
             <system value="http://snomed.info/sct"/>	
 			<concept>	
 				<code value ="467178001"/>
-				<display value ="Bedside heart rate monitor"/>
+				<display value ="Bedside heart rate monitor (physical object)"/>
 			</concept>
 			<concept>	
 				<code value ="43770009"/>
-				<display value ="Doppler device"/>
+				<display value ="Doppler device (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="86184003"/>
-				<display value ="Electrocardiographic monitor and recorder"/>
+				<display value ="Electrocardiographic monitor and recorder (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="469801002"/>
-				<display value ="Invasive blood pressure monitor"/>
+				<display value ="Invasive blood pressure monitor (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="258057004"/>
-				<display value ="Non-invasive blood pressure monitor"/>
+				<display value ="Non-invasive blood pressure monitor (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="448703006"/>
-				<display value ="Pulse oximeter"/>
+				<display value ="Pulse oximeter (physical object)"/>
 			</concept>
         </include>
     </compose>

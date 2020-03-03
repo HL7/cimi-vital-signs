@@ -15,39 +15,39 @@
             <system value="http://snomed.info/sct"/>
             <concept>
 				<code value="466289007"/>
-				<display value="Bed scale"/>
+				<display value="Bed scale (physical object)"/>
 			</concept>
 			<concept>
 				<code value="444063009"/>
-				<display value="Broselow Luten color coding system for pediatric weight estimation"/>
+				<display value="Broselow Luten color coding system for pediatric weight estimation (assessment scale)"/>
 			</concept>
 			<concept>
 				<code value="720689000"/>
-				<display value="Chair scale"/>
+				<display value="Chair scale (physical object)"/>
 			</concept>
 			<concept>
 				<code value="469204003"/>
-				<display value="Floor scale, electronic"/>
+				<display value="Floor scale, electronic (physical object)"/>
 			</concept>
 			<concept>
 				<code value="469787007"/>
-				<display value="Floor scale, mechanical"/>
+				<display value="Floor scale, mechanical (physical object)"/>
 			</concept>
 			<concept>
 				<code value="58514003"/>
-				<display value="Infant scale"/>
+				<display value="Infant scale (physical object)"/>
 			</concept>
 			<concept>
 				<code value="24181000205106"/>
-				<display value="Patient lift scale"/>
+				<display value="Patient lift scale (physical object)"/>
 			</concept>
 			<concept>
 				<code value="462242008"/>
-				<display value="Patient sling scale"/>
+				<display value="Patient sling scale (physical object)"/>
 			</concept>
 			<concept>
 				<code value="466532009"/>
-				<display value="Wheelchair scale"/>
+				<display value="Wheelchair scale (physical object)"/>
 			</concept>
         </include>
     </compose>

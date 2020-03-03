@@ -15,63 +15,63 @@
             <system value="http://snomed.info/sct"/>
 			<concept>	
 				<code value ="467862000"/>
-				<display value ="Capillary patient thermometer, mercury"/>
+				<display value ="Capillary patient thermometer, mercury (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="1461000205102"/>
-				<display value ="Digital thermometer"/>
+				<display value ="Digital thermometer (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="706158001"/>
-				<display value ="Electronic patient thermometer"/>
+				<display value ="Electronic patient thermometer (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="448735006"/>
-				<display value ="Forehead thermometer"/>
+				<display value ="Forehead thermometer (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="700643004"/>
-				<display value ="Infrared patient thermometer, ear"/>
+				<display value ="Infrared patient thermometer, ear (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="700644005"/>
-				<display value ="Infrared patient thermometer, skin"/>
+				<display value ="Infrared patient thermometer, skin (physical object)"/>
 			</concept>		
 			<concept>	
 				<code value ="781472002"/>
-				<display value ="Infrared thermometer for ear and skin"/>
+				<display value ="Infrared thermometer for ear and skin (physical object)"/>
 			</concept>
 			<concept>	
 				<code value ="462983001"/>
-				<display value ="Liquid-crystal patient thermometer"/>
+				<display value ="Liquid-crystal patient thermometer (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="2331000205106"/>
-				<display value ="Non-contact infrared thermometer"/>
+				<display value ="Non-contact infrared thermometer (physical object)"/>
 			</concept>
             <concept>	
 				<code value ="260548002"/>
-				<display value ="Oral"/>
+				<display value ="Oral (qualifier value)"/>
 			</concept>	
 			<concept>	
 				<code value ="255582007"/>
-				<display value ="Rectal"/>
+				<display value ="Rectal (qualifier value)"/>
 			</concept>	
 			<concept>	
 				<code value ="118376009"/>
-				<display value ="Thermocouple"/>
+				<display value ="Thermocouple (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="464210001"/>
-				<display value ="Thermographic camera"/>
+				<display value ="Thermographic camera (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="24031000205108"/>
-				<display value ="Thermoluminescent diode thermometer"/>
+				<display value ="Thermoluminescent diode thermometer (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value ="448349000"/>
-				<display value ="Tympanic thermometer"/>
+				<display value ="Tympanic thermometer (physical object)"/>
 			</concept>
         </include>
     </compose>

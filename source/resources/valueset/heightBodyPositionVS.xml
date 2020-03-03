@@ -19,47 +19,47 @@
             <system value="http://snomed.info/sct"/>	
 			<concept>	
 				<code value ="30212006"/>
-				<display value ="Fowler's position"/>
+				<display value ="Fowler's position (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="26527006"/>
-				<display value ="Inverse Trendelenburg position"/>
+				<display value ="Inverse Trendelenburg position (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="102536004"/>
-				<display value ="Left lateral decubitus position"/>
+				<display value ="Left lateral decubitus position (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="414585002"/>
-				<display value ="Left lateral tilt"/>
+				<display value ="Left lateral tilt (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="10904000"/>
-				<display value ="Orthostatic body position"/>
+				<display value ="Orthostatic body position (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="1240000"/>
-				<display value ="Prone body position"/>
+				<display value ="Prone body position (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="102538003"/>
-				<display value ="Recumbent body position"/>
+				<display value ="Recumbent body position (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="102535000"/>
-				<display value ="Right lateral decubitus position"/>
+				<display value ="Right lateral decubitus position (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="33586001"/>
-				<display value ="Sitting position"/>
+				<display value ="Sitting position (finding)"/>
 			</concept>
             <concept>	
 				<code value ="40199007"/>
-				<display value ="Supine body position"/>
+				<display value ="Supine body position (finding)"/>
 			</concept>	
 			<concept>	
 				<code value ="34106002"/>
-				<display value ="Trendelenburg position"/>
+				<display value ="Trendelenburg position (finding)"/>
 			</concept>	
         </include>
     </compose>

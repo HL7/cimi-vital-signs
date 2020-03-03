@@ -19,15 +19,15 @@
             <system value="http://snomed.info/sct"/>
             <concept>
 				<code value="414135002"/>
-				<display value="Estimated"/>
+				<display value="Estimated (qualifier value)"/>
 			</concept>
 			<concept>
 				<code value="258104002"/>
-				<display value="Measured"/>
+				<display value="Measured (qualifier value)"/>
 			</concept>
 			<concept>
 				<code value="733985002"/>
-				<display value="Reported"/>
+				<display value="Reported (qualifier value)"/>
 			</concept>
         </include>
     </compose>

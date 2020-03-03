@@ -12,79 +12,51 @@
     
     <compose>
         <include>
-            <system value="http://snomed.info/sct"/>
+            <system value="http://snomed.info/sct"/>			
 			<concept>	
-				<code value ="7569003"/>
-				<display value ="Finger structure"/>
-			</concept>	
+				<code value ="181363002"/>
+				<display value ="Digital artery of toe (body structure)"/>
+			</concept>
 			<concept>	
-				<code value ="368208006"/>
-				<display value ="Left upper arm structure"/>
-			</concept>	
-			<concept>	
-				<code value ="368209003"/>
-				<display value ="Right upper arm structure"/>
-			</concept>	
+				<code value ="413991000"/>
+				<display value ="Digital artery structure (body structure)"/>
+			</concept>		
 			<concept>	
 				<code value ="17137000"/>
-				<display value ="Structure of brachial artery"/>
+				<display value ="Structure of brachial artery (body structure)"/>
 			</concept>		
 			<concept>	
 				<code value ="723961002"/>
-				<display value ="Structure of left brachial artery"/>
+				<display value ="Structure of left brachial artery (body structure)"/>
 			</concept>		
 			<concept>	
 				<code value ="723962009"/>
-				<display value ="Structure of right brachial artery"/>
+				<display value ="Structure of right brachial artery (body structure)"/>
 			</concept>
 			<concept>	
 				<code value ="51636004"/>
-				<display value ="Structure of left ankle"/>
+				<display value ="Structure of left ankle (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="113270003"/>
-				<display value ="Structure of left femoral artery"/>
+				<display value ="Structure of left femoral artery (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="368504007"/>
-				<display value ="Structure of left radial artery"/>
-			</concept>	
-			<concept>	
-				<code value ="61396006"/>
-				<display value ="Structure of left thigh"/>
-			</concept>	
-			<concept>	
-				<code value ="368506009"/>
-				<display value ="Structure of left ulnar artery"/>
-			</concept>	
+				<display value ="Structure of left radial artery (body structure)"/>
+			</concept>			
 			<concept>	
 				<code value ="6685009"/>
-				<display value ="Structure of right ankle"/>
+				<display value ="Structure of right ankle (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="69833005"/>
-				<display value ="Structure of right femoral artery"/>
+				<display value ="Structure of right femoral artery (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="368503001"/>
-				<display value ="Structure of right radial artery"/>
+				<display value ="Structure of right radial artery (body structure)"/>
 			</concept>	
-			<concept>	
-				<code value ="11207009"/>
-				<display value ="Structure of right thigh"/>
-			</concept>	
-			<concept>	
-				<code value ="368505008"/>
-				<display value ="Structure of right ulnar artery"/>
-			</concept>	
-			<concept>	
-				<code value ="29707007"/>
-				<display value ="Toe structure"/>
-			</concept>	
-			<concept>	
-				<code value ="40983000"/>
-				<display value ="Upper arm structure"/>
-			</concept>
         </include>
     </compose>
 </ValueSet>

@@ -20,7 +20,7 @@
 			<system value="http://snomed.info/sct"/>
 			<concept>
 				<code value="449501000124109"/>
-				<display value="Within defined limits"/>
+				<display value="Within defined limits (finding)"/>
 			</concept>
 		</include>
     </compose>

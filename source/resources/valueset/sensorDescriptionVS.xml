@@ -19,11 +19,11 @@
             <system value="http://snomed.info/sct"/>	
 			<concept>	
 				<code value="462513001"/>
-				<display value="Pulse oximeter probe, reusable"/>
+				<display value="Pulse oximeter probe, reusable (physical object)"/>
 			</concept>
             <concept>	
 				<code value="462664005"/>
-				<display value="Pulse oximeter probe, single-use"/>
+				<display value="Pulse oximeter probe, single-use (physical object)"/>
 			</concept>
         </include>
     </compose>
