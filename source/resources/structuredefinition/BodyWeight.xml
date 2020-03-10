@@ -30,7 +30,7 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
-                <strength value="extensible"/>
+                <strength value="preferred"/>
                 <valueSet value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
             </binding>
 			<mustSupport value="true"/>
@@ -44,7 +44,7 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
 			</type>
             <binding>
-                <strength value="extensible"/>
+                <strength value="preferred"/>
                 <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
             </binding>
 			<mustSupport value="true"/>
@@ -58,7 +58,7 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt"/>
 			</type>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/clothingWornDuringMeasureVS"/>
 			</binding>
 			<mustSupport value="true"/>
@@ -142,7 +142,7 @@
 		<element id="Observation:cimiBodyWeight.interpretation">
 			<path value="Observation.interpretation"/>
             <binding>
-                <strength value="extensible"/>
+                <strength value="preferred"/>
                 <valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
             </binding>
 		</element>

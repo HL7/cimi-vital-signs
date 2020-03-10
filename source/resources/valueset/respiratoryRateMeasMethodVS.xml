@@ -4,12 +4,12 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS"/>
     <version value="0.01"/>
     <name value="RespiratoryRateMeasurementMethodvalueset"/>
+    <title value="Respiratory Rate Measurement Method value set"/>
     <status value="draft"/>
     <date value="2019-05-29"/>
     <publisher value="HSPC"/>
     <description value="SELECT SNOMED CT code system values."/>
     <copyright value="TBD"/>
-    
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>

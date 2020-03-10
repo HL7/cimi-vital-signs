@@ -4,6 +4,7 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
     <version value="0.01"/>
     <name value="HeartRateMeasurementBodyLocationPrecoordinatedvalueset"/>
+    <title value="Heart Rate Measurement Body Location Precoordinated value set"/>
     <status value="draft"/>
 	<experimental value="false"/>
     <date value="2019-05-29"/>

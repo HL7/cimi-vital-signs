@@ -31,7 +31,7 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/SensorDescriptionExt"/>
 			</type>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
 			</binding>
 		</element>
@@ -116,7 +116,7 @@
                 <code value="CodeableConcept"/>
             </type>
 		  <binding>
-			<strength value="extensible"/>
+			<strength value="preferred"/>
 			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
 		  </binding>
         </element>
@@ -124,7 +124,7 @@
 		  <path value="Observation.bodySite"/>
 		  <mustSupport value="false"/>
 		  <binding>
-			<strength value="extensible"/>
+			<strength value="preferred"/>
 			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
 			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
 		  </binding>

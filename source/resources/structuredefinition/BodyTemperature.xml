@@ -21,7 +21,7 @@
 			<short value="Body Temperature"/>
             <definition value="Body Temperature, the measured heat of an individual's body."/>
         </element>
-		<element id="Observation:cimiBodyTemperature.extension:associatedPrecondition">
+<!-- 		<element id="Observation:cimiBodyTemperature.extension:associatedPrecondition">
 			<path value="Observation.extension"/>
 			<sliceName value="associatedPrecondition"/>
 			<short value="Associated Precondition"/>
@@ -30,11 +30,11 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
 			</type>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
 			</binding>
 			<mustSupport value="true"/>
-		</element>
+		</element> -->
 		<element id="Observation:cimiBodyTemperature.extension:methodDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="methodDevice"/>
@@ -44,7 +44,7 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MethodDeviceExt"/>
 			</type>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
 			</binding>
 			<mustSupport value="true"/>
@@ -128,14 +128,14 @@
 		<element id="Observation:cimiBodyTemperature.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyTemperature.bodySite">
 			<path value="Observation.bodySite"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
 			</binding>
 		</element>

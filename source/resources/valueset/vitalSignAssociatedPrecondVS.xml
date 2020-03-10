@@ -4,6 +4,7 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
     <version value="0.01"/>
     <name value="VitalSignAssociatedPreconditionvalueset"/>
+    <title value="Vital Sign Associated Precondition value set"/>
     <status value="draft"/>
     <date value="2019-05-29"/>
     <publisher value="HSPC"/>

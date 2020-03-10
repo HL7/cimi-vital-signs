@@ -4,6 +4,7 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"/>
     <version value="0.01"/>
     <name value="BloodPressureMeasurementBodyLocationPrecoodinated"/>
+    <title value="Blood Pressure Measurement Body Location Precoodinated value set"/>
     <status value="draft"/>
     <date value="2015-06-11"/>
     <publisher value="Clinical Information Modeling Initiative (CIMI)"/>

@@ -7,6 +7,7 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
     <version value="0.01"/>
     <name value="HeightBodyPositionvalueset"/>
+    <title value="Height Body Position value set"/>
     <status value="draft"/>
 	<experimental value="false"/>
     <date value="2019-05-29"/>

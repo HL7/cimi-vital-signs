@@ -25,6 +25,10 @@
 			<concept>	
 				<code value ="309604004"/>
 				<display value ="During exercise (qualifier value)"/>
+			</concept>	
+			<concept>	
+				<code value ="263678003"/>
+				<display value ="At rest (qualifier value)"/>
 			</concept>
         </include>
     </compose>

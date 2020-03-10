@@ -31,7 +31,7 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
-                <strength value="extensible"/>
+                <strength value="preferred"/>
                 <valueSet value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS"/>
             </binding>
 			<mustSupport value="true"/>
@@ -46,7 +46,7 @@
 		    </type>
 		    <mustSupport value="false"/>
 		    <binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyPositionVS"/>
 			</binding>
 		</element>
@@ -131,14 +131,14 @@
 		<element id="Observation:cimiResiratoryRate.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiResiratoryRate.method">
 			<path value="Observation.method"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS"/>
 			</binding>
 		</element>

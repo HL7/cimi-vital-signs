@@ -30,7 +30,7 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
-                <strength value="extensible"/>
+                <strength value="preferred"/>
                 <valueSet value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
             </binding>
 		</element>
@@ -112,14 +112,14 @@
 		<element id="Observation:cimiBodyLength.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyLength.method">
 			<path value="Observation.method"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
 			</binding>
 		</element>

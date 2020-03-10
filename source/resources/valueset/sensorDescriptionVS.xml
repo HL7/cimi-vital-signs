@@ -7,8 +7,9 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
     <version value="0.01"/>
     <name value="SensorDescriptionvalueset"/>
+    <title value="Sensor Description value set"/>
     <status value="draft"/>
-	<experimental value="false"/>
+	  <experimental value="false"/>
     <date value="2018-12-04"/>
     <publisher value="HSPC"/>
     <description value="SELECT SNOMED CT code system values."/>

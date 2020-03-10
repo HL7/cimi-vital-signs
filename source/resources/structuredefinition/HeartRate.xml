@@ -30,24 +30,24 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
-                <strength value="extensible"/>
+                <strength value="preferred"/>
                 <valueSet value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasDeviceVS"/>
             </binding>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiHeartRate.extension:associatedPrecondition">
+		<element id="Observation:cimiHeartRate.extension:ExerciseAssociationExt">
 			<path value="Observation.extension"/>
-			<sliceName value="associatedPrecondition"/>
-			<short value="Associated Precondition"/>
+			<sliceName value="exerciseAssociation"/>
+			<short value="Exercise Association"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
-                <strength value="extensible"/>
-                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
-            </binding>
-			<mustSupport value="true"/>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/exertionPhaseVS"/>
+			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiHeartRate.extension:bodyposition">
 		    <path value="Observation.extension"/>
@@ -58,7 +58,7 @@
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
 		    </type>
 		    <binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyPositionVS"/>
 			</binding>
 			<mustSupport value="true"/>
@@ -142,21 +142,21 @@
 		<element id="Observation:cimiHeartRate.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiHeartRate.bodySite">
 			<path value="Observation.bodySite"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiHeartRate.method">
 			<path value="Observation.method"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS"/>
 			</binding>
 		</element>

@@ -4,6 +4,7 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
     <version value="0.01"/>
     <name value="WeightMeasurementDevice"/>
+    <title value="Weight Measurement Device value set"/>
     <status value="draft"/>
     <date value="2019-05-29"/>
     <publisher value="HSPC"/>

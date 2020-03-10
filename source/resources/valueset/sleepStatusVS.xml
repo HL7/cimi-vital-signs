@@ -7,6 +7,7 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS"/>
   <version value="0.01"/>
   <name value="SleepStatusvalueset"/>
+  <title value="Sleep Status value set"/>
   <status value="draft"/>
   <experimental value="false"/>
   <date value="2018-12-04"/>

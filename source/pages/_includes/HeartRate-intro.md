@@ -13,6 +13,7 @@ The following examples are provided to illustrate conformant resource content to
 
 {% include HeartRateUseCase.html %}
 
+
 #### ***Value sets***
 
 {% include HeartRateValueSets.html %}

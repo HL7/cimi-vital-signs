@@ -7,8 +7,9 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS"/>
     <version value="0.01"/>
     <name value="DefinedLimitsvalueset"/>
+    <title value="Defined Limits value set"/>
     <status value="draft"/>
-	<experimental value="true"/>
+	  <experimental value="true"/>
     <date value="2018-11-09"/>
     <publisher value="HSPC"/>
     <description value="Select SNOMED CT codes."/>

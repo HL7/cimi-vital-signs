@@ -21,7 +21,7 @@
             <path value="Observation"/>
             <definition value="Vital Signs Panel; a grouping of the vital signs elements."/>
         </element>
-		<element id="Observation:cimiVitalSignsPanel.extension:associatedPrecondition">
+<!-- 		<element id="Observation:cimiVitalSignsPanel.extension:associatedPrecondition">
 			<path value="Observation.extension"/>
 			<sliceName value="associatedPrecondition"/>
 			<short value="AssociatedPrecondition"/>
@@ -32,10 +32,10 @@
 				<code value="CodeableConcept"/>
 			</type>
 			<binding>
-				<strength value="extensible"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/exertionPhaseVS"/>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
 			</binding>
-		</element>
+		</element> -->
 		<element id="Observation:cimiVitalSignsPanel.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
@@ -79,7 +79,7 @@
 		<element id="Observation:cimiVitalSignsPanel.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="extensible"/>
+				<strength value="preferred"/>
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS"/>
 			</binding>
 		</element>

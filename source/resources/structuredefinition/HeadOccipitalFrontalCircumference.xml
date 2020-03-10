@@ -104,7 +104,7 @@
 		<element id="Observation:cimiHeadCircumference.interpretation">
 			<path value="Observation.interpretation"/>
             <binding>
-                <strength value="extensible"/>
+                <strength value="preferred"/>
                 <valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
             </binding>
 		</element>
