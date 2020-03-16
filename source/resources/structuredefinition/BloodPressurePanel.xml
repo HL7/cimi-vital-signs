@@ -8,7 +8,7 @@
 	<title value="Blood Pressure Panel"/>
     <status value="draft"/>
     <date value="2019-05-29"/>
-    <publisher value="HSPC"/>
+    <publisher value="Logica Health"/>
     <description value="Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components."/>
     <fhirVersion value="4.0.0"/>
     <kind value="complex-type"/>
@@ -42,6 +42,8 @@
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
 			<short value="Measurement Device"/>
+			<min value="0"/>
+			<max value="*"/>
 			<type>
 				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>

@@ -34,7 +34,7 @@
       <short value="MeasurementDeviceExt"/>
       <definition value="The instrument by which a measurement was obtained."/>
       <min value="0"/>
-      <max value="1"/>
+      <max value="*"/>
     </element>
     <element id="Extension:MeasurementDeviceExt.url">
       <path value="Extension.url"/>

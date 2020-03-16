@@ -10,17 +10,16 @@
     <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
     <description value="SELECT SNOMED CT code system values."/>
     <copyright value="TBD"/>
-    
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>			
 			<concept>	
-				<code value ="181363002"/>
-				<display value ="Digital artery of toe (body structure)"/>
+				<code value ="49256001"/>
+				<display value ="Structure of dorsal digital artery of foot (body structure)"/>
 			</concept>
 			<concept>	
-				<code value ="413991000"/>
-				<display value ="Digital artery structure (body structure)"/>
+				<code value ="368469003"/>
+				<display value ="Structure of proper volar digital arteries (body structure)"/>
 			</concept>		
 			<concept>	
 				<code value ="17137000"/>
@@ -33,31 +32,43 @@
 			<concept>	
 				<code value ="723962009"/>
 				<display value ="Structure of right brachial artery (body structure)"/>
-			</concept>
+			</concept>	
 			<concept>	
-				<code value ="51636004"/>
-				<display value ="Structure of left ankle (body structure)"/>
+				<code value ="7657000"/>
+				<display value ="Structure of femoral artery (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="113270003"/>
 				<display value ="Structure of left femoral artery (body structure)"/>
-			</concept>	
-			<concept>	
-				<code value ="368504007"/>
-				<display value ="Structure of left radial artery (body structure)"/>
-			</concept>			
-			<concept>	
-				<code value ="6685009"/>
-				<display value ="Structure of right ankle (body structure)"/>
-			</concept>	
+			</concept>		
 			<concept>	
 				<code value ="69833005"/>
 				<display value ="Structure of right femoral artery (body structure)"/>
 			</concept>	
 			<concept>	
+				<code value ="45631007"/>
+				<display value ="Structure of radial artery (body structure)"/>
+			</concept>
+			<concept>	
+				<code value ="368504007"/>
+				<display value ="Structure of left radial artery (body structure)"/>
+			</concept>	
+			<concept>	
 				<code value ="368503001"/>
 				<display value ="Structure of right radial artery (body structure)"/>
-			</concept>	
+			</concept>					
+			<concept>	
+				<code value ="13363002"/>
+				<display value ="Structure of posterior tibial artery (body structure)"/>
+			</concept>				
+			<concept>	
+				<code value ="214912001"/>
+				<display value ="Structure of left posterior tibial artery (body structure)"/>
+			</concept>				
+			<concept>	
+				<code value ="214811007"/>
+				<display value ="Structure of right posterior tibial artery (body structure)"/>
+			</concept>
         </include>
     </compose>
 </ValueSet>

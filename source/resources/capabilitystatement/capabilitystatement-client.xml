@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CapabilityStatement xmlns="http://hl7.org/fhir">
-  <id value="skinwoundassessment-client"/>
-  <url value="http://hl7.org/fhir/us/skinwoundassessment/CapabilityStatement/skinwoundassessment-client"/>
+  <id value="VitalSigns-client"/>
+  <url value="http://hl7.org/fhir/hspc/CapabilityStatement/VitalSigns-client"/>
   <version value="0.1.0"/>
-  <name value="CapStmtSkinWoundAssessment"/>
-  <title value="CapabilityStatement Skin Wound Assessment"/>
+  <name value="CapStmntVitalSigns"/>
+  <title value="Capability Statement Vital Signs"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2019-10-04T20:06:01Z"/>
-  <publisher value="HL7 International - Electronic Health Records Work Group"/>
-  <contact>
-    <telecom>
-      <system value="url"/>
-      <value value="https://confluence.hl7.org/display/EHR/Electronic+Health+Records+Work+Group"/>
-    </telecom>
-  </contact>
-  <description value="This resource defines the expected capabilities of a FHIR client system that implements the Skin Wound Assessment Implementation Guide. (This CapabilityStatement is incomplete and pending completion once trial implementations and testing have been done.)"/>
+  <publisher value="Logica Health"/>
+  <description value="This resource defines the expected capabilities of a FHIR client system that implements the Vital Signs Implementation Guide. (This CapabilityStatement is incomplete and pending completion once trial implementations and testing have been done.)"/>
   <kind value="requirements"/>
   <fhirVersion value="4.0.1"/>
   <format value="xml"/>
   <format value="json"/>
   <implementationGuide value="http://hl7.org/fhir/us/core/2019Sep"/>
+  <implementationGuide value="http://build.fhir.org/ig/HL7/cimi-vital-signs/branches/master/index.html"/>
   <rest>
     <mode value="client"/>
     <resource>

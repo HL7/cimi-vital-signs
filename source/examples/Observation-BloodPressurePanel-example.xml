@@ -22,6 +22,15 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
+  <extension url ="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="720736009"/>
+			<display value="Blood pressure cuff, pediatric size"/>
+		</coding>
+	</valueCodeableConcept>
+  </extension><!-- 
   <extension url="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt">
 	<valueCodeableConcept>
 		<coding>
@@ -30,7 +39,7 @@
 			<display value="Blood pressure cuff, pediatric size"/>
 		</coding>
 	</valueCodeableConcept>
-  </extension>
+  </extension> -->
   <extension url="http://hl7.org/fhir/hspc/StructureDefinition/SleepStatusExt">
 	<valueCodeableConcept>
 		<coding>
@@ -40,7 +49,7 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt">
+  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
