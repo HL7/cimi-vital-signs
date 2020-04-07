@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="BPDevice"/>
+  <url value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/BPDevice"/>
+  <version value="2.0.0"/>
+  <name value="Blood Pressure Device"/>
+  <status value="draft"/>
+  <date value="2020-04-07"/>
+  <publisher value="Logica"/>
+  <description value="A specialized profile of the Device resource specifically for blood pressure devices"/>
+  <fhirVersion value="4.0.1"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <type value="Device"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Device"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Device:bpdevice">
+        <path value="Device"/>
+        <short value="Blood Pressure Device"/>
+        <definition value="The specific instrument used to measure or determine and individual's blood pressure."/>
+        <mustSupport value="true"/>
+    </element>
+    <element id="Device:bpdevice.extension:cuffsize">
+        <path value="Device.extension"/>
+        <sliceName value="suffSize"/>
+        <short value="Cuff Size"/>
+        <type>
+            <code value="Extension"/>
+            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt"/>
+        </type>
+        <binding>
+            <strength value="preferred"/>
+            <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS"/>
+        </binding>
+    </element>
+    <element id="Device:bpdevice.type">
+        <path value="Device.type"/>
+        <binding>
+            <strength value="preferred"/>
+            <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS"/>
+        </binding>
+    </element>
+  </differential>
+</StructureDefinition>
+

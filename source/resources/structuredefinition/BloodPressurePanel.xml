@@ -50,7 +50,7 @@
 			</type>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS"/>
+                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceCSVS"/>
             </binding>
 		  <mustSupport value="true"/>
 		</element>
@@ -153,6 +153,17 @@
 			<path value="Observation.specimen"/>
 			<min value="0"/>
 			<max value="0"/>
+		</element>
+		<element id="Observation:cimiBloodPressurePanel.device:BPDevice">
+			<path value="Observation.device"/>
+			<short value="Blood Pressure Device"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/BPDevice"/>
+			</type>
+			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component">
 			<path value="Observation.component"/>

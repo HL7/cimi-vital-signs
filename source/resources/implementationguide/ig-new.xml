@@ -125,6 +125,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/BPDevice"/>
+      </reference>
+      <description value="Blood Pressure Device"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/BloodPressurePanel"/>
       </reference>
       <description value="Blood Pressure Panel"/>
@@ -233,6 +240,20 @@
         <reference value="ValueSet/bpMeasDeviceVS"/>
       </reference>
       <description value="Blood Pressure Measurement Device value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bpMeasDeviceCSVS"/>
+      </reference>
+      <description value="Blood Pressure Measurement Device and Cuff Size value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bpCuffSizeVS"/>
+      </reference>
+      <description value="Blood Pressure Cuff Size value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="bpMeasDeviceCSVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceCSVS"/>
+  <version value="0.01"/>
+  <name value="BloodPressureMeasurementDeviceCSvalueset"/>
+  <title value="Blood Pressure Measurement Device and Cuff Size value set"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2019-05-29"/>
+  <publisher value="HSPC"/>
+  <description value="SELECT SNOMED CT code system values."/>
+  <copyright value="TBD"/>
+    
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+				<code value="309641003"/>
+				<display value="Aneroid sphygmomanometer (physical object)"/>
+			</concept>
+            <concept>
+				<code value="43770009"/>
+				<display value="Doppler device (physical object)"/>
+			</concept>
+            <concept>
+				<code value="469801002"/>
+				<display value="Invasive blood pressure monitor (physical object)"/>
+			</concept>
+			<concept>
+				<code value="309642005"/>
+				<display value="Mercury sphygmomanometer (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value="720737000"/>
+				<display value="Blood pressure cuff, adult size (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value="720738005"/>
+				<display value="Blood pressure cuff, adult size large (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value="720739002"/>
+				<display value="Blood pressure cuff, adult size small (physical object)"/>
+			</concept>
+            <concept>	
+				<code value="720740000"/>
+				<display value="Blood pressure cuff, adult thigh type (physical object)"/>
+			</concept>
+			<concept>	
+				<code value ="8741000205104"/>
+				<display value="Blood pressure cuff, ankle type (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="8731000205109"/>
+				<display value="Blood pressure cuff, extra large adult thigh cuff (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="8861000205108"/>
+				<display value="Blood pressure cuff, infant size (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="8841000205107"/>
+				<display value="Blood pressure cuff, neonatal size 1 (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="8851000205105"/>
+				<display value="Blood pressure cuff, neonatal size 2 (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="8821000205104"/>
+				<display value="Blood pressure cuff, neonatal size 3 (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="8811000205106"/>
+				<display value="Blood pressure cuff, neonatal size 4 (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="8801000205109"/>
+				<display value="Blood pressure cuff, neonatal size 5 (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value="720736009"/>
+				<display value="Blood pressure cuff, pediatric size (physical object)"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

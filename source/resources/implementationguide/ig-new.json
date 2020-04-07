@@ -129,6 +129,13 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/BPDevice"
+      },
+      "description" : "Blood Pressure Device",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/BloodPressurePanel"
       },
       "description" : "Blood Pressure Panel",
@@ -237,6 +244,20 @@
         "reference" : "ValueSet/bpMeasDeviceVS"
       },
       "description" : "Blood Pressure Measurement Device value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bpMeasDeviceCSVS"
+      },
+      "description" : "Blood Pressure Measurement Device and Cuff Size value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bpCuffSizeVS"
+      },
+      "description" : "Blood Pressure Cuff Size value set",
       "exampleBoolean" : false
     },
     {
