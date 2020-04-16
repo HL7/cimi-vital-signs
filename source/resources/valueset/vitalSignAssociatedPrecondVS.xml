@@ -14,22 +14,6 @@
         <include>
             <system value="http://snomed.info/sct"/>	
 			<concept>	
-				<code value =""/>
-				<display value ="After anesthesia"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="After apneic episode"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="After cardioversion"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="After Condition"/>
-			</concept>
-			<concept>	
 				<code value ="307429007"/>
 				<display value ="After menopause"/>
 			</concept>	
@@ -44,22 +28,6 @@
 			<concept>	
 				<code value ="276986009"/>
 				<display value ="Antepartum"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="Before anesthesia"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="Before apneic episode"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="Before cardioversion"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="Before Condition"/>
 			</concept>	
 			<concept>	
 				<code value ="307165006"/>
@@ -80,19 +48,7 @@
 			<concept>	
 				<code value ="309613002"/>
 				<display value ="Between meals (qualifier value)"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="During anesthesia"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="During apneic episode"/>
-			</concept>	
-			<concept>	
-				<code value =""/>
-				<display value ="During Condition"/>
-			</concept>	
+			</concept>		
 			<concept>	
 				<code value ="309612007"/>
 				<display value ="During meal (qualifier value)"/>
@@ -158,5 +114,52 @@
 				<display value ="Preoperative"/>
 			</concept>
         </include>
+		<include>
+			<system value="http://hl7.org/fhir/hspc/CodeSystem/APCTemporaryCodeSystem"/>
+			<concept>	
+				<code value ="AFAN"/>
+				<display value ="After anesthesia"/>
+			</concept>	
+			<concept>	
+				<code value ="AFAE"/>
+				<display value ="After apneic episode"/>
+			</concept>	
+			<concept>	
+				<code value ="AFCV"/>
+				<display value ="After cardioversion"/>
+			</concept>	
+			<concept>	
+				<code value ="AFCN"/>
+				<display value ="After Condition"/>
+			</concept>
+			<concept>	
+				<code value ="BFAN"/>
+				<display value ="Before anesthesia"/>
+			</concept>	
+			<concept>	
+				<code value ="BFAE"/>
+				<display value ="Before apneic episode"/>
+			</concept>	
+			<concept>	
+				<code value ="BFCV"/>
+				<display value ="Before cardioversion"/>
+			</concept>	
+			<concept>	
+				<code value ="BFCN"/>
+				<display value ="Before Condition"/>
+			</concept>	
+			<concept>	
+				<code value ="DUAN"/>
+				<display value ="During anesthesia"/>
+			</concept>	
+			<concept>	
+				<code value ="DUAE"/>
+				<display value ="During apneic episode"/>
+			</concept>	
+			<concept>	
+				<code value ="DUCN"/>
+				<display value ="During Condition"/>
+			</concept>
+		</include>
     </compose>
 </ValueSet>

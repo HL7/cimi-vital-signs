@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="organization-hspc-organizationtype"/>
-	<url value="http://hl7.org/fhir/us/skinwoundassessment/organization-hspc-organizationtype"/>
+	<url value="http://hl7.org/fhir/hspc/organization-hspc-organizationtype"/>
 	<version value="1.0.1"/>
 	<name value="OrganizationHSPCOrganizationType"/>
 	<title value="HSPC Organization Type Code System"/>

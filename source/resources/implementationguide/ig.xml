@@ -202,6 +202,22 @@
 			<exampleBoolean value="false"/>
 		</resource>
 		<!-- ============== end structure defs ========= -->
+		<!-- ============== code systems =============== -->
+		<resource>
+			<reference>
+				<reference value="CodeSystem/SolorTemporaryCodeSystem"/>
+			</reference>
+			<description value="A temporary code system for codes defined in the SNOMED CT Solor extension."/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/APCTemporaryCodeSystem"/>
+			</reference>
+			<description value="A temporary code system for codes that are not defined in either the SNOMED CT or SNOMED CT Solor extension systems."/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<!-- ============== end code systems ====== -->
 		<!-- ============== value sets ============ -->
 		<resource>
 			<reference>

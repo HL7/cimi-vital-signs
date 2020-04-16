@@ -15,10 +15,6 @@
         <include>
             <system value="http://snomed.info/sct"/>
 			<concept>	
-				<code value ="23861000205107"/>
-				<display value ="Capnograph sensor device (physical object)"/>
-			</concept>
-			<concept>	
 				<code value ="717730001"/>
 				<display value ="Impedance pneumography recording/analysis system (physical object)"/>
 			</concept>
@@ -26,9 +22,16 @@
 				<code value ="334990001"/>
 				<display value ="Peak flow meter (physical object)"/>
 			</concept>
+		</include>
+		<include>
+			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
 			<concept>	
 				<code value ="23921000205109"/>
 				<display value ="Respiration strain gauge (physical object)"/>
+			</concept>
+			<concept>	
+				<code value ="23861000205107"/>
+				<display value ="Capnograph sensor device (physical object)"/>
 			</concept>
         </include>
     </compose>

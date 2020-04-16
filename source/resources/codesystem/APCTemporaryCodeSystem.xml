@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="APCTemporaryCodeSystem"/>
+	<url value="http://hl7.org/fhir/hspc/CodeSystem/APCTemporaryCodeSystem"/>
+	<version value="0.1.0"/>
+	<name value="APCTemporaryCodeSystem"/>
+	<title value="Associated Precondition Temporary Code System"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-10-07"/>
+	<publisher value="Logica"/>
+	<description value="This is a temporary code system for terms that are not yet defined in either SNOMED CT nor Solor.  This will be deprecated when the terms are defined in either of those systems."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="AFAN"/>
+		<display value="After anesthesia"/>
+		<definition value="An indication that a procedure, event, or other took place after the administration of anesthesia."/>
+	</concept>
+	<concept>
+		<code value="BFAN"/>
+		<display value="Before anesthesia"/>
+		<definition value="An indication that a procedure, event, or other took place before the administration of anesthesia."/>
+	</concept>
+	<concept>
+		<code value="DUAN"/>
+		<display value="During anesthesia"/>
+		<definition value="An indication that a procedure, event, or other took place during the administration of anesthesia."/>
+	</concept>
+	<concept>
+		<code value="AFAE"/>
+		<display value="After apneic episode"/>
+		<definition value="An indication that a procedure, event, or other took place after an episode of apnea."/>
+	</concept>
+	<concept>
+		<code value="BFAE"/>
+		<display value="Before apneic episode"/>
+		<definition value="An indication that a procedure, event, or other took place before an episode of apnea."/>
+	</concept>
+	<concept>
+		<code value="DUAE"/>
+		<display value="During apneic episode"/>
+		<definition value="An indication that a procedure, event, or other took place during an episode of apnea."/>
+	</concept>
+	<concept>
+		<code value="AFCV"/>
+		<display value="After cardioversion"/>
+		<definition value="An indication that a procedure, event, or other took place after a cardioversion procedure."/>
+	</concept>
+	<concept>
+		<code value="BFCV"/>
+		<display value="Before cardioversion"/>
+		<definition value="An indication that a procedure, event, or other took place just prior to a cardioversion procedure."/>
+	</concept>
+	<concept>
+		<code value="AFCN"/>
+		<display value="After Condition"/>
+		<definition value="An indication that a procedure, event, or other took place after an identified condition."/>
+	</concept>
+	<concept>
+		<code value="BFCN"/>
+		<display value="Before Condition"/>
+		<definition value="An indication that a procedure, event, or other took place before an identified condition."/>
+	</concept>
+	<concept>
+		<code value="DUCN"/>
+		<display value="During Condition"/>
+		<definition value="An indication that a procedure, event, or other took place during an identified condition."/>
+	</concept>
+</CodeSystem>

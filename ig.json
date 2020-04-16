@@ -135,6 +135,8 @@
 	"StructureDefinition/VitalSignsPanel":{"base":"StructureDefinition-VitalSignsPanel.html"},
 
   "CodeSystem/organization-hspc-organizationtype":{"base":"CodeSystem-organization-hspc-organizationtype.html","source":"codesystem/organization-hspc-organizationtype.xml"},
+  "CodeSystem/SolorTemporaryCodeSystem":{"base":"CodeSystem-SolorTemporaryCodeSystem.html","source":"codesystem/SolorTemporaryCodeSystem.xml"},
+  "CodeSystem/APCTemporaryCodeSystem":{"base":"CodeSystem-APCTemporaryCodeSystem.html","source":"codesystem/APCTemporaryCodeSystem.xml"},
 
   "ValueSet/organizationtypeVS":{"base":"ValueSet-organizationtypeVS.html"},
 	"ValueSet/abnIntNumericNomVS":{"base":"ValueSet-abnIntNumericNomVS.html"},

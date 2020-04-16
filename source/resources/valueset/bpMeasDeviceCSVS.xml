@@ -49,7 +49,14 @@
             <concept>	
 				<code value="720740000"/>
 				<display value="Blood pressure cuff, adult thigh type (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value="720736009"/>
+				<display value="Blood pressure cuff, pediatric size (physical object)"/>
 			</concept>
+		</include>
+		<include>
+			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
 			<concept>	
 				<code value ="8741000205104"/>
 				<display value="Blood pressure cuff, ankle type (physical object)"/>
@@ -81,10 +88,6 @@
 			<concept>	
 				<code value ="8801000205109"/>
 				<display value="Blood pressure cuff, neonatal size 5 (physical object)"/>
-			</concept>	
-			<concept>	
-				<code value="720736009"/>
-				<display value="Blood pressure cuff, pediatric size (physical object)"/>
 			</concept>
         </include>
     </compose>

@@ -19,21 +19,21 @@
         <include>
             <system value="http://snomed.info/sct"/>
             <concept>
-				<code value="309641003"/>
-				<display value="Aneroid sphygmomanometer (physical object)"/>
-			</concept>
+				      <code value="309641003"/>
+				      <display value="Aneroid sphygmomanometer (physical object)"/>
+			      </concept>
             <concept>
-				<code value="43770009"/>
-				<display value="Doppler device (physical object)"/>
-			</concept>
+				      <code value="43770009"/>
+				      <display value="Doppler device (physical object)"/>
+			      </concept>
             <concept>
-				<code value="469801002"/>
-				<display value="Invasive blood pressure monitor (physical object)"/>
-			</concept>
-			<concept>
-				<code value="309642005"/>
-				<display value="Mercury sphygmomanometer (physical object)"/>
-			</concept>
+				      <code value="469801002"/>
+				      <display value="Invasive blood pressure monitor (physical object)"/>
+			      </concept>
+			      <concept>
+				      <code value="309642005"/>
+				      <display value="Mercury sphygmomanometer (physical object)"/>
+			      </concept>
         </include>
     </compose>
 </ValueSet>

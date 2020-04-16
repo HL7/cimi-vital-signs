@@ -19,10 +19,6 @@
 				<display value ="Capillary patient thermometer, mercury (physical object)"/>
 			</concept>	
 			<concept>	
-				<code value ="1461000205102"/>
-				<display value ="Digital thermometer (physical object)"/>
-			</concept>	
-			<concept>	
 				<code value ="706158001"/>
 				<display value ="Electronic patient thermometer (physical object)"/>
 			</concept>	
@@ -45,10 +41,6 @@
 			<concept>	
 				<code value ="462983001"/>
 				<display value ="Liquid-crystal patient thermometer (physical object)"/>
-			</concept>	
-			<concept>	
-				<code value ="2331000205106"/>
-				<display value ="Non-contact infrared thermometer (physical object)"/>
 			</concept>
             <concept>	
 				<code value ="260548002"/>
@@ -67,13 +59,24 @@
 				<display value ="Thermographic camera (physical object)"/>
 			</concept>	
 			<concept>	
-				<code value ="24031000205108"/>
-				<display value ="Thermoluminescent diode thermometer (physical object)"/>
-			</concept>	
-			<concept>	
 				<code value ="448349000"/>
 				<display value ="Tympanic thermometer (physical object)"/>
 			</concept>
         </include>
+		<include>
+			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<concept>	
+				<code value ="1461000205102"/>
+				<display value ="Digital thermometer (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="2331000205106"/>
+				<display value ="Non-contact infrared thermometer (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value ="24031000205108"/>
+				<display value ="Thermoluminescent diode thermometer (physical object)"/>
+			</concept>
+		</include>
     </compose>
 </ValueSet>

@@ -39,16 +39,19 @@
 				<display value="Infant scale (physical object)"/>
 			</concept>
 			<concept>
-				<code value="24181000205106"/>
-				<display value="Patient lift scale (physical object)"/>
-			</concept>
-			<concept>
 				<code value="462242008"/>
 				<display value="Patient sling scale (physical object)"/>
 			</concept>
 			<concept>
 				<code value="466532009"/>
 				<display value="Wheelchair scale (physical object)"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<concept>
+				<code value="24181000205106"/>
+				<display value="Patient lift scale (physical object)"/>
 			</concept>
         </include>
     </compose>

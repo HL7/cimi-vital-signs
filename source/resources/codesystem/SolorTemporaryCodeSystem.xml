@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="SolorTemporaryCodeSystem"/>
+	<url value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+	<version value="0.1.0"/>
+	<name value="SolorTemporaryCodeSystem"/>
+	<title value="SNOMED CT Solor Extension Temporary Code System"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-10-07"/>
+	<publisher value="Logica"/>
+	<description value="A set of codes that are defined in the Solor extension to the SNOMED CT code system. To be used until they are adopted by SNOMED CT."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="1461000205102"/>
+		<display value="Digital thermometer (physical object)"/>
+		<definition value="A device used to measure temperature with digital readout."/>
+	</concept>
+	<concept>
+		<code value="2331000205106"/>
+		<display value="Non-contact infrared thermometer (physical object)"/>
+		<definition value="A device used to measure temperature via infrared technology that does not come into contact with the skin."/>
+	</concept>
+	<concept>
+		<code value="24031000205108"/>
+		<display value="Thermoluminescent diode thermometer (physical object)"/>
+		<definition value="A device used to measure temperature that uses a thermoluminescent diode."/>
+	</concept>
+	<concept>
+		<code value="8741000205104"/>
+		<display value="Blood pressure cuff, ankle type (physical object)"/>
+		<definition value="A blood pressure cuff sized to use on an ankle."/>
+	</concept>
+	<concept>
+		<code value="8731000205109"/>
+		<display value="Blood pressure cuff, extra large adult thigh cuff (physical object)"/>
+		<definition value="A blood pressure cuff large enough to use on the thigh."/>
+	</concept>
+	<concept>
+		<code value="8861000205108"/>
+		<display value="Blood pressure cuff, infant size (physical object)"/>
+		<definition value="A blood pressure cuff sized to use on an infant."/>
+	</concept>
+	<concept>
+		<code value="8841000205107"/>
+		<display value="Blood pressure cuff, neonatal size 1 (physical object)"/>
+		<definition value="A blood pressure cuff of size 1 for a newborn."/>
+	</concept>
+	<concept>
+		<code value="8851000205105"/>
+		<display value="Blood pressure cuff, neonatal size 2 (physical object)"/>
+		<definition value="A blood pressure cuff of size 2 for a newborn."/>
+	</concept>
+	<concept>
+		<code value="8821000205104"/>
+		<display value="Blood pressure cuff, neonatal size 3 (physical object)"/>
+		<definition value="A blood pressure cuff of size 3 for a newborn."/>
+	</concept>
+	<concept>
+		<code value="8811000205106"/>
+		<display value="Blood pressure cuff, neonatal size 4 (physical object)"/>
+		<definition value="A blood pressure cuff of size 4 for a newborn."/>
+	</concept>
+	<concept>
+		<code value="8801000205109"/>
+		<display value="Blood pressure cuff, neonatal size 5 (physical object)"/>
+		<definition value="A blood pressure cuff of size 5 for a newborn."/>
+	</concept>
+	<concept>
+		<code value="641000205104"/>
+		<display value="Computer aided auscultation (procedure)"/>
+		<definition value="A procedure that uses a computer aided device to measure blood pressure."/>
+	</concept>
+	<concept>
+		<code value="911000205109"/>
+		<display value="Measurement of blood pressure using intravascular transducer (procedure)"/>
+		<definition value="A device that measures blood pressure intravascularly via a trandsducer."/>
+	</concept>
+	<concept>
+		<code value="961000205106"/>
+		<display value="Wearing street clothes, no shoes (finding)"/>
+		<definition value="The subject is wearing clothing but not shoes."/>
+	</concept>
+	<concept>
+		<code value="971000205103"/>
+		<display value="Wearing street clothes with shoes (finding)"/>
+		<definition value="The subject is wearing clothing and shoes."/>
+	</concept>
+	<concept>
+		<code value="24311000205101"/>
+		<display value="Stadiometer (physical object)"/>
+		<definition value="A device used to measure a subject's height."/>
+	</concept>
+	<concept>
+		<code value="23861000205107"/>
+		<display value="Capnograph sensor device (physical object)"/>
+		<definition value="A device that captures expelled air, either via nasal prongs or CPAP and is used to measure the number of breaths taken per minute."/>
+	</concept>
+	<concept>
+		<code value="23921000205109"/>
+		<display value="Respiration strain gauge (physical object)"/>
+		<definition value="A device wrapped around a subject chest that measures the number of times a subject's chest expands with each inhalation.  This counts the breaths per minute."/>
+	</concept>
+	<concept>
+		<code value="24181000205106"/>
+		<display value="Patient lift scale (physical object)"/>
+		<definition value="A device used to lift a patient out of or into bed and also has a scale to measure the subject's weight."/>
+	</concept>
+</CodeSystem>

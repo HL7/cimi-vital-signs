@@ -17,6 +17,13 @@
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>
+            <concept>	
+				<code value="248160001"/>
+				<display value="Undressed (finding)"/>
+			</concept>
+        </include>
+        <include>
+            <system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
 			<concept>	
 				<code value="961000205106"/>
 				<display value="Wearing street clothes, no shoes (finding)"/>
@@ -24,10 +31,6 @@
 			<concept>	
 				<code value="971000205103"/>
 				<display value="Wearing street clothes with shoes (finding)"/>
-			</concept>
-            <concept>	
-				<code value="248160001"/>
-				<display value="Undressed (finding)"/>
 			</concept>
         </include>
     </compose>

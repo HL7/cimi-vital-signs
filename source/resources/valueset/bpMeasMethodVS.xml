@@ -31,16 +31,8 @@
 				<display value="Auscultation (procedure)"/>
 			</concept>
             <concept>
-				<code value="641000205104"/>
-				<display value="Computer aided auscultation (procedure)"/>
-			</concept>
-            <concept>
 				<code value="268447006"/>
 				<display value="Doppler studies (procedure)"/>
-			</concept>
-            <concept>
-				<code value="911000205109"/>
-				<display value="Measurement of blood pressure using intravascular transducer (procedure)"/>
 			</concept>
 			<concept>
 				<code value="13385008"/>
@@ -53,6 +45,17 @@
             <concept>
 				<code value="31813000"/>
 				<display value="Vascular oscillometry (procedure)"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+            <concept>
+				<code value="911000205109"/>
+				<display value="Measurement of blood pressure using intravascular transducer (procedure)"/>
+			</concept>
+            <concept>
+				<code value="641000205104"/>
+				<display value="Computer aided auscultation (procedure)"/>
 			</concept>
         </include>
     </compose>

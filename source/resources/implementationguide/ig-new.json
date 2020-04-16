@@ -213,6 +213,20 @@
     },
     {
       "reference" : {
+        "reference" : "CodeSystem/SolorTemporaryCodeSystem"
+      },
+      "description" : "A temporary code system for codes defined in the SNOMED CT Solor extension.",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/APCTemporaryCodeSystem"
+      },
+      "description" : "A temporary code system for codes that are not defined in either the SNOMED CT or SNOMED CT Solor extension systems.",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/abnIntNumericNomVS"
       },
       "description" : "Abnormal Interpretation (Numeric Nominal) value set",

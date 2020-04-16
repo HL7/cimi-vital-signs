@@ -16,10 +16,6 @@
 			<concept>	
 				<code value ="37931006"/>
 				<display value ="Auscultation (procedure)"/>
-			</concept>
-			<concept>	
-				<code value ="641000205104"/>
-				<display value ="Computer aided auscultation (procedure)"/>
 			</concept>	
 			<concept>	
 				<code value ="268447006"/>
@@ -44,6 +40,13 @@
 			<concept>	
 				<code value ="277917001"/>
 				<display value ="Thoracic impedance cardiography (procedure)"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<concept>	
+				<code value ="641000205104"/>
+				<display value ="Computer aided auscultation (procedure)"/>
 			</concept>
         </include>
     </compose>
