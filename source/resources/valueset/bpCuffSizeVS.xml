@@ -17,10 +17,10 @@
     
     <compose>
         <include>
-            <system value="http://snomed.info/sct"/>	
-			<concept>	
-				<code value="720737000"/>
-				<display value="Blood pressure cuff, adult size (physical object)"/>
+            <system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="24821000205101"/>
+				<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>
 			</concept>	
 			<concept>	
 				<code value="720738005"/>
@@ -41,6 +41,10 @@
 		</include>
 		<include>
 			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<concept>
+				<code value="24821000205101"/>
+				<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>
+			</concept>
 			<concept>	
 				<code value ="8741000205104"/>
 				<display value="Blood pressure cuff, ankle type (physical object)"/>

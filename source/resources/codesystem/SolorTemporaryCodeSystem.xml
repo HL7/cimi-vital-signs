@@ -68,6 +68,11 @@
 		<definition value="A blood pressure cuff of size 5 for a newborn."/>
 	</concept>
 	<concept>
+		<code value="24821000205101"/>
+		<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>
+		<definition value="A blood pressure suff size that is universal in size for adults on the upper arm."/>
+	</concept>
+	<concept>
 		<code value="641000205104"/>
 		<display value="Computer aided auscultation (procedure)"/>
 		<definition value="A procedure that uses a computer aided device to measure blood pressure."/>

@@ -33,11 +33,7 @@
 			<concept>
 				<code value="309642005"/>
 				<display value="Mercury sphygmomanometer (physical object)"/>
-			</concept>	
-			<concept>	
-				<code value="720737000"/>
-				<display value="Blood pressure cuff, adult size (physical object)"/>
-			</concept>	
+			</concept>
 			<concept>	
 				<code value="720738005"/>
 				<display value="Blood pressure cuff, adult size large (physical object)"/>
@@ -88,6 +84,10 @@
 			<concept>	
 				<code value ="8801000205109"/>
 				<display value="Blood pressure cuff, neonatal size 5 (physical object)"/>
+			</concept>
+			<concept>
+				<code value="24821000205101"/>
+				<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>
 			</concept>
         </include>
     </compose>

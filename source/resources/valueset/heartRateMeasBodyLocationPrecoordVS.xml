@@ -11,7 +11,6 @@
     <publisher value="HSPC"/>
     <description value="SELECT SNOMED CT code system values."/>
     <copyright value="TBD"/>
-    
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>	
@@ -38,7 +37,11 @@
 			<concept>	
 				<code value ="57832007"/>
 				<display value ="Structure of right popliteal artery (body structure)"/>
-			</concept>	
+			</concept>
+			<concept>
+				<code value="50408007"/>
+				<display value="Structure of left pulmonary artery"/>
+			</concept>
 			<concept>	
 				<code value ="13383001"/>
 				<display value ="Structure of apex of heart (body structure)"/>

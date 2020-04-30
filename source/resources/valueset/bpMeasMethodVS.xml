@@ -31,8 +31,8 @@
 				<display value="Auscultation (procedure)"/>
 			</concept>
             <concept>
-				<code value="268447006"/>
-				<display value="Doppler studies (procedure)"/>
+				<code value="765172009"/>
+				<display value="Doppler ulntrasound (procedure)"/>
 			</concept>
 			<concept>
 				<code value="13385008"/>
