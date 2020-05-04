@@ -34,22 +34,6 @@
 				<code value="309642005"/>
 				<display value="Mercury sphygmomanometer (physical object)"/>
 			</concept>
-			<concept>	
-				<code value="720738005"/>
-				<display value="Blood pressure cuff, adult size large (physical object)"/>
-			</concept>	
-			<concept>	
-				<code value="720739002"/>
-				<display value="Blood pressure cuff, adult size small (physical object)"/>
-			</concept>
-            <concept>	
-				<code value="720740000"/>
-				<display value="Blood pressure cuff, adult thigh type (physical object)"/>
-			</concept>	
-			<concept>	
-				<code value="720736009"/>
-				<display value="Blood pressure cuff, pediatric size (physical object)"/>
-			</concept>
 			<concept>
 			    <code value="258057004"/>
 			    <display value="Non-invasive blood pressure monitor (physical object)"/>
@@ -65,6 +49,22 @@
 			<concept>
 			    <code value="466139008"/>
 			    <display value="Automatic-inflation electronic sphygmomanometer, portable, finger (physical object)"/>
+			</concept>
+			<concept>	
+				<code value="720738005"/>
+				<display value="Blood pressure cuff, adult size large (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value="720739002"/>
+				<display value="Blood pressure cuff, adult size small (physical object)"/>
+			</concept>
+            <concept>	
+				<code value="720740000"/>
+				<display value="Blood pressure cuff, adult thigh type (physical object)"/>
+			</concept>	
+			<concept>	
+				<code value="720736009"/>
+				<display value="Blood pressure cuff, pediatric size (physical object)"/>
 			</concept>
 		</include>
 		<include>
@@ -104,6 +104,10 @@
 			<concept>
 				<code value="24821000205101"/>
 				<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>
+			</concept>
+			<concept>
+				<code value="24811000205108"/>
+				<display value="Blood pressure cuff, adult size medium (physical object)"/>
 			</concept>
         </include>
     </compose>

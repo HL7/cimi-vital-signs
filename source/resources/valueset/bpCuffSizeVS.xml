@@ -17,11 +17,7 @@
     
     <compose>
         <include>
-            <system value="http://snomed.info/sct"/>
-			<concept>
-				<code value="24821000205101"/>
-				<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>
-			</concept>	
+            <system value="http://snomed.info/sct"/>	
 			<concept>	
 				<code value="720738005"/>
 				<display value="Blood pressure cuff, adult size large (physical object)"/>
@@ -44,6 +40,10 @@
 			<concept>
 				<code value="24821000205101"/>
 				<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>
+			</concept>
+			<concept>
+				<code value="24811000205108"/>
+				<display value="Blood pressure cuff, adult size medium (physical object)"/>
 			</concept>
 			<concept>	
 				<code value ="8741000205104"/>

@@ -73,6 +73,11 @@
 		<definition value="A blood pressure suff size that is universal in size for adults on the upper arm."/>
 	</concept>
 	<concept>
+		<code value="24811000205108"/>
+		<display value="Blood pressure cuff, adult size medium (physical object)"/>
+		<definition value="A blood pressure suff size that is in between small and large sizes for adults on the upper arm."/>
+	</concept>
+	<concept>
 		<code value="641000205104"/>
 		<display value="Computer aided auscultation (procedure)"/>
 		<definition value="A procedure that uses a computer aided device to measure blood pressure."/>
