@@ -50,6 +50,22 @@
 				<code value="720736009"/>
 				<display value="Blood pressure cuff, pediatric size (physical object)"/>
 			</concept>
+			<concept>
+			    <code value="258057004"/>
+			    <display value="Non-invasive blood pressure monitor (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="466093008"/>
+			    <display value="Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="466086009"/>
+			    <display value="Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="466139008"/>
+			    <display value="Automatic-inflation electronic sphygmomanometer, portable, finger (physical object)"/>
+			</concept>
 		</include>
 		<include>
 			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
