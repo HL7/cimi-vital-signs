@@ -19,37 +19,37 @@
         <include>
             <system value="http://snomed.info/sct"/>
             <concept>
-				      <code value="309641003"/>
-				      <display value="Aneroid sphygmomanometer (physical object)"/>
-			      </concept>
+				<code value="309641003"/>
+				<display value="Aneroid sphygmomanometer (physical object)"/>
+			</concept>
             <concept>
-				      <code value="43770009"/>
-				      <display value="Doppler device (physical object)"/>
-			      </concept>
+			    <code value="43770009"/>
+			    <display value="Doppler device (physical object)"/>
+			</concept>
             <concept>
-				      <code value="469801002"/>
-				      <display value="Invasive blood pressure monitor (physical object)"/>
-			      </concept>
-			      <concept>
-				      <code value="309642005"/>
-				      <display value="Mercury sphygmomanometer (physical object)"/>
-			      </concept>
-			      <concept>
-				      <code value="258057004"/>
-				      <display value="Non-invasive blood pressure monitor (physical object)"/>
-			      </concept>
-			      <concept>
-				      <code value="466093008"/>
-				      <display value="Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"/>
-			      </concept>
-			      <concept>
-				      <code value="466086009"/>
-				      <display value="Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"/>
-			      </concept>
-			      <concept>
-				      <code value="466139008"/>
-				      <display value="Automatic-inflation electronic sphygmomanometer, portable, finger (physical object)"/>
-			      </concept>
+			    <code value="469801002"/>
+			    <display value="Invasive blood pressure monitor (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="309642005"/>
+			    <display value="Mercury sphygmomanometer (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="258057004"/>
+			    <display value="Non-invasive blood pressure monitor (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="466093008"/>
+			    <display value="Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="466086009"/>
+			    <display value="Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="466139008"/>
+			    <display value="Automatic-inflation electronic sphygmomanometer, portable, finger (physical object)"/>
+			</concept>
         </include>
     </compose>
 </ValueSet>

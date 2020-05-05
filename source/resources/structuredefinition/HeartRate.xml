@@ -160,5 +160,16 @@
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS"/>
 			</binding>
 		</element>
+		<element id="Observation:cimiHeartRate.device:BPDevice">
+			<path value="Observation.device"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/BPDevice"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
     </differential>
 </StructureDefinition>

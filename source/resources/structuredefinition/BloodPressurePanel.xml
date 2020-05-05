@@ -161,7 +161,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/BPDevice"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/BPDevice"/>
 			</type>
 			<mustSupport value="true"/>
 		</element>
