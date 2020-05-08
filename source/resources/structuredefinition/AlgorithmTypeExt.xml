@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="AlgorithmTypeExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmTypeExt"/>
+  <version value="0.1.0"/>
+  <name value="AlgorithmTypeExt"/>
+  <title value="Algorithm Type"/>
+  <status value="draft"/>
+  <date value="2020-05-07"/>
+  <publisher value="Logica"/>
+  <description value="The specific method used in calculating a measurement.  For example, a method used in calculating an average blood pressure."/>
+  <fhirVersion value="4.0.1"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <context>
+	<type value="element"/>
+	<expression value="Observation"/>
+  </context>
+  <context>
+	<type value="element"/>
+	<expression value="StructureDefinition"/>
+  </context>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Extension:AlgorithmTypeExt">
+      <path value="Extension"/>
+      <short value="AlgorithmTypeExt"/>
+      <definition value="The size of pressure cuff used to measure blood pressure."/>
+      <min value="0"/>
+      <max value="1"/>
+    </element>
+    <element id="Extension:AlgorithmTypeExt.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmTypeExt"/>
+    </element>
+    <element id="Extension:AlgorithmTypeExt.valueCodeableConcept">
+      <path value="Extension.valueCodeableConcept"/>
+      <type>
+        <code value="CodeableConcept"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

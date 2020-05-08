@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="AlgorithmForBloodPressureAverageExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
+  <version value="2.0.0"/>
+  <name value="AlgorithmForBloodPressureAverageExt"/>
+  <title value="Algorithm for Blood Pressure Average"/>
+  <status value="draft"/>
+  <date value="2020-05-07"/>
+  <publisher value="Logica"/>
+  <description value="A description of the various methods used in calculating the average of a set of blood pressure measurements."/>
+  <fhirVersion value="4.0.1"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <context>
+	  <type value="element"/>
+	  <expression value="Extension"/>
+  </context>
+  <context>
+	  <type value="element"/>
+	  <expression value="Observation"/>
+  </context>
+  <context>
+	  <type value="element"/>
+	  <expression value="Condition"/>
+  </context>
+  <context>
+	  <type value="element"/>
+	  <expression value="StructureDefinition"/>
+  </context>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Extension:AlgorithmForBloodPressureAverageExt">
+      <path value="Extension"/>
+      <definition value="A description of the various methods used in calculating the average of a set of blood pressure measurements."/>
+      <min value="0"/>
+      <max value="1"/>
+      <isModifier value="false"/>
+    </element>
+    <element id="Extension:AlgorithmForBloodPressureAverageExt.extension:Type">
+        <path value="Extension.extension"/>
+        <sliceName value="AlgorithmType"/>
+        <type>
+            <code value="Extension"/>
+            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmTypeExt"/>
+        </type>
+    </element>
+    <element id="Extension:AlgorithmForBloodPressureAverageExt.extension:TimeWindow">
+        <path value="Extension.extension"/>
+        <sliceName value="TimeWindow"/>
+        <type>
+            <code value="Extension"/>
+            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/TimeWindowExt"/>
+        </type>
+    </element>
+    <element id="Extension:AlgorithmForBloodPressureAverageExt.extension:SetSize">
+        <path value="Extension.extension"/>
+        <sliceName value="SetSie"/>
+        <type>
+            <code value="Extension"/>
+            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/SetSiZeExt"/>
+        </type>
+    </element>
+    <element id="Extension:AlgorithmForBloodPressureAverageExt.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
+    </element>
+    <element id="Extension:AlgorithmForBloodPressureAverageExt.value[x]">
+      <path value="Extension.value[x]"/>
+      <min value="0"/>
+      <max value="0"/>
+    </element>
+  </differential>
+</StructureDefinition>

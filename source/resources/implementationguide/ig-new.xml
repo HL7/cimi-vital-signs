@@ -111,6 +111,41 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/SetSiZeExt"/>
+      </reference>
+      <description value="Set SiZe extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/TimeWindowExt"/>
+      </reference>
+      <description value="Time Window extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AlgorithmTypeExt"/>
+      </reference>
+      <description value="Algorithm Type extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
+      </reference>
+      <description value="Algorithm for Blood Pressure Average extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/MeasurementSettingExt"/>
+      </reference>
+      <description value="Measurement Setting extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/OxygenSaturationArterialBlood"/>
       </reference>
       <description value="Oxygen Saturation in Arterial blood"/>
@@ -195,9 +230,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/organization-hspc-organizationtype"/>
+        <reference value="StructureDefinition/AverageBloodPressure"/>
       </reference>
-      <description value="HSPC Organization Type code system"/>
+      <description value="Average Blood Pressure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -205,6 +240,13 @@
         <reference value="StructureDefinition/VitalSignsPanel"/>
       </reference>
       <description value="Vital Signs Panel"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/organization-hspc-organizationtype"/>
+      </reference>
+      <description value="HSPC Organization Type code system"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -398,9 +440,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/vitalSignAssociatedPrecondVS"/>
+        <reference value="ValueSet/MeasSettingVS"/>
       </reference>
-      <description value="Vital Signs Associated Precondition value set"/>
+      <description value="Measurement Setting value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -422,6 +464,13 @@
         <reference value="Observation/BloodPressurePanel-example"/>
       </reference>
       <description value="Blood Pressure Panel example"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/AverageBloodPressure-example"/>
+      </reference>
+      <description value="Average Blood Pressure example"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

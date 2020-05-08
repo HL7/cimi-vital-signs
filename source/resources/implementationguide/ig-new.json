@@ -115,6 +115,41 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/SetSiZeExt"
+      },
+      "description" : "Set SiZe extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/TimeWindowExt"
+      },
+      "description" : "Time Window extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/AlgorithmTypeExt"
+      },
+      "description" : "Algorithm Type extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/AlgorithmForBloodPressureAverageExt"
+      },
+      "description" : "Algorithm for Blood Pressure Average extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/MeasurementSettingExt"
+      },
+      "description" : "Measurement Setting extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/OxygenSaturationArterialBlood"
       },
       "description" : "Oxygen Saturation in Arterial blood",
@@ -199,9 +234,9 @@
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/organization-hspc-organizationtype"
+        "reference" : "StructureDefinition/AverageBloodPressure"
       },
-      "description" : "HSPC Organization Type code system",
+      "description" : "Average Blood Pressure",
       "exampleBoolean" : false
     },
     {
@@ -209,6 +244,13 @@
         "reference" : "StructureDefinition/VitalSignsPanel"
       },
       "description" : "Vital Signs Panel",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/organization-hspc-organizationtype"
+      },
+      "description" : "HSPC Organization Type code system",
       "exampleBoolean" : false
     },
     {
@@ -402,9 +444,9 @@
     },
     {
       "reference" : {
-        "reference" : "ValueSet/vitalSignAssociatedPrecondVS"
+        "reference" : "ValueSet/MeasSettingVS"
       },
-      "description" : "Vital Signs Associated Precondition value set",
+      "description" : "Measurement Setting value set",
       "exampleBoolean" : false
     },
     {
@@ -426,6 +468,13 @@
         "reference" : "Observation/BloodPressurePanel-example"
       },
       "description" : "Blood Pressure Panel example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/AverageBloodPressure-example"
+      },
+      "description" : "Average Blood Pressure example",
       "exampleBoolean" : true
     },
     {

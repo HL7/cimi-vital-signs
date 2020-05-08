@@ -117,6 +117,11 @@
 	"StructureDefinition/MethodDeviceExt":{"base":"StructureDefinition-MethodDeviceExt.html"},
 	"StructureDefinition/ClothingWornDuringMeasureExt":{"base":"StructureDefinition-ClothingWornDuringMeasureExt.html"},
 	"StructureDefinition/ExerciseAssociationExt":{"base":"StructureDefinition-ExerciseAssociationExt.html"},
+	"StructureDefinition/SetSiZeExt":{"base":"StructureDefinition-SetSiZeExt.html"},
+	"StructureDefinition/TimeWindowExt":{"base":"StructureDefinition-TimeWindowExt.html"},
+	"StructureDefinition/AlgorithmTypeExt":{"base":"StructureDefinition-AlgorithmTypeExt.html"},
+	"StructureDefinition/AlgorithmForBloodPressureAverageExt":{"base":"StructureDefinition-AlgorithmForBloodPressureAverageExt.html"},
+	"StructureDefinition/MeasurementSettingExt":{"base":"StructureDefinition-MeasurementSettingExt.html"},
 
   "StructureDefinition/organization":{"base":"StructureDefinition-organization.html"},
   "StructureDefinition/practitioner":{"base":"StructureDefinition-practitioner.html"},
@@ -132,6 +137,7 @@
 	"StructureDefinition/HeartRate":{"base":"StructureDefinition-HeartRate.html"},
 	"StructureDefinition/Height":{"base":"StructureDefinition-Height.html"},
 	"StructureDefinition/RespiratoryRate":{"base":"StructureDefinition-RespiratoryRate.html"},
+	"StructureDefinition/AverageBloodPressure":{"base":"StructureDefinition-AverageBloodPressure.html"},
 	"StructureDefinition/VitalSignsPanel":{"base":"StructureDefinition-VitalSignsPanel.html"},
 
   "CodeSystem/organization-hspc-organizationtype":{"base":"CodeSystem-organization-hspc-organizationtype.html","source":"codesystem/organization-hspc-organizationtype.xml"},
@@ -165,6 +171,7 @@
 	"ValueSet/sPO2BodyLocationVS":{"base":"ValueSet-sPO2BodyLocationVS.html"},
 	"ValueSet/vitalSignAssociatedPrecondVS":{"base":"ValueSet-vitalSignAssociatedPrecondVS.html"},
 	"ValueSet/weightMeasurementDeviceVS":{"base":"ValueSet-weightMeasurementDeviceVS.html"},
+	"ValueSet/MeasSettingVS":{"base":"ValueSet-MeasSettingVS.html"},
     
 	"Observation/BloodPressurePanelExample":{"base":"Observation-BloodPressurePanelExample.html"},
 	"Observation/BMIExample":{"base":"Observation-BMIExample.html"},
@@ -177,6 +184,7 @@
 	"Observation/OxygenSaturationExample":{"base":"Observation-OxygenSaturationExample.html"},
 	"Observation/OxygenSaturationPulseOxExample":{"base":"Observation-OxygenSaturationPulseOxExample.html"},
 	"Observation/RespiratoryRateExample":{"base":"Observation-RespiratoryRateExample.html"},
+	"Observation/AverageBloodPressureExample":{"base":"Observation-AverageBloodPressureExample.html"},
   "Patient/patient-example": {"base": "Patient-patient-example.html"},
   "Practitioner/practitioner-example": {"base": "Practitioner-practitioner-example.html"}
   }
