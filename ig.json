@@ -117,7 +117,7 @@
 	"StructureDefinition/MethodDeviceExt":{"base":"StructureDefinition-MethodDeviceExt.html"},
 	"StructureDefinition/ClothingWornDuringMeasureExt":{"base":"StructureDefinition-ClothingWornDuringMeasureExt.html"},
 	"StructureDefinition/ExerciseAssociationExt":{"base":"StructureDefinition-ExerciseAssociationExt.html"},
-	"StructureDefinition/SetSiZeExt":{"base":"StructureDefinition-SetSiZeExt.html"},
+	"StructureDefinition/SetSizeExt":{"base":"StructureDefinition-SetSizeExt.html"},
 	"StructureDefinition/TimeWindowExt":{"base":"StructureDefinition-TimeWindowExt.html"},
 	"StructureDefinition/AlgorithmTypeExt":{"base":"StructureDefinition-AlgorithmTypeExt.html"},
 	"StructureDefinition/AlgorithmForBloodPressureAverageExt":{"base":"StructureDefinition-AlgorithmForBloodPressureAverageExt.html"},

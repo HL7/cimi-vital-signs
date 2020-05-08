@@ -28,7 +28,7 @@
             <text value="Two hour average of measurements taken by patient only."/>
         </valueCodeableConcept>
     </extension>
-    <extension url="http://hl7.org/fhir/hspc/StructureDefinition/SetSiZeExt">
+    <extension url="http://hl7.org/fhir/hspc/StructureDefinition/SetSizeExt">
         <valueInteger value="4"/>
     </extension>
     <extension url="http://hl7.org/fhir/hspc/StructureDefinition/TimeWindowExt">
