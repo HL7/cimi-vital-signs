@@ -57,10 +57,10 @@
     </element>
     <element id="Extension:AlgorithmForBloodPressureAverageExt.extension:SetSize">
         <path value="Extension.extension"/>
-        <sliceName value="SetSie"/>
+        <sliceName value="SetSize"/>
         <type>
             <code value="Extension"/>
-            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/SetSiZeExt"/>
+            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/SetSizeExt"/>
         </type>
     </element>
     <element id="Extension:AlgorithmForBloodPressureAverageExt.url">

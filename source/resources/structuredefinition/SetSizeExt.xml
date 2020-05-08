@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="SetSiZeExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/SetSiZeExt"/>
+  <id value="SetSizeExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/SetSizeExt"/>
   <version value="0.1.0"/>
   <name value="SetSiZeExt"/>
   <title value="Set SiZe"/>
@@ -24,18 +24,18 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:SetSiZeExt">
+    <element id="Extension:SetSizeExt">
       <path value="Extension"/>
       <short value="SetSiZeExt"/>
       <definition value="The size of pressure cuff used to measure blood pressure."/>
       <min value="0"/>
       <max value="1"/>
     </element>
-    <element id="Extension:SetSiZeExt.url">
+    <element id="Extension:SetSizeExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/SetSiZeExt"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/SetSizeExt"/>
     </element>
-    <element id="Extension:SetSiZeExt.valueInteger">
+    <element id="Extension:SetSizeExt.valueInteger">
       <path value="Extension.valueInteger"/>
       <type>
         <code value="integer"/>
