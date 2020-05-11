@@ -115,9 +115,9 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/SetSiZeExt"
+        "reference" : "StructureDefinition/SetSizeExt"
       },
-      "description" : "Set SiZe extension",
+      "description" : "Set Size extension",
       "exampleBoolean" : false
     },
     {

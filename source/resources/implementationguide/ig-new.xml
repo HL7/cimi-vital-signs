@@ -111,9 +111,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/SetSiZeExt"/>
+        <reference value="StructureDefinition/SetSizeExt"/>
       </reference>
-      <description value="Set SiZe extension"/>
+      <description value="Set Size extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

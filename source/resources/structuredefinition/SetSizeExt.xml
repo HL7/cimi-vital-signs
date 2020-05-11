@@ -3,8 +3,8 @@
   <id value="SetSizeExt"/>
   <url value="http://hl7.org/fhir/hspc/StructureDefinition/SetSizeExt"/>
   <version value="0.1.0"/>
-  <name value="SetSiZeExt"/>
-  <title value="Set SiZe"/>
+  <name value="SetSizeExt"/>
+  <title value="Set Size"/>
   <status value="draft"/>
   <date value="2020-05-07"/>
   <publisher value="Logica"/>
@@ -13,12 +13,16 @@
   <kind value="complex-type"/>
   <abstract value="false"/>
   <context>
-	<type value="element"/>
-	<expression value="Observation"/>
+	  <type value="element"/>
+	  <expression value="Observation"/>
   </context>
   <context>
-	<type value="element"/>
-	<expression value="StructureDefinition"/>
+	  <type value="element"/>
+	  <expression value="StructureDefinition"/>
+  </context>
+  <context>
+    <type value="element"/>
+    <expression value="Extension"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -26,7 +30,7 @@
   <differential>
     <element id="Extension:SetSizeExt">
       <path value="Extension"/>
-      <short value="SetSiZeExt"/>
+      <short value="SetSizeExt"/>
       <definition value="The size of pressure cuff used to measure blood pressure."/>
       <min value="0"/>
       <max value="1"/>
