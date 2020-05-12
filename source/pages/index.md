@@ -49,6 +49,7 @@ o	LOINC was chosen for the "magic values" because this aligns with the most coun
 6.	a numeric result value and standard UCUM unit which is taken from the Unit Code column in the table below.
 7.  Observations with values **cannot** also have a Data Absent Reason.  If there is **no result value** then a valid Data Absent Reason **must** be given
 
+
 ## Formal View of Profile Content
 [Vital Signs Profile](http://hl7.org/fhir/R4/vitalsigns.html) : Link to the formal definition views for the vital signs listed in this table.
 
