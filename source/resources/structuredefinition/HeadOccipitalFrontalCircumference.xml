@@ -12,7 +12,7 @@
     <description value="Head Occipital/Frontal Circumference by Tape Measure, the measured length around and individual's head via a tape measure."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

@@ -10,7 +10,7 @@
   <description value="Diastolic Blood Pressure, the pressure in the arteries when the heart rests between beats."/>
   <jurisdiction>
 	<coding>
-	<system value="urn:iso:std:iso:3166"/>
+	<system value="urn:iso:std:iso:3166:-2#US"/>
 	<code value="US"/>
 	<display value="United States of America"/>
 	</coding>

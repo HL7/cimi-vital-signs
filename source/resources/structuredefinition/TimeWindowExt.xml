@@ -11,7 +11,7 @@
   <description value="The span of time or period in which individual observations were taken for the calculation of an average."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

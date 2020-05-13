@@ -12,7 +12,7 @@
     <description value="Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components."/>  
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

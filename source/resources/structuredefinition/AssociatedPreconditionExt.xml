@@ -11,7 +11,7 @@
   <description value="The set of codes that describe conditions or events that effect an observation."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

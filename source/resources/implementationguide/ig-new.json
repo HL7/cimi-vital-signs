@@ -241,7 +241,7 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/24HBloodPressure"
+        "reference" : "StructureDefinition/TwentyFourHourBloodPressure"
       },
       "description" : "24 hour blood pressure",
       "exampleBoolean" : false
@@ -486,7 +486,7 @@
     },
     {
       "reference" : {
-        "reference" : "Observation/24HBloodPressure-example"
+        "reference" : "Observation/TwentyFourHourBloodPressure-example"
       },
       "description" : "24 hour blood pressure example",
       "exampleBoolean" : true

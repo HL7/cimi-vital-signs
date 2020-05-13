@@ -237,7 +237,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/24HBloodPressure"/>
+        <reference value="StructureDefinition/TwentyFourHourBloodPressure"/>
       </reference>
       <description value="24 hour blood pressure"/>
       <exampleBoolean value="false"/>
@@ -482,7 +482,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Observation/24HBloodPressure-example"/>
+        <reference value="Observation/TwentyFourHourBloodPressure-example"/>
       </reference>
       <description value="24 hour blood pressure example"/>
       <exampleBoolean value="true"/>

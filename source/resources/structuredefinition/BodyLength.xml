@@ -11,7 +11,7 @@
     <description value="Body Length, the measured length of an individual's body.  This measurement is usually taken while lying down."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

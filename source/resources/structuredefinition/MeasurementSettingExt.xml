@@ -11,7 +11,7 @@
   <description value="The location or setting the subject was in when the measurement was obtained. For example home, clinic, hospital. etc."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

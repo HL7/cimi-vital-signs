@@ -11,7 +11,7 @@
   <description value="The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

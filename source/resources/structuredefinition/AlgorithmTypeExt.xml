@@ -11,7 +11,7 @@
   <description value="The specific method used in calculating a measurement.  For example, a method used in calculating an average blood pressure."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

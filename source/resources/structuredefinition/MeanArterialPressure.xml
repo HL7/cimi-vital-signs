@@ -10,7 +10,7 @@
   <description value="Mean Areterial Blood Pressure, the average arterial pressure during one cardiac cycle."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>

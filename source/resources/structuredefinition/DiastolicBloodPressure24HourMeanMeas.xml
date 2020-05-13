@@ -10,7 +10,7 @@
   <description value="Diastolic Blood Pressure 24 Hour Mean. The average diastolic pressure calculated from a series of diastolic pressure measurements taken over a twenty four hour period.."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166"/>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
 		<code value="US"/>
 		<display value="United States of America"/>
 		</coding>
