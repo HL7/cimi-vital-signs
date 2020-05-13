@@ -9,6 +9,13 @@
   <date value="2019-05-29"/>
   <publisher value="HSPC"/>
   <description value="The instrument by which a measurement was obtained."/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+    </jurisdiction>
   <fhirVersion value="4.0.0"/>
   <mapping>
     <identity value="rim"/>

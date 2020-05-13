@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
-    <id value="AverageBloodPressure"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/AverageBloodPressure"/>
+    <id value="24HBloodPressure"/>
+    <url value="http://hl7.org/fhir/hspc/StructureDefinition/24HBloodPressure"/>
 	<version value="0.1.0"/>
-    <name value="AverageBloodPressure"/>
-	<title value="Average Blood Pressure"/>
+    <name value="24HBloodPressure"/>
+	<title value="Twenty Four Hour Blood Pressure"/>
     <status value="draft"/>
-    <date value="2019-05-29"/>
+    <date value="2020-05-13"/>
     <publisher value="Logica Health"/>
-    <description value="Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components."/>  
+    <description value="An average blood pressure (systolic and diastolic) over a twenty four hour period."/>
 	<jurisdiction>
 		<coding>
 		<system value="urn:iso:std:iso:3166"/>
@@ -24,28 +24,12 @@
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     <derivation value="constraint"/>
     <differential>
-        <element id="Observation:AverageBloodPressure">
-            <path value="Observation"/>
-			<short value="BloodPressurePanel"/>
-            <definition value="Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components."/>
+        <element id="Observation:24HBloodPressure">
+          <path value="Observation"/>
+		  <short value="BloodPressurePanel"/>
+          <definition value="An average blood pressure (systolic and diastolic) over a twenty four hour period."/>
         </element>
-		<element id="Observation:AverageBloodPressure.extension:bodyposition">
-		  <path value="Observation.extension"/>
-		  <sliceName value="BodyPosition"/>
-		  <short value="Body Position"/>
-		  <type>
-			<code value="Extension"/>
-			<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
-		  </type>
-		  <mustSupport value="false"/>
-		  <binding>
-			<strength value="preferred"/>
-			<description value="The position that a patient is in when a heart rate measurement is taken."/>
-			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyPositionVS"/>
-		  </binding>
-		  <mustSupport value="true"/>
-		</element>
-		<element id="Observation:AverageBloodPressure.extension:measurementDevice">
+		<element id="Observation:24HBloodPressure.extension:measurementDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
 			<short value="Measurement Device"/>
@@ -61,7 +45,7 @@
             </binding>
 		  <mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.extension:MeasurementSettingExt">
+		<element id="Observation:24HBloodPressure.extension:MeasurementSettingExt">
 			<path value="Observation.extension"/>
 			<sliceName value="MeasurementSetting"/>
 			<short value="Measurement setting"/>
@@ -74,30 +58,21 @@
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
 			</binding>
 		</element>
-		<element id="Observation:AverageBloodPressure.extension:Algorithm">
-			<path value="Observation.extension"/>
-			<sliceName value="AlgorithmForBloodPressure"/>
-			<short value="Algorithm for Blood Pressure"/>
-			<type>
-				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
-			</type>
-		</element>
-		<element id="Observation:AverageBloodPressure.status">
+		<element id="Observation:24HBloodPressure.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
 		</element>
-        <element id="Observation:AverageBloodPressure.code">
+        <element id="Observation:24HBloodPressure.code">
             <path value="Observation.code"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://snomed.info/sct"/>
-					<code value="723232008"/>
-					<display value="Average blood pressure (observable entity)"/>
+					<code value="314463006"/>
+					<display value="24 hour blood pressure (observable entity)"/>
 				</coding>
 			</patternCodeableConcept>
         </element>
-		<element id="Observation:AverageBloodPressure.subject">
+		<element id="Observation:24HBloodPressure.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -107,18 +82,18 @@
 			</type>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.effective[x]">
+		<element id="Observation:24HBloodPressure.effective[x]">
 			<path value="Observation.effective[x]"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.value[x]">
+		<element id="Observation:24HBloodPressure.value[x]">
 			<path value="Observation.value[x]"/>
 			<min value="0"/>
 			<max value="0"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.bodySite">
+		<element id="Observation:24HBloodPressure.bodySite">
 		  <path value="Observation.bodySite"/>
 		  <mustSupport value="false"/>
 		  <binding>
@@ -127,7 +102,7 @@
 			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"/>
 		  </binding>
 		</element>
-		<element id="Observation:AverageBloodPressure.method">
+		<element id="Observation:24HBloodPressure.method">
 		  <path value="Observation.method"/>
 		  <mustSupport value="false"/>
 		  <binding>
@@ -136,12 +111,12 @@
 			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS"/>
 		  </binding>
 		</element>
-		<element id="Observation:AverageBloodPressure.specimen">
+		<element id="Observation:24HBloodPressure.specimen">
 			<path value="Observation.specimen"/>
 			<min value="0"/>
 			<max value="0"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.device:BPDevice">
+		<element id="Observation:24HBloodPressure.device:BPDevice">
 			<path value="Observation.device"/>
 			<short value="Blood Pressure Device"/>
 			<min value="0"/>
@@ -152,7 +127,7 @@
 			</type>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component">
+		<element id="Observation:24HBloodPressure.component">
 			<path value="Observation.component"/>
 			<slicing>
 				<discriminator>
@@ -165,44 +140,44 @@
 			<short value="Blood pressure components"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component:systolicBP">
+		<element id="Observation:24HBloodPressure.component:systolicBP">
 			<path value="Observation.component"/>
 			<sliceName value="SystolicBP"/>
 			<short value="Systolic Blood Pressure"/>
 			<min value="1"/>
 			<max value="1"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.code:systolicBP">
+		<element id="Observation:24HBloodPressure.component.code:systolicBP">
 			<path value="Observation.component.code"/>
 			<patternCodeableConcept>
 				<coding>
-					<system value="http://snomed.info/sct"/>
-					<code value="314440001"/>
-					<display value="Average systolic blood pressure (observable entity)"/>
+					<system value="http://loinc.org"/>
+					<code value="8490-5"/>
+					<display value="Systolic blood pressure 24 hour mean"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity:systolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity:systolicBP">
 			<path value="Observation.component.valueQuantity"/>
 			<type>
 				<code value="Quantity"/>
 			</type>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity.value:systolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity.value:systolicBP">
 			<path value="Observation.component.valueQuantity.value"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity.unit:systolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity.unit:systolicBP">
 			<path value="Observation.component.valueQuantity.unit"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity.system:systolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity.system:systolicBP">
 			<path value="Observation.component.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -213,7 +188,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity.code:systolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity.code:systolicBP">
 			<path value="Observation.component.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -224,44 +199,44 @@
             <fixedCode value="mm[Hg]"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component:diastolicBP">
+		<element id="Observation:24HBloodPressure.component:diastolicBP">
 			<path value="Observation.component"/>
 			<sliceName value="DiastolicBP"/>
 			<short value="Diastolic Blood Pressure"/>
 			<min value="0"/>
 			<max value="1"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.code:diastolicBP">
+		<element id="Observation:24HBloodPressure.component.code:diastolicBP">
 			<path value="Observation.component.code"/>
 			<patternCodeableConcept>
 				<coding>
-					<system value="http://snomed.info/sct"/>
-					<code value="314453003"/>
-					<display value="Average diastolic blood pressure (observable entity)"/>
+					<system value="http://loinc.org"/>
+					<code value="8472-3"/>
+					<display value="Diastolic blood pressure 24 hour mean"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity:diastolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity:diastolicBP">
 			<path value="Observation.component.valueQuantity"/>
 			<type>
 				<code value="Quantity"/>
 			</type>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity.value:diastolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity.value:diastolicBP">
 			<path value="Observation.component.valueQuantity.value"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity.unit:diastolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity.unit:diastolicBP">
 			<path value="Observation.component.valueQuantity.unit"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity.system:diastolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity.system:diastolicBP">
 			<path value="Observation.component.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -272,7 +247,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:AverageBloodPressure.component.valueQuantity.code:diastolicBP">
+		<element id="Observation:24HBloodPressure.component.valueQuantity.code:diastolicBP">
 			<path value="Observation.component.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>

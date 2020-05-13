@@ -9,6 +9,13 @@
   <date value="2019-05-29"/>
   <publisher value="HSPC"/>
   <description value="The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code."/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+    </jurisdiction>
   <fhirVersion value="4.0.0"/>
   <mapping>
     <identity value="LOINC"/>

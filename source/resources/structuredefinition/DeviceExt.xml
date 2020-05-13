@@ -2,6 +2,13 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DeviceExt"/>
   <url value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/DeviceExt"/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+    </jurisdiction>
   <version value="2.0.0"/>
   <name value="Device"/>
   <status value="draft"/>

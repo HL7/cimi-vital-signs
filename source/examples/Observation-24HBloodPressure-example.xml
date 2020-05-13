@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Observation xmlns="http://hl7.org/fhir">
-  <id value="AverageBloodPressure-example"/>
+  <id value="24HBloodPressure-example"/>
   <meta>
-	<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AverageBloodPressure"/>
+	<profile value="http://hl7.org/fhir/hspc/StructureDefinition/24HBloodPressure"/>
   </meta>
   <extension url ="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
 	<valueCodeableConcept>
@@ -34,8 +34,8 @@
   <code> 
     <coding>
 		<system value="http://snomed.info/sct"/>
-		<code value="723232008"/>
-		<display value="Average blood pressure (observable entity)"/>
+		<code value="314463006"/>
+		<display value="24 hour blood pressure (observable entity)"/>
 	</coding>
   </code> 
   <subject>  
@@ -65,9 +65,9 @@
   <component>
 	<code>
 		<coding>
-		    <system value="http://snomed.info/sct"/>
-			<code value="314440001"/>
-			<display value="Average systolic blood pressure (observable entity)"/>
+		    <system value="http://loinc.org"/>
+			<code value="8490-5"/>
+			<display value="Systolic blood pressure 24 hour mean"/>
 		</coding>
 	</code>
 	<valueQuantity>
@@ -80,9 +80,9 @@
   <component>
 	<code>
 		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="314453003"/>
-			<display value="Average diastolic blood pressure (observable entity)"/>
+			<system value="http://loinc.org"/>
+			<code value="8472-3"/>
+			<display value="Diastolic blood pressure 24 hour mean"/>
 		</coding>
 	</code>
 	<valueQuantity>

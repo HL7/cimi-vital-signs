@@ -8,6 +8,13 @@
   <date value="2020-04-07"/>
   <publisher value="Logica"/>
   <description value="A specialized profile of the Device resource specifically for blood pressure devices"/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+    </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <kind value="complex-type"/>
   <abstract value="false"/>

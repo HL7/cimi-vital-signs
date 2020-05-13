@@ -9,6 +9,13 @@
     <date value="2019-05-29"/>
     <publisher value="HSPC"/>
     <description value="Body Mass Index, the measurement of body fat based on an individual's height and weight and given as a ration of kilograms per square meter."/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+    </jurisdiction>
     <fhirVersion value="4.0.0"/>
     <kind value="complex-type"/>
     <abstract value="false"/>

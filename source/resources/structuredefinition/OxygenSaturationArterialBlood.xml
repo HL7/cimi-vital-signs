@@ -9,6 +9,13 @@
     <date value="2020-01-22"/>
     <publisher value="Healthcare Services Platform Consortium"/>
     <description value="Oxygen Saturation in Arterial blood, method not specified"/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+    </jurisdiction>
     <fhirVersion value="4.0.0"/>
     <kind value="complex-type"/>
     <abstract value="false"/>

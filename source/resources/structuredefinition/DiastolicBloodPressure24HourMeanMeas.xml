@@ -8,6 +8,13 @@
   <date value="2017-06-06"/>
   <publisher value="Clinical Information Modeling Initiative"/>
   <description value="Diastolic Blood Pressure 24 Hour Mean. The average diastolic pressure calculated from a series of diastolic pressure measurements taken over a twenty four hour period.."/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+    </jurisdiction>
   <fhirVersion value="4.0.0"/>
   <kind value="resource"/>
   <abstract value="false"/>
@@ -21,23 +28,15 @@
 	  <definition value="The average diastolic pressure calculated from a series of diastolic pressure measurements taken over a twenty four hour period."/>
     </element>
     <element id="Observation:hspcdiastolicbloodpressure24hmean.code">
-        <path value="Observation.code"/>
+      <path value="Observation.code"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="8472-3"/>
+					<display value="Diastolic blood pressure 24 hour mean"/>
+				</coding>
+			</patternCodeableConcept>
     </element>
-	<element id="Observation:hspcdiastolicbloodpressure24hmean.code.coding">
-		<path value="Observation.code.coding"/>
-	</element>
-	<element id="Observation:hspcdiastolicbloodpressure24hmean.code.coding.system">
-		<path value="Observation.code.coding.system"/>
-		<fixedUri value="http://loinc.org"/>
-	</element>
-	<element id="Observation:hspcdiastolicbloodpressure24hmean.code.coding.code">
-		<path value="Observation.code.coding.code"/>
-		<fixedCode value="8472-3"/>
-	</element>
-	<element id="Observation:hspcdiastolicbloodpressure24hmean.code.coding.display">
-		<path value="Observation.code.coding.display"/>
-		<fixedString value="Diastolic blood pressure 24 hour mean"/>
-	</element>
     <element id="Observation:hspcdiastolicbloodpressure24hmean.valueQuantity">
       <path value="Observation.valueQuantity"/>
       <min value="1"/>

@@ -231,6 +231,13 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/24HBloodPressure"/>
+			</reference>
+			<description value="24 hour blood pressure"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/VitalSignsPanel"/>
 			</reference>
 			<description value="Vital Signs Panel"/>
@@ -478,6 +485,13 @@
 				<reference value="Observation/AverageBloodPressure-example"/>
 			</reference>
 			<description value="Average Blood Pressure example"/>
+			<exampleBoolean value="true"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Observation/24HBloodPressure-example"/>
+			</reference>
+			<description value="24 hour blood pressure example"/>
 			<exampleBoolean value="true"/>
 		</resource>
 		<resource>

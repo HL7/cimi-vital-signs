@@ -9,6 +9,13 @@
   <date value="2020-05-07"/>
   <publisher value="Logica"/>
   <description value="A description of the various methods used in calculating the average of a set of blood pressure measurements."/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <kind value="complex-type"/>
   <abstract value="false"/>

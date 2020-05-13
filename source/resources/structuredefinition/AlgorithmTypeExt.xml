@@ -9,6 +9,13 @@
   <date value="2020-05-07"/>
   <publisher value="Logica"/>
   <description value="The specific method used in calculating a measurement.  For example, a method used in calculating an average blood pressure."/>
+	<jurisdiction>
+		<coding>
+		<system value="urn:iso:std:iso:3166"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+		</coding>
+    </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <kind value="complex-type"/>
   <abstract value="false"/>

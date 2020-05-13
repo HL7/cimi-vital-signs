@@ -241,6 +241,13 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/24HBloodPressure"
+      },
+      "description" : "24 hour blood pressure",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/VitalSignsPanel"
       },
       "description" : "Vital Signs Panel",
@@ -475,6 +482,13 @@
         "reference" : "Observation/AverageBloodPressure-example"
       },
       "description" : "Average Blood Pressure example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/24HBloodPressure-example"
+      },
+      "description" : "24 hour blood pressure example",
       "exampleBoolean" : true
     },
     {

@@ -138,6 +138,7 @@
 	"StructureDefinition/Height":{"base":"StructureDefinition-Height.html"},
 	"StructureDefinition/RespiratoryRate":{"base":"StructureDefinition-RespiratoryRate.html"},
 	"StructureDefinition/AverageBloodPressure":{"base":"StructureDefinition-AverageBloodPressure.html"},
+	"StructureDefinition/24HBloodPressure":{"base":"StructureDefinition-24HBloodPressure.html"},
 	"StructureDefinition/VitalSignsPanel":{"base":"StructureDefinition-VitalSignsPanel.html"},
 
   "CodeSystem/organization-hspc-organizationtype":{"base":"CodeSystem-organization-hspc-organizationtype.html","source":"codesystem/organization-hspc-organizationtype.xml"},
@@ -185,6 +186,7 @@
 	"Observation/OxygenSaturationPulseOxExample":{"base":"Observation-OxygenSaturationPulseOxExample.html"},
 	"Observation/RespiratoryRateExample":{"base":"Observation-RespiratoryRateExample.html"},
 	"Observation/AverageBloodPressureExample":{"base":"Observation-AverageBloodPressureExample.html"},
+	"Observation/24HBloodPressureExample":{"base":"Observation-24HBloodPressureExample.html"},
   "Patient/patient-example": {"base": "Patient-patient-example.html"},
   "Practitioner/practitioner-example": {"base": "Practitioner-practitioner-example.html"}
   }
