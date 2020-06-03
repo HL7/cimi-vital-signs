@@ -33,7 +33,7 @@
   <differential>
     <element id="Extension:MeasurementSettingExt">
       <path value="Extension"/>
-      <short value="BloodPressureCuffSizeExt"/>
+      <short value="MeasurementSettingExt"/>
       <definition value="The size of pressure cuff used to measure blood pressure."/>
       <min value="0"/>
       <max value="1"/>

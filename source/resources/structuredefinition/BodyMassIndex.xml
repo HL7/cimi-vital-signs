@@ -28,6 +28,19 @@
 			<short value="Body Mass Index"/>
             <definition value="Body Mass Index, the measurement of body fat based on an individual's height and weight and given as a ration of kilograms per square meter."/>
         </element>
+		<element id="Observation:cimiBodyMassIndex.extension:MeasurementSettingExt">
+			<path value="Observation.extension"/>
+			<sliceName value="MeasurementSetting"/>
+			<short value="Measurement setting"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementSettingExt"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
+			</binding>
+		</element>
 		<element id="Observation:cimiBodyMassIndex.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
@@ -49,7 +62,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
 			</type>
 			<mustSupport value="true"/>
 		</element>

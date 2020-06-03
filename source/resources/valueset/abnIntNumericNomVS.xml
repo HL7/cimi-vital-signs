@@ -5,7 +5,7 @@
   <url value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
   <version value="0.01"/>
   <name value="AbnormalInterpretationNumericNom"/>
-  <title value="Abnorma lInterpretation Numeric Nominal value set"/>
+  <title value="Abnormal Interpretation Numeric Nominal value set"/>
   <status value="draft"/>
   <date value="2015-04-14"/>
   <publisher value="HSPC"/>
