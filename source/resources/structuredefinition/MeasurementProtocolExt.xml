@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="MeasurementProtocolExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementProtocolExt"/>
+  <version value="2.0.0"/>
+  <name value="MeasurementProtocol"/>
+  <title value="Measurement Protocol"/>
+  <status value="draft"/>
+  <date value="2020-06-08"/>
+  <publisher value="Logica"/>
+  <description value="The system or defined process used in a measurement."/>
+	<jurisdiction>
+	  <coding>
+		<system value="urn:iso:std:iso:3166:-2#US"/>
+		<code value="US"/>
+		<display value="United States of America"/>
+	  </coding>
+  </jurisdiction>
+  <fhirVersion value="4.0.1"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <context>
+	  <type value="element"/>
+	  <expression value="Extension"/>
+  </context>
+  <context>
+	  <type value="element"/>
+	  <expression value="Observation"/>
+  </context>
+  <context>
+	  <type value="element"/>
+	  <expression value="Condition"/>
+  </context>
+  <context>
+	  <type value="element"/>
+	  <expression value="StructureDefinition"/>
+  </context>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Extension:MeasurementProtocolExt">
+      <path value="Extension"/>
+      <definition value="The system or defined process used in a measurement."/>
+      <min value="0"/>
+      <max value="1"/>
+      <isModifier value="false"/>
+    </element>
+    <element id="Extension:MeasurementProtocolExt.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementProtocolExt"/>
+    </element>
+    <element id="Extension:MeasurementProtocolExt.valueCodeableConcept">
+      <path value="Extension.CodeableConcept"/>
+      <type>
+        <code value="CodeableConcept"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+      </type>
+      <binding>
+        <strength value="preferred"/>
+        <valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasurementProtocolVS"/>
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

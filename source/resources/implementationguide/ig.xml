@@ -136,7 +136,7 @@
 			<description value="Measurement Setting extension"/>
 			<exampleBoolean value="false"/>
 		</resource>
-		<resource>
+ 		<resource>
 			<reference>
 				<reference value="StructureDefinition/MeasurementProtocolExt"/>
 			</reference>
