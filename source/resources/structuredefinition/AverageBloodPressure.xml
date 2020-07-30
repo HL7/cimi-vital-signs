@@ -88,13 +88,13 @@
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
 			</binding>
 		</element>
-		<element id="Observation:AverageBloodPressure.extension:Algorithm">
+		<element id="Observation:AverageBloodPressure.extension:Protocol">
 			<path value="Observation.extension"/>
-			<sliceName value="AlgorithmForBloodPressure"/>
+			<sliceName value="MeasurementProtocol"/>
 			<short value="Algorithm for Blood Pressure"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementProtocolExt"/>
 			</type>
 		</element>
 		<element id="Observation:AverageBloodPressure.status">

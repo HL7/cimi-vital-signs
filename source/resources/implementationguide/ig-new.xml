@@ -146,6 +146,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/MeasurementProtocolExt"/>
+      </reference>
+      <description value="Measurement Protocol extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/OxygenSaturationArterialBlood"/>
       </reference>
       <description value="Oxygen Saturation in Arterial blood"/>

@@ -150,6 +150,13 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/MeasurementProtocolExt"
+      },
+      "description" : "Measurement Protocol extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/OxygenSaturationArterialBlood"
       },
       "description" : "Oxygen Saturation in Arterial blood",

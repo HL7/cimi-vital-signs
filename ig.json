@@ -120,7 +120,7 @@
 	"StructureDefinition/SetSizeExt":{"base":"StructureDefinition-SetSizeExt.html"},
 	"StructureDefinition/TimeWindowExt":{"base":"StructureDefinition-TimeWindowExt.html"},
 	"StructureDefinition/AlgorithmTypeExt":{"base":"StructureDefinition-AlgorithmTypeExt.html"},
-	"StructureDefinition/AlgorithmForBloodPressureAverageExt":{"base":"StructureDefinition-AlgorithmForBloodPressureAverageExt.html"},
+	"StructureDefinition/MeasurementProtocolExt":{"base":"StructureDefinition-MeasurementProtocolExt.html"},
 	"StructureDefinition/MeasurementSettingExt":{"base":"StructureDefinition-MeasurementSettingExt.html"},
 
   "StructureDefinition/organization":{"base":"StructureDefinition-organization.html"},

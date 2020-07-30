@@ -117,4 +117,9 @@
 		<display value="Patient lift scale (physical object)"/>
 		<definition value="A device used to lift a patient out of or into bed and also has a scale to measure the subject's weight."/>
 	</concept>
+	<concept>
+		<code value="AOBP"/>
+		<display value="Automated office blood pressure"/>
+		<definition value="A blood pressure measurement protocol that directs a blood pressure to be taken via an automatic blood pressure device several times and then averaged and recorded."/>
+	</concept>
 </CodeSystem>

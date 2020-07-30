@@ -102,6 +102,15 @@
 				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
 			</binding>
 		</element>
+		<element id="Observation:cimiBloodPressurePanel.extension:Protocol">
+			<path value="Observation.extension"/>
+			<sliceName value="MeasurementProtocol"/>
+			<short value="Algorithm for Blood Pressure"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementProtocolExt"/>
+			</type>
+		</element>
 		<element id="Observation:cimiBloodPressurePanel.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
