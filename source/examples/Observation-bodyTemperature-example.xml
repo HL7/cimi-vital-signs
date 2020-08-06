@@ -45,7 +45,7 @@
   <bodySite>
       <coding>
         <system value="http://snomed.info/sct"/>
-		    <code value="118590005"/>
+		    <code value="117590005"/>
 		    <display value="Ear structure"/>
 	    </coding>
   </bodySite>
