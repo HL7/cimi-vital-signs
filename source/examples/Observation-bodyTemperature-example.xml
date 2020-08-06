@@ -43,9 +43,10 @@
     <code value="Cel"/>
   </valueQuantity>
   <bodySite>
-	<coding>
-		<code value="118590005"/>
-		<display value="Ear structure"/>
-	</coding>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+		    <code value="118590005"/>
+		    <display value="Ear structure"/>
+	    </coding>
   </bodySite>
 </Observation>

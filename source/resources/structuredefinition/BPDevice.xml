@@ -3,7 +3,7 @@
   <id value="BPDevice"/>
   <url value="http://hl7.org/fhir/hspc/StructureDefinition/BPDevice"/>
   <version value="2.0.0"/>
-  <name value="Blood Pressure Device"/>
+  <name value="BloodPressureDevice"/>
   <status value="draft"/>
   <date value="2020-04-07"/>
   <publisher value="Logica"/>

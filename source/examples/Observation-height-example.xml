@@ -26,7 +26,7 @@
 		<coding>
 			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
 			<code value="961000205106"/>
-			<display value="Wearing street clothes with shoes"/>
+			<display value="Wearing street clothes, no shoes (finding)"/>
 		</coding>
 	</valueCodeableConcept>
   </extension>

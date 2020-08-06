@@ -125,20 +125,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/AlgorithmTypeExt"/>
-      </reference>
-      <description value="Algorithm Type extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
-      </reference>
-      <description value="Algorithm for Blood Pressure Average extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/MeasurementSettingExt"/>
       </reference>
       <description value="Measurement Setting extension"/>

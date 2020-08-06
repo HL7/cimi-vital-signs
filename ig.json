@@ -119,7 +119,6 @@
 	"StructureDefinition/ExerciseAssociationExt":{"base":"StructureDefinition-ExerciseAssociationExt.html"},
 	"StructureDefinition/SetSizeExt":{"base":"StructureDefinition-SetSizeExt.html"},
 	"StructureDefinition/TimeWindowExt":{"base":"StructureDefinition-TimeWindowExt.html"},
-	"StructureDefinition/AlgorithmTypeExt":{"base":"StructureDefinition-AlgorithmTypeExt.html"},
 	"StructureDefinition/MeasurementProtocolExt":{"base":"StructureDefinition-MeasurementProtocolExt.html"},
 	"StructureDefinition/MeasurementSettingExt":{"base":"StructureDefinition-MeasurementSettingExt.html"},
 

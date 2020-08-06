@@ -12,15 +12,6 @@
       "path": "http://build.fhir.org/ig/HL7/cimi-vital-signs",
       "status": "ci-build",
       "current": true
-    },
-    {
-      "vsersion": "0.1.0",
-      "date": "08-5-2020",
-      "desc": "Ballot version for Vital Signs with Qualifying Extensions",
-      "path": "http://build.fhir.org/ig/HL7/cimi-vital-signs/ballotSept2020",
-      "status": "ballot",
-      "fhir-version": "4.0.1",
-      "current": false
     }
   ]
 }

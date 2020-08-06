@@ -129,20 +129,6 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/AlgorithmTypeExt"
-      },
-      "description" : "Algorithm Type extension",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/AlgorithmForBloodPressureAverageExt"
-      },
-      "description" : "Algorithm for Blood Pressure Average extension",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/MeasurementSettingExt"
       },
       "description" : "Measurement Setting extension",

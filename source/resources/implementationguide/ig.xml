@@ -115,7 +115,7 @@
 			<description value="Time Window extension"/>
 			<exampleBoolean value="false"/>
 		</resource>
-		<resource>
+<!-- 		<resource>
 			<reference>
 				<reference value="StructureDefinition/AlgorithmTypeExt"/>
 			</reference>
@@ -128,7 +128,7 @@
 			</reference>
 			<description value="Algorithm for Blood Pressure Average extension"/>
 			<exampleBoolean value="false"/>
-		</resource>
+		</resource> -->
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/MeasurementSettingExt"/>

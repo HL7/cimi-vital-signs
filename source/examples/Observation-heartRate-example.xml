@@ -12,7 +12,7 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt">
+  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
