@@ -24,8 +24,8 @@
   <extension url="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt">
 	<valueCodeableConcept>
 		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="971000205103"/>
+			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<code value="961000205106"/>
 			<display value="Wearing street clothes with shoes"/>
 		</coding>
 	</valueCodeableConcept>

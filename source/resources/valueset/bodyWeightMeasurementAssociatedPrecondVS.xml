@@ -15,8 +15,8 @@
         <include>
             <system value="http://snomed.info/sct"/>
 			<concept>
-				<code value="118643004 (physical object)"/>
-				<display value="Cast device"/>
+				<code value="118643004"/>
+				<display value="Cast device (physical object)"/>
 			</concept>
 			<concept>
 				<code value="190902006"/>
