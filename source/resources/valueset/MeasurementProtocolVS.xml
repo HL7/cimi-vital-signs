@@ -17,10 +17,10 @@
     <compose>
         <include>
             <system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
-			<concept>
-				<code value="AOBP"/>
-				<display value="Automated office blood pressure"/>
-			</concept>
+            <concept>
+              <code value="AOBP"/>
+              <display value="Automated office blood pressure"/>
+            </concept>
         </include>
     </compose>
 </ValueSet>

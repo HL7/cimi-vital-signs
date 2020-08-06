@@ -92,7 +92,7 @@
     "txCache": "generated_output/txCache",
     "qa": "generated_output/qa",
     "specification": "http://hl7.org/fhir/R4",
-    "history": "http://hl7.org/fhir/hspc/vitalsigns/history.cfml",
+    "history": "http://hl7.org/fhir/hspc/history.html",
     "resources": [
       "source/resources",
       "source/examples"
@@ -173,6 +173,7 @@
 	"ValueSet/vitalSignAssociatedPrecondVS":{"base":"ValueSet-vitalSignAssociatedPrecondVS.html"},
 	"ValueSet/weightMeasurementDeviceVS":{"base":"ValueSet-weightMeasurementDeviceVS.html"},
 	"ValueSet/MeasSettingVS":{"base":"ValueSet-MeasSettingVS.html"},
+	"ValueSet/MeasurementProtocolVS":{"base":"ValueSet-MeasurementProtocolVS.html"},
     
 	"Observation/BloodPressurePanelExample":{"base":"Observation-BloodPressurePanelExample.html"},
 	"Observation/BMIExample":{"base":"Observation-BMIExample.html"},

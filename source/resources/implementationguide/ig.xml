@@ -457,6 +457,13 @@
 			<description value="Measurement Setting value set"/>
 			<exampleBoolean value="false"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/MeasurementProtocolVS"/>
+			</reference>
+			<description value="Measurement Protocol value set"/>
+			<exampleBoolean value="false"/>
+		</resource>
 		<!-- <resource>
 			<reference>
 				<reference value="ValueSet/vitalSignAssociatedPrecondVS"/>

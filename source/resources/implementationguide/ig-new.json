@@ -465,6 +465,13 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/MeasurementProtocolVS"
+      },
+      "description" : "Measurement Protocol value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "Observation/oxygenSaturationPulseOx-example"
       },
       "description" : "Oxygen Saturation via Pulse Oximetery example",

@@ -461,6 +461,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/MeasurementProtocolVS"/>
+      </reference>
+      <description value="Measurement Protocol value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/oxygenSaturationPulseOx-example"/>
       </reference>
       <description value="Oxygen Saturation via Pulse Oximetery example"/>
