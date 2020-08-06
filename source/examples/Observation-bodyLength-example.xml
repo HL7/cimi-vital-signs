@@ -25,7 +25,7 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="8306-3"/>
-      <display value="Body height -- lying"/>
+      <display value="Body height --lying"/>
     </coding>
     <text value="Body length"/>
   </code>

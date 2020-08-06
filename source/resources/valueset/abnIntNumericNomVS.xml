@@ -19,7 +19,7 @@
   <copyright value="IHC"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/ValueSet/observation-interpretation"/>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
       <concept>
         <code value="A"/>
         <display value="Abnormal"/>

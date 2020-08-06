@@ -117,8 +117,6 @@
 	"StructureDefinition/MethodDeviceExt":{"base":"StructureDefinition-MethodDeviceExt.html"},
 	"StructureDefinition/ClothingWornDuringMeasureExt":{"base":"StructureDefinition-ClothingWornDuringMeasureExt.html"},
 	"StructureDefinition/ExerciseAssociationExt":{"base":"StructureDefinition-ExerciseAssociationExt.html"},
-	"StructureDefinition/SetSizeExt":{"base":"StructureDefinition-SetSizeExt.html"},
-	"StructureDefinition/TimeWindowExt":{"base":"StructureDefinition-TimeWindowExt.html"},
 	"StructureDefinition/MeasurementProtocolExt":{"base":"StructureDefinition-MeasurementProtocolExt.html"},
 	"StructureDefinition/MeasurementSettingExt":{"base":"StructureDefinition-MeasurementSettingExt.html"},
 
