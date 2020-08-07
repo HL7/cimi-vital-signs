@@ -15,12 +15,12 @@
     },
     {
       "version": "0.1.0",
+      "fhirversion": "4.0.1",
       "date": "2020-08-07",
       "desc": "STU 1 Ballot",
       "path": "http://hl7.org/fhir/us/vitals/2020Sep",
       "status": "ballot",
-      "sequence": "STU1",
-      "fhir-version": "4.0.1"
+      "sequence": "STU1"
     }
   ]
 }
