@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="BloodPressureCuffSizeExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/BloodPressureCuffSizeExt"/>
   <version value="0.1.0"/>
   <name value="BloodPressureCuffSizeExt"/>
   <title value="Blood Pressure Cuff Size"/>
@@ -49,7 +49,7 @@
     </element>
     <element id="Extension:BloodPressureCuffSizeExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/BloodPressureCuffSizeExt"/>
     </element>
     <element id="Extension:BloodPressureCuffSizeExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>

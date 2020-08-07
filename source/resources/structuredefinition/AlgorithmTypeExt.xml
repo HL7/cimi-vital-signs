@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="AlgorithmTypeExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmTypeExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/AlgorithmTypeExt"/>
   <version value="0.1.0"/>
   <name value="AlgorithmTypeExt"/>
   <title value="Algorithm Type"/>
@@ -44,7 +44,7 @@
     </element>
     <element id="Extension:AlgorithmTypeExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmTypeExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/AlgorithmTypeExt"/>
     </element>
     <element id="Extension:AlgorithmTypeExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>

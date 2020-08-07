@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="SolorTemporaryCodeSystem"/>
-	<url value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+	<url value ="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
 	<version value="0.1.0"/>
 	<name value="SolorTemporaryCodeSystem"/>
 	<title value="SNOMED CT Solor Extension Temporary Code System"/>

@@ -62,7 +62,7 @@
       "content": false
     }
   },
-  "canonicalBase": "http://hl7.org/fhir/hspc",
+  "canonicalBase": "http://hl7.org/fhir/us/vitals",
   "contact": [
     {
       "system": "url",

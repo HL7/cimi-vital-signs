@@ -4,7 +4,7 @@
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/bpCuffSizeVS"/>
     <version value="0.01"/>
     <name value="BloodPressureCuffSizevalueset"/>
     <title value="Blood Pressure Cuff Size value set"/>
@@ -36,7 +36,7 @@
 			</concept>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<system value="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
 			<concept>
 				<code value="24821000205101"/>
 				<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>

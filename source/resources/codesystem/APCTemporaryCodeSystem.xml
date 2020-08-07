@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="APCTemporaryCodeSystem"/>
-	<url value="http://hl7.org/fhir/hspc/CodeSystem/APCTemporaryCodeSystem"/>
+	<url value ="http://hl7.org/fhir/us/vitals/CodeSystem/APCTemporaryCodeSystem"/>
 	<version value="0.1.0"/>
 	<name value="APCTemporaryCodeSystem"/>
 	<title value="Associated Precondition Temporary Code System"/>

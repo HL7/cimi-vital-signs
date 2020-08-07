@@ -1,9 +1,9 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="bodyLength-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyLength"/>
+    <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyLength"/>
   </meta>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>

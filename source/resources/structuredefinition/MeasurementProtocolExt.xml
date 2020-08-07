@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="MeasurementProtocolExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementProtocolExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementProtocolExt"/>
   <version value="2.0.0"/>
   <name value="MeasurementProtocol"/>
   <title value="Measurement Protocol"/>
@@ -48,7 +48,7 @@
     </element>
     <element id="Extension:MeasurementProtocolExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementProtocolExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementProtocolExt"/>
     </element>
     <element id="Extension:MeasurementProtocolExt.valueCodeableConcept">
       <path value="Extension.value"/>
@@ -58,7 +58,7 @@
       </type>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasurementProtocolVS"/>
+        <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasurementProtocolVS"/>
       </binding>
     </element>
   </differential>

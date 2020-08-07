@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="BodyPositionExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt"/>
   <version value="0.1.0"/>
   <name value="BodyPositionExt"/>
   <title value="Body Position"/>
@@ -45,7 +45,7 @@
     </element>
     <element id="Extension:BodyPositionExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt"/>
     </element>
     <element id="Extension:BodyPositionExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>

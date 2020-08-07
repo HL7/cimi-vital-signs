@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="ClothingWornDuringMeasureExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/ClothingWornDuringMeasureExt"/>
   <version value="0.1.0"/>
   <name value="ClothingWornDuringMeasure"/>
   <title value="Clothing Worn During Measure Extension"/>
@@ -45,7 +45,7 @@
     </element>
     <element id="Extension:clothingWornDuringMeasureExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/ClothingWornDuringMeasureExt"/>
     </element>
     <element id="Extension:clothingWornDuringMeasureExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>

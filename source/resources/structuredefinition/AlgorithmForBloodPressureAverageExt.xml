@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="AlgorithmForBloodPressureAverageExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
   <version value="2.0.0"/>
   <name value="AlgorithmForBloodPressureAverageExt"/>
   <title value="Algorithm for Blood Pressure Average"/>
@@ -51,7 +51,7 @@
         <sliceName value="AlgorithmType"/>
         <type>
             <code value="Extension"/>
-            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmTypeExt"/>
+            <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/AlgorithmTypeExt"/>
         </type>
     </element>
     <element id="Extension:AlgorithmForBloodPressureAverageExt.extension:TimeWindow">
@@ -59,7 +59,7 @@
         <sliceName value="TimeWindow"/>
         <type>
             <code value="Extension"/>
-            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/TimeWindowExt"/>
+            <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/TimeWindowExt"/>
         </type>
     </element>
     <element id="Extension:AlgorithmForBloodPressureAverageExt.extension:SetSize">
@@ -67,12 +67,12 @@
         <sliceName value="SetSize"/>
         <type>
             <code value="Extension"/>
-            <profile value="http://hl7.org/fhir/hspc/StructureDefinition/SetSizeExt"/>
+            <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/SetSizeExt"/>
         </type>
     </element>
     <element id="Extension:AlgorithmForBloodPressureAverageExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/AlgorithmForBloodPressureAverageExt"/>
     </element>
     <element id="Extension:AlgorithmForBloodPressureAverageExt.value[x]">
       <path value="Extension.value[x]"/>

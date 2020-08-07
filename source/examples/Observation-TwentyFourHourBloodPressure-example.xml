@@ -2,9 +2,9 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="TwentyFourHourBloodPressure-example"/>
   <meta>
-	<profile value="http://hl7.org/fhir/hspc/StructureDefinition/TwentyFourHourBloodPressure"/>
+	<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/TwentyFourHourBloodPressure"/>
   </meta>
-  <extension url ="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
@@ -13,7 +13,7 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url ="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementSettingExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>

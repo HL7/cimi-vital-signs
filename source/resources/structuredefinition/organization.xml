@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="organization"/>
-  <url value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/organization"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/organization"/>
   <version value="2.0.0"/>
   <name value="Organization Profile"/>
   <status value="draft"/>

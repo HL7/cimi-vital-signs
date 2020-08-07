@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="RespiratoryRate"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/RespiratoryRate"/>
+    <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/RespiratoryRate"/>
 	<version value="0.1.0"/>
     <name value="ResiratoryRate"/>
 	<title value="Respiratory Rate"/>
@@ -35,11 +35,11 @@
 			<short value="Measurement Device"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS"/>
+                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/respiratoryRateMeasDeviceVS"/>
             </binding>
 			<mustSupport value="true"/>
 		</element>
@@ -49,12 +49,12 @@
 		    <short value="Body Position"/>
 		    <type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt"/>
 		    </type>
 		    <mustSupport value="false"/>
 		    <binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyPositionVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyPositionVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiResiratoryRate.extension:ExerciseAssociationExt">
@@ -63,11 +63,11 @@
 			<short value="Exercise Association"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/exertionPhaseVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
 		</element>
@@ -77,11 +77,11 @@
 			<short value="Measurement setting"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementSettingExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiResiratoryRate.status">
@@ -166,14 +166,14 @@
 			<path value="Observation.interpretation"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiResiratoryRate.method">
 			<path value="Observation.method"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/respiratoryRateMeasMethodVS"/>
 			</binding>
 		</element>
     </differential>

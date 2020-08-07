@@ -1,9 +1,9 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="bodyWeight-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyWeight"/>
+    <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyWeight"/>
   </meta>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
@@ -12,7 +12,7 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/ClothingWornDuringMeasureExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>

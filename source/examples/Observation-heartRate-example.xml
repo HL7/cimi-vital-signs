@@ -1,9 +1,9 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="heartRate-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/HeartRate"/>
+    <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/HeartRate"/>
   </meta>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
@@ -12,7 +12,7 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
@@ -21,7 +21,7 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>

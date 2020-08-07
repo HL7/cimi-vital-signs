@@ -1,7 +1,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="oxygenSaturation-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBlood"/>
+    <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/OxygenSaturationArterialBlood"/>
   </meta>
   <status value="final"/>
   <category>

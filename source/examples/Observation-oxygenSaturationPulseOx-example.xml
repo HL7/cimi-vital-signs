@@ -1,9 +1,9 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="oxygenSaturationPulseOx-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
+    <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
   </meta>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/SensorDescriptionExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/SensorDescriptionExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>

@@ -4,7 +4,7 @@
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasMethodVS"/>
     <version value="0.01"/>
     <name value="HeightLengthMeasurementMethodvalueset"/>
     <title value="Height Length Measurement Method value set"/>

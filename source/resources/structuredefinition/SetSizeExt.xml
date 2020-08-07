@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="SetSizeExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/SetSizeExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/SetSizeExt"/>
   <version value="0.1.0"/>
   <name value="SetSizeExt"/>
   <title value="Set Size"/>
@@ -44,7 +44,7 @@
     </element>
     <element id="Extension:SetSizeExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/SetSizeExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/SetSizeExt"/>
     </element>
     <element id="Extension:SetSizeExt.valueInteger">
       <path value="Extension.valueInteger"/>

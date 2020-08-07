@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="practitioner"/>
-  <url value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/practitioner"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/practitioner"/>
   <name value="Practitioner Profile"/>
   <status value="draft"/>
   <date value="2019-06-19"/>
@@ -1912,7 +1912,7 @@
       <binding>
         <strength value="preferred"/>
         <description value="A set of codes that describe the method by which an individual communicates"/>
-        <valueSet value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/communicationModeVS"/>
+        <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/communicationModeVS"/>
       </binding>
     </element>
     <element id="Practitioner:hspcpractitioner.communication.coding">
@@ -2124,7 +2124,7 @@
       <binding>
         <strength value="preferred"/>
         <description value="A set of codes that describe the method by which an individual communicates"/>
-        <valueSet value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/communicationModeVS"/>
+        <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/communicationModeVS"/>
       </binding>
     </element>
   </differential>

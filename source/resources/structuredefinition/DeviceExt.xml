@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DeviceExt"/>
-  <url value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/DeviceExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/DeviceExt"/>
 	<jurisdiction>
 		<coding>
 		<system value="urn:iso:std:iso:3166:-2#US"/>
@@ -35,7 +35,7 @@
     </element>
     <element id="Extension:device.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/DeviceExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/DeviceExt"/>
     </element>
     <element id="Extension:device.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
@@ -45,7 +45,7 @@
       </type>
       <binding>
         <strength value="example"/>
-        <valueSet value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/woundMeasurementDeviceVS"/>
+        <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/woundMeasurementDeviceVS"/>
       </binding>
     </element>
   </differential>

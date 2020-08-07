@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
   <id value="heartRateMeasMethodVS"/>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/heartRateMeasMethodVS"/>
     <version value="0.01"/>
     <name value="HeartRateMeasurementMethodvalueset"/>
     <title value="Heart Rate Measurement Method value set"/>
@@ -43,7 +43,7 @@
 			</concept>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<system value="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
 			<concept>	
 				<code value ="641000205104"/>
 				<display value ="Computer aided auscultation (procedure)"/>

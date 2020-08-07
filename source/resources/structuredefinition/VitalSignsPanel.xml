@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="VitalSignsPanel"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/VitalSignsPanel"/>
+    <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/VitalSignsPanel"/>
 	<version value="0.1.0"/>
     <name value="VitalSignsPanel"/>
 	<title value="Vital Signs Panel"/>
@@ -40,7 +40,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/vitalSignAssociatedPrecondVS"/>
 			</binding>
 		</element> -->
 		<element id="Observation:cimiVitalSignsPanel.extension:ExerciseAssociationExt">
@@ -49,11 +49,11 @@
 			<short value="Exercise Association"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/exertionPhaseVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
 		</element>
@@ -63,11 +63,11 @@
 			<short value="Measurement setting"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementSettingExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.status">
@@ -114,7 +114,7 @@
 			<path value="Observation.interpretation"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/definedLimitsVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.bodySite">
@@ -161,7 +161,7 @@
 			<sliceName value="OxygenSaturationArterialBloodPulseOx"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:SaO2">
@@ -169,7 +169,7 @@
 			<sliceName value="OxygenSaturationArterialBlood"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBlood"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/OxygenSaturationArterialBlood"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:bodyWeight">
@@ -177,7 +177,7 @@
 			<sliceName value="BodyWeight"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyWeight"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyWeight"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:headCircumference">
@@ -185,7 +185,7 @@
 			<sliceName value="HeadOccipitalFrontalCircumference"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/HeadOccipitalFrontalCircumference"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/HeadOccipitalFrontalCircumference"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:height">
@@ -193,7 +193,7 @@
 			<sliceName value="Height"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/Height"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/Height"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:BodyLength">
@@ -201,7 +201,7 @@
 			<sliceName value="BodyLength"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyLength"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyLength"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:bodyTemperature">
@@ -209,7 +209,7 @@
 			<sliceName value="BodyTemperature"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyTemperature"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyTemperature"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:bloodPressurePanel">
@@ -217,7 +217,7 @@
 			<sliceName value="BloodPressurePanel"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressurePanel"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BloodPressurePanel"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:heartRate">
@@ -225,7 +225,7 @@
 			<sliceName value="HeartRate"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/HeartRate"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/HeartRate"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:respiratoryRate">
@@ -233,7 +233,7 @@
 			<sliceName value="RespiratoryRate"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/RespiratoryRate"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/RespiratoryRate"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.hasMember:bodyMassIndex">
@@ -241,7 +241,7 @@
 			<sliceName value="BodyMassIndex"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyMassIndex"/>
+				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyMassIndex"/>
 			</type>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.component">

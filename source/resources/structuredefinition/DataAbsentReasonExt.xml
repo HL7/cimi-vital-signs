@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataAbsentReasonExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/DataAbsentReasonExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/DataAbsentReasonExt"/>
 	<jurisdiction>
 		<coding>
 		<system value="urn:iso:std:iso:3166:-2#US"/>
@@ -35,7 +35,7 @@
     </element>
     <element id="Extension:DataAbsentReasonExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/DataAbsentReasonExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/DataAbsentReasonExt"/>
     </element>
     <element id="Extension:DataAbsentReasonExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>

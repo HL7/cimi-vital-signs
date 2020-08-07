@@ -4,7 +4,7 @@
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/heightBodyPositionVS"/>
     <version value="0.01"/>
     <name value="HeightBodyPositionvalueset"/>
     <title value="Height Body Position value set"/>

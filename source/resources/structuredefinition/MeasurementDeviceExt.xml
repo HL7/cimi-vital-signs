@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="MeasurementDeviceExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
   <version value="0.1.0"/>
   <name value="MeasurementDeviceExt"/>
   <title value="Measurement Device"/>
@@ -45,7 +45,7 @@
     </element>
     <element id="Extension:MeasurementDeviceExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
     </element>
     <element id="Extension:MeasurementDeviceExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>

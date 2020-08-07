@@ -4,7 +4,7 @@
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
     <version value="0.01"/>
     <name value="BodyTemperatureMeasurementBodyLocationvalueset"/>
     <title value="Body Temperature Measurement Body Location value set"/>

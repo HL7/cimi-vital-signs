@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="HeadOccipitalFrontalCircumference"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/HeadOccipitalFrontalCircumference"/>
+    <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/HeadOccipitalFrontalCircumference"/>
 	<version value="0.1.0"/>
     <name value="HeadOccipitalFrontalCircumference"/>
 	<title value="Head Occipital-Frontal Circumference"/>
@@ -112,7 +112,7 @@
 			<path value="Observation.interpretation"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
             </binding>
 		</element>
     </differential>

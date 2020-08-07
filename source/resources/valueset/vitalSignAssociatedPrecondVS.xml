@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
   <id value="vitalSignAssociatedPrecondVS"/>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/vitalSignAssociatedPrecondVS"/>
     <version value="0.01"/>
     <name value="VitalSignAssociatedPreconditionvalueset"/>
     <title value="Vital Sign Associated Precondition value set"/>
@@ -115,7 +115,7 @@
 			</concept>
         </include>
 		<include>
-			<system value="http://hl7.org/fhir/hspc/CodeSystem/APCTemporaryCodeSystem"/>
+			<system value="http://hl7.org/fhir/us/vitals/CodeSystem/APCTemporaryCodeSystem"/>
 			<concept>	
 				<code value ="AFAN"/>
 				<display value ="After anesthesia"/>

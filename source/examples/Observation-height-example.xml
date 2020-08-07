@@ -1,9 +1,9 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="height-example"/>
   <meta>
-    <profile value="http://hl7.org/fhir/hspc/StructureDefinition/Height"/>
+    <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/Height"/>
   </meta>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
@@ -12,7 +12,7 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
@@ -21,10 +21,10 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/ClothingWornDuringMeasureExt">
+  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/ClothingWornDuringMeasureExt">
 	<valueCodeableConcept>
 		<coding>
-			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<system value ="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
 			<code value="961000205106"/>
 			<display value="Wearing street clothes, no shoes (finding)"/>
 		</coding>

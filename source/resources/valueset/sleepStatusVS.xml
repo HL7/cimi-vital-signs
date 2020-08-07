@@ -4,7 +4,7 @@
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/sleepStatusVS"/>
   <version value="0.01"/>
   <name value="SleepStatusvalueset"/>
   <title value="Sleep Status value set"/>

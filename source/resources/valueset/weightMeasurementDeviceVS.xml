@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
   <id value="weightMeasurementDeviceVS"/>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/weightMeasurementDeviceVS"/>
     <version value="0.01"/>
     <name value="WeightMeasurementDevice"/>
     <title value="Weight Measurement Device value set"/>
@@ -48,7 +48,7 @@
 			</concept>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+			<system value="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
 			<concept>
 				<code value="24181000205106"/>
 				<display value="Patient lift scale (physical object)"/>

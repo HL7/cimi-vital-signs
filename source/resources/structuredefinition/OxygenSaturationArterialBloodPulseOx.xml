@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="OxygenSaturationArterialBloodPulseOx"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
+    <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/OxygenSaturationArterialBloodPulseOx"/>
 	<version value="0.1.0"/>
     <name value="OxygenSaturationArterialBloodPulseOx"/>
 	<title value="Oxygen Saturation in Arterial Blood by Pulse Oximetery"/>
@@ -35,11 +35,11 @@
 			<short value="Sensor Description"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/SensorDescriptionExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/SensorDescriptionExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/sensorDescriptionVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiSPO2.extension:MeasurementSettingExt">
@@ -48,11 +48,11 @@
 			<short value="Measurement setting"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementSettingExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiSPO2.extension:ExerciseAssociationExt">
@@ -61,11 +61,11 @@
 			<short value="Exercise Association"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/exertionPhaseVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
 		</element>
@@ -151,7 +151,7 @@
             </type>
 		  <binding>
 			<strength value="preferred"/>
-			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 		  </binding>
         </element>
 		<element id="Observation:cimiSPO2.bodySite">
@@ -160,7 +160,7 @@
 		  <binding>
 			<strength value="preferred"/>
 			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
-			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
+			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/sPO2BodyLocationVS"/>
 		  </binding>
 		</element>
     </differential>

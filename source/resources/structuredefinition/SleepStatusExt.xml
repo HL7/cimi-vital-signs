@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="SleepStatusExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/SleepStatusExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/SleepStatusExt"/>
   <version value="0.1.0"/>
   <name value="SleepStatus"/>
   <title value="Sleep Status"/>
@@ -45,7 +45,7 @@
     </element>
     <element id="Extension:SleepStatusExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/SleepStatusExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/SleepStatusExt"/>
     </element>
     <element id="Extension:SleepStatusExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>

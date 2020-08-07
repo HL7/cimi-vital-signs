@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="TimeWindowExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/TimeWindowExt"/>
+  <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/TimeWindowExt"/>
   <version value="0.1.0"/>
   <name value="TimeWindowExt"/>
   <title value="Time Window"/>
@@ -44,7 +44,7 @@
     </element>
     <element id="Extension:TimeWindowExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/TimeWindowExt"/>
+      <fixedUri value="http://hl7.org/fhir/us/vitals/StructureDefinition/TimeWindowExt"/>
     </element>
     <element id="Extension:TimeWindowExt.value">
       <path value="Extension.value[x]"/>

@@ -4,7 +4,7 @@
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/MeasurementProtocolVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/MeasurementProtocolVS"/>
     <version value="0.01"/>
     <name value="MeasurementProtocolVS"/>
     <title value="MeasurementProtocolVS"/>
@@ -16,7 +16,7 @@
     <copyright value="TBD"/>
     <compose>
         <include>
-            <system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+            <system value="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
             <concept>
               <code value="AOBP"/>
               <display value="Automated office blood pressure"/>

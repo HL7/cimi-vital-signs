@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="OxygenSaturationArterialBlood"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBlood"/>
+    <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/OxygenSaturationArterialBlood"/>
     <name value="OxygenSaturationArterialBlood"/>
 	<title value="Oxygen Saturation in Arterial blood, method not specified"/>
     <status value="draft"/>

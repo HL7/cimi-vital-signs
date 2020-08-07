@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="BodyMassIndex"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/BodyMassIndex"/>
+    <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyMassIndex"/>
 	<version value="1.0"/>
     <name value="BodyMassIndex"/>
     <status value="draft"/>
@@ -34,11 +34,11 @@
 			<short value="Measurement setting"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementSettingExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyMassIndex.status">
@@ -121,7 +121,7 @@
 			<path value="Observation.interpretation"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
     </differential>

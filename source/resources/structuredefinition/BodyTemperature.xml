@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="BodyTemperature"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/BodyTemperature"/>
+    <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyTemperature"/>
 	<version value="0.1.0"/>
     <name value="BodyTemperature"/>
     <status value="draft"/>
@@ -34,11 +34,11 @@
 			<short value="Associated Precondition"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/AssociatedPreconditionExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/vitalSignAssociatedPrecondVS"/>
 			</binding>
 			<mustSupport value="true"/>
 		</element> -->
@@ -48,11 +48,11 @@
 			<short value="Method/Device"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MethodDeviceExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MethodDeviceExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyTempMeasMethodDeviceVS"/>
 			</binding>
 			<mustSupport value="true"/>
 		</element>
@@ -62,11 +62,11 @@
 			<short value="Measurement setting"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementSettingExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/MeasSettingVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyTemperature.status">
@@ -149,14 +149,14 @@
 			<path value="Observation.interpretation"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyTemperature.bodySite">
 			<path value="Observation.bodySite"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyTemperature.method">
