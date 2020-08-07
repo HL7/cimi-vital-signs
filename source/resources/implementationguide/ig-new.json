@@ -17,7 +17,7 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
     "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\source\\pages"
   }],
-  "url" : "http://hl7.org/fhir/hspc/ImplementationGuide/vitalsigns",
+  "url" : "http://hl7.org/fhir/us/vitals/ImplementationGuide/vitalsigns",
   "version" : "0.1.0",
   "name" : "VitalSigns",
   "title" : "Vital Signs",

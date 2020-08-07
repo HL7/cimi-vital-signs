@@ -92,7 +92,7 @@
     "txCache": "generated_output/txCache",
     "qa": "generated_output/qa",
     "specification": "http://hl7.org/fhir/R4",
-    "history": "http://hl7.org/fhir/hspc/history.html",
+    "history": "http://hl7.org/fhir/us/vitals/history.html",
     "suppressedWarningFile": "/Users/nrdavis1/cimi-vital-signs/source/resources/supressedWarnings/mySupressedWarnings.txt",
     "resources": [
       "source/resources",

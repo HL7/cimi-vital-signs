@@ -14,7 +14,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
     <valueString value="C:\Users\nrdavis1\cimi-vital-signs\source\pages"/>
   </extension>
-  <url value="http://hl7.org/fhir/hspc/ImplementationGuide/vitalsigns"/>
+  <url value="http://hl7.org/fhir/us/vitals/ImplementationGuide/vitalsigns"/>
   <version value="0.1.0"/>
   <name value="VitalSigns"/>
   <title value="Vital Signs"/>

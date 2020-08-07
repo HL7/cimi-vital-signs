@@ -1,7 +1,7 @@
 {
   "package-id": "hl7.fhir.us.vitalsigns",
   "title": "Vital Signs FHIR IG",
-  "canonical": "http://hl7.org/fhir/hspc",
+  "canonical": "http://hl7.org/fhir/us/vitals",
   "introduction": "The scope of this project is to produce and ballot a Standard for Trial Use (STU) Fast Healthcare Interoperability Resources (FHIR) implementation guide (IG) for use in reporting vital signs observations with qualifying extensions.  Such as cuff size, clothing worn during measure, etc.",
   "list": [
     {
@@ -12,6 +12,15 @@
       "path": "http://build.fhir.org/ig/HL7/cimi-vital-signs",
       "status": "ci-build",
       "current": true
+    },
+    {
+      "version": "0.1.0",
+      "date": "2020-08-07",
+      "desc": "STU 1 Ballot",
+      "path": "http://hl7.org/fhir/us/vitals/2020Sep",
+      "status": "ballot",
+      "sequence": "STU1",
+      "fhir-version": "4.0.1"
     }
   ]
 }

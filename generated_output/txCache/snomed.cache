@@ -11584,3 +11584,13 @@ v: {
   "error" : "Attempt to use Terminology server when no Terminology server is available"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "118643004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------

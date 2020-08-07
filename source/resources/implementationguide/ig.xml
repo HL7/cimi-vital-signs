@@ -2,7 +2,7 @@
 <!--Hidden IG for de facto IG publishing-->
 <ImplementationGuide xmlns="http://hl7.org/fhir">
 	<id value="vitalsigns"/>
-	<url value="http://hl7.org/fhir/hspc/ImplementationGuide/vitalsigns"/>
+	<url value="http://hl7.org/fhir/us/vitals/ImplementationGuide/vitalsigns"/>
 	<version value="0.1.0"/>
 	<name value="VitalSigns"/>
 	<title value="Vital Signs"/>
