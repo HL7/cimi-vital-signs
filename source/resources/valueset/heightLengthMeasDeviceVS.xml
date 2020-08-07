@@ -16,20 +16,23 @@
     <copyright value="TBD"/>
     
     <compose>
-        <include>
-            <system value="http://snomed.info/sct"/>
-            <concept>
+      <include>
+          <system value="http://snomed.info/sct"/>
+          <concept>
 				<code value="102304005"/>
 				<display value="Measuring ruler, device (physical object)"/>
-			</concept>
-            <concept>
-				<code value="51791000"/>
-				<display value="Measuring tape, device (physical object)"/>
-			</concept>
-            <concept>
-				<code value="24311000205101"/>
-				<display value="Stadiometer (physical object)"/>
-			</concept>
-        </include>
+			  </concept>
+        <concept>
+				  <code value="51791000"/>
+				  <display value="Measuring tape, device (physical object)"/>
+			  </concept>
+      </include>
+		  <include>
+			  <system value="http://hl7.org/fhir/hspc/CodeSystem/SolorTemporaryCodeSystem"/>
+        <concept>
+				  <code value="24311000205101"/>
+				  <display value="Stadiometer (physical object)"/>
+			  </concept>
+		  </include>
     </compose>
 </ValueSet>

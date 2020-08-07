@@ -111,20 +111,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/SetSizeExt"/>
-      </reference>
-      <description value="Set Size extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/TimeWindowExt"/>
-      </reference>
-      <description value="Time Window extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/MeasurementSettingExt"/>
       </reference>
       <description value="Measurement Setting extension"/>

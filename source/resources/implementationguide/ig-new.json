@@ -115,20 +115,6 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/SetSizeExt"
-      },
-      "description" : "Set Size extension",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/TimeWindowExt"
-      },
-      "description" : "Time Window extension",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/MeasurementSettingExt"
       },
       "description" : "Measurement Setting extension",
