@@ -8,7 +8,6 @@
   "npm-name": "hl7.fhir.us.vitalsigns",
   "publisher": "HL7 International - Clinical Information Modeling Initiative",
   "fixed-business-version": "0.1.0",
-  "suppressedWarningFile": "C:/Users/nrdavis1/cimi-vital-signs/source/resources/supressedWarnings/mySupressedWarnings.txt",
   "extraTemplates": [
     "mappings"
   ],
@@ -94,6 +93,7 @@
     "qa": "generated_output/qa",
     "specification": "http://hl7.org/fhir/R4",
     "history": "http://hl7.org/fhir/hspc/history.html",
+    "suppressedWarningFile": "/Users/nrdavis1/cimi-vital-signs/source/resources/supressedWarnings/mySupressedWarnings.txt",
     "resources": [
       "source/resources",
       "source/examples"
