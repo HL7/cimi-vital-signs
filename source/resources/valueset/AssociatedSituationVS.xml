@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="AssociatedSituationVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/AssociatedSituationVS"/>
+    <version value="0.01"/>
+    <name value="AssociatedSituationvalueset"/>
+    <title value="Associated Situation value set"/>
+    <status value="draft"/>
+    <date value="2020-11-01"/>
+    <publisher value="Logica"/>
+    <description value="SELECT SNOMED CT code system values and temporary code system values."/>
+    <copyright value="TBD"/>
+    
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="118643004"/>
+				<display value="Cast device (physical object)"/>
+			</concept>
+			<concept>
+				<code value="257308009"/>
+				<display value="Oxygenator (physical object)"/>
+			</concept>
+			<concept>
+				<code value="53350007"/>
+				<display value="Prosthesis (physical object)"/>
+			</concept>
+			<concept>	
+				<code value="248160001"/>
+				<display value="Undressed (finding)"/>
+			</concept>
+        </include>
+        <include>
+            <system value="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
+			<concept>	
+				<code value="961000205106"/>
+				<display value="Wearing street clothes, no shoes (finding)"/>
+			</concept>	
+			<concept>	
+				<code value="971000205103"/>
+				<display value="Wearing street clothes with shoes (finding)"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>
