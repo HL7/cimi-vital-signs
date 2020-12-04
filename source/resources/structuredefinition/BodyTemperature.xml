@@ -28,31 +28,17 @@
 			<short value="Body Temperature"/>
             <definition value="Body Temperature, the measured heat of an individual's body."/>
         </element>
-<!-- 		<element id="Observation:cimiBodyTemperature.extension:associatedPrecondition">
+		<element id="Observation:cimiBodyTemperature.extension:measurementDevice">
 			<path value="Observation.extension"/>
-			<sliceName value="associatedPrecondition"/>
-			<short value="Associated Precondition"/>
+			<sliceName value="measurmentDevice"/>
+			<short value="Measurement Device Type"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/AssociatedPreconditionExt"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/observation-deviceCode"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/vitalSignAssociatedPrecondVS"/>
-			</binding>
-			<mustSupport value="true"/>
-		</element> -->
-		<element id="Observation:cimiBodyTemperature.extension:methodDevice">
-			<path value="Observation.extension"/>
-			<sliceName value="methodDevice"/>
-			<short value="Method/Device"/>
-			<type>
-				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MethodDeviceExt"/>
-			</type>
-			<binding>
-				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyTempMeasMethodDeviceVS"/>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyTempMeasurementDeviceVS"/>
 			</binding>
 			<mustSupport value="true"/>
 		</element>
@@ -65,9 +51,10 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
+		  <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyTemperature.status">
 			<path value="Observation.status"/>
@@ -75,11 +62,11 @@
 		</element>
         <element id="Observation:cimiBodyTemperature.code">
             <path value="Observation.code"/>
+			<short value="Body temperature"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="8310-5"/>
-					<display value="Body temperature"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -119,7 +106,7 @@
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBodyTemperature.component.valueQuantity.system">
+		<element id="Observation:cimiBodyTemperature.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -130,7 +117,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBodyTemperature.component.valueQuantity.code">
+		<element id="Observation:cimiBodyTemperature.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -138,7 +125,10 @@
                 <code value="code"/>
                 <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
             </type>
-            <fixedCode value="Cel"/>
+            <binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/TemperatureUOMVS"/>
+			</binding>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyTemperature.dataAbsentReason">
@@ -148,26 +138,17 @@
 		<element id="Observation:cimiBodyTemperature.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyTemperature.bodySite">
 			<path value="Observation.bodySite"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
 			</binding>
-		</element>
-		<element id="Observation:cimiBodyTemperature.method">
-			<path value="Observation.method"/>
-			<min value="0"/>
-			<max value="0"/>
-		</element>
-		<element id="Observation:cimiBodyTemperature.device">
-			<path value="Observation.device"/>
-			<min value="0"/>
-			<max value="0"/>
+		  <mustSupport value="true"/>
 		</element>
     </differential>
 </StructureDefinition>

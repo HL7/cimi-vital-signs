@@ -38,9 +38,10 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/SensorDescriptionExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/sensorDescriptionVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiSPO2.extension:MeasurementSettingExt">
 			<path value="Observation.extension"/>
@@ -51,9 +52,10 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiSPO2.extension:ExerciseAssociationExt">
 			<path value="Observation.extension"/>
@@ -64,7 +66,7 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
@@ -75,14 +77,13 @@
 		</element>
         <element id="Observation:cimiSPO2.code">
             <path value="Observation.code"/>
-			<sliceName value="OxygenSatCode"/>
+			<short value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
 		    <min value="1"/> 
 		    <max value="1"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="59408-5"/>
-					<display value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -116,7 +117,7 @@
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiSPO2.component.valueQuantity.system">
+		<element id="Observation:cimiSPO2.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -127,7 +128,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiSPO2.component.valueQuantity.code">
+		<element id="Observation:cimiSPO2.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -150,7 +151,7 @@
                 <code value="CodeableConcept"/>
             </type>
 		  <binding>
-			<strength value="preferred"/>
+			<strength value="extensible"/>
 			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 		  </binding>
         </element>
@@ -158,10 +159,11 @@
 		  <path value="Observation.bodySite"/>
 		  <mustSupport value="false"/>
 		  <binding>
-			<strength value="preferred"/>
+			<strength value="extensible"/>
 			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
 			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/sPO2BodyLocationVS"/>
 		  </binding>
+		  <mustSupport value="true"/>
 		</element>
     </differential>
 </StructureDefinition>

@@ -185,7 +185,7 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
           <valueBoolean value="true"/>
         </extension>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
       </binding>
@@ -430,7 +430,7 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
           <valueBoolean value="true"/>
         </extension>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
       </binding>
@@ -1192,7 +1192,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="The set of values to indicate affirmative or negative"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/v2-0136"/>
       </binding>
@@ -1693,7 +1693,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="The set of values to indicate affirmative or negative"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/v2-0136"/>
       </binding>
@@ -1846,7 +1846,7 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
           <valueBoolean value="true"/>
         </extension>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
       </binding>
@@ -1910,7 +1910,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="A set of codes that describe the method by which an individual communicates"/>
         <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/communicationModeVS"/>
       </binding>
@@ -2077,7 +2077,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="The set of values to indicate affirmative or negative"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/v2-0136"/>
       </binding>
@@ -2099,7 +2099,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="The set of values to indicate affirmative or negative"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/v2-0136"/>
       </binding>
@@ -2122,7 +2122,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="A set of codes that describe the method by which an individual communicates"/>
         <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/communicationModeVS"/>
       </binding>

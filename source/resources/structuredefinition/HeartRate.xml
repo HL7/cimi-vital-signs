@@ -31,13 +31,13 @@
 		<element id="Observation:cimiHeartRate.extension:measurementDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
-			<short value="Measurement Device"/>
+			<short value="Measurement Device Type"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/observation-deviceCode"/>
 			</type>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heartRateMeasDeviceVS"/>
             </binding>
 			<mustSupport value="true"/>
@@ -51,7 +51,7 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
@@ -65,7 +65,7 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt"/>
 		    </type>
 		    <binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyPositionVS"/>
 			</binding>
 			<mustSupport value="true"/>
@@ -79,9 +79,24 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
+		    <mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiHeartRate.extension:sleepStatus">
+			<path value="Observation.extension"/>
+			<sliceName value="sleepStatus"/>
+			<short value="Sleep Status"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/SleepStatusExt"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/sleepStatusVS"/>
+			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiHeartRate.status">
 			<path value="Observation.status"/>
@@ -89,11 +104,11 @@
 		</element>
         <element id="Observation:cimiHeartRate.code">
             <path value="Observation.code"/>
+			<short value="Heart rate"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="8867-4"/>
-					<display value="Heart rate"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -133,7 +148,7 @@
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiHeartRate.component.valueQuantity.system">
+		<element id="Observation:cimiHeartRate.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -144,7 +159,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiHeartRate.component.valueQuantity.code">
+		<element id="Observation:cimiHeartRate.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -162,34 +177,25 @@
 		<element id="Observation:cimiHeartRate.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiHeartRate.bodySite">
 			<path value="Observation.bodySite"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiHeartRate.method">
 			<path value="Observation.method"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heartRateMeasMethodVS"/>
 			</binding>
-		</element>
-		<element id="Observation:cimiHeartRate.device:BPDevice">
-			<path value="Observation.device"/>
-			<min value="0"/>
-			<max value="1"/>
-			<type>
-				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-				<targetProfile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BPDevice"/>
-			</type>
-			<mustSupport value="true"/>
+		    <mustSupport value="true"/>
 		</element>
     </differential>
 </StructureDefinition>

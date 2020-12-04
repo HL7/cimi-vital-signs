@@ -5,9 +5,9 @@
   "igtemplate-dir": "",
   "gen-examples": "false",
   "special-urls": [],
-  "npm-name": "hl7.fhir.us.vitalsigns",
+  "npm-name": "hl7.fhir.us.vitals",
   "publisher": "HL7 International - Clinical Information Modeling Initiative",
-  "fixed-business-version": "0.1.0",
+  "fixed-business-version": "0.2.0",
   "extraTemplates": [
     "mappings"
   ],
@@ -74,9 +74,9 @@
   "name": "VitalSigns",
   "dependencyList": [
     {
-      "location": "http://hl7.org/fhir/us/core/2019Sep",
+      "location": "http://hl7.org/fhir/us/core",
       "name": "USCoreR4",
-      "version": "3.0.1",
+      "version": "3.1.1",
       "package": "hl7.fhir.us.core"
     }
   ],
@@ -106,20 +106,15 @@
   "spreadsheets": [],
   "resources": {
     
-    
-  "StructureDefinition/DeviceExt":{"base":"StructureDefinition-DeviceExt.html"},
-	"StructureDefinition/DataAbsentReasonExt":{"base":"StructureDefinition-DataAbsentReasonExt.html"},
-  "StructureDefinition/AssociatedPreconditionExt":{"base":"StructureDefinition-AssociatedPreconditionExt.html"},
 	"StructureDefinition/BodyPositionExt":{"base":"StructureDefinition-BodyPositionExt.html"},
-	"StructureDefinition/MeasurementDeviceExt":{"base":"StructureDefinition-MeasurementDeviceExt.html"},
 	"StructureDefinition/BloodPressureCuffSizeExt":{"base":"StructureDefinition-BloodPressureCuffSizeExt.html"},
 	"StructureDefinition/SensorDescriptionExt":{"base":"StructureDefinition-SensorDescriptionExt.html"},
 	"StructureDefinition/SleepStatusExt":{"base":"StructureDefinition-SleepStatusExt.html"},
-	"StructureDefinition/MethodDeviceExt":{"base":"StructureDefinition-MethodDeviceExt.html"},
 	"StructureDefinition/ClothingWornDuringMeasureExt":{"base":"StructureDefinition-ClothingWornDuringMeasureExt.html"},
 	"StructureDefinition/ExerciseAssociationExt":{"base":"StructureDefinition-ExerciseAssociationExt.html"},
-	"StructureDefinition/MeasurementProtocolExt":{"base":"StructureDefinition-MeasurementProtocolExt.html"},
-	"StructureDefinition/MeasurementSettingExt":{"base":"StructureDefinition-MeasurementSettingExt.html"},
+	"StructureDefinition/MeasurementProtocolExt":{"base":"StructureDefinition-MeasurementProtocolExt.html"}, 
+	"StructureDefinition/MeasurementSettingExt":{"base":"StructureDefinition-MeasurementSettingExt.html"}, 
+	"StructureDefinition/AssociatedSituationExt":{"base":"StructureDefinition-AssociatedSituationExt.html"},
 
   "StructureDefinition/organization":{"base":"StructureDefinition-organization.html"},
   "StructureDefinition/practitioner":{"base":"StructureDefinition-practitioner.html"},
@@ -148,11 +143,10 @@
 	"ValueSet/sensorDescriptionVS":{"base":"ValueSet-sensorDescriptionVS.html"},
 	"ValueSet/bodyPositionVS":{"base":"ValueSet-bodyPositionVS.html"},
 	"ValueSet/bodyTempMeasBodyLocationPrecoordVS":{"base":"ValueSet-bodyTempMeasBodyLocationPrecoordVS.html"},
-	"ValueSet/bodyTempMeasMethodDeviceVS":{"base":"ValueSet-bodyTempMeasMethodDeviceVS.html"},
+	"ValueSet/bodyTempMeasurementDeviceVS":{"base":"ValueSet-bodyTempMeasurementDeviceVS.html"},
 	"ValueSet/bodyWeightMeasurementAssociatedPrecondVS":{"base":"ValueSet-bodyWeightMeasurementAssociatedPrecondVS.html"},
 	"ValueSet/bpmeasbodylocationprecoord":{"base":"ValueSet-bpmeasbodylocationprecoord.html"},
 	"ValueSet/bpMeasDeviceVS":{"base":"ValueSet-bpMeasDeviceVS.html"},
-	"ValueSet/bpMeasDeviceCSVS":{"base":"ValueSet-bpMeasDeviceCSVS.html"},
 	"ValueSet/bpMeasMethodVS":{"base":"ValueSet-bpMeasMethodVS.html"},
 	"ValueSet/bpCuffSizeVS":{"base":"ValueSet-bpCuffSizeVS.html"},
 	"ValueSet/clothingWornDuringMeasureVS":{"base":"ValueSet-clothingWornDuringMeasureVS.html"},
@@ -172,8 +166,17 @@
 	"ValueSet/weightMeasurementDeviceVS":{"base":"ValueSet-weightMeasurementDeviceVS.html"},
 	"ValueSet/MeasSettingVS":{"base":"ValueSet-MeasSettingVS.html"},
 	"ValueSet/MeasurementProtocolVS":{"base":"ValueSet-MeasurementProtocolVS.html"},
+	"ValueSet/AssociatedSituationVS":{"base":"ValueSet-AssociatedSituationVS.html"},
+	"ValueSet/LengthUOMVS":{"base":"ValueSet-LengthUOMVS.html"},
+	"ValueSet/WeightUOMVS":{"base":"ValueSet-WeightUOMVS.html"},
+	"ValueSet/TemperatureUOMVS":{"base":"ValueSet-TemperatureUOMVS.html"},
     
-	"Observation/BloodPressurePanelExample":{"base":"Observation-BloodPressurePanelExample.html"},
+	
+  "Device/BPDevice-example": {"base": "BPDevice-example.html"},
+  "Device/BPDevice2-example": {"base": "BPDevice2-example.html"},
+  "Patient/patient-example": {"base": "Patient-patient-example.html"},
+  "Practitioner/practitioner-example": {"base": "Practitioner-practitioner-example.html"},
+  "Observation/BloodPressurePanelExample":{"base":"Observation-BloodPressurePanelExample.html"},
 	"Observation/BMIExample":{"base":"Observation-BMIExample.html"},
 	"Observation/BodyLengthExample":{"base":"Observation-BodyLengthExample.html"},
 	"Observation/BodyTemperatureExample":{"base":"Observation-BodyTemperatureExample.html"},
@@ -185,8 +188,6 @@
 	"Observation/OxygenSaturationPulseOxExample":{"base":"Observation-OxygenSaturationPulseOxExample.html"},
 	"Observation/RespiratoryRateExample":{"base":"Observation-RespiratoryRateExample.html"},
 	"Observation/AverageBloodPressureExample":{"base":"Observation-AverageBloodPressureExample.html"},
-	"Observation/TwentyFourHourBloodPressureExample":{"base":"Observation-TwentyFourHourBloodPressureExample.html"},
-  "Patient/patient-example": {"base": "Patient-patient-example.html"},
-  "Practitioner/practitioner-example": {"base": "Practitioner-practitioner-example.html"}
+	"Observation/TwentyFourHourBloodPressureExample":{"base":"Observation-TwentyFourHourBloodPressureExample.html"}
   }
 }

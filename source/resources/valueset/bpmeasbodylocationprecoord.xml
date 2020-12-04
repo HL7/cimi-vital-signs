@@ -68,6 +68,22 @@
 			<concept>	
 				<code value ="214811007"/>
 				<display value ="Structure of right posterior tibial artery (body structure)"/>
+			</concept>				
+			<concept>	
+				<code value ="54247002"/>
+				<display value ="Ascending aorta structure (body structure)"/>
+			</concept>				
+			<concept>	
+				<code value ="281130003"/>
+				<display value ="Descending aorta structure (body structure)"/>
+			</concept>				
+			<concept>	
+				<code value ="57034009"/>
+				<display value ="Aortic arch structure (body structure)"/>
+			</concept>				
+			<concept>	
+				<code value ="7832008"/>
+				<display value ="Abdominal aorta structure (body structure)"/>
 			</concept>
         </include>
     </compose>

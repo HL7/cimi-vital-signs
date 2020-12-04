@@ -33,13 +33,13 @@
 		</element>
         <element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.key">
             <path value="Observation.code"/>
+			<short value="Oxygen saturation in Arterial blood"/>
 			<min value="1"/>
 			<max value="1"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="2708-6"/>
-					<display value="Oxygen saturation in Arterial blood"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -54,46 +54,5 @@
 			</type>
 			<mustSupport value="true"/>
 		</element>
-		<!--<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.valueQuantity">
-            <path value="Observation.valueQuantity"/>
-            <type>
-                <code value="Quantity"/>
-            </type>
-			<mustSupport value="true"/>
-        </element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.valueQuantity.value">
-			<path value="Observation.valueQuantity.value"/>
-			<min value="1"/>
-			<max value="1"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.valueQuantity.unit">
-			<path value="Observation.valueQuantity.unit"/>
-			<min value="1"/>
-			<max value="1"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.valueQuantity.system">
-			<path value="Observation.valueQuantity.system"/>
-			<min value="1"/>
-			<max value="1"/>
-			<type>
-                <code value="uri"/>
-                <profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
-            </type>
-			<fixedUri value="http://unitsofmeasure.org"/>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:hspcOxygenSaturationSFrPtBldAQnLabObs.valueQuantity.code">
-			<path value="Observation.valueQuantity.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<type>
-                <code value="code"/>
-                <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
-            </type>
-			<fixedCode value="%"/>
-			<mustSupport value="true"/>
-		</element> -->
     </differential>
 </StructureDefinition>

@@ -32,13 +32,13 @@
 		<element id="Observation:cimiResiratoryRate.extension:measurementDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
-			<short value="Measurement Device"/>
+			<short value="Measurement Device Type"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/observation-deviceCode"/>
 			</type>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/respiratoryRateMeasDeviceVS"/>
             </binding>
 			<mustSupport value="true"/>
@@ -49,13 +49,14 @@
 		    <short value="Body Position"/>
 		    <type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/observation-bodyPosition"/>
 		    </type>
 		    <mustSupport value="false"/>
 		    <binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyPositionVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiResiratoryRate.extension:ExerciseAssociationExt">
 			<path value="Observation.extension"/>
@@ -66,7 +67,7 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
@@ -80,9 +81,10 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiResiratoryRate.status">
 			<path value="Observation.status"/>
@@ -90,13 +92,13 @@
 		</element>
         <element id="Observation:cimiResiratoryRate.code">
             <path value="Observation.code"/>
+			<short value="Respiratory rate"/>
 		    <min value="1"/> 
 		    <max value="1"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="9279-1"/>
-					<display value="Respiratory rate"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -136,7 +138,7 @@
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiResiratoryRate.component.valueQuantity.system">
+		<element id="Observation:cimiResiratoryRate.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -147,7 +149,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiResiratoryRate.component.valueQuantity.code">
+		<element id="Observation:cimiResiratoryRate.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -165,16 +167,17 @@
 		<element id="Observation:cimiResiratoryRate.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiResiratoryRate.method">
 			<path value="Observation.method"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/respiratoryRateMeasMethodVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
     </differential>
 </StructureDefinition>

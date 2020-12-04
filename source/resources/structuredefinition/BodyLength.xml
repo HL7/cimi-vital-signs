@@ -31,15 +31,16 @@
 		<element id="Observation:cimiBodyLength.extension:measurementDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
-			<short value="Measurement Device"/>
+			<short value="Measurement Device Type"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/observation-deviceCode"/>
 			</type>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasDeviceVS"/>
             </binding>
+		  <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyLength.extension:MeasurementSettingExt">
 			<path value="Observation.extension"/>
@@ -50,9 +51,10 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
+		  <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyLength.status">
 			<path value="Observation.status"/>
@@ -60,11 +62,11 @@
 		</element>
         <element id="Observation:cimiBodyLength.code">
             <path value="Observation.code"/>
+			<short value="Body height --lying"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="8306-3"/>
-					<display value="Body height --lying"/>
 				</coding>
 			</patternCodeableConcept>
         </element>
@@ -122,7 +124,10 @@
                 <code value="code"/>
                 <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
             </type>
-            <fixedCode value="cm"/>
+            <binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/LengthUOMVS"/>
+			</binding>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyLength.dataAbsentReason">
@@ -132,14 +137,14 @@
 		<element id="Observation:cimiBodyLength.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyLength.method">
 			<path value="Observation.method"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasMethodVS"/>
 			</binding>
 		</element>

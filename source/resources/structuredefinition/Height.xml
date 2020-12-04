@@ -34,10 +34,10 @@
 			<short value="Body Position"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/observation-bodyPosition"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightBodyPositionVS"/>
 			</binding>
 			<mustSupport value="true"/>
@@ -45,13 +45,13 @@
 		<element id="Observation:cimiBodyHeight.extension:measurementDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
-			<short value="Measurement Device"/>
+			<short value="Measurement Device Type"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/observation-deviceCode"/>
 			</type>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasDeviceVS"/>
             </binding>
 			<mustSupport value="true"/>
@@ -65,7 +65,7 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ClothingWornDuringMeasureExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/clothingWornDuringMeasureVS"/>
 			</binding>
 			<mustSupport value="true"/>
@@ -79,9 +79,10 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyHeight.status">
 			<path value="Observation.status"/>
@@ -89,13 +90,13 @@
 		</element>
         <element id="Observation:cimiBodyHeight.code">
             <path value="Observation.code"/>
+			<short value="Body height"/>
 			<min value="1"/>
 			<max value="1"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="8302-2"/>
-					<display value="Body height"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -135,7 +136,7 @@
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBodyHeight.component.valueQuantity.system">
+		<element id="Observation:cimiBodyHeight.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -146,7 +147,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBodyHeight.component.valueQuantity.code">
+		<element id="Observation:cimiBodyHeight.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -154,7 +155,10 @@
                 <code value="code"/>
                 <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
             </type>
-            <fixedCode value="cm"/>
+            <binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/LengthUOMVS"/>
+			</binding>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyHeight.dataAbsentReason">
@@ -164,16 +168,17 @@
 		<element id="Observation:cimiBodyHeight.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyHeight.method">
 			<path value="Observation.method"/>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasMethodVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
     </differential>
 </StructureDefinition>

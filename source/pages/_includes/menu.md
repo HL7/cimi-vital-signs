@@ -4,9 +4,9 @@
     <a href="index.html">Home</a>
   </li>
 
-  <li class="dropdown">
+<!--   <li class="dropdown">
     <a href="generalguidance.html">General Guidance</a>
-  </li>
+  </li> -->
 
   <li>
     <a href="profiles.html">Profiles &amp; Extensions</a>
@@ -16,6 +16,9 @@
     <a href="searchparameters.html">Search Params &amp; Operations</a>
   </li>
   -->
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
   <li>
     <a href="terminology.html">Terminology</a>
   </li>

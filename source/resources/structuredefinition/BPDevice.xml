@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="BPDevice"/>
   <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/BPDevice"/>
-  <version value="2.0.0"/>
+  <version value="0.1.0"/>
   <name value="BloodPressureDevice"/>
   <status value="draft"/>
   <date value="2020-04-07"/>
@@ -37,15 +37,15 @@
             <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BloodPressureCuffSizeExt"/>
         </type>
         <binding>
-            <strength value="preferred"/>
+            <strength value="extensible"/>
             <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bpCuffSizeVS"/>
         </binding>
     </element>
     <element id="Device:bpdevice.type">
         <path value="Device.type"/>
         <binding>
-            <strength value="preferred"/>
-            <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bpMeasDeviceVS"/>
+          <strength value="extensible"/>
+          <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bpMeasDeviceVS"/>
         </binding>
     </element>
   </differential>

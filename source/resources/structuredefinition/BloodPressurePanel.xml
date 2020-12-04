@@ -35,30 +35,14 @@
 		  <short value="Body Position"/>
 		  <type>
 			<code value="Extension"/>
-			<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt"/>
+			<profile value="http://hl7.org/fhir/StructureDefinition/observation-bodyPosition"/>
 		  </type>
-		  <mustSupport value="false"/>
+		  <mustSupport value="true"/>
 		  <binding>
-			<strength value="preferred"/>
+			<strength value="extensible"/>
 			<description value="The position that a patient is in when a heart rate measurement is taken."/>
 			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyPositionVS"/>
 		  </binding>
-		  <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.extension:measurementDevice">
-			<path value="Observation.extension"/>
-			<sliceName value="measurementDevice"/>
-			<short value="Measurement Device"/>
-			<min value="0"/>
-			<max value="*"/>
-			<type>
-				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
-			</type>
-            <binding>
-                <strength value="preferred"/>
-                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bpMeasDeviceCSVS"/>
-            </binding>
 		  <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.extension:sleepStatus">
@@ -70,7 +54,7 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/SleepStatusExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/sleepStatusVS"/>
 			</binding>
 		    <mustSupport value="true"/>
@@ -84,7 +68,7 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
@@ -98,9 +82,10 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
+			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.extension:Protocol">
 			<path value="Observation.extension"/>
@@ -110,6 +95,11 @@
 				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementProtocolExt"/>
 			</type>
+			<binding>
+				<strength value ="extensible"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasurementProtocolVS"/>
+			</binding>
+			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.status">
 			<path value="Observation.status"/>
@@ -117,11 +107,11 @@
 		</element>
         <element id="Observation:cimiBloodPressurePanel.code">
             <path value="Observation.code"/>
+			<short value="Blood pressure panel with all children optional"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="85354-9"/>
-					<display value="Blood pressure panel with all children optional"/>
 				</coding>
 			</patternCodeableConcept>
         </element>
@@ -150,19 +140,21 @@
 		  <path value="Observation.bodySite"/>
 		  <mustSupport value="false"/>
 		  <binding>
-			<strength value="preferred"/>
+			<strength value="extensible"/>
 			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
 			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bpmeasbodylocationprecoord"/>
 		  </binding>
+		  <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.method">
 		  <path value="Observation.method"/>
 		  <mustSupport value="false"/>
 		  <binding>
-			<strength value="preferred"/>
+			<strength value="extensible"/>
 			<description value="A set of codes that describe the method used to measure a blood pressure"/>
 			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bpMeasMethodVS"/>
 		  </binding>
+		  <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.specimen">
 			<path value="Observation.specimen"/>
@@ -184,8 +176,12 @@
 			<path value="Observation.component"/>
 			<slicing>
 				<discriminator>
-					<type value="pattern"/>
-					<path value="code"/>
+					<type value="value"/> 
+					<path value="code.coding.code"/> 
+				</discriminator> 
+				<discriminator> 
+					<type value="value"/> 
+					<path value="code.coding.system"/> 
 				</discriminator> 
 				<ordered value="false"/>
 				<rules value="open"/>
@@ -202,11 +198,11 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.code:systolicBP">
 			<path value="Observation.component.code"/>
+			<short value="Systolic blood pressure"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="8480-6"/>
-					<display value="Systolic blood pressure"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -261,11 +257,11 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.code:diastolicBP">
 			<path value="Observation.component.code"/>
+			<short value="Diastolic blood pressure"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="8462-4"/>
-					<display value="Diastolic blood pressure"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -321,11 +317,11 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.component.code:meanArterialBP">
 			<path value="Observation.component.code"/>
+			<short value="Mean blood pressure"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="8478-0"/>
-					<display value="Mean blood pressure"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>

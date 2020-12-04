@@ -19,7 +19,7 @@
             <system value="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
             <concept>
               <code value="AOBP"/>
-              <display value="Automated office blood pressure"/>
+              <display value="Automated office blood pressure protocol"/>
             </concept>
         </include>
     </compose>

@@ -192,7 +192,7 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
           <valueBoolean value="true"/>
         </extension>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
       </binding>
@@ -445,7 +445,7 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
           <valueBoolean value="true"/>
         </extension>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
       </binding>
@@ -1431,7 +1431,7 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="ContactPartyType"/>
         </extension>
-        <strength value="preferred"/>
+        <strength value="extensible"/>
         <description value="The purpose for which you would contact a contact party"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/contactentity-type"/>
       </binding>

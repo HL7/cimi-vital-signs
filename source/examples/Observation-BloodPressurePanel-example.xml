@@ -4,7 +4,7 @@
   <meta>
 	<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BloodPressurePanel"/>
   </meta>
-  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt">
+  <extension url ="http://hl7.org/fhir/StructureDefinition/observation-bodyPosition">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>
@@ -13,33 +13,6 @@
 		</coding>
 	</valueCodeableConcept>
   </extension>
-  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt">
-	<valueCodeableConcept>
-		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="309642005"/>
-			<display value="Mercury sphygmomanometer"/>
-		</coding>
-	</valueCodeableConcept>
-  </extension>
-  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt">
-	<valueCodeableConcept>
-		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="720736009"/>
-			<display value="Blood pressure cuff, pediatric size"/>
-		</coding>
-	</valueCodeableConcept>
-  </extension><!-- 
-  <extension url="http://hl7.org/fhir/us/vitals/StructureDefinition/BloodPressureCuffSizeExt">
-	<valueCodeableConcept>
-		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="720736009"/>
-			<display value="Blood pressure cuff, pediatric size"/>
-		</coding>
-	</valueCodeableConcept>
-  </extension> -->
   <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/SleepStatusExt">
 	<valueCodeableConcept>
 		<coding>
@@ -98,6 +71,9 @@
 		<display value="Auscultation"/>
 	</coding>
   </method>
+  <device>
+	<reference value="Device/BPDevice-example"/>
+  </device>
   <component>
 	<code>
 		<coding>

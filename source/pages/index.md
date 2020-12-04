@@ -1,12 +1,11 @@
 ---
-title: Implementation Guide Home
+title: Vital Signs Implementation Guide Home
 layout: default
-active: terminology
+active: index
 ---
-
+ 
 <!-- TOC  the css styling for this is \pages\assets\css\project.css under 'markdown-toc'-->
-**Contents**
-
+Table of Contents
 * Do not remove this line (it will not be displayed)
 {:toc}
 
@@ -14,159 +13,78 @@ active: terminology
 
 <!-- end TOC -->
 
-<br />
+### Introduction
 
-## Introduction
+Vital signs are physical observations that are an indication of they body's life-sustaining functions  They are taken to assess general physical health, give clues to possible disease states, or to show progress toward recovery.  There is a need for a single structure and standard vocabulary bindings for each vital sign to allow for ubiquitous access and re-use of vital signs observations. Particularly with the use of wearables by patients where they want to/need to share information from those devices. To meet this need there must be a consistent vocabulary and a common syntax to achieve semantic interoperability. The purose of the FHIR Vital Signs profiles in this implementation guide is to provide a mechanism to record, search, and retrieve the vital signs associated with a patient that include the primary vital signs (heart rate, respiratory rate, body temperature, and blood pressure), and additional measurements such as body height/length, weight, head circumference, oxygen saturation, and BMI, and the qualifying observations needed for each measurement such as body position, laterality, cuff size and location, device type, etc.. When a FHIR implementation supports any of the vital signs listed in the table below, the implementation SHALL conform to the profiles in this IG for the vital signs observations.
 
-Vital signs will be one of the first areas where there is a need for a single, global vocabulary to allow for ubiquitous access and re-use. Particularly with the use of wearables by patients where they want to/need to share information from those devices. To meet this need there must be a consistent vocabulary and a common syntax to achieve semantic interoperability. The FHIR Vital Signs profile provides the mechanism for the Observation resource to record, search and fetch the vital signs associated with a patient that include the primary vital signs, additional measurements such as height, weight and BMI, and the qualifying observations needed for each measurement such as body position, laterality, cuff location, and device type. Support for basic mandatory searching of resources is defined below in the [Quick Start](http://hl7.org/fhir/R4/observation-vitalsigns.html#Quick_Start) section. When a FHIR implementation supports any of the vital signs listed below, the implementation SHALL conform to this profile for the vital sign observation.
+The profiles in this implementation guide (IG) are derived from and extend the vital signs profiles from the [FHIR Specification](http://hl7.org/fhir/R4/observation-vitalsigns.html) which are used by [US Core](http://hl7.org/fhir/us/core/index.html).  Exceptions to this are Head Occipital-frontal circumference by Tape measure, Average Blood Pressure, and 24 Hour Blood Pressure.  This IG uses Head Occipital-frontal circumference by Tape measure because that is the observation defined in the LOINC panel *Vital signs, weight, height, head circumference, oxygen saturation and BMI panel* [85353-1](http://r.details.loinc.org/LOINC/85353-1.html?sections=Comprehensive).  Average Blood Pressure and 24 Hour Blood Pressure are included for implementations that may need them as additional blood pressure observations.
 
-These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the ONC sponsored [Data Access Framework (DAF)](http://wiki.siframework.org/Data+Access+Framework+Homepage)   project and were subsequently updated to define the minimum mandatory conformance requirements needed for accessing patient data as defined by the [Argonaut](http://argonautwiki.hl7.org/index.php?title=Main_Page) pilot implementations.
+The Office of the National Coordinator (ONC) sponsored [Data Access Framework (DAF)](https://www.healthit.gov/topic/scientific-initiatives/pcor/data-access-framework-daf) project, originally developed, balloted, and published in FHIR DSTU2 and the [Argonaut](http://argonautwiki.hl7.org/index.php?title=Main_Page) pilot implementation
+project and were used as references in the creation of the profiles in this IG. 
 
-The profile was extended by the [Clinical Information Modeling Initiative](https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative) in Jan. 2020 to include associated qualifying observations and required terminology bindings. The work was informed by Intermountain Healthcare’s clinical element models, the Federal Health Information Model and the American Medical Association’s home blood pressure monitoring use cases.
+The profiles were extended by the [Clinical Information Modeling Initiative](https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative) in Jan. 2020 to include associated qualifying observations and required terminology bindings. The work was informed by Intermountain Healthcare’s clinical element models, the Federal Health Information Model, and the American Medical Association’s home blood pressure monitoring use cases.
 
+### Scope
 
+#### Realm
 
-<br />
+Currently this IG falls within the US realm.
 
-## Scope and Usage
+#### Must Support
 
-### Example Usage Scenarios:
+All elements flagged as *"must support"* within profiles in this implementation guide must abide the following rules:
 
-The following are example usage scenarios for this profile:
-
-•	Query for vital signs of a particular patient
+* The system must be able to store and retrieve the element.
+* The system must display the element to the user.
+* The system must allow the user to capture the element.
+* The element must appear in an output report if present.
 
 #### Mandatory Data Elements and Terminology
-The following data-elements are mandatory (i.e. data SHALL be present). These are presented below in a simple human-readable explanation. Profile-specific guidance and valid examples are provided as well. Note that many of the examples capture more than the minimum required. The links to the [Profile Definitions](http://hl7.org/fhir/R4/observation-vitalsigns.html#content) provide the formal views of the profile content, descriptions, mappings and the StructureDefinitions in JSON and XML.
 
-#### Each Observation must have:
-1.	a status
-2.	a category code of 'vital-signs'
-3.	a "magic value" which tells you what is being measured
-o	LOINC was chosen for the "magic values" because this aligns with the most countries, but it can be treated as simply a fixed core set of common codes to communicate basic vital signs. Implementers that need to use a different code system can still map accordingly.
-4.	a patient
-5.	a time indicating when the measurement was taken
-6.	a numeric result value and standard UCUM unit which is taken from the Unit Code column in the table below.
-7.  Observations with values **cannot** also have a Data Absent Reason.  If there is **no result value** then a valid Data Absent Reason **must** be given
+The following data elements are mandatory (i.e. data SHALL be present). Profile-specific guidance and valid examples are provided on the specific profile pages. 
 
+##### Each Observation must have:
 
-## Formal View of Profile Content
-[Vital Signs Profile](http://hl7.org/fhir/R4/vitalsigns.html) : Link to the formal definition views for the vital signs listed in this table.
+1. a status (Observation.status)
+2. a category code of 'vital-signs' (Observation.category)
+3. an observaation code (Observation.code) that defines what is being measured.
+    * LOINC was the sytem chosen for the observation code because this aligns with the most countries, but it can be treated as simply a fixed core set of common codes to communicate basic vital signs. Implementers that need to use a different code system should map to LOINC accordingly.
+4. a patient (Observation.subject)
+5. a time (Observation.effective, a dateTime with at least Year, Month, Day, Hour, and minutes. Seconds may be zero filled) or time period (start dateTime and end dateTime) indicating when the measurement was taken or over which period it was taken.
 
-•	The table below represents a minimum set of vital sign concepts, the required codes ("magic values"), and UCUM units of measure codes used for representing vital signs observations. These are extensible bindings and require that when a system supports any of these vital signs concepts, they must represent them using these codes. In addition, if you have a blood pressure observation, you must have both a systolic and a diastolic component, though one or both may have dataAbsentReason instead of a value.
+##### Rules for the observation value:
 
-•	The first column of this table links to the formal views of the individual profile for each vital sign.
+1. Each vital sign measurement shall have a numeric result value and standard Unified Code for Units of Measure (UCUM) code.
+    * Observations with numeric values **must not have** a Data Absent Reason. Observations *without* a numeric value **must have** a valid Data Absent Reason.
 
-•	If a more specific code or another code system is recorded or required, implementers must support both the values (LOINC) listed below and the translated code - e.g. method specific LOINC codes, SNOMED CT concepts, system specific (local) codes.
+#### Data Provenance
 
-•	In addition the implementer may choose to provide alternate codes in addition to the standard codes defined here. The examples illustrate using other codes as translations.
+It is recommended that the guidelines set forth by the [US Core impelmenation guide](https://build.fhir.org/ig/HL7/US-Core-R4/basic-provenance.html) for data provenance be followed for implementation of this IG.
 
-•	Other profiles may make rules about which vital sign must be present or must be present as part of a panel or expand the list to include other vital signs. For implementers using LOINC, optional qualifier codes are provided in the notes below.
+### Formal View of Profile Content
+
+Link to the formal definition views for the vital signs listed in this table.
+
+• The table below represents an expansion of the US Core/FHIR Core [Vital Signs](http://build.fhir.org/observation-vitalsigns.html) requirements, their required codes, and UCUM units of measure codes used for representing vital signs observations. Any system supporting any of these vital signs concepts must represent them using *at least* these codes.
+
+• The first column of this table links to the formal views of the individual profile for each vital sign.
+
+• If a more specific code or another code system is recorded or required, implementers must support both the values (LOINC) listed and the translated code - e.g. method specific LOINC codes, SNOMED CT concepts, system specific (local) codes.
+
+• In addition the implementer may choose to provide alternate codes in addition to the standard codes defined here. The examples illustrate using other codes as translations.
 
 {% include profileloinctable.html %}
 
-
-
-## Quick Start
-Below is an overview of required search and read operations
-
-### Clients
-
-•	A client has connected to a server and fetched all of a patient's vital signs by searching by category using GET [base]/Observation?patient=[id]&category=vital-signs.
-
-•	A client has connected to a server and fetched all of a patient's vital signs searching by category code and date range using GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]}.
-
-•	A client has connected to a server and fetched any of a patient's vital signs by searching by one or more of the codes listed above using GET [base]/Observation?patient=[id]&code[vital sign LOINC{,LOINC2,LOINC3,...}].
-
-•	A client SHOULD be capable of connecting to a server and fetching any of a patient's vital signs searching by one or more of the codes listed above and date range using GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2...}]vital-signs&date=[date]{&date=[date]}.
-
-### Servers
-
-•	A server is capable of returning all of a patient's vital signs that it supports using GET [base]/Observation?patient=[id]&category=vital-signs.
-
-•	A server is capable of returning all of a patient's vital signs queried by date range using GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]}.
-
-•	A server is capable of returning any of a patient's vital signs queried by one or more of the codes listed above using GET [base]/Observation?patient=[id]&code[vital sign LOINC{,LOINC2,LOINC3,...}].
-
-•	A server SHOULD be capable of returning any of a patient's vital signs queried by one or more of the codes listed above and date range using GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2...}]vital-signs&date=[date]{&date=[date]}.
-
-•	A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}
-
-•	A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.
-
-#### GET [base]/Observation?patient=[id]&category=vital-signs
-**Example:**
-Search for all Vital Signs measurements for a patient.
-
-GET [base]/Observation?patient=1186747&category=vital-signs
-
-*Support:* Mandatory to support search by category code.
-
-*Implementation Notes:*  Search based on vital sign category code. This search fetches a bundle of all Observation resources with category 'vital-signs' for the specified patient (how to search by reference) and (how to search by token). The table above is the minimum set, additional vital signs are allowed.
-
-*Response Class:*
-
-•	(Status 200): successful operation
-
-•	(Status 400): invalid parameter
-
-•	(Status 401/4xx): unauthorized request
-
-•	(Status 403): insufficient scope
-
-#### Get [base]/Observation?patient=[id]&code=[vital sign LOINC{,LOINC2,LOINC3,...}]
-
-**Example:**
-Search for all Heart Rate observations for a patient:
-
-GET [base]/Observation?patient=1186747&code=8867-4
-
-**Example:** Search for all heart rate, respiratory rate and blood pressure observations for a patient:
-
-GET [base]/Observation?patient=1186747&code=8867-4,9279-1,85354-9
-
-*Support:* Mandatory to support search by vital sign LOINC(s) listed above.
-
-*Implementation Notes:* 1)Search based on vital sign LOINC code(s). This fetches a bundle of all Observation resources for specific vital sign(s) listed in the table above for the specified patient (how to search by reference) and [how to search by token].  2) The "code" parameter searches only Observation.code.  Fro example when fetching blood pressures the resource will only be returned when the search is based on 85354-9 (Systolic and Diastolic BP).  Using the component codes 8480-6 (Systolic BP) or 8462-4 (Diastolic BP) will not return the resource.  In order to search both Observation.code and Observation.component.code in a single query, use the "combo-code" search parameter.
-
-*Response Class:*
-
-•	(Status 200): successful operation
-
-•	(Status 400): invalid parameter
-
-•	(Status 401/4xx): unauthorized request
-
-•	(Status 403): insufficient scope
-
-#### GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]} 
-**Example:**
-Find all the blood pressures after 2015-01-14
-
-GET [base]/Observation?patient=555580&code=85354-9&date=ge2015-01-14
-
-*Support:* Mandatory to support search by category code and date
-
-*Implementation Notes:* Search based on vital sign category code and date. This fetches a bundle of all Observation resources with category 'vital-signs' for the specified patient for a specified time period (how to search by reference) and (how to search by token).
-
-*Response Class:*
-•	(Status 200): successful operation
-•	(Status 400): invalid parameter
-•	(Status 401/4xx): unauthorized request
-•	(Status 403): insufficient scope
-
-
-
-## Acknowledgements
+### Acknowledgements
 
 **This Implementation Guide was made possible by the thoughtful contributions of the following people:**
 
 *The [HL7 CIMI Work Group](https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative)*
 
-- *Nathan Davis, Intermountain Healthcare*
-- *Susan Matney, Intermountain Healthcare*
-- *Patrick Langford, Intermountain Healthcare*
-
 *The [HL7 Orders and Observations Work Group](https://confluence.hl7.org/display/OO/Orders+and+Observations)*
+
+* *Nathan Davis, Intermountain Healthcare*
+* *Susan Matney, Intermountain Healthcare*
+* *Patrick Langford, Intermountain Healthcare*
 
 {% include link-list.md %}

@@ -1,3 +1,0 @@
-### Method Device Extension
-
-

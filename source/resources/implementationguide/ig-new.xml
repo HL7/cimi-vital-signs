@@ -15,7 +15,7 @@
     <valueString value="C:\Users\nrdavis1\cimi-vital-signs\source\pages"/>
   </extension>
   <url value="http://hl7.org/fhir/us/vitals/ImplementationGuide/vitalsigns"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="VitalSigns"/>
   <title value="Vital Signs"/>
   <status value="active"/>
@@ -33,26 +33,19 @@
     </coding>
   </jurisdiction>
   <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
-  <packageId value="hl7.fhir.us.vitalsigns"/>
+  <packageId value="hl7.fhir.us.vitals"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="USCoreR4">
-    <uri value="http://hl7.org/fhir/us/core/2019Sep"/>
+    <uri value="http://hl7.org/fhir/us/core"/>
     <packageId value="hl7.fhir.us.core"/>
-    <version value="3.0.1"/>
+    <version value="3.1.1"/>
   </dependsOn>
   <definition>
     <grouping>
       <name value="base"/>
     </grouping>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/AssociatedPreconditionExt"/>
-      </reference>
-      <description value="Associated Precondition"/>
-      <exampleBoolean value="false"/>
-    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/SensorDescriptionExt"/>
@@ -69,13 +62,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/MeasurementDeviceExt"/>
-      </reference>
-      <description value="Measurement Device Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/BloodPressureCuffSizeExt"/>
       </reference>
       <description value="Blood Pressure Cuff Size Extension"/>
@@ -86,13 +72,6 @@
         <reference value="StructureDefinition/SleepStatusExt"/>
       </reference>
       <description value="Sleep Status Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/MethodDeviceExt"/>
-      </reference>
-      <description value="Method Device Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -121,6 +100,13 @@
         <reference value="StructureDefinition/MeasurementProtocolExt"/>
       </reference>
       <description value="Measurement Protocol extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AssociatedSituationExt"/>
+      </reference>
+      <description value="Associated Situation extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -258,37 +244,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/sensorDescriptionVS"/>
+        <reference value="ValueSet/AssociatedSituationVS"/>
       </reference>
-      <description value="Sensor Description value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/sPO2BodyLocationVS"/>
-      </reference>
-      <description value="Oxygen Saturation Body Location value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/bodyPositionVS"/>
-      </reference>
-      <description value="Body Position value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/bpMeasDeviceVS"/>
-      </reference>
-      <description value="Blood Pressure Measurement Device value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/bpMeasDeviceCSVS"/>
-      </reference>
-      <description value="Blood Pressure Measurement Device and Cuff Size value set"/>
+      <description value="Associated Situation value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -300,16 +258,16 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/sleepStatusVS"/>
+        <reference value="ValueSet/bpmeasbodylocationprecoord"/>
       </reference>
-      <description value="Sleep Status value set"/>
+      <description value="Blood Pressure Measurement Body Location Precoordinated value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/bpmeasbodylocationprecoord"/>
+        <reference value="ValueSet/bpMeasDeviceVS"/>
       </reference>
-      <description value="Blood Pressure Measurement Body Location Precoordinated value set"/>
+      <description value="Blood Pressure Measurement Device value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -321,6 +279,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/bodyPositionVS"/>
+      </reference>
+      <description value="Body Position value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
       </reference>
       <description value="Body Temperature Body Location Precoordinated value set"/>
@@ -328,16 +293,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/bodyTempMeasMethodDeviceVS"/>
+        <reference value="ValueSet/bodyTempMeasurementDeviceVS"/>
       </reference>
-      <description value="Body Temperature Method Device value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
-      </reference>
-      <description value="Body Weight Measurement Associated Precondition value set"/>
+      <description value="Body Temperature Measurement Device value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -363,16 +321,16 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
+        <reference value="ValueSet/heartRateMeasDeviceVS"/>
       </reference>
-      <description value="Heart Rate Body Location Precoordinated value set"/>
+      <description value="Heart Rate Device value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/heartRateMeasDeviceVS"/>
+        <reference value="ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
       </reference>
-      <description value="Heart Rate Device value set"/>
+      <description value="Heart Rate Body Location Precoordinated value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -405,6 +363,34 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/LengthUOMVS"/>
+      </reference>
+      <description value="Length Units of Measure value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/MeasurementProtocolVS"/>
+      </reference>
+      <description value="Measurement Protocol value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/MeasSettingVS"/>
+      </reference>
+      <description value="Measurement Setting value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/sPO2BodyLocationVS"/>
+      </reference>
+      <description value="Oxygen Saturation Body Location value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/respiratoryRateMeasDeviceVS"/>
       </reference>
       <description value="Respiratory Rate Device value set"/>
@@ -419,6 +405,27 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/sensorDescriptionVS"/>
+      </reference>
+      <description value="Sensor Description value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/sleepStatusVS"/>
+      </reference>
+      <description value="Sleep Status value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/TemperatureUOMVS"/>
+      </reference>
+      <description value="Temperature Units of Measure value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/weightMeasurementDeviceVS"/>
       </reference>
       <description value="Weight Measurement Device value set"/>
@@ -426,16 +433,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/MeasSettingVS"/>
+        <reference value="ValueSet/WeightUOMVS"/>
       </reference>
-      <description value="Measurement Setting value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/MeasurementProtocolVS"/>
-      </reference>
-      <description value="Measurement Protocol value set"/>
+      <description value="Weight Units of Measure value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -531,6 +531,20 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Device/BPDevice-example"/>
+      </reference>
+      <description value="Blood Pressure Device example"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Device/BPDevice2-example"/>
+      </reference>
+      <description value="Blood Pressure Device example number 2"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/patient-example"/>
       </reference>
       <description value="Patient example"/>
@@ -544,28 +558,23 @@
       <exampleBoolean value="true"/>
     </resource>
     <page>
-      <nameUrl value="index2.html"/>
+      <nameUrl value="index.html"/>
       <title value="Home"/>
       <generation value="markdown"/>
-      <page>
-        <nameUrl value="generalguidance.html"/>
-        <title value="General Guidance"/>
-        <generation value="markdown"/>
-      </page>
       <page>
         <nameUrl value="profiles.html"/>
         <title value="Profiles and Extensions"/>
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Downloads"/>
+        <nameUrl value="terminology.html"/>
+        <title value="Terminology"/>
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="toc.html"/>
-        <title value="Table of Contents"/>
-        <generation value="html"/>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="markdown"/>
       </page>
     </page>
     <parameter>

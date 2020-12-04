@@ -4,15 +4,7 @@
   <meta>
 	<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/TwentyFourHourBloodPressure"/>
   </meta>
-  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt">
-	<valueCodeableConcept>
-		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="309642005"/>
-			<display value="Mercury sphygmomanometer"/>
-		</coding>
-	</valueCodeableConcept>
-  </extension>
+
   <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt">
 	<valueCodeableConcept>
 		<coding>
@@ -42,9 +34,10 @@
     <display value="OldMan 1234"/> 
   </subject> 
   <effectivePeriod> 
-    <start value="2019-10-16T12:12:29-09:00"/> 
+    <start value="2020-10-16T12:30:00+10:00"/>
+	<end value="2020-10-17T12:30:00+10:00"/>
   </effectivePeriod> 
-  <issued value="2019-10-16T12:12:29-10:00"/> 
+  <issued value="2020-10-17T12:35:00+10:00"/> 
   <performer> 
     <display value="OldMan 1234"/> 
   </performer>
@@ -55,13 +48,9 @@
 		<display value="Structure of left brachial artery (body structure)"/>
 	</coding>
   </bodySite>
-  <method>
-	<coding>
-		<system value="http://snomed.info/sct"/>
-		<code value="37931006"/>
-		<display value="Auscultation"/>
-	</coding>
-  </method>
+  <device>
+	<reference value="Device/BPDevice2-example"/>
+  </device>
   <component>
 	<code>
 		<coding>

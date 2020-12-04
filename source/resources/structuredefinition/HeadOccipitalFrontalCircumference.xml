@@ -35,14 +35,13 @@
 		</element>
         <element id="Observation:cimiHeadCircumference.code">
             <path value="Observation.code"/>
-			<sliceName value="HeadCircumCode"/>
+			<short value="Head Occipital-frontal circumference by Tape measure"/>
 			<min value="1"/>
 			<max value="1"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="8287-5"/>
-					<display value="Head Occipital-frontal circumference by Tape measure"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -82,7 +81,7 @@
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiHeadCircumference.component.valueQuantity.system">
+		<element id="Observation:cimiHeadCircumference.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -93,7 +92,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiHeadCircumference.component.valueQuantity.code">
+		<element id="Observation:cimiHeadCircumference.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -101,7 +100,10 @@
                 <code value="code"/>
                 <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
             </type>
-            <fixedCode value="cm"/>
+            <binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/LengthUOMVS"/>
+			</binding>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiHeadCircumference.dataAbsentReason">
@@ -111,7 +113,7 @@
 		<element id="Observation:cimiHeadCircumference.interpretation">
 			<path value="Observation.interpretation"/>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
             </binding>
 		</element>

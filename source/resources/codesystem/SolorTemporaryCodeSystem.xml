@@ -119,7 +119,8 @@
 	</concept>
 	<concept>
 		<code value="AOBP"/>
-		<display value="Automated office blood pressure"/>
+		<display value="Automated office blood pressure protocol"/>
 		<definition value="A blood pressure measurement protocol that directs a blood pressure to be taken via an automatic blood pressure device several times and then averaged and recorded."/>
 	</concept>
 </CodeSystem>
+ 

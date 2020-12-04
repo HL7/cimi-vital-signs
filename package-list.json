@@ -1,5 +1,5 @@
 {
-  "package-id": "hl7.fhir.us.vitalsigns",
+  "package-id": "hl7.fhir.us.vitals",
   "title": "Vital Signs FHIR IG",
   "canonical": "http://hl7.org/fhir/us/vitals",
   "introduction": "The scope of this project is to produce and ballot a Standard for Trial Use (STU) Fast Healthcare Interoperability Resources (FHIR) implementation guide (IG) for use in reporting vital signs observations with qualifying extensions.  Such as cuff size, clothing worn during measure, etc.",

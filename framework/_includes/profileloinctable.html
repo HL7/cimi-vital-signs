@@ -3,7 +3,7 @@
     <thead>
       <tr>
 		<th width="13%">Profile Name</th>
-        <th width="7%">LOINC code</th>
+        <th width="7%">LOINC or SNOMED CT code</th>
         <th width="60%">LOINC Name and Comments</th>
         <th width="10%">UCUM Unit Code</th>
 		<th width="10%">Examples</th>
@@ -20,21 +20,21 @@
       <tr>
 		<td><a href="StructureDefinition-BloodPressurePanel.html" target="_blank">Blood Pressure Panel&nbsp;&nbsp;</a></td>
         <td><a href="http://r.details.loinc.org/LOINC/85354-9.html?sections=Comprehensive" target="_blank">&nbsp;&nbsp;85354-9&nbsp;&nbsp;</a></td>
-        <td>Blood pressure panel with all children optional - This is a component observation. It has no value in Observation.valueQuantity and contains at least one component (systolic and/or diastolic). To supplement this vital sign observation, 8478-0 - Mean blood pressure, 8357-6 - Blood pressure method, 41904-4 - Blood pressure measurement site, 8358-4 - Blood pressure device cuff size, 41901-0 - Type of blood pressure device MAY be used as additional observations. </td>
+        <td>Blood pressure panel with all children optional - This is a component observation. It has no value in Observation.valueQuantity and contains at least one component, Systolic blood pressure.</td>
         <td>-</td>
 		<td><a href="Observation-BloodPressurePanel-example.html" target="_blank">Blood Pressure Panel Example&nbsp;&nbsp;</a></td>
       </tr>
       <tr>
-		<td><a href="StructureDefinition-AverageBloodPressure.html" target="_blank">&nbsp;&nbsp;Average Blood Pressure&nbsp;&nbsp;</a></td>
-        <td>&nbsp;&nbsp;723232008&nbsp;&nbsp;<i>SNOMED CT code</i></td>
-        <td>Currently there are no LOINC codes to assign to this profile nor its components.  They have been requested and will be added when released.  The Observation.code and Observation.component.code (both components) have been assigned to SNOMED CT Observable Entity codes.</td>
+		<td><a href="StructureDefinition-AverageBloodPressure.html" target="_blank">Average Blood Pressure&nbsp;&nbsp;</a></td>
+        <td><a href="https://browser.ihtsdotools.org/?perspective=full&conceptId1=723232008&edition=MAIN/2020-07-31&release=&languages=en" target="_blank">&nbsp;&nbsp;723232008&nbsp;&nbsp;</a></td>
+        <td>Currently there are no LOINC codes to assign to this profile nor its components.  They have been requested and will replace the SCT code when released.  The Observation.code and Observation.component.code (both components) have been assigned to SNOMED CT Observable Entity codes.</td>
         <td>-</td>
 		<td><a href="Observation-AverageBloodPressure-example.html" target="_blank">Average Blood Pressure Example&nbsp;&nbsp;</a></td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-TwentyFourHourBloodPressure.html" target="_blank">&nbsp;&nbsp;24 hour blood pressure&nbsp;&nbsp;</a></td>
-        <td>&nbsp;&nbsp;314463003&nbsp;&nbsp;<i>SNOMED CT code</i></td>
-        <td>Currently there isn't a LOINC code for this profile.  There are LOINC codes for its components.</td>
+        <td><a href="StructureDefinition-TwentyFourHourBloodPressure.html" target="_blank">24 hour blood pressure&nbsp;&nbsp;</a></td>
+        <td><a href="https://browser.ihtsdotools.org/?perspective=full&conceptId1=314463006&edition=MAIN/2020-07-31&release=&languages=en" target="_blank">&nbsp;&nbsp;314463006&nbsp;&nbsp;</a></td>
+        <td>Currently there isn't a LOINC code for this profile. One has been requested and will replace the SCT code when released.  There are LOINC codes for its components.</td>
         <td>-</td>
         <td><a href="Observation-TwentyFourHourBloodPressure-example.html" target="_blank">24 hour blood pressure Example&nbsp;&nbsp;</a></td>
       </tr>
@@ -53,14 +53,14 @@
 		<td><a href="Observation-heartRate-example.html" target="_blank">Heart Rate example&nbsp;&nbsp;</a></td>
       </tr>
       <tr>
-		<td><a href="StructureDefinition-OxygenSaturationArterialBloodPulseOx.html" target="_blank">Oxygen Satruration by Pulse Oximetry&nbsp;&nbsp;</a></td>
+		<td><a href="StructureDefinition-OxygenSaturationArterialBloodPulseOx.html" target="_blank">Oxygen Saturation by Pulse Oximetry&nbsp;&nbsp;</a></td>
         <td><a href="http://r.details.loinc.org/LOINC/59408-5.html?sections=Comprehensive" target="_blank">&nbsp;&nbsp;59408-5&nbsp;&nbsp;</a></td>
         <td>Oxygen saturation in Arterial blood by Pulse oximetry</td>
         <td>%</td>
 		<td><a href="Observation-oxygenSaturationPulseOx-example.html" target="_blank">Oxygen Saturation example&nbsp;&nbsp;</a></td>
       </tr>
       <tr>
-		<td><a href="StructureDefinition-OxygenSaturationArterialBlood.html" target="_blank">Oxygen Satruration&nbsp;&nbsp;</a></td>
+		<td><a href="StructureDefinition-OxygenSaturationArterialBlood.html" target="_blank">Oxygen Saturation&nbsp;&nbsp;</a></td>
         <td><a href="http://r.details.loinc.org/LOINC/2708-6.html?sections=Comprehensive" target="_blank">&nbsp;&nbsp;2708-6&nbsp;&nbsp;</a></td>
         <td>Oxygen saturation in Arterial blood</td>
         <td>%</td>
@@ -96,7 +96,7 @@
       </tr>
       <tr>
 		<td><a href="StructureDefinition-BodyWeight.html" target="_blank">Body Weight&nbsp;&nbsp;</a></td>
-        <td><a href="http://r.details.loinc.org/LOINC/3141-9.html?sections=Comprehensive" target="_blank">&nbsp;&nbsp;3141-9&nbsp;&nbsp;</a></td>
+        <td><a href="http://r.details.loinc.org/LOINC/29463-7.html?sections=Comprehensive" target="_blank">&nbsp;&nbsp;29463-7&nbsp;&nbsp;</a></td>
         <td>Body weight</td>
         <td>g, kg,[lb_av]</td>
 		<td><a href="Observation-bodyWeight-example.html" target="_blank">Body Weight example&nbsp;&nbsp;</a></td>

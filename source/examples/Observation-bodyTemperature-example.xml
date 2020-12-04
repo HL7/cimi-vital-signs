@@ -3,7 +3,7 @@
   <meta>
     <profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyTemperature"/>
   </meta>
-  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/MethodDeviceExt">
+  <extension url ="http://hl7.org/fhir/StructureDefinition/observation-deviceCode">
 	<valueCodeableConcept>
 		<coding>
 			<system value="http://snomed.info/sct"/>

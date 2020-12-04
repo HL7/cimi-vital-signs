@@ -386,14 +386,14 @@ a.to-top {
 
 
 ul#markdown-toc {
-  /* font-size: 0.8em; */
+    font-size: 0.8em;
   /* list-style: none; */
     list-style-position: inside;
     margin: 4px;
     padding: 4px;
     /*float: right;*/
     z-index: 10;
-    width: 250px;
+    width: 500px;
     background-color: #f5f5f5;
     border: 1px solid #f5f5f5;
     border-radius: 5px;

@@ -11,9 +11,9 @@
     <description value="Body Weight, the measured mass of an individual's body."/>
 	<jurisdiction>
 		<coding>
-		<system value="urn:iso:std:iso:3166:-2#US"/>
-		<code value="US"/>
-		<display value="United States of America"/>
+			<system value="urn:iso:std:iso:3166:-2#US"/>
+			<code value="US"/>
+			<display value="United States of America"/>
 		</coding>
     </jurisdiction>
     <fhirVersion value="4.0.0"/>
@@ -31,43 +31,29 @@
 		<element id="Observation:cimiBodyWeight.extension:measurementDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
-			<short value="Measurement Device"/>
+			<short value="Measurement Device Type"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementDeviceExt"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/observation-deviceCode"/>
 			</type>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/weightMeasurementDeviceVS"/>
             </binding>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBodyWeight.extension:associatedPrecondition">
+		<element id="Observation:cimiBodyWeight.extension:associatedSituation">
 			<path value="Observation.extension"/>
-			<sliceName value="associatedPrecondition"/>
-			<short value="Associated Precondition"/>
+			<sliceName value="associatedSituation"/>
+			<short value="Associated Situation"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/AssociatedPreconditionExt"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/AssociatedSituationExt"/>
 			</type>
             <binding>
-                <strength value="preferred"/>
-                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
+                <strength value="extensible"/>
+                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/AssociatedSituationVS"/>
             </binding>
-			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyWeight.extension:clothingWornDuringMeasure">
-			<path value="Observation.extension"/>
-			<sliceName value="clothingWornDuringMeasure"/>
-			<short value="Cothing Worn During Measure"/>
-			<type>
-				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ClothingWornDuringMeasureExt"/>
-			</type>
-			<binding>
-				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/clothingWornDuringMeasureVS"/>
-			</binding>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyWeight.extension:MeasurementSettingExt">
@@ -79,9 +65,10 @@
 				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"/>
 			</type>
 			<binding>
-				<strength value="preferred"/>
+				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasSettingVS"/>
 			</binding>
+		    <mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyWeight.status">
 			<path value="Observation.status"/>
@@ -89,11 +76,11 @@
 		</element>
         <element id="Observation:cimiBodyWeight.code">
             <path value="Observation.code"/>
+			<short value="Body weight"/>
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org"/>
 					<code value="29463-7"/>
-					<display value="Body weight"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -133,7 +120,7 @@
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBodyWeight.component.valueQuantity.system">
+		<element id="Observation:cimiBodyWeight.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -144,7 +131,7 @@
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBodyWeight.component.valueQuantity.code">
+		<element id="Observation:cimiBodyWeight.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -152,7 +139,10 @@
                 <code value="code"/>
                 <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
             </type>
-            <fixedCode value="kg"/>
+            <binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/WeightUOMVS"/>
+			</binding>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyWeight.dataAbsentReason">
@@ -162,7 +152,7 @@
 		<element id="Observation:cimiBodyWeight.interpretation">
 			<path value="Observation.interpretation"/>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
             </binding>
 		</element>
