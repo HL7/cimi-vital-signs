@@ -2,7 +2,7 @@
 
 Vital Signs Panel; a grouping of the vital signs elements.
 
-The Vital Signs Panel is a collection of vital signs measurements as defined in the LOINC panel 85353-1, Vital signs, weight, height, head circumference, oxygen saturation and BMI panel.  Some of the measurements in this panel may not be considred as true vital signs but are included due to their inclusion in the LOINC panel.
+The Vital Signs Panel is a collection of vital signs measurements as defined in the LOINC panel 85353-1, Vital signs, weight, height, head circumference, oxygen saturation and BMI panel.  Some of the measurements in this panel may not be considered as true vital signs but are included due to their inclusion in the LOINC panel.
 
 #### About the Observation.interpretation binding
 

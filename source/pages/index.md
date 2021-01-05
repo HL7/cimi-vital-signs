@@ -15,9 +15,9 @@ Table of Contents
 
 ### Introduction
 
-Vital signs are physical observations that are an indication of they body's life-sustaining functions  They are taken to assess general physical health, give clues to possible disease states, or to show progress toward recovery.  There is a need for a single structure and standard vocabulary bindings for each vital sign to allow for ubiquitous access and re-use of vital signs observations. Particularly with the use of wearables by patients where they want to/need to share information from those devices. To meet this need there must be a consistent vocabulary and a common syntax to achieve semantic interoperability. The purose of the FHIR Vital Signs profiles in this implementation guide is to provide a mechanism to record, search, and retrieve the vital signs associated with a patient that include the primary vital signs (heart rate, respiratory rate, body temperature, and blood pressure), and additional measurements such as body height/length, weight, head circumference, oxygen saturation, and BMI, and the qualifying observations needed for each measurement such as body position, laterality, cuff size and location, device type, etc.. When a FHIR implementation supports any of the vital signs listed in the table below, the implementation SHALL conform to the profiles in this IG for the vital signs observations.
+Vital signs are physical observations that are an indication of the body's life-sustaining functions  They are taken to assess general physical health, give clues to possible disease states, or to show progress toward recovery.  There is a need for a single structure and standard vocabulary bindings for each vital sign to allow for ubiquitous access and re-use of vital signs observations. Particularly with the use of wearables by patients where they want to or need to share information from those devices. To meet this need there must be a consistent vocabulary and a common syntax to achieve semantic interoperability. The purpose of the FHIR Vital Signs profiles in this implementation guide is to provide a mechanism to record, search, and retrieve the vital signs associated with a patient that include the primary vital signs (heart rate, respiratory rate, body temperature, and blood pressure), and additional measurements such as body height/length, weight, head circumference, oxygen saturation, and BMI, and the qualifying observations needed for each measurement such as body position, laterality, cuff size and location, device type, etc.. When a FHIR implementation supports any of the vital signs listed in the table below, the implementation SHALL conform to the profiles in this IG for vital signs observations.
 
-The profiles in this implementation guide (IG) are derived from and extend the vital signs profiles from the [FHIR Specification](http://hl7.org/fhir/R4/observation-vitalsigns.html) which are used by [US Core](http://hl7.org/fhir/us/core/index.html).  Exceptions to this are Head Occipital-frontal circumference by Tape measure, Average Blood Pressure, and 24 Hour Blood Pressure.  This IG uses Head Occipital-frontal circumference by Tape measure because that is the observation defined in the LOINC panel *Vital signs, weight, height, head circumference, oxygen saturation and BMI panel* [85353-1](http://r.details.loinc.org/LOINC/85353-1.html?sections=Comprehensive).  Average Blood Pressure and 24 Hour Blood Pressure are included for implementations that may need them as additional blood pressure observations.
+The profiles in this implementation guide (IG) are derived from and extend the vital signs profiles from the [FHIR Specification](http://hl7.org/fhir/R4/observation-vitalsigns.html) which are used by [US Core](http://hl7.org/fhir/us/core/index.html).  Exceptions to this are Head Occipital-frontal circumference by Tape measure, Average Blood Pressure, and 24-Hour Blood Pressure.  This IG uses Head Occipital-frontal circumference by Tape measure because that is the observation defined in the LOINC panel *Vital signs, weight, height, head circumference, oxygen saturation and BMI panel* [85353-1](http://r.details.loinc.org/LOINC/85353-1.html?sections=Comprehensive).  Average Blood Pressure and 24-Hour Blood Pressure are included for implementations that may need them as additional blood pressure observations.
 
 The Office of the National Coordinator (ONC) sponsored [Data Access Framework (DAF)](https://www.healthit.gov/topic/scientific-initiatives/pcor/data-access-framework-daf) project, originally developed, balloted, and published in FHIR DSTU2 and the [Argonaut](http://argonautwiki.hl7.org/index.php?title=Main_Page) pilot implementation
 project and were used as references in the creation of the profiles in this IG. 
@@ -47,8 +47,8 @@ The following data elements are mandatory (i.e. data SHALL be present). Profile-
 
 1. a status (Observation.status)
 2. a category code of 'vital-signs' (Observation.category)
-3. an observaation code (Observation.code) that defines what is being measured.
-    * LOINC was the sytem chosen for the observation code because this aligns with the most countries, but it can be treated as simply a fixed core set of common codes to communicate basic vital signs. Implementers that need to use a different code system should map to LOINC accordingly.
+3. an observation code (Observation.code) that defines what is being measured.
+    * LOINC was the system chosen for the observation code because this aligns with the most countries, but it can be treated as simply a fixed core set of common codes to communicate basic vital signs. Implementers that need to use a different code system should map to LOINC accordingly.
 4. a patient (Observation.subject)
 5. a time (Observation.effective, a dateTime with at least Year, Month, Day, Hour, and minutes. Seconds may be zero filled) or time period (start dateTime and end dateTime) indicating when the measurement was taken or over which period it was taken.
 
@@ -59,7 +59,7 @@ The following data elements are mandatory (i.e. data SHALL be present). Profile-
 
 #### Data Provenance
 
-It is recommended that the guidelines set forth by the [US Core impelmenation guide](https://build.fhir.org/ig/HL7/US-Core-R4/basic-provenance.html) for data provenance be followed for implementation of this IG.
+It is recommended that the guidelines set forth by the [US Core implementation guide](https://build.fhir.org/ig/HL7/US-Core-R4/basic-provenance.html) for data provenance be followed for implementation of this IG.
 
 ### Formal View of Profile Content
 
@@ -71,7 +71,7 @@ Link to the formal definition views for the vital signs listed in this table.
 
 • If a more specific code or another code system is recorded or required, implementers must support both the values (LOINC) listed and the translated code - e.g. method specific LOINC codes, SNOMED CT concepts, system specific (local) codes.
 
-• In addition the implementer may choose to provide alternate codes in addition to the standard codes defined here. The examples illustrate using other codes as translations.
+• In addition, the implementer may choose to provide alternate codes in addition to the standard codes defined here. The examples illustrate using other codes as translations.
 
 {% include profileloinctable.html %}
 
@@ -79,10 +79,14 @@ Link to the formal definition views for the vital signs listed in this table.
 
 **This Implementation Guide was made possible by the thoughtful contributions of the following people:**
 
+*The [American Medical Association (AMA)](www.ama-assn.org)*
+
 *The [HL7 CIMI Work Group](https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative)*
 
 *The [HL7 Orders and Observations Work Group](https://confluence.hl7.org/display/OO/Orders+and+Observations)*
 
+* *Monique Van Berkum, AMA*
+* *Corey Smith, AMA*
 * *Nathan Davis, Intermountain Healthcare*
 * *Susan Matney, Intermountain Healthcare*
 * *Patrick Langford, Intermountain Healthcare*

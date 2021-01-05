@@ -10,13 +10,13 @@ This page lists all the CodeSystems, ValueSets, and ConceptMaps defined as part 
 
 **Code systems published in this IG** - Includes HSPC defined code systems and externally defined code systems.  There are two temporary codes systems used in this implementation guide.  These will be replaced when their terms are created in a standard terminology.
 
-{% include list-simple-codesystems.xhtml %}
+{% include list-simple-name-codesystems.xhtml %}
 
 <br />
 
 ## Value Sets
 
-{% include list-simple-valuesets.xhtml %}
+{% include list-simple-name-valuesets.xhtml %}
 
 <br />
 
