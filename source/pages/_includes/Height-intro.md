@@ -6,7 +6,7 @@ The Body Height profile contains one observation, body height. In addition, the 
 
 The following examples are provided to illustrate conformant resource content to this profile.
 
-- [Height Example](Observation-height-example.html)
+- [Body Height Example](Observation-height-example.html)
 
 #### *Use Case*
 

@@ -18,7 +18,7 @@ Measurement Protocol - This is used to capture a set of rules used for the calcu
 
 #### *Example*
 
-[AverageBloodPressure-example.html](Observation-AverageBloodPressure-example.html)
+[AverageBloodPressure-example](Observation-AverageBloodPressure-example.html)
 
 #### *Value Sets*
 

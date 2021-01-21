@@ -1,22 +1,22 @@
 ### Scope
 
-The Blood Pressure Panel profile contains three observations, systolic, diastolic, and mean arterial blood pressures. These are slices of the component element (Observation.component) and the value (Observation.value) has been constrained out (cardinality set to 0).  Systolic and Diastolic blood pressures are commonly stored together as a “blood pressure”. There are times when a mean arterial pressure needs to be stored also, so it was included.  The only required observation of the three is Systolic BP.  By doing so the panel may be used to record any combination of Systolic + Diastolic, Systolic only, or all three.  This negates the need to create individual FHIR profiles for any of the three.
-
-In addition, the Blood Pressure Panel profile contains the following qualifying observations with associated SNOMED CT value sets: Body Position (e.g. standing, sitting, Trendelenburg); Blood Pressure Measurement Site (note that this value set contains both the artery, such as brachial artery,  and the external cuff location); Blood Pressure Method (e.g. auscultation, doppler); Exercise Association Reference Set (e.g. before exercise, after exercise); observation-deviceCode which includes cuff sizes (from size 1 for premature babies up to thigh cuff) and blood pressure device types (e.g. aneroid sphygmomanometer, arterial line).
+The Blood Pressure Panel profile contains three observations, systolic, diastolic, and mean arterial blood pressure. These are slices of the component element (Observation.component) and the value (Observation.value) has been constrained out (cardinality set to 0).  Systolic and Diastolic blood pressures are commonly stored together as a “blood pressure”. There are times when a mean arterial pressure needs to be stored also, so it was included.  The only required observation of the three is Systolic BP.  By doing so the panel may be used to record any combination of Systolic + Diastolic, Systolic only, or all three.  This negates the need to create individual FHIR profiles for any of the three.
 
 #### About the extensions
+
+In addition, the Blood Pressure Panel profile contains the following qualifying observations (extensions) with associated SNOMED CT value sets:
 
 Body Position - This is used to capture an individual's body position while taking a blood pressure.  Usually "sitting".
 
 Exercise Association - This is used to capture an individual's exercise status while taking blood pressure.  Usually "at rest".
 
-observation-deviceCode - This is an intentional separation from the Observation.device backbone element.  Used for when only a device type needs to be recorded without the use of another resource.  Because the values of this extension span both device type and cuff size, the cardinality of this element has been set to 0..2.
-
 Measurement Setting - This is used to capture the location (not body site) where the measurement(s) took place; At home, hospital, clinic, etc.
 
-Measurement Protocol - This is used to capture a set of rules used for the calculation of the blood pressure average.  This can be institution specific, provider specific, clinical society specific (i.e. AMA), etc.
-
 Sleep Status - This is used to capture whether or not the measurement was taken while the subject was asleep or awake.
+
+#### Observation.device
+
+The Blood Pressure Panel profile references a BPDevice profile of the Device resource in Observation.device.  The BPDevice profile is designed to be used specifically for blood pressure observations and includes an extension for Blood Pressure Cuff Size.
 
 #### About Mean Arterial Pressure
 
@@ -55,10 +55,9 @@ The following examples are provided to illustrate conformant resource content to
 
 - Body Position extension
 - Exercise Association extension
-- observation-deviceCode extension
+- Observation.device (reference to BPDevice profile)
 - Sleep Status extension
 - Measurement Setting extension
-- Measurement Protocol extension
 - all components, including component.code and component.valueQuantity (value, unit, system, and code) 
 
 {% include link-list.md %}

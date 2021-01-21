@@ -37,11 +37,14 @@
 				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/observation-deviceCode"/>
 			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Observation:cimiResiratoryRate.extension.value:measurementDevice">
+			<path value="Observation.extension.value"/>
             <binding>
                 <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/respiratoryRateMeasDeviceVS"/>
             </binding>
-			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiResiratoryRate.extension:bodyposition">
 		    <path value="Observation.extension"/>
@@ -168,7 +171,7 @@
 			<path value="Observation.interpretation"/>
 			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiResiratoryRate.method">

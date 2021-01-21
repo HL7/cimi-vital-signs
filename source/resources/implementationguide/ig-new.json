@@ -241,9 +241,9 @@
     },
     {
       "reference" : {
-        "reference" : "ValueSet/abnIntNumericNomVS"
+        "reference" : "ValueSet/NumericResultIntVS"
       },
-      "description" : "Abnormal Interpretation (Numeric Nominal) value set",
+      "description" : "Numeric Result Interpretation value set",
       "exampleBoolean" : false
     },
     {
@@ -300,13 +300,6 @@
         "reference" : "ValueSet/bodyTempMeasurementDeviceVS"
       },
       "description" : "Body Temperature Measurement Device value set",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
-        "reference" : "ValueSet/clothingWornDuringMeasureVS"
-      },
-      "description" : "Clothing Worn During Measure value set",
       "exampleBoolean" : false
     },
     {

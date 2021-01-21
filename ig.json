@@ -139,7 +139,7 @@
   "CodeSystem/APCTemporaryCodeSystem":{"base":"CodeSystem-APCTemporaryCodeSystem.html","source":"codesystem/APCTemporaryCodeSystem.xml"},
 
   "ValueSet/organizationtypeVS":{"base":"ValueSet-organizationtypeVS.html"},
-	"ValueSet/abnIntNumericNomVS":{"base":"ValueSet-abnIntNumericNomVS.html"},
+	"ValueSet/NumericResultIntVS":{"base":"ValueSet-NumericResultIntVS.html"},
 	"ValueSet/sensorDescriptionVS":{"base":"ValueSet-sensorDescriptionVS.html"},
 	"ValueSet/bodyPositionVS":{"base":"ValueSet-bodyPositionVS.html"},
 	"ValueSet/bodyTempMeasBodyLocationPrecoordVS":{"base":"ValueSet-bodyTempMeasBodyLocationPrecoordVS.html"},
@@ -149,7 +149,6 @@
 	"ValueSet/bpMeasDeviceVS":{"base":"ValueSet-bpMeasDeviceVS.html"},
 	"ValueSet/bpMeasMethodVS":{"base":"ValueSet-bpMeasMethodVS.html"},
 	"ValueSet/bpCuffSizeVS":{"base":"ValueSet-bpCuffSizeVS.html"},
-	"ValueSet/clothingWornDuringMeasureVS":{"base":"ValueSet-clothingWornDuringMeasureVS.html"},
 	"ValueSet/definedLimitsVS":{"base":"ValueSet-definedLimitsVS.html"},
 	"ValueSet/exertionPhaseVS":{"base":"ValueSet-exertionPhaseVS.html"},
 	"ValueSet/heartRateMeasBodyLocationPrecoordVS":{"base":"ValueSet-heartRateMeasBodyLocationPrecoordVS.html"},
@@ -172,8 +171,8 @@
 	"ValueSet/TemperatureUOMVS":{"base":"ValueSet-TemperatureUOMVS.html"},
     
 	
-  "Device/BPDevice-example": {"base": "BPDevice-example.html"},
-  "Device/BPDevice2-example": {"base": "BPDevice2-example.html"},
+  "Device/BPDevice-example": {"base": "Device-BPDevice-example.html"},
+  "Device/BPDevice2-example": {"base": "Device-BPDevice2-example.html"},
   "Patient/patient-example": {"base": "Patient-patient-example.html"},
   "Practitioner/practitioner-example": {"base": "Practitioner-practitioner-example.html"},
   "Observation/BloodPressurePanelExample":{"base":"Observation-BloodPressurePanelExample.html"},

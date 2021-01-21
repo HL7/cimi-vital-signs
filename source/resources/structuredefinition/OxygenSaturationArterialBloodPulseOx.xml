@@ -152,7 +152,7 @@
             </type>
 		  <binding>
 			<strength value="extensible"/>
-			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
+			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
 		  </binding>
         </element>
 		<element id="Observation:cimiSPO2.bodySite">
@@ -160,7 +160,6 @@
 		  <mustSupport value="false"/>
 		  <binding>
 			<strength value="extensible"/>
-			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
 			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/sPO2BodyLocationVS"/>
 		  </binding>
 		  <mustSupport value="true"/>

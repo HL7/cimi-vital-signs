@@ -50,25 +50,14 @@
 				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/observation-deviceCode"/>
 			</type>
-            <binding>
-                <strength value="extensible"/>
-                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasDeviceVS"/>
-            </binding>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBodyHeight.extension:clothingWornDuringMeasure">
-			<path value="Observation.extension"/>
-			<sliceName value="clothingWornDuringMeasure"/>
-			<short value="Cothing Worn During Measure"/>
-			<type>
-				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/ClothingWornDuringMeasureExt"/>
-			</type>
+		<element id="Observation:cimiBodyHeight.extension.value:measurementDevice">
+			<path value="Observation.extension.value"/>
 			<binding>
-				<strength value="extensible"/>
-				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/clothingWornDuringMeasureVS"/>
+                <strength value="extensible"/>
+                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasDeviceVS"/>
 			</binding>
-			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyHeight.extension:MeasurementSettingExt">
 			<path value="Observation.extension"/>
@@ -169,7 +158,7 @@
 			<path value="Observation.interpretation"/>
 			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyHeight.method">

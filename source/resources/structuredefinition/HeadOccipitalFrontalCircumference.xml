@@ -26,7 +26,7 @@
     <differential>
         <element id="Observation:cimiHeadCircumference">
             <path value="Observation"/>
-			<short value="Head Circumference"/>
+			<short value="Head, Occipital-Frontal Circumference"/>
             <definition value="Head Occipital/Frontal Circumference by Tape Measure, the measured length around and individual's head via a tape measure."/>
         </element>
 		<element id="Observation:cimiHeadCircumference.status">
@@ -114,7 +114,7 @@
 			<path value="Observation.interpretation"/>
             <binding>
                 <strength value="extensible"/>
-                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/abnIntNumericNomVS"/>
+                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
             </binding>
 		</element>
     </differential>

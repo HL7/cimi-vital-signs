@@ -237,9 +237,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/abnIntNumericNomVS"/>
+        <reference value="ValueSet/NumericResultIntVS"/>
       </reference>
-      <description value="Abnormal Interpretation (Numeric Nominal) value set"/>
+      <description value="Numeric Result Interpretation value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -296,13 +296,6 @@
         <reference value="ValueSet/bodyTempMeasurementDeviceVS"/>
       </reference>
       <description value="Body Temperature Measurement Device value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/clothingWornDuringMeasureVS"/>
-      </reference>
-      <description value="Clothing Worn During Measure value set"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

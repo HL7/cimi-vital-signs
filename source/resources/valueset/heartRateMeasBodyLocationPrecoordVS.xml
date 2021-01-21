@@ -25,87 +25,107 @@
 			<concept>	
 				<code value ="65355003"/>
 				<display value ="Right common carotid artery structure (body structure)"/>
-			</concept>	
-			<concept>	
-				<code value ="43899006"/>
-				<display value ="Structure of popliteal artery (body structure)"/>
-			</concept>		
-			<concept>	
-				<code value ="25885001"/>
-				<display value ="Structure of left popliteal artery (body structure)"/>
-			</concept>	
-			<concept>	
-				<code value ="57832007"/>
-				<display value ="Structure of right popliteal artery (body structure)"/>
-			</concept>
-			<concept>
-				<code value="50408007"/>
-				<display value="Structure of left pulmonary artery"/>
 			</concept>
 			<concept>	
 				<code value ="13383001"/>
 				<display value ="Structure of apex of heart (body structure)"/>
-			</concept>
+			</concept>	
 			<concept>	
 				<code value ="17137000"/>
 				<display value ="Structure of brachial artery (body structure)"/>
-			</concept>
-			<concept>	
-				<code value ="723961002"/>
-				<display value ="Structure of left brachial artery (body structure)"/>
-			</concept>
-			<concept>	
-				<code value ="723962009"/>
-				<display value ="Structure of right brachial artery (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="86547008"/>
 				<display value ="Structure of dorsalis pedis artery (body structure)"/>
 			</concept>	
 			<concept>	
-				<code value ="792817008"/>
-				<display value ="Structure of left dorsalis pedis artery (body structure)"/>
-			</concept>	
-			<concept>	
-				<code value ="792816004"/>
-				<display value ="Structure of right dorsalis pedis artery (body structure)"/>
-			</concept>	
-			<concept>	
 				<code value ="7657000"/>
 				<display value ="Structure of femoral artery (body structure)"/>
+			</concept>
+			<concept>	
+				<code value ="723961002"/>
+				<display value ="Structure of left brachial artery (body structure)"/>
+			</concept>		
+			<concept>	
+				<code value ="792817008"/>
+				<display value ="Structure of left dorsalis pedis artery (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="113270003"/>
 				<display value ="Structure of left femoral artery (body structure)"/>
 			</concept>	
 			<concept>	
-				<code value ="69833005"/>
-				<display value ="Structure of right femoral artery (body structure)"/>
+				<code value ="25885001"/>
+				<display value ="Structure of left popliteal artery (body structure)"/>
 			</concept>	
 			<concept>	
-				<code value ="45631007"/>
-				<display value ="Structure of radial artery (body structure)"/>
+				<code value ="214912001"/>
+				<display value ="Structure of left posterior tibial artery (body structure)"/>
+			</concept>
+			<concept>
+				<code value="50408007"/>
+				<display value="Structure of left pulmonary artery"/>
 			</concept>	
 			<concept>	
 				<code value ="368504007"/>
 				<display value ="Structure of left radial artery (body structure)"/>
+			</concept>		
+			<concept>	
+				<code value ="24781000205105"/>
+				<display value ="Structure of left superficial temporal artery (body structure)"/>
 			</concept>	
 			<concept>	
-				<code value ="368503001"/>
-				<display value ="Structure of right radial artery (body structure)"/>
+				<code value ="368506009"/>
+				<display value ="Structure of left ulnar artery (body structure)"/>
+			</concept>
+			<concept>	
+				<code value ="43899006"/>
+				<display value ="Structure of popliteal artery (body structure)"/>
 			</concept>	
 			<concept>	
 				<code value ="13363002"/>
 				<display value ="Structure of posterior tibial artery (body structure)"/>
 			</concept>	
 			<concept>	
-				<code value ="214912001"/>
-				<display value ="Structure of left posterior tibial artery (body structure)"/>
+				<code value ="45631007"/>
+				<display value ="Structure of radial artery (body structure)"/>
+			</concept>
+			<concept>	
+				<code value ="723962009"/>
+				<display value ="Structure of right brachial artery (body structure)"/>
 			</concept>	
+			<concept>	
+				<code value ="792816004"/>
+				<display value ="Structure of right dorsalis pedis artery (body structure)"/>
+			</concept>		
+			<concept>	
+				<code value ="69833005"/>
+				<display value ="Structure of right femoral artery (body structure)"/>
+			</concept>
+			<concept>	
+				<code value ="57832007"/>
+				<display value ="Structure of right popliteal artery (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="368503001"/>
+				<display value ="Structure of right radial artery (body structure)"/>
+			</concept>
 			<concept>	
 				<code value ="214811007"/>
 				<display value ="Structure of right posterior tibial artery (body structure)"/>
 			</concept>	
+			<concept>
+				<code value="78480002"/>
+				<display value="Structure of right pulmonary artery (body structure)"/>
+			</concept>
+			<concept>	
+				<code value="24791000205107"/>
+				<display value="Structure of right superficial temporal artery (body structure)"/>
+			</concept>	
+			<concept>	
+				<code value ="368505008"/>
+				<display value ="Structure of right ulnar artery (body structure)"/>
+			</concept>
 			<concept>	
 				<code value ="15672000"/>
 				<display value ="Structure of superficial temporal artery (body structure)"/>
@@ -113,15 +133,18 @@
 			<concept>	
 				<code value ="44984001"/>
 				<display value ="Structure of ulnar artery (body structure)"/>
-			</concept>	
-			<concept>	
-				<code value ="368506009"/>
-				<display value ="Structure of left ulnar artery (body structure)"/>
-			</concept>	
-			<concept>	
-				<code value ="368505008"/>
-				<display value ="Structure of right ulnar artery (body structure)"/>
 			</concept>
         </include>
+		<include>
+			<system value="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
+			<concept>
+				<code value="24781000205105"/>
+				<display value="Structure of left superficial temporal artery (body structure)"/>
+			</concept>
+			<concept>
+				<code value="24791000205107"/>
+				<display value="Structure of right superficial temporal artery (body structure)"/>
+			</concept>
+		</include>
     </compose>
 </ValueSet>

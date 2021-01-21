@@ -50,6 +50,14 @@
 			    <code value="466139008"/>
 			    <display value="Automatic-inflation electronic sphygmomanometer, portable, finger (physical object)"/>
 			</concept>
+			<concept>
+			    <code value="711337005"/>
+			    <display value="Implantable pulmonary artery pressure monitoring system (physical object)"/>
+			</concept>
+			<concept>
+			    <code value="774007007"/>
+			    <display value="Wearable neonatal heart rate meter (physical object)"/>
+			</concept>
         </include>
     </compose>
 </ValueSet>

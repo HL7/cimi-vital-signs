@@ -13,22 +13,13 @@
 	</valueCodeableConcept>
   </extension>
   <extension url ="http://hl7.org/fhir/StructureDefinition/observation-deviceCode">
-	<valueCodeableConcept>
-		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="51791000"/>
-			<display value="Measuring tape"/>
-		</coding>
-	</valueCodeableConcept>
-  </extension>
-  <extension url ="http://hl7.org/fhir/us/vitals/StructureDefinition/ClothingWornDuringMeasureExt">
-	<valueCodeableConcept>
-		<coding>
-			<system value ="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
-			<code value="961000205106"/>
-			<display value="Wearing street clothes, no shoes (finding)"/>
-		</coding>
-	</valueCodeableConcept>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="51791000"/>
+        <display value="Measuring tape"/>
+      </coding>
+    </valueCodeableConcept>
   </extension>
   <status value="final"/>
   <category>
@@ -61,10 +52,10 @@
     <code value="cm"/>
   </valueQuantity>
   <method>
-	<coding>
-		<system value="http://snomed.info/sct"/>
-		<code value="258104002"/>
-		<display value="Measured"/>
-	</coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="258104002"/>
+      <display value="Measured"/>
+    </coding>
   </method>
 </Observation>

@@ -87,20 +87,6 @@
 			</binding>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiBloodPressurePanel.extension:Protocol">
-			<path value="Observation.extension"/>
-			<sliceName value="MeasurementProtocol"/>
-			<short value="Algorithm for Blood Pressure"/>
-			<type>
-				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementProtocolExt"/>
-			</type>
-			<binding>
-				<strength value ="extensible"/>
-				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/MeasurementProtocolVS"/>
-			</binding>
-			<mustSupport value="true"/>
-		</element>
 		<element id="Observation:cimiBloodPressurePanel.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
@@ -135,6 +121,18 @@
 			<path value="Observation.value[x]"/>
 			<min value="0"/>
 			<max value="0"/>
+		</element>
+		<element id="Observation:cimiBloodPressurePanel.interpretation">
+			<path value="Observation.interpretation"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
+			</binding>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.bodySite">
 		  <path value="Observation.bodySite"/>

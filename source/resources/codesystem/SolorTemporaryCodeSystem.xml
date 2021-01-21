@@ -122,5 +122,15 @@
 		<display value="Automated office blood pressure protocol"/>
 		<definition value="A blood pressure measurement protocol that directs a blood pressure to be taken via an automatic blood pressure device several times and then averaged and recorded."/>
 	</concept>
+	<concept>
+		<code value="24781000205105"/>
+		<display value="Structure of left superficial temporal artery (body structure)"/>
+		<definition value="A body structure of the superficial tempral artery on the left side of the body.  Currently part of the Solor SNOMED CT extension."/>
+	</concept>
+	<concept>
+		<code value="24791000205107"/>
+		<display value="Structure of right superficial temporal artery (body structure)"/>
+		<definition value="A body structure of the superficial tempral artery on the right side of the body.  Currently part of the Solor SNOMED CT extension."/>
+	</concept>
 </CodeSystem>
  
