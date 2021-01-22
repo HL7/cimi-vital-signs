@@ -53,7 +53,10 @@
 			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyHeight.extension.value:measurementDevice">
-			<path value="Observation.extension.value"/>
+			<path value="Observation.extension.value[x]"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
 			<binding>
                 <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasDeviceVS"/>

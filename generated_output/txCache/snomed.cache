@@ -38585,3 +38585,524 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "51791000"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "102304005",
+        "display" : "Measuring ruler, device (physical object)"
+      },
+      {
+        "code" : "51791000",
+        "display" : "Measuring tape, device (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Measuring tape",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "51791000",
+  "display" : "Measuring tape"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "102304005",
+        "display" : "Measuring ruler, device (physical object)"
+      },
+      {
+        "code" : "51791000",
+        "display" : "Measuring tape, device (physical object)"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem",
+      "concept" : [{
+        "code" : "24311000205101",
+        "display" : "Stadiometer (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Measuring tape",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "51791000"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Measuring tape",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260548002"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "467862000",
+        "display" : "Capillary patient thermometer, mercury (physical object)"
+      },
+      {
+        "code" : "706158001",
+        "display" : "Electronic patient thermometer (physical object)"
+      },
+      {
+        "code" : "448735006",
+        "display" : "Forehead thermometer (physical object)"
+      },
+      {
+        "code" : "700643004",
+        "display" : "Infrared patient thermometer, ear (physical object)"
+      },
+      {
+        "code" : "700644005",
+        "display" : "Infrared patient thermometer, skin (physical object)"
+      },
+      {
+        "code" : "462983001",
+        "display" : "Liquid-crystal patient thermometer (physical object)"
+      },
+      {
+        "code" : "118376009",
+        "display" : "Thermocouple (physical object)"
+      },
+      {
+        "code" : "464210001",
+        "display" : "Thermographic camera (physical object)"
+      },
+      {
+        "code" : "448349000",
+        "display" : "Tympanic thermometer (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#260548002) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260548002",
+  "display" : "Oral"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "467862000",
+        "display" : "Capillary patient thermometer, mercury (physical object)"
+      },
+      {
+        "code" : "706158001",
+        "display" : "Electronic patient thermometer (physical object)"
+      },
+      {
+        "code" : "448735006",
+        "display" : "Forehead thermometer (physical object)"
+      },
+      {
+        "code" : "700643004",
+        "display" : "Infrared patient thermometer, ear (physical object)"
+      },
+      {
+        "code" : "700644005",
+        "display" : "Infrared patient thermometer, skin (physical object)"
+      },
+      {
+        "code" : "462983001",
+        "display" : "Liquid-crystal patient thermometer (physical object)"
+      },
+      {
+        "code" : "118376009",
+        "display" : "Thermocouple (physical object)"
+      },
+      {
+        "code" : "464210001",
+        "display" : "Thermographic camera (physical object)"
+      },
+      {
+        "code" : "448349000",
+        "display" : "Tympanic thermometer (physical object)"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem",
+      "concept" : [{
+        "code" : "1461000205102",
+        "display" : "Digital thermometer (physical object)"
+      },
+      {
+        "code" : "2331000205106",
+        "display" : "Non-contact infrared thermometer (physical object)"
+      },
+      {
+        "code" : "24031000205108",
+        "display" : "Thermoluminescent diode thermometer (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Oral",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260548002"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Oral",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "469204003"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "466289007",
+        "display" : "Bed scale (physical object)"
+      },
+      {
+        "code" : "444063009",
+        "display" : "Broselow Luten color coding system for pediatric weight estimation (assessment scale)"
+      },
+      {
+        "code" : "720689000",
+        "display" : "Chair scale (physical object)"
+      },
+      {
+        "code" : "469204003",
+        "display" : "Floor scale, electronic (physical object)"
+      },
+      {
+        "code" : "469787007",
+        "display" : "Floor scale, mechanical (physical object)"
+      },
+      {
+        "code" : "58514003",
+        "display" : "Infant scale (physical object)"
+      },
+      {
+        "code" : "462242008",
+        "display" : "Patient sling scale (physical object)"
+      },
+      {
+        "code" : "466532009",
+        "display" : "Wheelchair scale (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Floor scale, electronic (physical object)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "469204003",
+  "display" : "Floor scale, electronic"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "466289007",
+        "display" : "Bed scale (physical object)"
+      },
+      {
+        "code" : "444063009",
+        "display" : "Broselow Luten color coding system for pediatric weight estimation (assessment scale)"
+      },
+      {
+        "code" : "720689000",
+        "display" : "Chair scale (physical object)"
+      },
+      {
+        "code" : "469204003",
+        "display" : "Floor scale, electronic (physical object)"
+      },
+      {
+        "code" : "469787007",
+        "display" : "Floor scale, mechanical (physical object)"
+      },
+      {
+        "code" : "58514003",
+        "display" : "Infant scale (physical object)"
+      },
+      {
+        "code" : "462242008",
+        "display" : "Patient sling scale (physical object)"
+      },
+      {
+        "code" : "466532009",
+        "display" : "Wheelchair scale (physical object)"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem",
+      "concept" : [{
+        "code" : "24181000205106",
+        "display" : "Patient lift scale (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Floor scale, electronic (physical object)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "469204003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Floor scale, electronic (physical object)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "43770009"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "467178001",
+        "display" : "Bedside heart rate monitor (physical object)"
+      },
+      {
+        "code" : "43770009",
+        "display" : "Doppler device (physical object)"
+      },
+      {
+        "code" : "86184003",
+        "display" : "Electrocardiographic monitor and recorder (physical object)"
+      },
+      {
+        "code" : "469801002",
+        "display" : "Invasive blood pressure monitor (physical object)"
+      },
+      {
+        "code" : "258057004",
+        "display" : "Non-invasive blood pressure monitor (physical object)"
+      },
+      {
+        "code" : "448703006",
+        "display" : "Pulse oximeter (physical object)"
+      },
+      {
+        "code" : "466093008",
+        "display" : "Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"
+      },
+      {
+        "code" : "466086009",
+        "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"
+      },
+      {
+        "code" : "466139008",
+        "display" : "Automatic-inflation electronic sphygmomanometer, portable, finger (physical object)"
+      },
+      {
+        "code" : "711337005",
+        "display" : "Implantable pulmonary artery pressure monitoring system (physical object)"
+      },
+      {
+        "code" : "774007007",
+        "display" : "Wearable neonatal heart rate meter (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Doppler device",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "43770009",
+  "display" : "Doppler device"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "467178001",
+        "display" : "Bedside heart rate monitor (physical object)"
+      },
+      {
+        "code" : "43770009",
+        "display" : "Doppler device (physical object)"
+      },
+      {
+        "code" : "86184003",
+        "display" : "Electrocardiographic monitor and recorder (physical object)"
+      },
+      {
+        "code" : "469801002",
+        "display" : "Invasive blood pressure monitor (physical object)"
+      },
+      {
+        "code" : "258057004",
+        "display" : "Non-invasive blood pressure monitor (physical object)"
+      },
+      {
+        "code" : "448703006",
+        "display" : "Pulse oximeter (physical object)"
+      },
+      {
+        "code" : "466093008",
+        "display" : "Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"
+      },
+      {
+        "code" : "466086009",
+        "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"
+      },
+      {
+        "code" : "466139008",
+        "display" : "Automatic-inflation electronic sphygmomanometer, portable, finger (physical object)"
+      },
+      {
+        "code" : "711337005",
+        "display" : "Implantable pulmonary artery pressure monitoring system (physical object)"
+      },
+      {
+        "code" : "774007007",
+        "display" : "Wearable neonatal heart rate meter (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Doppler device",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "43770009"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Doppler device",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "17120007"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "717730001",
+        "display" : "Impedance pneumography recording/analysis system (physical object)"
+      },
+      {
+        "code" : "334990001",
+        "display" : "Peak flow meter (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#17120007) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "17120007",
+  "display" : "Biofeedback, strain gauge"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "717730001",
+        "display" : "Impedance pneumography recording/analysis system (physical object)"
+      },
+      {
+        "code" : "334990001",
+        "display" : "Peak flow meter (physical object)"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem",
+      "concept" : [{
+        "code" : "23921000205109",
+        "display" : "Respiration strain gauge (physical object)"
+      },
+      {
+        "code" : "23861000205107",
+        "display" : "Capnograph sensor device (physical object)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Biofeedback, strain gage",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "17120007"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Biofeedback, strain gage",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

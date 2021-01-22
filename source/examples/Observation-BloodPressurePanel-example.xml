@@ -68,7 +68,7 @@
   <component>
 	<code>
 		<coding>
-			<system value="http://loinc.org"/>
+			<system value="http://loinc.org"/> 
 			<code value="8480-6"/>
 			<display value="Systolic blood pressure"/>
 		</coding>

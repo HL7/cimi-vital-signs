@@ -173,13 +173,13 @@
 		<element id="Observation:cimiBloodPressurePanel.component">
 			<path value="Observation.component"/>
 			<slicing>
+ 				<discriminator> 
+					<type value="value"/> 
+					<path value="code.coding.system"/> 
+				</discriminator>
 				<discriminator>
 					<type value="value"/> 
 					<path value="code.coding.code"/> 
-				</discriminator> 
-				<discriminator> 
-					<type value="value"/> 
-					<path value="code.coding.system"/> 
 				</discriminator> 
 				<ordered value="false"/>
 				<rules value="open"/>
