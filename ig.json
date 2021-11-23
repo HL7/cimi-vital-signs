@@ -110,7 +110,6 @@
 	"StructureDefinition/BloodPressureCuffSizeExt":{"base":"StructureDefinition-BloodPressureCuffSizeExt.html"},
 	"StructureDefinition/SensorDescriptionExt":{"base":"StructureDefinition-SensorDescriptionExt.html"},
 	"StructureDefinition/SleepStatusExt":{"base":"StructureDefinition-SleepStatusExt.html"},
-	"StructureDefinition/ClothingWornDuringMeasureExt":{"base":"StructureDefinition-ClothingWornDuringMeasureExt.html"},
 	"StructureDefinition/ExerciseAssociationExt":{"base":"StructureDefinition-ExerciseAssociationExt.html"},
 	"StructureDefinition/MeasurementProtocolExt":{"base":"StructureDefinition-MeasurementProtocolExt.html"}, 
 	"StructureDefinition/MeasurementSettingExt":{"base":"StructureDefinition-MeasurementSettingExt.html"}, 
@@ -169,6 +168,7 @@
 	"ValueSet/LengthUOMVS":{"base":"ValueSet-LengthUOMVS.html"},
 	"ValueSet/WeightUOMVS":{"base":"ValueSet-WeightUOMVS.html"},
 	"ValueSet/TemperatureUOMVS":{"base":"ValueSet-TemperatureUOMVS.html"},
+	"ValueSet/BodyTempAssociatedSituationVS":{"base":"ValueSet-BodyTempAssociatedSituationVS.html"},
     
 	
   "Device/BPDevice-example": {"base": "Device-BPDevice-example.html"},

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="BodyTempAssociatedSituationVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/BodyTempAssociatedSituationVS"/>
+    <version value="0.01"/>
+    <name value="BodyTempAssociatedSituationvalueset"/>
+    <title value="Body Temperature Associated Situation value set"/>
+    <status value="draft"/>
+    <date value="2021-04-09"/>
+    <publisher value="Logica"/>
+    <description value="SELECT SNOMED CT code system values and temporary code system values that describe situations surrounding a body temperature measurement."/>
+    <copyright value="TBD"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="128978002"/>
+				<display value="Post exercise state (finding)"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

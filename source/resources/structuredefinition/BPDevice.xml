@@ -19,18 +19,17 @@
   <kind value="complex-type"/>
   <abstract value="false"/>
   <type value="Device"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Device"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Device"/> 
   <derivation value="constraint"/>
   <differential>
     <element id="Device:bpdevice">
         <path value="Device"/>
         <short value="Blood Pressure Device"/>
         <definition value="The specific instrument used to measure or determine and individual's blood pressure."/>
-        <mustSupport value="true"/>
     </element>
     <element id="Device:bpdevice.extension:cuffsize">
         <path value="Device.extension"/>
-        <sliceName value="suffSize"/>
+        <sliceName value="cuffSize"/>
         <short value="Cuff Size"/>
         <type>
             <code value="Extension"/>
@@ -40,6 +39,7 @@
             <strength value="extensible"/>
             <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bpCuffSizeVS"/>
         </binding>
+        <mustSupport value="true"/>
     </element>
     <element id="Device:bpdevice.type">
         <path value="Device.type"/>

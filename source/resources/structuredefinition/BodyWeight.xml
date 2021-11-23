@@ -162,5 +162,12 @@
                 <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
             </binding>
 		</element>
+		<element id="Observation:cimiBodyWeight.method">
+			<path value="Observation.method"/>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/heightLengthMeasMethodVS"/>
+			</binding>
+		</element>
     </differential>
 </StructureDefinition>

@@ -20,7 +20,7 @@ The Blood Pressure Panel profile references a BPDevice profile of the Device res
 
 #### About Mean Arterial Pressure
 
-Mean Arterial Pressure is a calculated observation bases on the Systolic and Diastolic blood pressure measurements and is defined as the average pressure in an individual's arteries during one cardiac cycle.  It is *not* an average of several measurements.
+Mean Arterial Pressure is a calculated observation based on the Systolic and Diastolic blood pressure measurements and is defined as the average pressure in an individual's arteries during one cardiac cycle.  It is *not* an average of several measurements.
 
 Its formula is (SystolicBP + 2(DiastolicBP)) divided by 3; *(SBP + 2(DBP))/3*.   There are times when this needs to be known so it is included as an optional component in this panel.
 

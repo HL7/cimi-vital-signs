@@ -62,6 +62,19 @@
 			</binding>
 		  <mustSupport value="true"/>
 		</element>
+<!-- 		<element id="Observation:cimiBodyLength.extension:BodyPosition">
+			<path value="Observation.extension"/>
+			<sliceName value="BodyPosition"/>
+			<short value="Body Position"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/bodyPositionVS"/>
+			</binding>
+		</element> -->
 		<element id="Observation:cimiBodyLength.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>

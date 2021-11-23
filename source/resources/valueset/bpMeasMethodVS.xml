@@ -55,7 +55,7 @@
 			</concept>
             <concept>
 				<code value="641000205104"/>
-				<display value="Computer aided auscultation (procedure)"/>
+				<display value="Auscultation - automatic (procedure)"/>
 			</concept>
         </include>
     </compose>

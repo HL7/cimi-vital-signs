@@ -19,16 +19,24 @@
 				<display value="Cast device (physical object)"/>
 			</concept>
 			<concept>
-				<code value="190902006"/>
-				<display value="Fluid imbalance (disorder)"/>
-			</concept>
-			<concept>
 				<code value="257308009"/>
 				<display value="Oxygenator (physical object)"/>
 			</concept>
 			<concept>
 				<code value="53350007"/>
 				<display value="Prosthesis (physical object)"/>
+			</concept>
+			<concept>
+				<code value="248165006"/>
+				<display value="Adequately dressed (finding)"/>
+			</concept>
+			<concept>
+				<code value="1156252001"/>
+				<display value="Barefoot (finding)"/>
+			</concept>
+			<concept>
+				<code value="248160001"/>
+				<display value="Undressed (finding)"/>
 			</concept>
         </include>
     </compose>

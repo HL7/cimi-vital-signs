@@ -27,6 +27,11 @@
       <code value="59408-5"/>
       <display value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
     </coding>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="59408-5"/>
+      <display value="Oxygen saturation in Arterial blood by Pulse oximetry."/>
+    </coding>
     <text value="Oxygen saturation by Pulse Oximetry"/>
   </code>
   <subject>

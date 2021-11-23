@@ -1,29 +1,22 @@
 ﻿== Supressed Messages ==
 
 # US Core has a profile of Device called Implantable Device.  This is a sibling profile and cannot be used as a base for our BP Device profile.
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/BPDevice').baseDefinition: US FHIR Usage rules require that all profiles on Device derive from the core US profile
+US FHIR Usage rules require that all profiles on Device derive from the core US profile.
 
 # US Core uses the FHIR Specification Vital Signs Profile and does not specify a specific profile for this vital sign.
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/AverageBloodPressure').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/BloodPressurePanel').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/BloodPressurePanel').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/BodyLength').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/BodyMassIndex').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/BodyTemperature').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/BodyWeight').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/HeartRate').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/Height').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBlood').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/RespiratoryRate').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/TwentyFourHourBloodPressure').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/VitalSignsPanel').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles.
 
 # The Average Blood Pressure example uses this extension.
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt'): The Implementation Guide contains no examples for this extension
+The Implementation Guide contains no examples for this extension
 
-# Reason The US Core profile for head circumference is specific to pediatrics and inappropriate as a base for this profile.
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/HeadOccipitalFrontalCircumference').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+# These Snomed CT terms are valid
+The code 118643004 is not valid in the system http://snomed.info/sct
+The code 257308009 is not valid in the system http://snomed.info/sct
+The code 53350007 is not valid in the system http://snomed.info/sct
+The code 248160001 is not valid in the system http://snomed.info/sct
+The code 285201006 is not valid in the system http://snomed.info/sct
+The code 264362003 is not valid in the system http://snomed.info/sct
+The code 257585005 is not valid in the system http://snomed.info/sct
 
-# Reason The US Core Pulse Oximetry profile differs in structure (includes Flow Rate and Concentration as components) and we feel it different enough not to use as the base for our profile.
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodPulseOx').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-
+# This is derived from the US Core Vital Sign profile.
+US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles.

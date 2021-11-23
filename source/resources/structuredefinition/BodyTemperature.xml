@@ -62,6 +62,20 @@
 			</binding>
 		  <mustSupport value="true"/>
 		</element>
+		<element id="Observation:cimiBodyWeight.extension:associatedSituation">
+			<path value="Observation.extension"/>
+			<sliceName value="associatedSituation"/>
+			<short value="Associated Situation"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/us/vitals/StructureDefinition/AssociatedSituationExt"/>
+			</type>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/BodyTempAssociatedSituationVS"/>
+            </binding>
+			<mustSupport value="true"/>
+		</element>
 		<element id="Observation:cimiBodyTemperature.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>

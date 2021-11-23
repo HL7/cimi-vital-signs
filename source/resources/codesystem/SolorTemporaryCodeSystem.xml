@@ -70,12 +70,12 @@
 	<concept>
 		<code value="24821000205101"/>
 		<display value="Blood pressure cuff, upper arm, adult size universal (physical object)"/>
-		<definition value="A blood pressure suff size that is universal in size for adults on the upper arm."/>
+		<definition value="A blood pressure cuff size that is universal in size for adults on the upper arm."/>
 	</concept>
 	<concept>
 		<code value="24811000205108"/>
 		<display value="Blood pressure cuff, adult size medium (physical object)"/>
-		<definition value="A blood pressure suff size that is in between small and large sizes for adults on the upper arm."/>
+		<definition value="A blood pressure cuff size that is in between small and large sizes for adults on the upper arm."/>
 	</concept>
 	<concept>
 		<code value="641000205104"/>

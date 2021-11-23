@@ -80,13 +80,6 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/ClothingWornDuringMeasureExt"
-      },
-      "description" : "Clothing Worn During Measure Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/ExerciseAssociationExt"
       },
       "description" : "Exercise Association Extension",
@@ -251,6 +244,13 @@
         "reference" : "ValueSet/AssociatedSituationVS"
       },
       "description" : "Associated Situation value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/BodyTempAssociatedSituationVS"
+      },
+      "description" : "Body Temperature Associated Situation value set",
       "exampleBoolean" : false
     },
     {

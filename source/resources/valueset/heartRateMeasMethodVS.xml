@@ -16,7 +16,7 @@
 			<concept>	
 				<code value ="37931006"/>
 				<display value ="Auscultation (procedure)"/>
-			</concept>	
+			</concept>
 			<concept>	
 				<code value ="268447006"/>
 				<display value ="Doppler studies (procedure)"/>
@@ -46,7 +46,7 @@
 			<system value="http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem"/>
 			<concept>	
 				<code value ="641000205104"/>
-				<display value ="Computer aided auscultation (procedure)"/>
+				<display value ="Auscultation - automatic (procedure)"/>
 			</concept>
         </include>
     </compose>

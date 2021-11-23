@@ -69,13 +69,6 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ClothingWornDuringMeasureExt"/>
-			</reference>
-			<description value="Clothing Worn During Measure Extension"/>
-			<exampleBoolean value="false"/>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="StructureDefinition/ExerciseAssociationExt"/>
 			</reference>
 			<description value="Exercise Association Extension"/>
@@ -287,6 +280,13 @@
 				<reference value="ValueSet/AssociatedSituationVS"/>
 			</reference>
 			<description value="Associated Situation value set"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/BodyTempAssociatedSituationVS"/>
+			</reference>
+			<description value="Body Temperature Associated Situation value set"/>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
