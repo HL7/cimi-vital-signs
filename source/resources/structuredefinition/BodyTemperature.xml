@@ -161,6 +161,7 @@
 				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
 			</binding>
+			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiBodyTemperature.bodySite">
 			<path value="Observation.bodySite"/>

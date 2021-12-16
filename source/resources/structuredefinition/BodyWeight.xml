@@ -159,7 +159,7 @@
 			<path value="Observation.interpretation"/>
             <binding>
                 <strength value="extensible"/>
-                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
+                <valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntNonPanicVS"/>
             </binding>
 		</element>
 		<element id="Observation:cimiBodyWeight.method">

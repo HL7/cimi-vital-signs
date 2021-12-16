@@ -192,6 +192,7 @@
 			<strength value="extensible"/>
 			<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/LowOnlyNumericResultIntVS"/>
 		  </binding>
+		  <mustSupport value="true"/>
         </element>
 		<element id="Observation:cimiSPO2.bodySite">
 		  <path value="Observation.bodySite"/>

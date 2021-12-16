@@ -176,6 +176,7 @@
 				<strength value="extensible"/>
 				<valueSet value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
 			</binding>
+			<mustSupport value="true"/>
 		</element>
 		<element id="Observation:cimiResiratoryRate.method">
 			<path value="Observation.method"/>

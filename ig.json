@@ -170,7 +170,7 @@
 	"ValueSet/TemperatureUOMVS":{"base":"ValueSet-TemperatureUOMVS.html"},
 	"ValueSet/BodyTempAssociatedSituationVS":{"base":"ValueSet-BodyTempAssociatedSituationVS.html"},
 	"ValueSet/LowOnlyNumericResultIntVS":{"base":"ValueSet-LowOnlyNumericResultIntVS.html"},
-    
+	"ValueSet/NumericResultIntNonPanicVS":{"base":"ValueSet-NumericResultIntNonPanicVS.html"},
 	
   "Device/BPDevice-example": {"base": "Device-BPDevice-example.html"},
   "Device/BPDevice2-example": {"base": "Device-BPDevice2-example.html"},

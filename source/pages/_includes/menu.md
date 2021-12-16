@@ -17,7 +17,7 @@
   </li>
   -->
   <li>
-    <a href="toc.html">Table of Contents</a>
+    <a href="all-examples.html">Examples</a>
   </li>
   <li>
     <a href="terminology.html">Terminology</a>

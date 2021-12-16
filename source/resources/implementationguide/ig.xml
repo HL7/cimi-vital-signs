@@ -424,6 +424,13 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/NumericResultIntNonPanicVS"/>
+			</reference>
+			<description value="Numeric Result Interpretation without panic values, value set"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/sPO2BodyLocationVS"/>
 			</reference>
 			<description value="Oxygen Saturation Body Location value set"/>

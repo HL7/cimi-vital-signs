@@ -96,8 +96,8 @@
 			<short value="Average blood pressure (observable entity)"/>
 			<patternCodeableConcept>
 				<coding>
-					<system value="http://snomed.info/sct"/>
-					<code value="723232008"/>
+					<system value="http://loinc.org"/>
+					<code value="96607-7"/>
 				</coding>
 			</patternCodeableConcept>
         </element>
@@ -183,8 +183,8 @@
 			<short value="Average systolic blood pressure (observable entity)"/>
 			<patternCodeableConcept>
 				<coding>
-					<system value="http://snomed.info/sct"/>
-					<code value="314440001"/>
+					<system value="http://loinc.org"/>
+					<code value="96608-5"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
@@ -242,8 +242,8 @@
 			<short value="Average diastolic blood pressure (observable entity)"/>
 			<patternCodeableConcept>
 				<coding>
-					<system value="http://snomed.info/sct"/>
-					<code value="314453003"/>
+					<system value="http://loinc.org"/>
+					<code value="96609-3"/>
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>

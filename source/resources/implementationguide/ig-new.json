@@ -388,6 +388,13 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/NumericResultIntNonPanicVS"
+      },
+      "description" : "Numeric Result Interpretation without panic values, value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/sPO2BodyLocationVS"
       },
       "description" : "Oxygen Saturation Body Location value set",
