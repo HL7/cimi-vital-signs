@@ -36,11 +36,5 @@ ValueSet.compose[0].include[0].concept[0]	warning	The code 285201006 is not vali
 ValueSet.compose[0].include[0].concept[1]	warning	The code 264362003 is not valid in the system http://snomed.info/sct
 ValueSet.compose[0].include[0].concept[2]	warning	The code 257585005 is not valid in the system http://snomed.info/sct
 
-# This rule is incorrectly applied.  The example uses effectivePeriod and is precise to the minute.  The invariance describes the use of effectiveDatetime only.  Also effectiveDateTime should be precise to at least the hour and minute, not just the day.
-vs-1: 'if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day' Rule 'if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day' Failed
-
 # The ISO codes system 3166 is known.
 Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-
-# Created a Jira ticket about this in Jan. 2021,was never addressed.
-Profile http://hl7.org/fhir/us/vitals/StructureDefinition/BPDevice is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Device], which is not a Resource (which is required because the Observation.device element has type Reference)
