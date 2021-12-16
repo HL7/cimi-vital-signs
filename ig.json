@@ -93,7 +93,7 @@
     "qa": "generated_output/qa",
     "specification": "http://hl7.org/fhir/R4",
     "history": "http://hl7.org/fhir/us/vitals/history.html",
-    "suppressedWarningFile": "/Users/nrdavis1/cimi-vital-signs/source/resources/supressedWarnings/mySupressedWarnings.txt",
+    "suppressedWarningFile": "/Users/nrdavis1/cimi-vital-signs/ignoreWarnings.txt",
     "resources": [
       "source/resources",
       "source/examples"
