@@ -367,6 +367,13 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/LowOnlyNumericResultIntVS"
+      },
+      "description" : "Low Only Numeric Result Interpretation value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/MeasurementProtocolVS"
       },
       "description" : "Measurement Protocol value set",

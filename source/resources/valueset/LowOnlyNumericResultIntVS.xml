@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="LowOnlyNumericResultIntVS"/> 
-  <url value="http://hl7.org/fhir/us/vitals/ValueSet/NumericResultIntVS"/>
+  <url value="http://hl7.org/fhir/us/vitals/ValueSet/LowOnlyNumericResultIntVS"/>
   <version value="0.01"/>
   <name value="LowOnlyNumericResultInterpretationNom"/>
   <title value="Low Only Numeric Result Interpretation value set"/>

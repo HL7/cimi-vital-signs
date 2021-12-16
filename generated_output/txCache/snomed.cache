@@ -51,41 +51,21 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "720738005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Blood pressure cuff, adult size large (physical object)",
-  "code" : "720738005",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "720739002"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Blood pressure cuff, adult size small (physical object)",
-  "code" : "720739002",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "720740000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Blood pressure cuff, adult thigh type (physical object)",
-  "code" : "720740000",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
   "code" : "720736009"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Blood pressure cuff, pediatric size (physical object)",
   "code" : "720736009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "720737000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Blood pressure cuff, adult size (physical object)",
+  "code" : "720737000",
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
@@ -1374,8 +1354,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:0fbadf33-6aba-4e7a-8580-c1be90bbc517",
-    "timestamp" : "2021-10-28T17:00:44.215Z",
+    "identifier" : "urn:uuid:129a7e4f-0bc7-49f6-ab13-c54e4cea926c",
+    "timestamp" : "2021-12-13T18:42:16.656Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1386,7 +1366,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -6423,8 +6403,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a2d4b28b-aedc-4558-846b-4fa30ab353f9",
-    "timestamp" : "2021-10-28T17:00:44.512Z",
+    "identifier" : "urn:uuid:5febbf41-646e-463f-94f8-aa4909cad51c",
+    "timestamp" : "2021-12-13T18:42:16.828Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -6435,27 +6415,27 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "48800003",
-      "display" : "Ear lobule"
+      "display" : "Ear lobule structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "7569003",
-      "display" : "Finger"
+      "display" : "Finger structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "52795006",
-      "display" : "Forehead"
+      "display" : "Forehead structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "29707007",
-      "display" : "Toe"
+      "display" : "Toe structure (body structure)"
     }]
   }
 },
@@ -6489,8 +6469,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:a0c657db-3d07-4ca9-b6dd-af43ee7c27c8",
-    "timestamp" : "2021-10-28T17:00:44.731Z",
+    "identifier" : "urn:uuid:cab67614-8fd8-4bbe-ae63-38ead6dc0493",
+    "timestamp" : "2021-12-13T18:42:17.156Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -6501,7 +6481,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -11554,8 +11534,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:58ba21d8-0f69-475c-80b4-76d1acc312d7",
-    "timestamp" : "2021-10-28T17:00:45.012Z",
+    "identifier" : "urn:uuid:5748ab61-6420-4cf6-b74e-be0aa0bad9a8",
+    "timestamp" : "2021-12-13T18:42:17.531Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -11566,17 +11546,17 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "309641003",
-      "display" : "Aneroid sphygmomanometer"
+      "display" : "Aneroid sphygmomanometer (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "43770009",
-      "display" : "Doppler device"
+      "display" : "Doppler device (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11586,22 +11566,22 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "309642005",
-      "display" : "Mercury sphygmomanometer"
+      "display" : "Mercury sphygmomanometer (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258057004",
-      "display" : "Non-invasive blood pressure monitor"
+      "display" : "Non-invasive blood pressure monitor (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "466093008",
-      "display" : "Automatic-inflation electronic sphygmomanometer, non-portable"
+      "display" : "Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "466086009",
-      "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist"
+      "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11699,8 +11679,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:92285d5f-a1ec-4ed2-8074-96c13e8101f8",
-    "timestamp" : "2021-10-28T17:00:45.184Z",
+    "identifier" : "urn:uuid:655ec460-7f23-42f0-b850-778c7d97c7a2",
+    "timestamp" : "2021-12-13T18:42:17.688Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -11711,22 +11691,22 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "49256001",
-      "display" : "Dorsal digital artery of foot"
+      "display" : "Structure of dorsal digital artery of foot (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368469003",
-      "display" : "Structure of proper volar digital arteries"
+      "display" : "Structure of proper volar digital arteries (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "17137000",
-      "display" : "Brachial artery"
+      "display" : "Structure of brachial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11741,67 +11721,67 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "7657000",
-      "display" : "Femoral artery"
+      "display" : "Structure of femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113270003",
-      "display" : "Left femoral artery"
+      "display" : "Structure of left femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "69833005",
-      "display" : "Right femoral artery"
+      "display" : "Structure of right femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "45631007",
-      "display" : "Radial artery"
+      "display" : "Structure of radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368504007",
-      "display" : "Structure of left radial artery"
+      "display" : "Structure of left radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368503001",
-      "display" : "Right radial artery"
+      "display" : "Structure of right radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13363002",
-      "display" : "Posterior tibial artery"
+      "display" : "Structure of posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "214912001",
-      "display" : "Structure of left posterior tibial artery"
+      "display" : "Structure of left posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "214811007",
-      "display" : "Structure of right posterior tibial artery"
+      "display" : "Structure of right posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "54247002",
-      "display" : "Ascending aorta"
+      "display" : "Ascending aorta structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "281130003",
-      "display" : "Descending aorta structure"
+      "display" : "Descending aorta structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "57034009",
-      "display" : "Aortic arch"
+      "display" : "Aortic arch structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "7832008",
-      "display" : "Abdominal aorta"
+      "display" : "Abdominal aorta structure (body structure)"
     }]
   }
 },
@@ -11831,8 +11811,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:3538bef1-50e0-4c25-ba50-3a5742907ba2",
-    "timestamp" : "2021-10-28T17:00:45.340Z",
+    "identifier" : "urn:uuid:91cf1102-e17d-4dc2-882b-738dfd2cfd35",
+    "timestamp" : "2021-12-13T18:42:17.828Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -11843,7 +11823,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -14623,8 +14603,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:852bc44e-e24c-4119-a905-6824aa773a67",
-    "timestamp" : "2021-10-28T17:00:45.574Z",
+    "identifier" : "urn:uuid:27bf86da-7d4b-4925-ae9e-bd4610560c58",
+    "timestamp" : "2021-12-13T18:42:18.172Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -14635,7 +14615,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -16904,8 +16884,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:9b8d448a-6f6e-4582-855d-a475943a0a49",
-    "timestamp" : "2021-10-28T17:00:45.731Z",
+    "identifier" : "urn:uuid:6a2ca7b7-583c-41ac-b074-d76eb3e9c318",
+    "timestamp" : "2021-12-13T18:42:18.563Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -16916,7 +16896,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -21965,8 +21945,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:75faf7f3-b188-4161-a83a-7ea241880dfe",
-    "timestamp" : "2021-10-28T17:00:46.028Z",
+    "identifier" : "urn:uuid:eb939c3d-331b-4c65-b3a5-f5374e0f124d",
+    "timestamp" : "2021-12-13T18:42:19.203Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -21977,42 +21957,42 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "77938009",
-      "display" : "Arterial pressure monitoring, invasive method"
+      "display" : "Arterial pressure monitoring, invasive method (regime/therapy)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "17146006",
-      "display" : "Arterial pressure monitoring, non-invasive method"
+      "display" : "Arterial pressure monitoring, non-invasive method (regime/therapy)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "37931006",
-      "display" : "Auscultation"
+      "display" : "Auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "765172009",
-      "display" : "Doppler ultrasound"
+      "display" : "Doppler ultrasound (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13385008",
-      "display" : "Mediate auscultation"
+      "display" : "Mediate auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113011001",
-      "display" : "Palpation"
+      "display" : "Palpation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "31813000",
-      "display" : "Vascular oscillometry"
+      "display" : "Vascular oscillometry (procedure)"
     }]
   }
 },
@@ -22045,8 +22025,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:78c21ebc-3e75-4ae5-a6d5-e8a38bdef572",
-    "timestamp" : "2021-10-28T17:00:46.559Z",
+    "identifier" : "urn:uuid:e4613fe8-75a9-426f-a307-3b4d71b91c40",
+    "timestamp" : "2021-12-13T18:42:19.578Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22057,7 +22037,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -22067,7 +22047,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "258104002",
-      "display" : "Measured"
+      "display" : "Measured (qualifier value)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -22137,8 +22117,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a5e5accd-44e9-40db-9297-85c3ad93a09c",
-    "timestamp" : "2021-10-28T17:00:46.840Z",
+    "identifier" : "urn:uuid:9c6ed949-2364-4a3e-81a4-d4d38773f172",
+    "timestamp" : "2021-12-13T18:42:19.953Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22149,42 +22129,42 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "117590005",
-      "display" : "Ear-related structure"
+      "display" : "Ear structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "7569003",
-      "display" : "Finger"
+      "display" : "Finger structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "52795006",
-      "display" : "Forehead"
+      "display" : "Forehead structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "279549004",
-      "display" : "Nasal cavity structure"
+      "display" : "Nasal cavity structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "71836000",
-      "display" : "Nasopharynx"
+      "display" : "Nasopharyngeal structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "74262004",
-      "display" : "Oral cavity"
+      "display" : "Oral cavity structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "34402009",
-      "display" : "Rectum"
+      "display" : "Rectum structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -22194,17 +22174,17 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "29707007",
-      "display" : "Toe"
+      "display" : "Toe structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "42859004",
-      "display" : "Tympanic membrane"
+      "display" : "Tympanic membrane structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "89837001",
-      "display" : "Urinary bladder"
+      "display" : "Urinary bladder structure (body structure)"
     }]
   }
 },
@@ -22345,8 +22325,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ed13b487-4f24-4130-8ea8-b652b8e0dd4b",
-    "timestamp" : "2021-10-28T17:00:47.215Z",
+    "identifier" : "urn:uuid:2dba5b9a-a449-4e23-b432-2294e1ee1657",
+    "timestamp" : "2021-12-13T18:42:20.734Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22357,42 +22337,42 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "32062004",
-      "display" : "Common carotid artery"
+      "display" : "Common carotid artery structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113263003",
-      "display" : "Left common carotid artery"
+      "display" : "Left common carotid artery structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "65355003",
-      "display" : "Right common carotid artery"
+      "display" : "Right common carotid artery structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13383001",
-      "display" : "Apex of heart"
+      "display" : "Structure of apex of heart (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "17137000",
-      "display" : "Brachial artery"
+      "display" : "Structure of brachial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "86547008",
-      "display" : "Dorsalis pedis artery"
+      "display" : "Structure of dorsalis pedis artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "7657000",
-      "display" : "Femoral artery"
+      "display" : "Structure of femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -22402,52 +22382,52 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "792817008",
-      "display" : "Left dorsalis pedis artery"
+      "display" : "Structure of left dorsalis pedis artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113270003",
-      "display" : "Left femoral artery"
+      "display" : "Structure of left femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "25885001",
-      "display" : "Left popliteal artery"
+      "display" : "Structure of left popliteal artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "214912001",
-      "display" : "Structure of left posterior tibial artery"
+      "display" : "Structure of left posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "50408007",
-      "display" : "Left pulmonary artery"
+      "display" : "Structure of left pulmonary artery"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368504007",
-      "display" : "Structure of left radial artery"
+      "display" : "Structure of left radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368506009",
-      "display" : "Structure of left ulnar artery"
+      "display" : "Structure of left ulnar artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "43899006",
-      "display" : "Popliteal artery"
+      "display" : "Structure of popliteal artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13363002",
-      "display" : "Posterior tibial artery"
+      "display" : "Structure of posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "45631007",
-      "display" : "Radial artery"
+      "display" : "Structure of radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -22457,47 +22437,47 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "792816004",
-      "display" : "Structure of right dorsalis pedis artery"
+      "display" : "Structure of right dorsalis pedis artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "69833005",
-      "display" : "Right femoral artery"
+      "display" : "Structure of right femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "57832007",
-      "display" : "Right popliteal artery"
+      "display" : "Structure of right popliteal artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368503001",
-      "display" : "Right radial artery"
+      "display" : "Structure of right radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "214811007",
-      "display" : "Structure of right posterior tibial artery"
+      "display" : "Structure of right posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "78480002",
-      "display" : "Right pulmonary artery"
+      "display" : "Structure of right pulmonary artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368505008",
-      "display" : "Right ulnar artery"
+      "display" : "Structure of right ulnar artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "15672000",
-      "display" : "Superficial temporal artery"
+      "display" : "Structure of superficial temporal artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "44984001",
-      "display" : "Ulnar artery"
+      "display" : "Structure of ulnar artery (body structure)"
     }]
   }
 },
@@ -22546,8 +22526,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:97f9e805-6076-42d8-9d05-d747ed837b44",
-    "timestamp" : "2021-10-28T17:00:47.371Z",
+    "identifier" : "urn:uuid:477847a1-7586-49c1-b773-d6fbf2cf1d6f",
+    "timestamp" : "2021-12-13T18:42:20.953Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22558,42 +22538,42 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "37931006",
-      "display" : "Auscultation"
+      "display" : "Auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "268447006",
-      "display" : "Doppler studies"
+      "display" : "Doppler studies (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "29303009",
-      "display" : "Electrocardiographic procedure"
+      "display" : "Electrocardiographic procedure (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13385008",
-      "display" : "Mediate auscultation"
+      "display" : "Mediate auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "264598005",
-      "display" : "Oximetry"
+      "display" : "Oximetry (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113011001",
-      "display" : "Palpation"
+      "display" : "Palpation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "277917001",
-      "display" : "Thoracic impedance cardiography"
+      "display" : "Thoracic impedance cardiography (procedure)"
     }]
   }
 },
@@ -22622,8 +22602,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:92ea2115-0834-46be-8599-819dc91779ec",
-    "timestamp" : "2021-10-28T17:00:47.684Z",
+    "identifier" : "urn:uuid:acc6aceb-1d26-4043-8b5f-89dccf6005f2",
+    "timestamp" : "2021-12-13T18:42:22.125Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22634,17 +22614,17 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "37931006",
-      "display" : "Auscultation"
+      "display" : "Auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "32750006",
-      "display" : "Inspection"
+      "display" : "Inspection (procedure)"
     }]
   }
 },
@@ -22669,8 +22649,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4d645137-a57e-4fac-8e63-579b532c534a",
-    "timestamp" : "2021-10-28T17:00:48.043Z",
+    "identifier" : "urn:uuid:afa0f965-585f-452a-9eb6-5ecf8af6fef1",
+    "timestamp" : "2021-12-13T18:42:22.531Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22681,12 +22661,12 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "449501000124109",
-      "display" : "Within defined limits (qualifier value)"
+      "display" : "Within defined limits (finding)"
     }]
   }
 },
@@ -22719,8 +22699,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e5d59287-d1f8-4201-b5a4-bddc9683c554",
-    "timestamp" : "2021-10-28T17:01:14.652Z",
+    "identifier" : "urn:uuid:ca52cb2b-a8ea-4339-8f39-f551567b11d8",
+    "timestamp" : "2021-12-13T18:42:50.953Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22731,22 +22711,22 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "285201006",
-      "display" : "Hospital environment"
+      "display" : "Hospital environment (environment)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "264362003",
-      "display" : "Dwelling"
+      "display" : "Home (environment)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "257585005",
-      "display" : "Clinic"
+      "display" : "Clinic (environment)"
     }]
   }
 },
@@ -22819,8 +22799,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e8fe0e40-1bf6-4163-bd0a-db17959603cf",
-    "timestamp" : "2021-10-28T17:01:14.949Z",
+    "identifier" : "urn:uuid:32b1035c-ee10-4e4f-a511-fb0850882fa9",
+    "timestamp" : "2021-12-13T18:42:51.328Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22831,72 +22811,72 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "30212006",
-      "display" : "Fowler's position"
+      "display" : "Fowler's position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "26527006",
-      "display" : "Inverse Trendelenburg position"
+      "display" : "Inverse Trendelenburg position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102536004",
-      "display" : "Left lateral decubitus position"
+      "display" : "Left lateral decubitus position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "414585002",
-      "display" : "Left lateral tilt (finding)"
+      "display" : "Left lateral tilt (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "10904000",
-      "display" : "Orthostatic body position"
+      "display" : "Orthostatic body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "1240000",
-      "display" : "Prone body position"
+      "display" : "Prone body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102538003",
-      "display" : "Recumbent body position"
+      "display" : "Recumbent body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "423413008",
-      "display" : "Reverse trendelenburg positioning (procedure)"
+      "display" : "Reverse trendelenburg positioning (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102535000",
-      "display" : "Right lateral decubitus position"
+      "display" : "Right lateral decubitus position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "415346000",
-      "display" : "Right lateral tilt (finding)"
+      "display" : "Right lateral tilt (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "33586001",
-      "display" : "Sitting position"
+      "display" : "Sitting position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "40199007",
-      "display" : "Supine body position"
+      "display" : "Supine body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "34106002",
-      "display" : "Trendelenburg position"
+      "display" : "Trendelenburg position (finding)"
     }]
   }
 },
@@ -22909,20 +22889,12 @@ e: {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "720738005",
-        "display" : "Blood pressure cuff, adult size large (physical object)"
-      },
-      {
-        "code" : "720739002",
-        "display" : "Blood pressure cuff, adult size small (physical object)"
-      },
-      {
-        "code" : "720740000",
-        "display" : "Blood pressure cuff, adult thigh type (physical object)"
-      },
-      {
         "code" : "720736009",
         "display" : "Blood pressure cuff, pediatric size (physical object)"
+      },
+      {
+        "code" : "720737000",
+        "display" : "Blood pressure cuff, adult size (physical object)"
       }]
     }]
   }
@@ -22933,8 +22905,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:97de31b3-0771-429f-924d-f4e90e1ecdd9",
-    "timestamp" : "2021-10-28T17:01:15.434Z",
+    "identifier" : "urn:uuid:78d8f576-4b05-447b-a56f-8dc5bd69eb9d",
+    "timestamp" : "2021-12-13T18:42:52.266Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22945,27 +22917,17 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "720738005",
-      "display" : "Blood pressure cuff, adult size large (physical object)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "720739002",
-      "display" : "Blood pressure cuff, adult size small (physical object)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "720740000",
-      "display" : "Blood pressure cuff, adult thigh type (physical object)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "720736009",
       "display" : "Blood pressure cuff, pediatric size (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "720737000",
+      "display" : "Blood pressure cuff, adult size (physical object)"
     }]
   }
 },
@@ -23002,8 +22964,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:68710b2a-c4ed-4bb1-a42c-0b30708881dd",
-    "timestamp" : "2021-10-28T17:01:16.496Z",
+    "identifier" : "urn:uuid:6c75e78e-5e6c-4526-8199-a0e0074826b6",
+    "timestamp" : "2021-12-13T18:42:53.672Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -23014,27 +22976,27 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "255214003",
-      "display" : "After exercise"
+      "display" : "After exercise (qualifier value)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "307166007",
-      "display" : "Before exercise"
+      "display" : "Before exercise (qualifier value)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "309604004",
-      "display" : "During exercise"
+      "display" : "During exercise (qualifier value)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "263678003",
-      "display" : "At rest"
+      "display" : "At rest (qualifier value)"
     }]
   }
 },
@@ -23099,8 +23061,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4eb273f6-6188-40eb-bf0a-0da1cf2ffa09",
-    "timestamp" : "2021-10-28T17:01:17.137Z",
+    "identifier" : "urn:uuid:f3af028c-dd5c-4105-ae9b-81686ea83661",
+    "timestamp" : "2021-12-13T18:42:54.234Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -23111,22 +23073,22 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "467178001",
-      "display" : "Bedside heart rate monitor"
+      "display" : "Bedside heart rate monitor (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "43770009",
-      "display" : "Doppler device"
+      "display" : "Doppler device (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "86184003",
-      "display" : "Electrocardiographic monitor and recorder"
+      "display" : "Electrocardiographic monitor and recorder (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -23136,7 +23098,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "258057004",
-      "display" : "Non-invasive blood pressure monitor"
+      "display" : "Non-invasive blood pressure monitor (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -23146,12 +23108,12 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "466093008",
-      "display" : "Automatic-inflation electronic sphygmomanometer, non-portable"
+      "display" : "Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "466086009",
-      "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist"
+      "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -23166,7 +23128,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "774007007",
-      "display" : "Wearable neonatal heart rate meter"
+      "display" : "Wearable neonatal heart rate meter (physical object)"
     }]
   }
 },
@@ -23231,8 +23193,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4529e46a-03ab-4901-8b40-a5eb3746f048",
-    "timestamp" : "2021-10-28T17:01:17.621Z",
+    "identifier" : "urn:uuid:e9e3f6d6-986f-4f36-94e5-8dffb58b3bb3",
+    "timestamp" : "2021-12-13T18:42:55.063Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -23243,22 +23205,22 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "30212006",
-      "display" : "Fowler's position"
+      "display" : "Fowler's position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "26527006",
-      "display" : "Inverse Trendelenburg position"
+      "display" : "Inverse Trendelenburg position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102536004",
-      "display" : "Left lateral decubitus position"
+      "display" : "Left lateral decubitus position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -23268,37 +23230,37 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "10904000",
-      "display" : "Orthostatic body position"
+      "display" : "Orthostatic body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "1240000",
-      "display" : "Prone body position"
+      "display" : "Prone body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102538003",
-      "display" : "Recumbent body position"
+      "display" : "Recumbent body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102535000",
-      "display" : "Right lateral decubitus position"
+      "display" : "Right lateral decubitus position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "33586001",
-      "display" : "Sitting position"
+      "display" : "Sitting position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "40199007",
-      "display" : "Supine body position"
+      "display" : "Supine body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "34106002",
-      "display" : "Trendelenburg position"
+      "display" : "Trendelenburg position (finding)"
     }]
   }
 },
@@ -23327,8 +23289,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9816849c-9941-4100-a961-6cb53016890e",
-    "timestamp" : "2021-10-28T17:01:17.996Z",
+    "identifier" : "urn:uuid:8752084e-fe9c-4c10-8e79-00189da1b671",
+    "timestamp" : "2021-12-13T18:42:55.656Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -23339,17 +23301,17 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "102304005",
-      "display" : "Measuring ruler"
+      "display" : "Measuring ruler, device (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "51791000",
-      "display" : "Measuring tape"
+      "display" : "Measuring tape, device (physical object)"
     }]
   }
 },
@@ -23378,8 +23340,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8e529f9f-accd-4dc9-82c7-7027358f0d37",
-    "timestamp" : "2021-10-28T17:01:18.652Z",
+    "identifier" : "urn:uuid:5114f044-1a8a-467b-81e8-b95cdcb1e0e7",
+    "timestamp" : "2021-12-13T18:42:56.125Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -23390,7 +23352,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -23400,7 +23362,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "334990001",
-      "display" : "Peak flow meter"
+      "display" : "Peak flow meter (physical object)"
     }]
   }
 },
@@ -23429,8 +23391,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:281f2942-1e4a-4a6d-95ea-11c6020aced7",
-    "timestamp" : "2021-10-28T17:01:19.324Z",
+    "identifier" : "urn:uuid:b91a0eaf-3aae-4fb5-b59a-59f069804f0e",
+    "timestamp" : "2021-12-13T18:42:57.625Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -23441,7 +23403,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -23480,8 +23442,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d5cee91f-801b-4794-90ae-6a595f649fa2",
-    "timestamp" : "2021-10-28T17:01:19.606Z",
+    "identifier" : "urn:uuid:41d56c63-2f6e-43b4-94d6-c836742992b9",
+    "timestamp" : "2021-12-13T18:42:58.000Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -23492,17 +23454,17 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "248220008",
-      "display" : "Asleep"
+      "display" : "Asleep (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "248218005",
-      "display" : "Awake"
+      "display" : "Awake (finding)"
     }]
   }
 },
@@ -23555,8 +23517,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2767b22e-5262-4791-8995-ecdca7fdd8c7",
-    "timestamp" : "2021-10-28T17:01:19.934Z",
+    "identifier" : "urn:uuid:69db1e44-b9bf-455a-b5f8-eaf2f5898a47",
+    "timestamp" : "2021-12-13T18:42:58.828Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -23567,7 +23529,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -23592,17 +23554,17 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "469787007",
-      "display" : "Floor scale, mechanical"
+      "display" : "Floor scale, mechanical (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "58514003",
-      "display" : "Infant scale"
+      "display" : "Infant scale (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "462242008",
-      "display" : "Patient sling scale"
+      "display" : "Patient sling scale (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -23664,7 +23626,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Finger",
+  "display" : "Finger structure (body structure)",
   "code" : "7569003",
   "system" : "http://snomed.info/sct"
 }
@@ -24041,7 +24003,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Auscultation",
+  "display" : "Auscultation (procedure)",
   "code" : "37931006",
   "system" : "http://snomed.info/sct"
 }
@@ -24155,7 +24117,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Measuring tape",
+  "display" : "Measuring tape, device (physical object)",
   "code" : "51791000",
   "system" : "http://snomed.info/sct"
 }
@@ -24333,7 +24295,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Ear-related structure",
+  "display" : "Ear structure (body structure)",
   "code" : "117590005",
   "system" : "http://snomed.info/sct"
 }
@@ -24583,7 +24545,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Measured",
+  "display" : "Measured (qualifier value)",
   "code" : "258104002",
   "system" : "http://snomed.info/sct"
 }
@@ -24739,7 +24701,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Doppler device",
+  "display" : "Doppler device (physical object)",
   "code" : "43770009",
   "system" : "http://snomed.info/sct"
 }
@@ -24948,7 +24910,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Right ulnar artery",
+  "display" : "Structure of right ulnar artery (body structure)",
   "code" : "368505008",
   "system" : "http://snomed.info/sct"
 }
@@ -25303,7 +25265,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist",
+  "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)",
   "code" : "466086009",
   "system" : "http://snomed.info/sct"
 }
@@ -25409,35 +25371,35 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9fcec037-c99d-4f24-8818-c3d57c9624e2",
-    "timestamp" : "2021-10-28T17:02:33.762Z",
+    "identifier" : "urn:uuid:73253a67-f021-4fce-8662-f0512b406763",
+    "timestamp" : "2021-12-13T18:44:22.734Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "118643004",
-      "display" : "Cast"
+      "display" : "Cast device (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "257308009",
-      "display" : "Oxygenator"
+      "display" : "Oxygenator (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "53350007",
-      "display" : "Prosthesis"
+      "display" : "Prosthesis (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "248160001",
-      "display" : "Undressed"
+      "display" : "Undressed (finding)"
     }]
   }
 },
@@ -25462,20 +25424,20 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:47991435-c01b-4fe3-a5b5-1102716c5403",
-    "timestamp" : "2021-10-28T17:02:34.121Z",
+    "identifier" : "urn:uuid:8f4f908f-1a9d-4f8b-98ed-f5a05997368f",
+    "timestamp" : "2021-12-13T18:44:23.734Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "128978002",
-      "display" : "Post-exercise state"
+      "display" : "Post exercise state (finding)"
     }]
   }
 },
@@ -25488,20 +25450,12 @@ e: {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "720738005",
-        "display" : "Blood pressure cuff, adult size large (physical object)"
-      },
-      {
-        "code" : "720739002",
-        "display" : "Blood pressure cuff, adult size small (physical object)"
-      },
-      {
-        "code" : "720740000",
-        "display" : "Blood pressure cuff, adult thigh type (physical object)"
-      },
-      {
         "code" : "720736009",
         "display" : "Blood pressure cuff, pediatric size (physical object)"
+      },
+      {
+        "code" : "720737000",
+        "display" : "Blood pressure cuff, adult size (physical object)"
       }]
     }]
   }
@@ -25512,35 +25466,25 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:832b92d6-9158-4e3f-a19b-a674bba53cae",
-    "timestamp" : "2021-10-28T17:02:34.465Z",
+    "identifier" : "urn:uuid:848a7e2c-e3b0-4b98-addf-1df682e48fd4",
+    "timestamp" : "2021-12-13T18:44:24.141Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "720738005",
-      "display" : "Blood pressure cuff, adult size large (physical object)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "720739002",
-      "display" : "Blood pressure cuff, adult size small (physical object)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "720740000",
-      "display" : "Blood pressure cuff, adult thigh type (physical object)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "720736009",
       "display" : "Blood pressure cuff, pediatric size (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "720737000",
+      "display" : "Blood pressure cuff, adult size (physical object)"
     }]
   }
 },
@@ -25633,30 +25577,30 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2e4d1f73-dcaf-4688-98df-ec6055577262",
-    "timestamp" : "2021-10-28T17:02:34.996Z",
+    "identifier" : "urn:uuid:e7524c7e-d026-4526-ad1f-cb57214f5034",
+    "timestamp" : "2021-12-13T18:44:24.516Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "49256001",
-      "display" : "Dorsal digital artery of foot"
+      "display" : "Structure of dorsal digital artery of foot (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368469003",
-      "display" : "Structure of proper volar digital arteries"
+      "display" : "Structure of proper volar digital arteries (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "17137000",
-      "display" : "Brachial artery"
+      "display" : "Structure of brachial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -25671,67 +25615,67 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "7657000",
-      "display" : "Femoral artery"
+      "display" : "Structure of femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113270003",
-      "display" : "Left femoral artery"
+      "display" : "Structure of left femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "69833005",
-      "display" : "Right femoral artery"
+      "display" : "Structure of right femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "45631007",
-      "display" : "Radial artery"
+      "display" : "Structure of radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368504007",
-      "display" : "Structure of left radial artery"
+      "display" : "Structure of left radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368503001",
-      "display" : "Right radial artery"
+      "display" : "Structure of right radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13363002",
-      "display" : "Posterior tibial artery"
+      "display" : "Structure of posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "214912001",
-      "display" : "Structure of left posterior tibial artery"
+      "display" : "Structure of left posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "214811007",
-      "display" : "Structure of right posterior tibial artery"
+      "display" : "Structure of right posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "54247002",
-      "display" : "Ascending aorta"
+      "display" : "Ascending aorta structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "281130003",
-      "display" : "Descending aorta structure"
+      "display" : "Descending aorta structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "57034009",
-      "display" : "Aortic arch"
+      "display" : "Aortic arch structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "7832008",
-      "display" : "Abdominal aorta"
+      "display" : "Abdominal aorta structure (body structure)"
     }]
   }
 },
@@ -25784,25 +25728,25 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:62311356-032d-4a78-a9be-d10e1880b205",
-    "timestamp" : "2021-10-28T17:02:35.465Z",
+    "identifier" : "urn:uuid:80341e35-cd61-41d9-aff3-9051a878451e",
+    "timestamp" : "2021-12-13T18:44:24.875Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "309641003",
-      "display" : "Aneroid sphygmomanometer"
+      "display" : "Aneroid sphygmomanometer (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "43770009",
-      "display" : "Doppler device"
+      "display" : "Doppler device (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -25812,22 +25756,22 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "309642005",
-      "display" : "Mercury sphygmomanometer"
+      "display" : "Mercury sphygmomanometer (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258057004",
-      "display" : "Non-invasive blood pressure monitor"
+      "display" : "Non-invasive blood pressure monitor (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "466093008",
-      "display" : "Automatic-inflation electronic sphygmomanometer, non-portable"
+      "display" : "Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "466086009",
-      "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist"
+      "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -25881,50 +25825,50 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:85140e72-f49d-4518-be1c-f05796a574aa",
-    "timestamp" : "2021-10-28T17:02:35.840Z",
+    "identifier" : "urn:uuid:44f1ec51-9ef2-4032-b352-138227eca79c",
+    "timestamp" : "2021-12-13T18:44:25.250Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "77938009",
-      "display" : "Arterial pressure monitoring, invasive method"
+      "display" : "Arterial pressure monitoring, invasive method (regime/therapy)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "17146006",
-      "display" : "Arterial pressure monitoring, non-invasive method"
+      "display" : "Arterial pressure monitoring, non-invasive method (regime/therapy)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "37931006",
-      "display" : "Auscultation"
+      "display" : "Auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "765172009",
-      "display" : "Doppler ultrasound"
+      "display" : "Doppler ultrasound (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13385008",
-      "display" : "Mediate auscultation"
+      "display" : "Mediate auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113011001",
-      "display" : "Palpation"
+      "display" : "Palpation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "31813000",
-      "display" : "Vascular oscillometry"
+      "display" : "Vascular oscillometry (procedure)"
     }]
   }
 },
@@ -25997,80 +25941,80 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:18fefcbd-2790-4d8f-899a-df06abf08356",
-    "timestamp" : "2021-10-28T17:02:36.246Z",
+    "identifier" : "urn:uuid:0c174a54-2983-4f28-9104-f915fcb13382",
+    "timestamp" : "2021-12-13T18:44:26.281Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "30212006",
-      "display" : "Fowler's position"
+      "display" : "Fowler's position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "26527006",
-      "display" : "Inverse Trendelenburg position"
+      "display" : "Inverse Trendelenburg position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102536004",
-      "display" : "Left lateral decubitus position"
+      "display" : "Left lateral decubitus position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "414585002",
-      "display" : "Left lateral tilt (finding)"
+      "display" : "Left lateral tilt (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "10904000",
-      "display" : "Orthostatic body position"
+      "display" : "Orthostatic body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "1240000",
-      "display" : "Prone body position"
+      "display" : "Prone body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102538003",
-      "display" : "Recumbent body position"
+      "display" : "Recumbent body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "423413008",
-      "display" : "Reverse trendelenburg positioning (procedure)"
+      "display" : "Reverse trendelenburg positioning (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102535000",
-      "display" : "Right lateral decubitus position"
+      "display" : "Right lateral decubitus position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "415346000",
-      "display" : "Right lateral tilt (finding)"
+      "display" : "Right lateral tilt (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "33586001",
-      "display" : "Sitting position"
+      "display" : "Sitting position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "40199007",
-      "display" : "Supine body position"
+      "display" : "Supine body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "34106002",
-      "display" : "Trendelenburg position"
+      "display" : "Trendelenburg position (finding)"
     }]
   }
 },
@@ -26135,50 +26079,50 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:035e561c-2e25-438b-a2f6-7ba038166834",
-    "timestamp" : "2021-10-28T17:02:36.809Z",
+    "identifier" : "urn:uuid:6edd9ae8-3125-41ca-bd0e-d145b55d7ec8",
+    "timestamp" : "2021-12-13T18:44:26.703Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "117590005",
-      "display" : "Ear-related structure"
+      "display" : "Ear structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "7569003",
-      "display" : "Finger"
+      "display" : "Finger structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "52795006",
-      "display" : "Forehead"
+      "display" : "Forehead structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "279549004",
-      "display" : "Nasal cavity structure"
+      "display" : "Nasal cavity structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "71836000",
-      "display" : "Nasopharynx"
+      "display" : "Nasopharyngeal structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "74262004",
-      "display" : "Oral cavity"
+      "display" : "Oral cavity structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "34402009",
-      "display" : "Rectum"
+      "display" : "Rectum structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -26188,17 +26132,17 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "29707007",
-      "display" : "Toe"
+      "display" : "Toe structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "42859004",
-      "display" : "Tympanic membrane"
+      "display" : "Tympanic membrane structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "89837001",
-      "display" : "Urinary bladder"
+      "display" : "Urinary bladder structure (body structure)"
     }]
   }
 },
@@ -26255,25 +26199,25 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ad4f8da4-5215-41dd-ac0c-d460d9493c6d",
-    "timestamp" : "2021-10-28T17:02:37.246Z",
+    "identifier" : "urn:uuid:3d2e46c7-f8d7-4294-a0eb-cd6cfbafaaae",
+    "timestamp" : "2021-12-13T18:44:27.062Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "467862000",
-      "display" : "Capillary patient thermometer, mercury"
+      "display" : "Capillary patient thermometer, mercury (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "706158001",
-      "display" : "Electronic patient thermometer"
+      "display" : "Electronic patient thermometer (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -26283,27 +26227,27 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "700643004",
-      "display" : "Infrared patient thermometer, ear"
+      "display" : "Infrared patient thermometer, ear (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "700644005",
-      "display" : "Infrared patient thermometer, skin"
+      "display" : "Infrared patient thermometer, skin (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "462983001",
-      "display" : "Liquid-crystal patient thermometer"
+      "display" : "Liquid-crystal patient thermometer (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "118376009",
-      "display" : "Thermocouple"
+      "display" : "Thermocouple (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "464210001",
-      "display" : "Thermographic camera"
+      "display" : "Thermographic camera (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -26333,20 +26277,20 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:40c7d5e3-ba22-4b9b-a9ee-6d13098f6263",
-    "timestamp" : "2021-10-28T17:02:37.652Z",
+    "identifier" : "urn:uuid:eb5993f2-3f64-490d-9ef9-e327d6c2fb3d",
+    "timestamp" : "2021-12-13T18:44:27.406Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "449501000124109",
-      "display" : "Within defined limits (qualifier value)"
+      "display" : "Within defined limits (finding)"
     }]
   }
 },
@@ -26383,35 +26327,35 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:33d15e73-b554-4280-b07a-6ecf295943d7",
-    "timestamp" : "2021-10-28T17:02:38.137Z",
+    "identifier" : "urn:uuid:7d378035-385e-41f3-81f7-affd0263eec1",
+    "timestamp" : "2021-12-13T18:44:27.797Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "255214003",
-      "display" : "After exercise"
+      "display" : "After exercise (qualifier value)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "307166007",
-      "display" : "Before exercise"
+      "display" : "Before exercise (qualifier value)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "309604004",
-      "display" : "During exercise"
+      "display" : "During exercise (qualifier value)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "263678003",
-      "display" : "At rest"
+      "display" : "At rest (qualifier value)"
     }]
   }
 },
@@ -26476,30 +26420,30 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3bc8a7af-fbe5-444d-81a2-f8cd420468ad",
-    "timestamp" : "2021-10-28T17:02:38.590Z",
+    "identifier" : "urn:uuid:842633c9-617e-4c60-9723-8d79ccd306b1",
+    "timestamp" : "2021-12-13T18:44:28.156Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "467178001",
-      "display" : "Bedside heart rate monitor"
+      "display" : "Bedside heart rate monitor (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "43770009",
-      "display" : "Doppler device"
+      "display" : "Doppler device (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "86184003",
-      "display" : "Electrocardiographic monitor and recorder"
+      "display" : "Electrocardiographic monitor and recorder (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -26509,7 +26453,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "258057004",
-      "display" : "Non-invasive blood pressure monitor"
+      "display" : "Non-invasive blood pressure monitor (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -26519,12 +26463,12 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "466093008",
-      "display" : "Automatic-inflation electronic sphygmomanometer, non-portable"
+      "display" : "Automatic-inflation electronic sphygmomanometer, non-portable (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "466086009",
-      "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist"
+      "display" : "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -26539,7 +26483,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "774007007",
-      "display" : "Wearable neonatal heart rate meter"
+      "display" : "Wearable neonatal heart rate meter (physical object)"
     }]
   }
 },
@@ -26680,50 +26624,50 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:284f1d07-dc17-401f-9962-6d339e7a513e",
-    "timestamp" : "2021-10-28T17:02:38.980Z",
+    "identifier" : "urn:uuid:bdb47ddb-6b5f-47a6-95fc-0172d9eaa16c",
+    "timestamp" : "2021-12-13T18:44:28.547Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "32062004",
-      "display" : "Common carotid artery"
+      "display" : "Common carotid artery structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113263003",
-      "display" : "Left common carotid artery"
+      "display" : "Left common carotid artery structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "65355003",
-      "display" : "Right common carotid artery"
+      "display" : "Right common carotid artery structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13383001",
-      "display" : "Apex of heart"
+      "display" : "Structure of apex of heart (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "17137000",
-      "display" : "Brachial artery"
+      "display" : "Structure of brachial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "86547008",
-      "display" : "Dorsalis pedis artery"
+      "display" : "Structure of dorsalis pedis artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "7657000",
-      "display" : "Femoral artery"
+      "display" : "Structure of femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -26733,52 +26677,52 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "792817008",
-      "display" : "Left dorsalis pedis artery"
+      "display" : "Structure of left dorsalis pedis artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113270003",
-      "display" : "Left femoral artery"
+      "display" : "Structure of left femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "25885001",
-      "display" : "Left popliteal artery"
+      "display" : "Structure of left popliteal artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "214912001",
-      "display" : "Structure of left posterior tibial artery"
+      "display" : "Structure of left posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "50408007",
-      "display" : "Left pulmonary artery"
+      "display" : "Structure of left pulmonary artery"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368504007",
-      "display" : "Structure of left radial artery"
+      "display" : "Structure of left radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368506009",
-      "display" : "Structure of left ulnar artery"
+      "display" : "Structure of left ulnar artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "43899006",
-      "display" : "Popliteal artery"
+      "display" : "Structure of popliteal artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13363002",
-      "display" : "Posterior tibial artery"
+      "display" : "Structure of posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "45631007",
-      "display" : "Radial artery"
+      "display" : "Structure of radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -26788,47 +26732,47 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "792816004",
-      "display" : "Structure of right dorsalis pedis artery"
+      "display" : "Structure of right dorsalis pedis artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "69833005",
-      "display" : "Right femoral artery"
+      "display" : "Structure of right femoral artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "57832007",
-      "display" : "Right popliteal artery"
+      "display" : "Structure of right popliteal artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368503001",
-      "display" : "Right radial artery"
+      "display" : "Structure of right radial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "214811007",
-      "display" : "Structure of right posterior tibial artery"
+      "display" : "Structure of right posterior tibial artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "78480002",
-      "display" : "Right pulmonary artery"
+      "display" : "Structure of right pulmonary artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "368505008",
-      "display" : "Right ulnar artery"
+      "display" : "Structure of right ulnar artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "15672000",
-      "display" : "Superficial temporal artery"
+      "display" : "Structure of superficial temporal artery (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "44984001",
-      "display" : "Ulnar artery"
+      "display" : "Structure of ulnar artery (body structure)"
     }]
   }
 },
@@ -26877,50 +26821,50 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2b763b76-0a76-4fa6-9fa3-57837d01016a",
-    "timestamp" : "2021-10-28T17:02:39.371Z",
+    "identifier" : "urn:uuid:2989766d-2f1c-43cc-b4f5-35f0211073ba",
+    "timestamp" : "2021-12-13T18:44:28.922Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "37931006",
-      "display" : "Auscultation"
+      "display" : "Auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "268447006",
-      "display" : "Doppler studies"
+      "display" : "Doppler studies (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "29303009",
-      "display" : "Electrocardiographic procedure"
+      "display" : "Electrocardiographic procedure (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "13385008",
-      "display" : "Mediate auscultation"
+      "display" : "Mediate auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "264598005",
-      "display" : "Oximetry"
+      "display" : "Oximetry (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "113011001",
-      "display" : "Palpation"
+      "display" : "Palpation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "277917001",
-      "display" : "Thoracic impedance cardiography"
+      "display" : "Thoracic impedance cardiography (procedure)"
     }]
   }
 },
@@ -26985,30 +26929,30 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:33583cab-987d-464d-bb18-fd6c64cdd79b",
-    "timestamp" : "2021-10-28T17:02:39.746Z",
+    "identifier" : "urn:uuid:ea206fe5-5561-4978-8f41-e58dd5785d4b",
+    "timestamp" : "2021-12-13T18:44:29.531Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "30212006",
-      "display" : "Fowler's position"
+      "display" : "Fowler's position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "26527006",
-      "display" : "Inverse Trendelenburg position"
+      "display" : "Inverse Trendelenburg position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102536004",
-      "display" : "Left lateral decubitus position"
+      "display" : "Left lateral decubitus position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -27018,37 +26962,37 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "10904000",
-      "display" : "Orthostatic body position"
+      "display" : "Orthostatic body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "1240000",
-      "display" : "Prone body position"
+      "display" : "Prone body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102538003",
-      "display" : "Recumbent body position"
+      "display" : "Recumbent body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "102535000",
-      "display" : "Right lateral decubitus position"
+      "display" : "Right lateral decubitus position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "33586001",
-      "display" : "Sitting position"
+      "display" : "Sitting position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "40199007",
-      "display" : "Supine body position"
+      "display" : "Supine body position (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "34106002",
-      "display" : "Trendelenburg position"
+      "display" : "Trendelenburg position (finding)"
     }]
   }
 },
@@ -27077,25 +27021,25 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0a2a682d-6f7a-42f9-a72e-3a63835c35fc",
-    "timestamp" : "2021-10-28T17:02:40.121Z",
+    "identifier" : "urn:uuid:300dde2f-314f-4a5d-a9d6-a6d01115d7b1",
+    "timestamp" : "2021-12-13T18:44:29.906Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "102304005",
-      "display" : "Measuring ruler"
+      "display" : "Measuring ruler, device (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "51791000",
-      "display" : "Measuring tape"
+      "display" : "Measuring tape, device (physical object)"
     }]
   }
 },
@@ -27128,15 +27072,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8b264372-7808-4843-94f7-3b1a0ba2d09f",
-    "timestamp" : "2021-10-28T17:02:40.637Z",
+    "identifier" : "urn:uuid:0a3a162c-dcb7-47b9-8f83-2bf83da1a264",
+    "timestamp" : "2021-12-13T18:44:30.281Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -27146,7 +27090,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "258104002",
-      "display" : "Measured"
+      "display" : "Measured (qualifier value)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -27184,30 +27128,30 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c268668e-15e2-42c4-9d70-529ba029d2ef",
-    "timestamp" : "2021-10-28T17:02:41.762Z",
+    "identifier" : "urn:uuid:4519eda1-18be-49ba-9970-ab029892548b",
+    "timestamp" : "2021-12-13T18:44:31.531Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "285201006",
-      "display" : "Hospital environment"
+      "display" : "Hospital environment (environment)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "264362003",
-      "display" : "Dwelling"
+      "display" : "Home (environment)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "257585005",
-      "display" : "Clinic"
+      "display" : "Clinic (environment)"
     }]
   }
 },
@@ -27244,35 +27188,35 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:89d4bf24-c8e7-49c3-83d9-ff32fff4ef5a",
-    "timestamp" : "2021-10-28T17:02:42.184Z",
+    "identifier" : "urn:uuid:67d42215-a7bd-4653-8b6e-3f33e8cc3091",
+    "timestamp" : "2021-12-13T18:44:31.859Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "48800003",
-      "display" : "Ear lobule"
+      "display" : "Ear lobule structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "7569003",
-      "display" : "Finger"
+      "display" : "Finger structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "52795006",
-      "display" : "Forehead"
+      "display" : "Forehead structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "29707007",
-      "display" : "Toe"
+      "display" : "Toe structure (body structure)"
     }]
   }
 },
@@ -27301,15 +27245,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:cced5ce0-bcd8-4149-929b-52a8a5fa5193",
-    "timestamp" : "2021-10-28T17:02:42.668Z",
+    "identifier" : "urn:uuid:aa829f1d-29a1-47d2-957e-26e846d3190c",
+    "timestamp" : "2021-12-13T18:44:32.219Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -27319,7 +27263,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "334990001",
-      "display" : "Peak flow meter"
+      "display" : "Peak flow meter (physical object)"
     }]
   }
 },
@@ -27348,25 +27292,25 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:21d29972-feed-414f-b196-8747ead45982",
-    "timestamp" : "2021-10-28T17:02:43.105Z",
+    "identifier" : "urn:uuid:8e59a701-2d10-45e7-8dbd-87c8cf4f20b0",
+    "timestamp" : "2021-12-13T18:44:33.312Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "37931006",
-      "display" : "Auscultation"
+      "display" : "Auscultation (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "32750006",
-      "display" : "Inspection"
+      "display" : "Inspection (procedure)"
     }]
   }
 },
@@ -27395,15 +27339,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2d5456b2-1bb5-4b5f-b59d-662e5a49f090",
-    "timestamp" : "2021-10-28T17:02:43.465Z",
+    "identifier" : "urn:uuid:9ad30197-ef70-496b-8d61-a6d67c01b3c1",
+    "timestamp" : "2021-12-13T18:44:33.672Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -27442,25 +27386,25 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a3c070b4-1670-467e-a984-19889a6b836f",
-    "timestamp" : "2021-10-28T17:02:43.887Z",
+    "identifier" : "urn:uuid:9f8b2ef1-d254-433c-872b-7ac516536f53",
+    "timestamp" : "2021-12-13T18:44:34.047Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "248220008",
-      "display" : "Asleep"
+      "display" : "Asleep (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "248218005",
-      "display" : "Awake"
+      "display" : "Awake (finding)"
     }]
   }
 },
@@ -27513,15 +27457,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9dadaf20-1914-48f0-b8c6-1d8e7aa2ece9",
-    "timestamp" : "2021-10-28T17:02:44.652Z",
+    "identifier" : "urn:uuid:9dd3f06f-cc10-4a62-86c8-7bd1cf94f6b0",
+    "timestamp" : "2021-12-13T18:44:34.797Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20210901"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -27546,17 +27490,17 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "469787007",
-      "display" : "Floor scale, mechanical"
+      "display" : "Floor scale, mechanical (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "58514003",
-      "display" : "Infant scale"
+      "display" : "Infant scale (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "462242008",
-      "display" : "Patient sling scale"
+      "display" : "Patient sling scale (physical object)"
     },
     {
       "system" : "http://snomed.info/sct",

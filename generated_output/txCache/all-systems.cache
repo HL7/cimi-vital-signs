@@ -18,7 +18,7 @@
   }
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "cm",
+  "display" : "Centimeter",
   "code" : "cm",
   "system" : "http://unitsofmeasure.org"
 }
@@ -42,7 +42,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Cel",
+  "display" : "degree Celcius",
   "code" : "Cel",
   "system" : "http://unitsofmeasure.org"
 }
@@ -70,7 +70,7 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "kg",
+  "display" : "kilogram",
   "code" : "kg",
   "system" : "http://unitsofmeasure.org"
 }

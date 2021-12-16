@@ -1,24 +1,30 @@
 ﻿== Supressed Messages ==
 
 # US Core has a profile of Device called Implantable Device.  This is a sibling profile and cannot be used as a base for our BP Device profile.
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/AverageBloodPressure').baseDefinition: US FHIR Usage rules require that all profiles on Device derive from the core US profile.
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/BPDevice').baseDefinition: US FHIR Usage rules require that all profiles on Device derive from the core US profile
 
-# US Core does not specify a specific profile for this vital sign.
-US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles.
-
-# The Average Blood Pressure example uses this extension.
-The Implementation Guide contains no examples for this extension.
-
-# Reason The US Core profile for head circumference is specific to pediatrics and inappropriate as a base for this profile.
-US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles.
-
-# Reason The US Core Pulse Oximetry profile differs in structure (includes Flow Rate and Concentration as components) and we feel it different enough not to use as the base for our profile.
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodPulseOx').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-
-# US Core does not have an Average Blood Pressure profile to derive from.
+# Using US Core version 3.1.1 which does not define specific profiles for vital signs.
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/AverageBloodPressure').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/BloodPressurePanel').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/BodyLength').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/BodyMassIndex').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/BodyTemperature').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/BodyWeight').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/HeadOccipitalFrontalCircumference').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/HeartRate').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/Height').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/OxygenSaturationArterialBlood').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/RespiratoryRate').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/TwentyFourHourBloodPressure').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/AverageBloodPressure').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile. Comparison with US Core Pediatric BMI for Age Observation Profile. Comparison with US Core Pediatric Weight for Height Observation Profile. Comparison with US Core Blood Pressure Profile. Comparison with US Core BMI Profile. Comparison with US Core Body Height Profile. Comparison with US Core Body Temperature Profile. Comparison with US Core Body Weight Profile. Comparison with US Core Head Circumference Profile. Comparison with US Core Heart Rate Profile. Comparison with US Core Laboratory Result Observation Profile. Comparison with US Core Pulse Oximetry Profile. Comparison with US Core Respiratory Rate Profile. Comparison with US Core Smoking Status Observation Profile. Comparison with US Core Vital Signs Profile
+# This does match a slice for extension in the profile.
+INFORMATION: Observation/heartRate-example: Observation.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/vitals/StructureDefinition/HeartRate
+
+# US Core does not define an extension for this.
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/BodyPositionExt'): The Implementation Guide contains no examples for this extension
+
+# The Average Blood Pressure example uses this extension as an example.
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementProtocolExt'): The Implementation Guide contains no examples for this extension
 
 # These Snomed CT terms are valid
 WARNING: ValueSet.compose[0].include[0].concept[0]: The code 118643004 is not valid in the system http://snomed.info/sct
@@ -29,3 +35,12 @@ WARNING: ValueSet.compose[0].include[0].concept[3]: The code 248160001 is not va
 ValueSet.compose[0].include[0].concept[0]	warning	The code 285201006 is not valid in the system http://snomed.info/sct
 ValueSet.compose[0].include[0].concept[1]	warning	The code 264362003 is not valid in the system http://snomed.info/sct
 ValueSet.compose[0].include[0].concept[2]	warning	The code 257585005 is not valid in the system http://snomed.info/sct
+
+# This rule is incorrectly applied.  The example uses effectivePeriod and is precise to the minute.  The invariance describes the use of effectiveDatetime only.  Also effectiveDateTime should be precise to at least the hour and minute, not just the day.
+vs-1: 'if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day' Rule 'if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day' Failed
+
+# The ISO codes system 3166 is known.
+Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+
+# Created a Jira ticket about this in Jan. 2021,was never addressed.
+Profile http://hl7.org/fhir/us/vitals/StructureDefinition/BPDevice is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Device], which is not a Resource (which is required because the Observation.device element has type Reference)

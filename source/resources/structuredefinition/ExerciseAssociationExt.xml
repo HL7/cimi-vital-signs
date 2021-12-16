@@ -4,7 +4,7 @@
   <url value="http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"/>
   <version value="0.1.0"/>
   <name value="ExerciseAssociationExt"/>
-  <title value="Exercise Association extension"/>
+  <title value="Exercise Association"/>
   <status value="draft"/>
   <date value="2019-05-29"/>
   <publisher value="HSPC"/>

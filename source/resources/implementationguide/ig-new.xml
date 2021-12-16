@@ -363,6 +363,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/LowOnlyNumericResultIntVS"/>
+      </reference>
+      <description value="Low Only Numeric Result Interpretation value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/MeasurementProtocolVS"/>
       </reference>
       <description value="Measurement Protocol value set"/>

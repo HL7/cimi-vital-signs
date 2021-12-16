@@ -60,7 +60,7 @@
 			<description value="Blood Pressure Cuff Size Extension"/>
 			<exampleBoolean value="false"/>
 		</resource>
-		<resource>
+		<resource> 
 			<reference>
 				<reference value="StructureDefinition/SleepStatusExt"/>
 			</reference>
@@ -399,6 +399,13 @@
 				<reference value="ValueSet/LengthUOMVS"/>
 			</reference>
 			<description value="Length Units of Measure value set"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/LowOnlyNumericResultIntVS"/>
+			</reference>
+			<description value="Low Only Numeric Result Interpretation value set"/>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>

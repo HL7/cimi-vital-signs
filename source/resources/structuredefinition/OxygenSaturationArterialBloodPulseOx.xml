@@ -21,7 +21,7 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/oxygensat"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation:cimiSPO2">
@@ -78,24 +78,23 @@
         <element id="Observation:cimiSPO2.code">
             <path value="Observation.code"/>
 			<short value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
-		    <min value="1"/> 
-		    <max value="*"/>
+        	<min value="1"/>
+        	<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
- 		<element id="Observation:cimiSPO2.code.coding">
+ 		<!-- <element id="Observation:cimiSPO2.code.coding">
 			<path value="Observation.code.coding"/>
 			<slicing>
 				<discriminator>
 					<type value="value"/> 
 					<path value="code"/>
 				</discriminator>
-				<discriminator>
+ 				<discriminator>
 					<type value="value"/>
 					<path value="system"/>
 				</discriminator>
-				<ordered value="false"/>
-				<rules value="open"/>
 			</slicing>
+			<mustSupport value = "true"/>
 		</element>
 		<element id="Observation:cimiSPO2.code.coding:USCoreCode">
 			<path value="Observation.code.coding"/>
@@ -103,52 +102,30 @@
 			<short value="US Core required code"/>
 			<min value="1"/>
 			<max value="1"/>
+			<type>
+				<code vlaue="Coding"/>
+			</type>
+			<patternCoding>
+				<system value="http://loing.org"/>
+				<code value="2708-6"/>
+			</patternCoding>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Observation:cimiSPO2.code.coding:USCoreCode.system">
-			<path value="Observation.code.coding.system"/>
-			<min value="1"/>
-			<max value="1"/>
-			<type>
-				<code value="uri"/>
-			</type>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiSPO2.code.coding:USCoreCode.code">
-			<path value="Observation.code.coding.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<type>
-				<code value="code"/>
-			</type>
-			<fixedCode value="2708-6"/>
-		</element>
-		<element id="Observation:cimiSPO2.code.coding:SPO2LOINCCode">
+ 		<element id="Observation:cimiSPO2.code.coding:SPO2LOINCCode">
 			<path value="Observation.code.coding"/>
 			<sliceName value="SPO2LOINCCode"/>
 			<short value="LOINC code for SPO2"/>
 			<min value="1"/>
 			<max value="1"/>
+			<type>
+				<code vlaue="Coding"/>
+			</type>
+			<patternCoding>
+				<system value="http://loing.org"/>
+				<code value="59408-5"/>
+			</patternCoding>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiSPO2.code.coding:SPO2LOINCCode.system">
-			<path value="Observation.code.coding.system"/>
-			<min value="1"/>
-			<max value="1"/>
-			<type>
-				<code value="uri"/>
-			</type>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:cimiSPO2.code.coding:SPO2LOINCCode.code">
-			<path value="Observation.code.coding.code"/>
-			<min value="1"/>
-			<max value="1"/>
-			<type>
-				<code value="code"/>
-			</type>
-			<fixedCode value="59408-5"/>
-        </element>
+		</element> -->
 		<element id="Observation:cimiSPO2.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>

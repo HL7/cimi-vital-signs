@@ -34,8 +34,8 @@
     <display value="OldMan 1234"/> 
   </subject> 
   <effectivePeriod>
-	<start value="2020-10-16T12:30:00+10:00"/>
-	<end value="2020-10-17T12:30:00+10:00"/>
+	<start value="2020-10-16"/>
+	<end value="2020-10-17"/>
   </effectivePeriod> 
   <issued value="2020-10-17T12:35:00+10:00"/> 
   <performer> 

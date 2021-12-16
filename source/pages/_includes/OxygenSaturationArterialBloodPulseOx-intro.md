@@ -6,7 +6,7 @@ The Oxygen saturation in Arterial blood via Pulse oximetry profile contains one 
 
 The following examples are provided to illustrate conformant resource content to this profile.
 
-- [Oxygen Saturation in Arterial blood Example](Observation-oxygenSaturation-example.html)
+- [Oxygen Saturation in Arterial blood Example](Observation-oxygenSaturationPulseOx-example.html)
 
 #### *Use Cases*
 

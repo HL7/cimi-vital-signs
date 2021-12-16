@@ -169,6 +169,7 @@
 	"ValueSet/WeightUOMVS":{"base":"ValueSet-WeightUOMVS.html"},
 	"ValueSet/TemperatureUOMVS":{"base":"ValueSet-TemperatureUOMVS.html"},
 	"ValueSet/BodyTempAssociatedSituationVS":{"base":"ValueSet-BodyTempAssociatedSituationVS.html"},
+	"ValueSet/LowOnlyNumericResultIntVS":{"base":"ValueSet-LowOnlyNumericResultIntVS.html"},
     
 	
   "Device/BPDevice-example": {"base": "Device-BPDevice-example.html"},
