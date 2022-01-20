@@ -1,0 +1,3 @@
+### Measurement Protocol extension
+
+This extension is to capture a set of rules used for calculating an average blood pressure.  This could consist of explicit times, body positions, resting states (exercise association), or number of measurements to take, etc..  Since these protocols will vary between institutions, providers, or clinical societies, the value set is subject to change.  Currently there is only one value in it but more are expected.
