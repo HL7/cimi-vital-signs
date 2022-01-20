@@ -1,0 +1,107 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: CIMI-Vital-Signs
+canonical: http://hl7.org/fhir/us/vitals
+version: 0.2.0
+name: cimi-vital-signs
+title: Vital Signs with Qualifying elements
+status: draft
+publisher:
+  -
+    name: HL7 International - Clinical Information Modeling Initiative
+    url: http://hl7.org/Special/committees/cimi
+  -
+    name: Logica
+    url: https://www.logicahealth.org/
+description: This IG describes vital signs observations that include qualifying information such as cuff size for blood pressure, or an associated situation of "during exercise" for blood pressure or heart rate, etc.
+fhirVersion: 4.0.1
+dependencies: 
+  hl7.fhir.us.core: 3.1.1
+copyrightYear: 2021+
+copyright: Logica Health, all rights reserved Creative Commons License
+releaseLabel: STU 1
+jurisdiction: urn:iso:std:iso:3166#US "United States of America"
+packageId: hl7.fhir.us.vitals
+parameters:
+  show-inherited-invariants: false
+  path-expansion-params: ../../exp-params.json
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+pages:
+  index.md:
+    title: Home
+  AlgorithmForBloodPressureAverageExt-intro.md:
+    title: Average Blood Pressure Algorithm
+  AlgorithmTypeExt-intro.md:
+    title: Algorithm Type
+  all-examples.md:
+    title: Examples
+  AssociatedSituationExt-intro.md:
+    title: Associated Situation Extension
+  AverageBloodPressure-intro.md:
+    title: Average Blood Pressure
+  BloodPressureCuffSizeExt-intro.md:
+    title: Blood Pressure Cuff Size Extension
+  BloodPressurePanel-intro.md:
+    title: Blood Pressure Panel
+  BodyLength-intro.md:
+    title: Body Length
+  BodyMassIndex-intro.md:
+    title: Body Mass Index
+  BodyPositionExt-intro.md:
+    title: Body Position Extension
+  BodyTemperature-intro.md:
+    title: Body Temperature
+  BodyWeight-intro.md:
+    title: Body Weight
+  BPDevice-intro.md:
+    title: Blood Pressure Device
+  ClothingWornDuringMeasureExt-intro.md:
+    title: Clothing Worn During Measure Extension
+  downloads.md:
+    title: Downloads
+  ExerciseAssociationExt-intro.md:
+    title: Exercise Association Extension
+  HeadOccipitalFrontalCircumference-intro.md:
+    title: Occipital-Frontal Head Circumfereance
+  HeartRate-intro.md:
+    title: Heart Rate
+  Height-intro.md:
+    title: Height
+  MeasurementProtocolExt-intro.md:
+    title: Measurement Protocol Extension
+  MeasurementSettingExt-intro.md:
+    title: Measurement Setting Extension
+  OxygenSaturationArterialBlood-intro.md:
+    title: Oxygen Saturation in Arterial Blood
+  OxygenSaturationArterialBloodPulseOx-intro.md:
+    title: Oxygen Saturation in Arterial Blood via Pulse Oximetry
+  RespiratoryRate-intro.md:
+    title: Respiratory Rate
+  SensorDescriptionExt-intro.md:
+    title: Sonsor Description Extension
+  SleepStatusExt-intro.md:
+    title: Sleep Status Extension
+  TimeWindowExt-intro.md:
+    title: Time Window Extension
+  TwentyFourHourBloodPressure-intro.md:
+    title: Twenty-Four Hour Blood Pressure
+  VitalSignsPanel-intro.md:
+    title: Vital Signs Panel
+  profiles.md:
+    title: Profiles
+  terminology.md:
+    title: Terminology
+  
+menu:
+  IG Home: index.html
+  Profiles & Extension: profiles.html
+  Examples: all-examples.html
+  Terminology: terminology.html
+  Downloads: downloads.html
+  Artifacts: artifacts.html
