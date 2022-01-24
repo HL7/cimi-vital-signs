@@ -30,14 +30,6 @@ all the examples that are used in this Implementation Guide available for downlo
 
 <p>&nbsp;</p>
 
-### All Examples
-
-Individual examples are also available for download and listed below:
-
-{% include example-list-generator.md %}
-
-<p>&nbsp;</p>
-
 ### Schematrons
 
 Schematrons are also available for download and listed below:

@@ -35,69 +35,64 @@ parameters:
 pages:
   index.md:
     title: Home
-  AlgorithmForBloodPressureAverageExt-intro.md:
-    title: Average Blood Pressure Algorithm
-  AlgorithmTypeExt-intro.md:
-    title: Algorithm Type
-  all-examples.md:
-    title: Examples
-  AssociatedSituationExt-intro.md:
-    title: Associated Situation Extension
-  AverageBloodPressure-intro.md:
-    title: Average Blood Pressure
-  BloodPressureCuffSizeExt-intro.md:
-    title: Blood Pressure Cuff Size Extension
-  BloodPressurePanel-intro.md:
-    title: Blood Pressure Panel
-  BodyLength-intro.md:
-    title: Body Length
-  BodyMassIndex-intro.md:
-    title: Body Mass Index
-  BodyPositionExt-intro.md:
-    title: Body Position Extension
-  BodyTemperature-intro.md:
-    title: Body Temperature
-  BodyWeight-intro.md:
-    title: Body Weight
-  BPDevice-intro.md:
-    title: Blood Pressure Device
-  ClothingWornDuringMeasureExt-intro.md:
-    title: Clothing Worn During Measure Extension
-  downloads.md:
-    title: Downloads
-  ExerciseAssociationExt-intro.md:
-    title: Exercise Association Extension
-  HeadOccipitalFrontalCircumference-intro.md:
-    title: Occipital-Frontal Head Circumfereance
-  HeartRate-intro.md:
-    title: Heart Rate
-  Height-intro.md:
-    title: Height
-  MeasurementProtocolExt-intro.md:
-    title: Measurement Protocol Extension
-  MeasurementSettingExt-intro.md:
-    title: Measurement Setting Extension
-  OxygenSaturationArterialBlood-intro.md:
-    title: Oxygen Saturation in Arterial Blood
-  OxygenSaturationArterialBloodPulseOx-intro.md:
-    title: Oxygen Saturation in Arterial Blood via Pulse Oximetry
-  RespiratoryRate-intro.md:
-    title: Respiratory Rate
-  SensorDescriptionExt-intro.md:
-    title: Sonsor Description Extension
-  SleepStatusExt-intro.md:
-    title: Sleep Status Extension
-  TimeWindowExt-intro.md:
-    title: Time Window Extension
-  TwentyFourHourBloodPressure-intro.md:
-    title: Twenty-Four Hour Blood Pressure
-  VitalSignsPanel-intro.md:
-    title: Vital Signs Panel
   profiles.md:
     title: Profiles
+  StructureDefinition-AverageBloodPressure-intro.md:
+    title: Average Blood Pressure
+  StructureDefinition-BloodPressurePanel-intro.md:
+    title: Blood Pressure Panel
+  StructureDefinition-BodyLength-intro.md:
+    title: Body Length
+  StructureDefinition-BodyMassIndex-intro.md:
+    title: Body Mass Index
+  StructureDefinition-BodyTemperature-intro.md:
+    title: Body Temperature
+  StructureDefinition-BodyWeight-intro.md:
+    title: Body Weight
+  StructureDefinition-BPDevice-intro.md:
+    title: Blood Pressure Device
+  StructureDefinition-HeadOccipitalFrontalCircumference-intro.md:
+    title: Occipital-Frontal Head Circumfereance
+  StructureDefinition-HeartRate-intro.md:
+    title: Heart Rate
+  StructureDefinition-Height-intro.md:
+    title: Height
+  StructureDefinition-OxygenSaturationArterialBlood-intro.md:
+    title: Oxygen Saturation in Arterial Blood
+  StructureDefinition-OxygenSaturationArterialBloodPulseOx-intro.md:
+    title: Oxygen Saturation in Arterial Blood via Pulse Oximetry
+  StructureDefinition-RespiratoryRate-intro.md:
+    title: Respiratory Rate
+  StructureDefinition-TwentyFourHourBloodPressure-intro.md:
+    title: Twenty-Four Hour Blood Pressure
+  StructureDefinition-VitalSignsPanel-intro.md:
+    title: Vital Signs Panel
   terminology.md:
     title: Terminology
-  
+  StructureDefinition-AlgorithmForBloodPressureAverageExt-intro.md:
+    title: Average Blood Pressure Algorithm Extension
+  StructureDefinition-AlgorithmTypeExt-intro.md:
+    title: Algorithm Type Extension
+  StructureDefinition-AssociatedSituationExt-intro.md:
+    title: Associated Situation Extension
+  StructureDefinition-BloodPressureCuffSizeExt-intro.md:
+    title: Blood Pressure Cuff Size Extension
+  StructureDefinition-BodyPositionExt-intro.md:
+    title: Body Position Extension
+  StructureDefinition-ExerciseAssociationExt-intro.md:
+    title: Exercise Association Extension
+  StructureDefinition-MeasurementProtocolExt-intro.md:
+    title: Measurement Protocol Extension
+  StructureDefinition-MeasurementSettingExt-intro.md:
+    title: Measurement Setting Extension
+  StructureDefinition-SensorDescriptionExt-intro.md:
+    title: Sonsor Description Extension
+  StructureDefinition-SleepStatusExt-intro.md:
+    title: Sleep Status Extension
+  all-examples.md:
+    title: Examples
+  downloads.md:
+    title: Downloads
 menu:
   IG Home: index.html
   Profiles & Extension: profiles.html
