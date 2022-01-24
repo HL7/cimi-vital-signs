@@ -1,6 +1,7 @@
 Profile: BodyMassIndex
 Parent: BMI 
 Id: body-mass-index
+Title: "Body Mass Index"
 Description: "Body Mass Index, the measurement of body fat based on an individual's height and weight and given as a ration of kilograms per square meter."
 * extension contains 
     MeasurementSettingExt named MeasurementSetting 0..* MS

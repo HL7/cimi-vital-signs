@@ -35,7 +35,7 @@ The following data elements are mandatory (i.e. data SHALL be present). Profile-
 3. an observation code (Observation.code) that defines what is being measured.
     * LOINC was the system chosen for the observation code because this aligns with the most countries, but it can be treated as simply a fixed core set of common codes to communicate basic vital signs. Implementers that need to use a different code system should map to LOINC accordingly.
 4. a patient (Observation.subject)
-5. a time (Observation.effective, a dateTime with at least Year, Month, Day, Hour, and minutes. Seconds may be zero filled.  A time zome must be provided.) or time period (start dateTime and end dateTime) indicating when the measurement was taken or over which period it was taken.
+5. a time (Observation.effective, a dateTime with at least Year, Month, Day, Hour, and minutes. Seconds may be zero filled.  A time zone must be provided.) or time period (start dateTime and end dateTime) indicating when the measurement was taken or over which period it was taken.
 
 ##### Rules for the observation value
 

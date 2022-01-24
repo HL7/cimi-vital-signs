@@ -110,8 +110,8 @@ The following examples are provided to illustrate conformant resource content to
 			</tr>
 			<tr>
 			  <td>Observation.device.extension(BloodPressureCuffSize).value</td>
-			  <td>Blood pressure cuff, adult size large</td>
-			  <td>720738005</td>
+			  <td>Blood pressure cuff, adult size (physical object)</td>
+			  <td>720737000</td>
 			  <td>SNOMED CT</td>
 			</tr>
 			<tr>

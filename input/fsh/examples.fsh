@@ -65,7 +65,7 @@ Usage: #example
 * extension.valueCodeableConcept = SCT#264362003 "Home (environment)"
 * status = #final
 * category = ObsCat#vital-signs "Vital Signs"
-* code = SCT#723232008 "Average blood pressure (observable entity)"
+* code = LNC#96607-7 "Blood pressure panel unspecified time mean"
 * subject.display = "OldMan 1234"
 * effectivePeriod.start = "2019-10-16T12:12:29-09:00"
 * effectivePeriod.end = "2019-10-16T12:42:29-09:00"
@@ -74,9 +74,9 @@ Usage: #example
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * method = SCT#37931006 "Auscultation"
 * device = Reference(BPDevice2-example)
-* component[0].code = SCT#314440001 "Average systolic blood pressure (observable entity)"
+* component[0].code = LNC#96608-5 "Systolic blood pressure unspecified time mean"
 * component[=].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
-* component[+].code = SCT#314453003 "Average diastolic blood pressure (observable entity)"
+* component[+].code = LNC#96609-3 "Diastolic blood pressure unspecified time mean"
 * component[=].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
 Instance: BPDevice-example
@@ -92,7 +92,7 @@ InstanceOf: BloodPressureDevice
 Description: "Blood Pressure Device example number 2"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/us/vitals/StructureDefinition/bp-cuff-size-ext"
-* extension.valueCodeableConcept = SCT#720739002 "Blood pressure cuff, adult size small (physical object)"
+* extension.valueCodeableConcept = SCT#720737000 "Blood pressure cuff, adult size (physical object)"
 * type = SCT#466086009 "Automatic-inflation electronic sphygmomanometer, portable, arm/wrist (physical object)"
 
 Instance: BloodPressurePanel-example
@@ -254,7 +254,7 @@ Usage: #example
 
 Instance: oxygenSaturationPulseOx-example
 InstanceOf: OxygenSaturationArterialBloodPulseOx
-Description: "Oxygen Saturation via Pulse Oximetery example"
+Description: "Oxygen Saturation via Pulse Oximetry example"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/us/vitals/StructureDefinition/SensorDescriptionExt"
 * extension.valueCodeableConcept = SCT#462664005 "Pulse oximeter probe, single-use"

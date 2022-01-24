@@ -1,6 +1,7 @@
 Profile: HeartRate
 Parent: CoreHeartRate
 Id: heart-rate
+Title: "Heart Rate"
 Description: "Heart Rate, the measured number of heart beats in a minute."
 * extension contains
     ExtDeviceCode named measurmentDevice 0..1 MS and
@@ -37,3 +38,5 @@ Description: "Heart Rate, the measured number of heart beats in a minute."
 * bodySite from HeartRateMeasurementBodyLocationPrecoordinatedvalueset (extensible)
 * method MS
 * method from HeartRateMeasurementMethodvalueset (extensible)
+* device 0..1 MS
+* device only Reference(Device or DeviceMetric or BloodPressureDevice)

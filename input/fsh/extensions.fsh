@@ -1,6 +1,6 @@
 Extension: AssociatedSituationExt
 Id: AssociatedSituationExt
-Title: "Associated Situation extension"
+Title: "Associated Situation"
 Description: "Situations that may affect the measurement or assessment."
 * valueCodeableConcept only CodeableConcept
 
@@ -13,7 +13,7 @@ Description: "The size of pressure cuff used to measure blood pressure."
 
 Extension: ExerciseAssociationExt
 Id: ExerciseAssociationExt
-Title: "Exercise Association extension"
+Title: "Exercise Association"
 Description: "The type of exercise being done when the blood pressure was measured."
 * valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from ExertionPhaseVS (extensible)
@@ -28,7 +28,7 @@ Description: "The system or defined process used in a measurement."
 Extension: MeasurementSettingExt
 Id: MeasurementSettingExt
 Title: "Measurement Setting"
-Description: "The location or setting the subject was in when the measurement was obtained. For example home, clinic, hospital. etc."
+Description: "The location or setting the subject was in when the measurement was obtained. For example, home, clinic, hospital. etc."
 * valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from MeasurementSettingVS (extensible)
 

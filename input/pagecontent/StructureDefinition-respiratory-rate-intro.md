@@ -1,6 +1,6 @@
 ﻿### Scope
 
-The respiratory rate profile contains one observation, respiratory rate. In addition, the respiratory rate profile contains the following qualifying observations with associated SNOMED CT value sets: observatino-deviceCode, BodyPosition, ExerciseAssociation, and MeasurementSetting.
+The respiratory rate profile contains one observation, respiratory rate. In addition, the respiratory rate profile contains the following qualifying observations with associated SNOMED CT value sets: observation-deviceCode, BodyPosition, ExerciseAssociation, and MeasurementSetting.
 
 #### Examples
 

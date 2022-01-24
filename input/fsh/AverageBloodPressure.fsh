@@ -13,8 +13,8 @@ Description: "The average of a set of blood pressure measurements. The number of
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * extension[MeasurementProtocol] ^short = "Rules and algorithm for Average Blood Pressure calculation."
 * status MS
-* code = SCT#723232008
-* code ^short = "Average blood pressure (observable entity)"
+* code = LNC#96607-7
+* code ^short = "Blood pressure panel unspecified time mean"
 * subject 1..1 MS
 * subject only Reference(USCorePatient)
 * effective[x] 1..1 MS
@@ -39,9 +39,9 @@ Description: "The average of a set of blood pressure measurements. The number of
     SystolicBP 1..1 and
     DiastolicBP 0..1
 * component[SystolicBP] ^short = "Systolic Blood Pressure"
-* component[SystolicBP].code = SCT#314440001
+* component[SystolicBP].code = LNC#96608-5
 * component[SystolicBP].code MS
-* component[SystolicBP].code ^short = "Average systolic blood pressure (observable entity)"
+* component[SystolicBP].code ^short = "Systolic blood pressure unspecified time mean"
 * component[SystolicBP].valueQuantity only Quantity
 * component[SystolicBP].valueQuantity MS
 * component[SystolicBP].valueQuantity.value 1..1 MS
@@ -53,9 +53,9 @@ Description: "The average of a set of blood pressure measurements. The number of
 * component[SystolicBP].valueQuantity.code only code
 * component[SystolicBP].valueQuantity.code = #mm[Hg] (exactly)
 * component[DiastolicBP] ^short = "Diastolic Blood Pressure"
-* component[DiastolicBP].code = SCT#314453003
+* component[DiastolicBP].code = LNC#96609-3
 * component[DiastolicBP].code MS
-* component[DiastolicBP].code ^short = "Average diastolic blood pressure (observable entity)"
+* component[DiastolicBP].code ^short = "Diastolic blood pressure unspecified time mean"
 * component[DiastolicBP].valueQuantity only Quantity
 * component[DiastolicBP].valueQuantity MS
 * component[DiastolicBP].valueQuantity.value 1..1 MS

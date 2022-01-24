@@ -1,6 +1,7 @@
 Profile: BodyLength
 Parent: VitalSigns
 Id: body-length
+Title: "Body Length"
 Description: "Body Length, the measured length of an individual's body.  This measurement is usually taken while lying down."
 * extension contains
     ExtDeviceCode named measurementDevice 0..1 MS and

@@ -1,6 +1,7 @@
 Profile: BodyTemperature
 Parent: BodyTemp
 Id: body-temperature
+Title: "Body Temperature"
 Description: "Body Temperature, the measured heat of an individual's body."
 * extension contains
     ExtDeviceCode named measurmentDevice 0..1 MS and

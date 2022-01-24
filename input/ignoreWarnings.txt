@@ -1,4 +1,4 @@
-﻿== Supressed Messages ==
+﻿== Suppressed Messages ==
 
 # US Core has a profile of Device called Implantable Device.  This is a sibling profile and cannot be used as a base for our BP Device profile.
 US FHIR Usage rules require that all profiles on Device derive from the core US profile

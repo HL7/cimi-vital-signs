@@ -1,6 +1,7 @@
 Profile: BodyWeight
 Parent: CoreBodyWeight
 Id: body-weight
+Title: "Body Weight"
 Description: "Body Weight, the measured mass of an individual's body."
 * extension contains
     ExtDeviceCode named measurmentDevice 0..1 MS and

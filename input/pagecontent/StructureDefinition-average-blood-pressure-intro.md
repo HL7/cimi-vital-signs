@@ -4,7 +4,7 @@ This blood pressure profile is used to capture the calculated average blood pres
 
 #### About the extensions
 
-The expectation for the extensions in this profile are that if populated, they represent that all of the observations used to calculate the average blood pressure have the same value in the extension as the average.  For example, if the body position given in an instance of the Average Blood Pressure profile is "sitting" then any single measuremnt used in the calculation would have been obtained with the patient in a sitting position.
+The expectation for the extensions in this profile is that if populated, they qualify each of the individual measurements used to calculate the average blood pressure.  For example, if the body position give in an intance of the Average Blood Pressure profile is "sitting" then the body position for either the systolic or diastolic blood pressures is "sitting".
 
 Body Position - This is used to capture an individual's body position while taking a blood pressure.
 
@@ -57,7 +57,7 @@ Measurement Protocol - This is used to capture a set of rules used for the calcu
 			</tr>
 			<tr>
 			  <td><a href="ValueSet-MeasSettingVS.html">Measurement Setting value set</a></td>
-			  <td>This value set is used to result the Mesurement Setting extension.</td>
+			  <td>This value set is used to result the Measurement Setting extension.</td>
 			</tr>
 		</tbody>
 	</table>

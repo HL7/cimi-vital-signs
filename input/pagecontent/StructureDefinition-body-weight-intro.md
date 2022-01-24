@@ -29,10 +29,10 @@ The following examples are provided to illustrate conformant resource content to
 			  <td>LOINC</td>
 			</tr>
 			<tr>
-			  <td colspan="4">Observation.extension(clothingWornDuringMeasureExt)</td>
+			  <td colspan="4">Observation.extension(AssociatedSituation)</td>
 			</tr>
 			<tr>
-			  <td>Observation.extension(clothingWornDuringMeasureExt).value</td>
+			  <td>Observation.extension(AssociatedSituation).value</td>
 			  <td>Wearing street clothes with shoes (finding)</td>
 			  <td>971000205103</td>
 			  <td>SNOMED CT</td>

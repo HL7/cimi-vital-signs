@@ -2,7 +2,7 @@ Profile: ResiratoryRate
 Parent: RespRate
 Id: respiratory-rate
 Title: "Respiratory Rate"
-Description: "Resiratory Rate, the measured number of breaths taken in a minute."
+Description: "Respiratory Rate, the measured number of breaths taken in a minute."
 * extension contains
     ExtDeviceCode named measurementDevice 0..1 MS and
     ExtBodyPosition named BodyPosition 0..1 MS and

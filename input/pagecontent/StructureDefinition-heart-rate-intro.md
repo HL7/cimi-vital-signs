@@ -1,6 +1,6 @@
 ﻿### Scope
 
-The heart rate profile contains one observation, heart rate. In addition, the heart rate profile contains the following qualifying observations with associated SNOMED CT value sets: Body Position, observation-deviceCode, Exercise Association, SleepStatus, and MeasurementSetting.
+The Heart Rate profile contains one observation, heart rate. In addition, the heart rate profile contains the following qualifying observations with associated SNOMED CT value sets: Body Position, observation-deviceCode, Exercise Association, SleepStatus, and MeasurementSetting.
 
 *Note*
 
@@ -105,7 +105,7 @@ The following examples are provided to illustrate conformant resource content to
 			  <td>This value set contains concepts used to result the method used for a blood pressure measurement, referencing the LOINC term "Heart rate method” 8886-4.</td>
 			</tr>
 			<tr>
-			  <td><a href="ValueSet-exertionPhaseVS.html">Exersion Phase value set</a></td>
+			  <td><a href="ValueSet-exertionPhaseVS.html">Exertion Phase value set</a></td>
 			  <td>The purpose of the value set is to document exercise associated with a measurement. Resulting LOINC code 74008-4 "Exercise intensity".</td>
 			</tr>
 			<tr>

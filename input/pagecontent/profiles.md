@@ -18,7 +18,7 @@ The following Profiles and have been defined for this implementation guide.
 		<tbody>
 			<tr>
 			  <td><a href="StructureDefinition-vital-signs-panel.html">Vital Signs Panel</a></td>
-			  <td>A vital signs panel as defined by Logica Health.  It includes Oxygen Saturation via Pulse Oximetry, Oxygen Saturation in Arterial blood, body height, body length, body weight, body termperature, blood pressure panel, heart rate, respiratory rate, head-oxipital/frontal circumference, oxygen saturation via pulse oximetry, and body mass index.</td>
+			  <td>A vital signs panel as defined by Logica Health.  It includes Oxygen Saturation via Pulse Oximetry, Oxygen Saturation in Arterial blood, body height, body length, body weight, body temperature, blood pressure panel, heart rate, respiratory rate, head-occcipital/frontal circumference, oxygen saturation via pulse oximetry, and body mass index.</td>
 			</tr>
 			<tr>
 			  <td><a href="StructureDefinition-blood-pressure-panel.html">Blood Pressure Panel</a></td>
@@ -34,11 +34,11 @@ The following Profiles and have been defined for this implementation guide.
 			</tr>
 			<tr>
 			  <td><a href="StructureDefinition-bp-device.html">Blood Pressure Device</a></td>
-			  <td>A profile of teh Device resource used specifically for blood pressure devices and includes an extension for blood pressure cuff size.</td>
+			  <td>A profile of the Device resource used specifically for blood pressure devices and includes an extension for blood pressure cuff size.</td>
 			</tr>
 			<tr>
 			  <td><a href="StructureDefinition-height.html">Body Height</a></td>
-			  <td>The measurement in centimeters or feet an inches from the top of the head to the heel, usually while standing.</td>
+			  <td>The measurement in centimeters or feet and inches from the top of the head to the heel, usually while standing.</td>
 			</tr>
 			<tr>
 			  <td><a href="StructureDefinition-body-length.html">Body Length</a></td>
@@ -87,7 +87,7 @@ The following extensions have been defined as part of the Vital Signs implementa
 
 #### A note about value bindings in the extensions
 
-Some of the extensions defined below do not have value set bindings included.  This is because the extension may be used in more than one profile and the values needed are specific to the context of the containing profile.  For example the Associated Situation extension is used in both the Body Temperature profile as well as the Body Weight profile.  The values for Associated Situation will differ between these two contexts.  For Body Temperature the values are things like "post exercise" but for Body Weight they're things like "With prosthetic" or "undressed".
+Some of the extensions defined below do not have value set bindings included.  This is because the extension may be used in more than one profile and the values needed are specific to the context of the containing profile.  For example, the Associated Situation extension is used in both the Body Temperature profile as well as the Body Weight profile.  The values for Associated Situation will differ between these two contexts.  For Body Temperature the values are things like "post exercise" but for Body Weight they're things like "With prosthetic" or "undressed".
 
 <div>
 <p>This guide references the following extensions.</p>

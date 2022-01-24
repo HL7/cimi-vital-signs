@@ -37,58 +37,8 @@ pages:
     title: Home
   profiles.md:
     title: Profiles
-  StructureDefinition-AverageBloodPressure-intro.md:
-    title: Average Blood Pressure
-  StructureDefinition-BloodPressurePanel-intro.md:
-    title: Blood Pressure Panel
-  StructureDefinition-BodyLength-intro.md:
-    title: Body Length
-  StructureDefinition-BodyMassIndex-intro.md:
-    title: Body Mass Index
-  StructureDefinition-BodyTemperature-intro.md:
-    title: Body Temperature
-  StructureDefinition-BodyWeight-intro.md:
-    title: Body Weight
-  StructureDefinition-BPDevice-intro.md:
-    title: Blood Pressure Device
-  StructureDefinition-HeadOccipitalFrontalCircumference-intro.md:
-    title: Occipital-Frontal Head Circumfereance
-  StructureDefinition-HeartRate-intro.md:
-    title: Heart Rate
-  StructureDefinition-Height-intro.md:
-    title: Height
-  StructureDefinition-OxygenSaturationArterialBlood-intro.md:
-    title: Oxygen Saturation in Arterial Blood
-  StructureDefinition-OxygenSaturationArterialBloodPulseOx-intro.md:
-    title: Oxygen Saturation in Arterial Blood via Pulse Oximetry
-  StructureDefinition-RespiratoryRate-intro.md:
-    title: Respiratory Rate
-  StructureDefinition-TwentyFourHourBloodPressure-intro.md:
-    title: Twenty-Four Hour Blood Pressure
-  StructureDefinition-VitalSignsPanel-intro.md:
-    title: Vital Signs Panel
   terminology.md:
     title: Terminology
-  StructureDefinition-AlgorithmForBloodPressureAverageExt-intro.md:
-    title: Average Blood Pressure Algorithm Extension
-  StructureDefinition-AlgorithmTypeExt-intro.md:
-    title: Algorithm Type Extension
-  StructureDefinition-AssociatedSituationExt-intro.md:
-    title: Associated Situation Extension
-  StructureDefinition-BloodPressureCuffSizeExt-intro.md:
-    title: Blood Pressure Cuff Size Extension
-  StructureDefinition-BodyPositionExt-intro.md:
-    title: Body Position Extension
-  StructureDefinition-ExerciseAssociationExt-intro.md:
-    title: Exercise Association Extension
-  StructureDefinition-MeasurementProtocolExt-intro.md:
-    title: Measurement Protocol Extension
-  StructureDefinition-MeasurementSettingExt-intro.md:
-    title: Measurement Setting Extension
-  StructureDefinition-SensorDescriptionExt-intro.md:
-    title: Sonsor Description Extension
-  StructureDefinition-SleepStatusExt-intro.md:
-    title: Sleep Status Extension
   all-examples.md:
     title: Examples
   downloads.md:
