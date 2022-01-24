@@ -14,6 +14,7 @@ Description: "This is a temporary code system for terms that are not yet defined
 * #AFCN "After Condition" "An indication that a procedure, event, or other took place after an identified condition."
 * #BFCN "Before Condition" "An indication that a procedure, event, or other took place before an identified condition."
 * #DUCN "During Condition" "An indication that a procedure, event, or other took place during an identified condition."
+* #AOBP "Automated office blood pressure protocol"
 
 CodeSystem: OrganizationHSPCOrganizationType
 Id: organization-hspc-organizationtype
@@ -52,6 +53,5 @@ Description: "A set of codes that are defined in the Solor extension to the SNOM
 * #23861000205107 "Capnograph sensor device (physical object)" "A device that captures expelled air, either via nasal prongs or CPAP and is used to measure the number of breaths taken per minute."
 * #23921000205109 "Respiration strain gauge (physical object)" "A device wrapped around a subject chest that measures the number of times a subject's chest expands with each inhalation.  This counts the breaths per minute."
 * #24181000205106 "Patient lift scale (physical object)" "A device used to lift a patient out of or into bed and also has a scale to measure the subject's weight."
-* #AOBP "Automated office blood pressure protocol" "A blood pressure measurement protocol that directs a blood pressure to be taken via an automatic blood pressure device several times and then averaged and recorded."
 * #24781000205105 "Structure of left superficial temporal artery (body structure)" "A body structure of the superficial tempral artery on the left side of the body.  Currently part of the Solor SNOMED CT extension."
 * #24791000205107 "Structure of right superficial temporal artery (body structure)" "A body structure of the superficial tempral artery on the right side of the body.  Currently part of the Solor SNOMED CT extension."

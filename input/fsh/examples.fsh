@@ -297,7 +297,7 @@ Usage: #example
 * status = #final
 * category = ObsCat#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
-* code = SCT#314463006 "24 hour blood pressure (observable entity)"
+* code = LNC#97844-5 "Blood Pressure panel 24 hour mean"
 * subject.display = "OldMan 1234"
 * effectivePeriod.start = "2020-10-16T12:30:00+10:00"
 * effectivePeriod.end = "2020-10-17T12:30:00+10:00"

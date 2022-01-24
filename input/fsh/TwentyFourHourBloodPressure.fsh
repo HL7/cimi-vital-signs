@@ -12,8 +12,8 @@ Description: "An average blood pressure (systolic and diastolic) over a twenty f
 * extension[exerciseAssociation] ^short = "Exercise Association"
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * status MS
-* code = SCT#314463006
-* code ^short = "24 hour blood pressure (observable entity)"
+* code = LNC#97844-5
+* code ^short = "Blood pressure panel 24 hour mean"
 * subject 1..1 MS
 * subject only Reference(USCorePatient)
 * effective[x] 1..1 MS

@@ -2,6 +2,7 @@ ValueSet: BodyPositionvalueset
 Id: bodyPositionVS
 Title: "Body Position value set"
 Description: "SELECT SNOMED CT code system values."
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SNOMED_CT#30212006 "Fowler's position (finding)"
 * SNOMED_CT#26527006 "Inverse Trendelenburg position (finding)"
 * SNOMED_CT#102536004 "Left lateral decubitus position (finding)"
