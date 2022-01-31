@@ -6,7 +6,7 @@ id: CIMI-Vital-Signs
 canonical: http://hl7.org/fhir/us/vitals
 version: 0.2.0
 name: cimi-vital-signs
-title: Vital Signs with Qualifying elements
+title: Vital Signs with Qualifying Elements
 status: draft
 publisher:
   -
