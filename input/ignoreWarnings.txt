@@ -9,16 +9,12 @@ US FHIR Usage rules require that all profiles on Observation derive from one of 
 # US Core does not define an extension for this.
 The Implementation Guide contains no examples for this extension
 
-# This is a temporary codes sytem and will be replaced if/when values are added to appropriate codes system.
-Error from server: Unable to provide support for code system http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem
-
 # No example will be created for this since its members will all have examples.
 The Implementation Guide contains no examples for this profile
 
 # These are Solor Snomed extension codes.
 The code 24781000205105 is not valid in the system http://snomed.info/sct
 The code 24791000205107 is not valid in the system http://snomed.info/sct
-The code 449501000124109 is not valid in the system http://snomed.info/sct
 
 # The codes are provided for exmaples only.
 A code with no system has no defined meaning. A system should be provided
