@@ -18,7 +18,7 @@ Description: "The measurement in centimeters or feet and inches from the top of 
 * subject 1..1 MS
 * subject only Reference(USCorePatient)
 * effective[x] 1..1 MS
-* valueQuantity only Quantity
+* value[x] only Quantity
 * valueQuantity MS
 * valueQuantity.value 1..1 MS
 * valueQuantity.unit 1..1 MS

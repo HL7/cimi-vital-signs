@@ -10,7 +10,7 @@ Description: "A vital signs panel as defined by Logica Health.  It includes Oxyg
 * subject 1..1 MS
 * subject only Reference(USCorePatient)
 * effective[x] 1..1 MS
-* valueQuantity 0..0
+* value[x] 0..0
 * dataAbsentReason 0..0
 * interpretation from DefinedLimitsvalueset (extensible)
 * bodySite 0..0
@@ -18,6 +18,7 @@ Description: "A vital signs panel as defined by Logica Health.  It includes Oxyg
 * specimen 0..0
 * device 0..0
 * referenceRange 0..0
+* component 0..0
 * hasMember ^slicing.discriminator.type = #profile
 * hasMember ^slicing.discriminator.path = "hasmember.reference.resolve"
 * hasMember ^slicing.rules = #closed

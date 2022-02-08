@@ -41,7 +41,7 @@ Description: "An average blood pressure (systolic and diastolic) over a twenty f
 * component[SystolicBP24HMean].code = LNC#8490-5
 * component[SystolicBP24HMean].code MS
 * component[SystolicBP24HMean].code ^short = "Systolic blood pressure 24 hour mean"
-* component[SystolicBP24HMean].valueQuantity only Quantity
+* component[SystolicBP24HMean].value[x] only Quantity
 * component[SystolicBP24HMean].valueQuantity MS
 * component[SystolicBP24HMean].valueQuantity.value 1..1 MS
 * component[SystolicBP24HMean].valueQuantity.unit 1..1 MS
@@ -55,7 +55,7 @@ Description: "An average blood pressure (systolic and diastolic) over a twenty f
 * component[DiastolicBP24HMean].code = LNC#8472-3
 * component[DiastolicBP24HMean].code MS
 * component[DiastolicBP24HMean].code ^short = "Diastolic blood pressure 24 hour mean"
-* component[DiastolicBP24HMean].valueQuantity only Quantity
+* component[DiastolicBP24HMean].value[x] only Quantity
 * component[DiastolicBP24HMean].valueQuantity MS
 * component[DiastolicBP24HMean].valueQuantity.value 1..1 MS
 * component[DiastolicBP24HMean].valueQuantity.unit 1..1 MS

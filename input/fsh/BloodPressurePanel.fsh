@@ -47,7 +47,7 @@ Description: "Blood Pressure Panel; a grouping of systolic, diastolic, and mean 
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].code MS
 * component[SystolicBP].code ^short = "Systolic blood pressure"
-* component[SystolicBP].valueQuantity only Quantity
+* component[SystolicBP].value[x] only Quantity
 * component[SystolicBP].valueQuantity MS
 * component[SystolicBP].valueQuantity.value 1..1 MS
 * component[SystolicBP].valueQuantity.unit 1..1 MS
@@ -61,7 +61,7 @@ Description: "Blood Pressure Panel; a grouping of systolic, diastolic, and mean 
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].code MS
 * component[DiastolicBP].code ^short = "Diastolic blood pressure"
-* component[DiastolicBP].valueQuantity only Quantity
+* component[DiastolicBP].value[x] only Quantity
 * component[DiastolicBP].valueQuantity MS
 * component[DiastolicBP].valueQuantity.value 1..1 MS
 * component[DiastolicBP].valueQuantity.unit 1..1 MS
@@ -75,7 +75,7 @@ Description: "Blood Pressure Panel; a grouping of systolic, diastolic, and mean 
 * component[MeanArterialBP].code = LNC#8478-0
 * component[MeanArterialBP].code MS
 * component[MeanArterialBP].code ^short = "Mean blood pressure"
-* component[MeanArterialBP].valueQuantity only Quantity
+* component[MeanArterialBP].value[x] only Quantity
 * component[MeanArterialBP].valueQuantity MS
 * component[MeanArterialBP].valueQuantity.value 1..1 MS
 * component[MeanArterialBP].valueQuantity.unit 1..1 MS

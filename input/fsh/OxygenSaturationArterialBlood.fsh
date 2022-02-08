@@ -10,4 +10,4 @@ Description: "A measurement of the percentage to which oxygen is bound to hemogl
 * interpretation 0..1 MS
 * interpretation only CodeableConcept
 * interpretation from LowOnlyNumericResultInterpretationNom (extensible)
-
+* value[x] only Quantity

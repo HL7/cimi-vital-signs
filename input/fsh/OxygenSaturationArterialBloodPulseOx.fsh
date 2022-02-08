@@ -12,7 +12,7 @@ Description: "A measurement of the percentage to which oxygen is bound to hemogl
 * extension[exerciseAssociation] ^short = "Exercise Association"
 * subject 1..1 MS
 * subject only Reference(USCorePatient)
-* valueQuantity only Quantity
+* value[x] only Quantity
 * valueQuantity MS
 * valueQuantity.value 1..1 MS
 * valueQuantity.unit 1..1 MS
