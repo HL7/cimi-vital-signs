@@ -5,9 +5,9 @@ Title: "Blood Pressure Panel"
 Description: "Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components."
 * extension contains
     ExtBodyPosition named bodyPosition 0..1 MS and
-    SleepStatus named sleepStatus 0..* MS and
-    ExerciseAssociationExt named exerciseAssociation 0..* MS and
-    MeasurementSettingExt named MeasurementSetting 0..* MS
+    SleepStatus named sleepStatus 0..1 MS and
+    ExerciseAssociationExt named exerciseAssociation 0..1 MS and
+    MeasurementSettingExt named MeasurementSetting 0..1 MS
 * extension[bodyPosition] ^short = "Body Position"
 * extension[bodyPosition].valueCodeableConcept from BodyPositionvalueset (extensible)
 * extension[sleepStatus] ^short = "Sleep Status"

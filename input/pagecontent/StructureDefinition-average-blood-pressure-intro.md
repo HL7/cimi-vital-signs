@@ -4,13 +4,11 @@ This blood pressure profile is used to capture the calculated average blood pres
 
 #### About the extensions
 
-The expectation for the extensions in this profile is that if populated, they qualify each of the individual measurements used to calculate the average blood pressure.  For example, if the body position give in an intance of the Average Blood Pressure profile is "sitting" then the body position for either the systolic or diastolic blood pressures is "sitting".
+The expectation for the extensions in this profile is that if populated, they qualify each of the individual measurements used to calculate the average blood pressure.  For example, if the body position give in an intance of the this profile is "sitting" then the body position for either the systolic or diastolic blood pressures is "sitting".
 
 Body Position - This is used to capture an individual's body position while taking a blood pressure.
 
 Exercise Association - This is used to capture an individual's excercise status while taking blood pressure.
-
-observation-deviceCode - This is an intentional separation from the Observation.device backbone element.  Used for when only a device type needs to be recorded without the use of another resource.  Because the values of this extension span both device type and cuff size, the cardinality of this element has been set to 0..2.
 
 Measurement Setting - This is used to capture the location (not body site) where the measurement(s) took place; At home, hospital, clinic, etc.
 

@@ -2,10 +2,10 @@ Profile: BodyTemperature
 Parent: BodyTemp
 Id: body-temperature
 Title: "Body Temperature"
-Description: "Body Temperature, the measured heat of an individual's body."
+Description: "The measured heat of an individual's body."
 * extension contains
     ExtDeviceCode named measurmentDevice 0..1 MS and
-    MeasurementSettingExt named MeasurementSetting 0..* MS
+    MeasurementSettingExt named MeasurementSetting 0..1 MS
 * extension[measurmentDevice].value[x] only CodeableConcept
 * extension[measurmentDevice].valueCodeableConcept from BodyTemperatureMeasurementDevicevalueset (extensible)
 * extension[measurmentDevice] ^short = "Measurement Device Type"

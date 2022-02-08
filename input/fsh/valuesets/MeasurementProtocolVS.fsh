@@ -1,5 +1,5 @@
 ValueSet: MeasurementProtocolVS
 Id: MeasurementProtocolVS
 Title: "Measurement Protocol value set"
-Description: "Temporary Solor extension SNOMED CT values."
-* APCTemporaryCodeSystem#AOBP "Automated office blood pressure protocol"
+Description: "Temporary cody system values that describe teh set of rules used for a given measurement procedure."
+* MeasurementProtocolTemporaryCodeSystem#AOBP "Automated office blood pressure protocol"

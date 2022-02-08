@@ -45,7 +45,7 @@ pages:
     title: Downloads
 menu:
   IG Home: index.html
-  Profiles & Extension: profiles.html
+  Profiles & Extensions: profiles.html
   Examples: all-examples.html
   Terminology: terminology.html
   Downloads: downloads.html

@@ -2,13 +2,14 @@ Profile: HeartRate
 Parent: CoreHeartRate
 Id: heart-rate
 Title: "Heart Rate"
-Description: "Heart Rate, the measured number of heart beats in a minute."
+Description: "The number of heart beats in a minute."
 * extension contains
     ExtDeviceCode named measurmentDevice 0..1 MS and
-    ExerciseAssociationExt named exerciseAssociation 0..* MS and
+    ExerciseAssociationExt named exerciseAssociation 0..1 MS and
     ExtBodyPosition named bodyPosition 0..1 MS and
-    MeasurementSettingExt named measurementSetting 0..* MS and
-    SleepStatus named sleepStatus 0..* MS
+    MeasurementSettingExt named measurementSetting 0..1 MS and
+    SleepStatus named sleepStatus 0..1 MS and
+    AssociatedSituationExt named associatedSituation 0..1 MS
 * extension[measurmentDevice].value[x] only CodeableConcept
 * extension[measurmentDevice].valueCodeableConcept from HeartRateMeasurementDevicevalueset (extensible)
 * extension[measurmentDevice] ^short = "Measurement Device Type"
@@ -17,6 +18,7 @@ Description: "Heart Rate, the measured number of heart beats in a minute."
 * extension[bodyPosition].valueCodeableConcept from BodyPositionvalueset (extensible)
 * extension[measurementSetting] ^short = "Measurement setting"
 * extension[sleepStatus] ^short = "Sleep Status"
+* extension[associatedSituation] ^short = "Associated Situation"
 * status MS
 * code ^short = "Heart rate"
 * subject 1..1 MS
@@ -38,5 +40,3 @@ Description: "Heart Rate, the measured number of heart beats in a minute."
 * bodySite from HeartRateMeasurementBodyLocationPrecoordinatedvalueset (extensible)
 * method MS
 * method from HeartRateMeasurementMethodvalueset (extensible)
-* device 0..1 MS
-* device only Reference(Device or DeviceMetric or BloodPressureDevice)

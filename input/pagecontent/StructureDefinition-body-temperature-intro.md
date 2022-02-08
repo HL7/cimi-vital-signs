@@ -1,6 +1,6 @@
 ### Scope
 
-The temperature profile contains one observation, temperature. In addition, the temperature profile contains the following qualifying observations with associated SNOMED CT value sets: observation-deviceCode and MeasurementSetting.
+The Body Temperature profile contains one observation, temperature. In addition, this profile contains the following qualifying observations with associated SNOMED CT value sets: observation-deviceCode and MeasurementSetting.
 
 #### Examples
 
@@ -54,8 +54,8 @@ The following examples are provided to illustrate conformant resource content to
 			  <td>Body temperature is taken, and the user records measurement method or instrument used to evaluate the temperature. It combines method and device values because they often overlap in EHR documentation systems.</td>
 			</tr>
 			<tr>
-			  <td><a href="ValueSet-bodyTempMeasBodyLocationPrecoordVS.html">Body Temperature Measurement Site value set</a></td>
-			  <td>This value set a constrained list of body location values used to result the body location where a body temperature was measured, referencing the SNOMED Code 1520000000000 "Body temperature measurement site (observable entity)" and the LOINC term "Body temperature measurement site", 8327-9.</td>
+			  <td><a href="ValueSet-bodyTempMeasBodyLocationPrecoordVS.html">Body Temperature Measurement Body Location value set</a></td>
+			  <td>SELECT SNOMED CT code system values that describe where on the body the temperature was measured.</td>
 			</tr> 
 		</tbody>
 	</table>

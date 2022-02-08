@@ -72,16 +72,15 @@ Usage: #example
 * issued = "2019-10-16T12:12:29-10:00"
 * performer.display = "OldMan 1234"
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
-* method = SCT#37931006 "Auscultation"
 * device = Reference(BPDevice2-example)
 * component[0].code = LNC#96608-5 "Systolic blood pressure unspecified time mean"
 * component[=].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[+].code = LNC#96609-3 "Diastolic blood pressure unspecified time mean"
 * component[=].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: BPDevice-example
+Instance: BPDevice1-example
 InstanceOf: BloodPressureDevice
-Description: "Blood Pressure Device example"
+Description: "Blood Pressure Device example 1"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/us/vitals/StructureDefinition/bp-cuff-size-ext"
 * extension.valueCodeableConcept = SCT#720736009 "Blood pressure cuff, pediatric size (physical object)"
@@ -114,7 +113,7 @@ Usage: #example
 * issued = "2019-10-16T12:12:29-10:00"
 * performer.display = "A. Pediatrician6"
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
-* device = Reference(BPDevice-example)
+* device = Reference(BPDevice1-example)
 * component[SystolicBP].code.coding.code = LNC#8480-6 "Systolic blood pressure"
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code.coding.code = LNC#8462-4 "Diastolic blood pressure"
@@ -153,7 +152,7 @@ InstanceOf: BodyTemperature
 Description: "Body Temperature example"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/StructureDefinition/observation-deviceCode"
-* extension.valueCodeableConcept = SCT#260548002 "Oral"
+* extension.valueCodeableConcept = SCT#448349000 "Tympanic thermometer (physical object)"
 * status = #final
 * category = ObsCat#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
@@ -182,7 +181,6 @@ Usage: #example
 * encounter.display = "GP Visit"
 * effectiveDateTime = "2019-10-16T12:12:29-09:00"
 * valueQuantity = 25 'kg' "kg"
-* method = SCT#258104002 "Measured"
 
 Instance: headCircumference-example
 InstanceOf: HeadOccipitalFrontalCircumference
@@ -218,7 +216,7 @@ Usage: #example
 * valueQuantity.value = 120
 * valueQuantity.unit = #'/min' "{Beats}/min"
 * bodySite = SCT#368505008 "Structure of right ulnar artery"
-* method = SCT#246263003 "Impedance"
+* method = SCT#268447006 "Doppler studies (procedure)"
 
 Instance: height-example
 InstanceOf: Height
@@ -236,7 +234,6 @@ Usage: #example
 * encounter.display = "GP Visit"
 * effectiveDateTime = "2019-10-16T12:12:29-09:00"
 * valueQuantity = 102 'cm' "cm"
-* method = SCT#258104002 "Measured"
 
 Instance: oxygenSaturation-example
 InstanceOf: OxygenSaturationArterialBlood
@@ -257,7 +254,7 @@ InstanceOf: OxygenSaturationArterialBloodPulseOx
 Description: "Oxygen Saturation via Pulse Oximetry example"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/us/vitals/StructureDefinition/SensorDescriptionExt"
-* extension.valueCodeableConcept = SCT#462664005 "Pulse oximeter probe, single-use"
+* extension.valueCodeableConcept = SCT#706202002 "Pulse oximeter probe (physical object)"
 * status = #final
 * category = ObsCat#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
@@ -286,7 +283,7 @@ Usage: #example
 * effectiveDateTime = "2019-10-16T12:12:29-09:00"
 * valueQuantity.value = 79
 * valueQuantity.unit = #'/min' "{breaths}/min"
-* method = SCT#258104002 "Measured"
+* method = SCT#32750006 "Inspection (procedure)"
 
 Instance: TwentyFourHourBloodPressure-example
 InstanceOf: TwentyFourHourBloodPressure

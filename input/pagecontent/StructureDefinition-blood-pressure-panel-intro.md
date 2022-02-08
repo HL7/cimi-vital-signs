@@ -4,7 +4,7 @@ The Blood Pressure Panel profile contains three observations, systolic, diastoli
 
 #### About the extensions
 
-In addition, the Blood Pressure Panel profile contains the following qualifying observations (extensions) with associated SNOMED CT value sets:
+In addition, This profile contains the following qualifying observations (extensions) with associated SNOMED CT value sets:
 
 Body Position - This is used to capture an individual's body position while taking a blood pressure.  Usually "sitting".
 
@@ -16,7 +16,7 @@ Sleep Status - This is used to capture whether or not the measurement was taken 
 
 #### Observation.device
 
-The Blood Pressure Panel profile references a BPDevice profile of the Device resource in Observation.device.  The BPDevice profile is designed to be used specifically for blood pressure observations and includes an extension for Blood Pressure Cuff Size.
+This profile references a Blood Pressure Device profile of the Device resource in Observation.device.  The Blood Pressure Device profile is designed to be used specifically for blood pressure observations and includes an extension for Blood Pressure Cuff Size.
 
 #### About Mean Arterial Pressure
 
@@ -170,10 +170,6 @@ The following examples are provided to illustrate conformant resource content to
 			  <td>This value set contains values used to indicate the state of wakefulness during measurement.  This is used in the SleepStatusExt extension.</td>
 			</tr>
 			<tr>
-			  <td><a href="ValueSet-MeasurementProtocolVS.html">Measurement Protocol value set</a></td>
-			  <td>This value set is to result the Measurement Protocol extension.</td>
-			</tr>
-			<tr>
 			  <td><a href="ValueSet-MeasSettingVS.html">Measurement Setting value set</a></td>
 			  <td>This value set is used to result the Measurement Setting extension.</td>
 			</tr>
@@ -197,7 +193,7 @@ The following examples are provided to illustrate conformant resource content to
 
 - Body Position extension
 - Exercise Association extension
-- Observation.device (reference to BPDevice profile)
+- Observation.device (reference to Blood Pressure Device profile)
 - Sleep Status extension
 - Measurement Setting extension
 - all components, including component.code and component.valueQuantity (value, unit, system, and code) 

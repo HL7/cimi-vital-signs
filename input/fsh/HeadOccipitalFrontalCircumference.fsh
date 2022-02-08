@@ -1,10 +1,9 @@
 Profile: HeadOccipitalFrontalCircumference
-Parent: HeadCirc
+Parent: VitalSigns
 Id: head-occipital-frontal-circumference
-Title: "Head Occipital-Frontal Circumference"
-Description: "Head Occipital/Frontal Circumference by Tape Measure, the measured length around and individual's head via a tape measure."
+Title: "Head Occipital-Frontal Circumference by Tape Measure"
+Description: "The measured length around and individual's head via a tape measure using the frontal-occipital plane."
 * status MS
-* code 1..1 MS
 * code = LNC#8287-5
 * code ^short = "Head Occipital-frontal circumference by Tape measure"
 * subject 1..1 MS
@@ -21,4 +20,5 @@ Description: "Head Occipital/Frontal Circumference by Tape Measure, the measured
 * valueQuantity.code only code
 * valueQuantity.code from LengthUOMVS (required)
 * dataAbsentReason MS
-* interpretation from NumericResultInterpretationNom (extensible)
+* interpretation from NumericResultInterpretationNonPanic (extensible)
+* method 0..0

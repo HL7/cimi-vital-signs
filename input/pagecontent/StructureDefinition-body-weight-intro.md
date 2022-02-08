@@ -1,6 +1,6 @@
 ### Scope
 
-The Body Weight profile contains one observation, body weight. In addition, the profile contains the following qualifying observations with associated SNOMED CT value sets: observation-deviceCode, AssociatedSituation, MeasurmentSetting.
+The Body Weight profile contains one observation, body weight. In addition, the profile contains the following qualifying observations with associated SNOMED CT value sets: observation-deviceCode, AssociatedSituation, MeasurementSetting.
 
 #### Examples
 
@@ -54,7 +54,7 @@ The following examples are provided to illustrate conformant resource content to
 		<tbody>
 			<tr>
 			  <td><a href="ValueSet-weightMeasurementDeviceVS.html">Weight Measurement Device value set</a></td>
-			  <td>This value set contains concepts used to result the type of instrument used to measure a body weight, referencing the LOINC term "XXX" (need LOINC).</td>
+			  <td>This value set contains concepts used to result the type of instrument used to measure a body weight, referencing the LOINC term 8356-8 Type of Weighing device.</td>
 			</tr>
 			<tr>
 			  <td><a href="ValueSet-AssociatedSituationVS.html">Associated Situation value set</a></td>

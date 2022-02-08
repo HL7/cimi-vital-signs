@@ -2,10 +2,10 @@ Profile: BodyLength
 Parent: VitalSigns
 Id: body-length
 Title: "Body Length"
-Description: "Body Length, the measured length of an individual's body.  This measurement is usually taken while lying down."
+Description: "The measurement in centimeters or inches from the top of the head to bottom of the heel, taken while lying down."
 * extension contains
     ExtDeviceCode named measurementDevice 0..1 MS and
-    MeasurementSettingExt named MeasurementSetting 0..* MS
+    MeasurementSettingExt named MeasurementSetting 0..1 MS
 * extension[measurementDevice].value[x] only CodeableConcept
 * extension[measurementDevice].valueCodeableConcept from HeightLengthMeasurementDevicevalueset (extensible)
 * extension[measurementDevice] ^short = "Measurement Device Type"
@@ -27,5 +27,5 @@ Description: "Body Length, the measured length of an individual's body.  This me
 * valueQuantity.code only code
 * valueQuantity.code from LengthUOMVS (extensible)
 * dataAbsentReason MS
-* interpretation from NumericResultInterpretationNom (extensible)
+* interpretation from NumericResultInterpretationNonPanic (extensible)
 * method from HeightLengthMeasurementMethodvalueset (extensible)

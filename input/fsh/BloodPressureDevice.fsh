@@ -2,7 +2,7 @@ Profile: BloodPressureDevice
 Parent: Device
 Id: bp-device
 Title: "Blood Pressure Device"
-Description: "A specialized profile of the Device resource specifically for blood pressure devices"
+Description: "A profile of the Device resource used specifically for blood pressure devices and includes an extension for blood pressure cuff size."
 * extension contains 
     BloodPressureCuffSizeExt named cuffSize 0..*
 * extension[cuffSize] ^short = "Cuff Size"

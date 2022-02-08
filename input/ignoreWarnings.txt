@@ -9,24 +9,8 @@ US FHIR Usage rules require that all profiles on Observation derive from one of 
 # US Core does not define an extension for this.
 The Implementation Guide contains no examples for this extension
 
-# The Average Blood Pressure example uses this extension as an example.
-The Implementation Guide contains no examples for this extension
-
-# These Snomed CT terms are valid
-The code 118643004 is not valid in the system http://snomed.info/sct
-The code 257308009 is not valid in the system http://snomed.info/sct
-The code 53350007 is not valid in the system http://snomed.info/sct
-The code 248160001 is not valid in the system http://snomed.info/sct
-The code 285201006 is not valid in the system http://snomed.info/sct
-The code 264362003 is not valid in the system http://snomed.info/sct
-The code 257585005 is not valid in the system http://snomed.info/sct
-
-# The ISO codes system 3166 is known.
-Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-
 # This is a temporary codes sytem and will be replaced if/when values are added to appropriate codes system.
 Error from server: Unable to provide support for code system http://hl7.org/fhir/us/vitals/CodeSystem/SolorTemporaryCodeSystem
-Error from server: Unable to provide support for code system http://hl7.org/fhir/us/vitals/CodeSystem/APCTemporaryCodeSystem
 
 # No example will be created for this since its members will all have examples.
 The Implementation Guide contains no examples for this profile

@@ -2,7 +2,7 @@ Profile: VitalSignsPanel
 Parent: VitalsPan
 Id: vital-signs-panel
 Title: "Vital Signs Panel"
-Description: "Vital Signs Panel; a grouping of the vital signs elements."
+Description: "A vital signs panel as defined by Logica Health.  It includes Oxygen Saturation via Pulse Oximetry, Oxygen Saturation in Arterial blood, body height, body length, body weight, body temperature, blood pressure panel, heart rate, respiratory rate, head-occcipital/frontal circumference, oxygen saturation via pulse oximetry, and body mass index."
 * status MS
 * code = LNC#85353-1
 * code MS

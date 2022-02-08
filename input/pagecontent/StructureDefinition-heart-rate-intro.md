@@ -1,10 +1,10 @@
 ﻿### Scope
 
-The Heart Rate profile contains one observation, heart rate. In addition, the heart rate profile contains the following qualifying observations with associated SNOMED CT value sets: Body Position, observation-deviceCode, Exercise Association, SleepStatus, and MeasurementSetting.
+The Heart Rate profile contains one observation, heart rate. In addition, this profile contains the following qualifying observations with associated SNOMED CT value sets: Body Position, observation-deviceCode, Exercise Association, SleepStatus, and MeasurementSetting.
 
 *Note*
 
-Many times Heart Rate is measured at the same time as a blood pressure, using a blood pressure device.  Although this profile does not constrain the Observation.device element to the [BPDevice profile](StructureDefinition-bp-device.html) as we did for the blood pressure profiles, it may be used to record the blood pressure device used to obtain the heart rate.  This constraint was not made due to the fact that there are many devices primarily used for other measurements (e.g. blood pressure, oxygen saturation via pulse oximetry) that could also measure a heart rate.  Constraining Observation.device to BPDevice would falsely limit it.
+Many times Heart Rate is measured at the same time as a blood pressure, using a blood pressure device.  Although this profile does not constrain the Observation.device element to the [Blood Pressure Device profile](StructureDefinition-bp-device.html) as we did for the blood pressure profiles, it may be used to record the blood pressure device used to obtain the heart rate.  This constraint was not made due to the fact that there are many devices primarily used for other measurements (e.g. blood pressure, oxygen saturation via pulse oximetry) that could also measure a heart rate.  Constraining Observation.device to Blood Pressure Device would falsely limit it.
 
 #### Examples
 
@@ -97,7 +97,7 @@ The following examples are provided to illustrate conformant resource content to
 			  <td>This value set contains concepts used to result the type of device used to measure a heart rate, referencing the LOINC term "Type of Heart rate device" 8887-2.</td>
 			</tr>
 			<tr>
-			  <td><a href="ValueSet-heartRateMeasBodyLocationPrecoordVS.html">Heart Rate Measurement Body Location value set</a></td>
+			  <td><a href="ValueSet-heartRateMeasBodyLocationPrecoordVS.html">Heart Rate Measurement Body Location Precoordinated value set</a></td>
 			  <td>This value set contains a constrained list body location values used to result the body location where a heart rate was measured, referencing the LOINC term "Heart rate measurement site", 41904-4.</td>
 			</tr>
 			<tr>

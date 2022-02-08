@@ -6,6 +6,6 @@ This profile is used specifically for blood pressure measurements.  It incorpora
 
 The following examples are provided to illustrate conformant resource content to this profile.
 
-[Blood Pressure Device Example 1](Device-BPDevice-example.html)
+[Blood Pressure Device Example 1](Device-BPDevice1-example.html)
 
 [Blood Pressure Device Example 2](Device-BPDevice2-example.html)

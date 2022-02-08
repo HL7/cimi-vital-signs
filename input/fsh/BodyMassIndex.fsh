@@ -2,9 +2,9 @@ Profile: BodyMassIndex
 Parent: BMI 
 Id: body-mass-index
 Title: "Body Mass Index"
-Description: "Body Mass Index, the measurement of body fat based on an individual's height and weight and given as a ration of kilograms per square meter."
+Description: "A numerical index based on an individual's weight in kilograms divided by the square of their height in meters."
 * extension contains 
-    MeasurementSettingExt named MeasurementSetting 0..* MS
+    MeasurementSettingExt named MeasurementSetting 0..1 MS
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * status MS
 * subject 1..1 MS
@@ -21,4 +21,4 @@ Description: "Body Mass Index, the measurement of body fat based on an individua
 * valueQuantity.code only code
 * valueQuantity.code = UCUM#kg/m2 (exactly)
 * dataAbsentReason MS
-* interpretation from NumericResultInterpretationNom (extensible)
+* interpretation from NumericResultInterpretationNonPanic (extensible)

@@ -14,7 +14,7 @@ Description: "The size of pressure cuff used to measure blood pressure."
 Extension: ExerciseAssociationExt
 Id: ExerciseAssociationExt
 Title: "Exercise Association"
-Description: "The type of exercise being done when the blood pressure was measured."
+Description: "The exercise state associated with the measurement."
 * valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from ExertionPhaseVS (extensible)
 
@@ -42,6 +42,6 @@ Description: "The kind of sensor used to measure the oxygen saturation."
 Extension: SleepStatus
 Id: SleepStatusExt
 Title: "Sleep Status"
-Description: "The state of sleep of the patient."
+Description: "The state of wakefulness during the measurement."
 * valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from SleepStatusvalueset (extensible)

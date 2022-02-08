@@ -2,12 +2,12 @@ Profile: AverageBloodPressure
 Parent: VitalSigns
 Id: average-blood-pressure
 Title: "Average Blood Pressure"
-Description: "The average of a set of blood pressure measurements. The number of measurements and time period in which they are taken are determined by the institution or protocol."
+Description: "A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component."
 * extension contains
     ExtBodyPosition named BodyPosition 0..1 MS and
-    ExerciseAssociationExt named exerciseAssociation 0..* MS and
-    MeasurementSettingExt named MeasurementSetting 0..* MS and
-    MeasurementProtocol named MeasurementProtocol 0..* MS
+    ExerciseAssociationExt named exerciseAssociation 0..1 MS and
+    MeasurementSettingExt named MeasurementSetting 0..1 MS and
+    MeasurementProtocol named MeasurementProtocol 0..1 MS
 * extension[BodyPosition] ^short = "Body Position"
 * extension[exerciseAssociation] ^short = "Exercise Association"
 * extension[MeasurementSetting] ^short = "Measurement setting"

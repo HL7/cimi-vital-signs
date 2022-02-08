@@ -1,7 +1,7 @@
 ValueSet: BloodPressureMeasurementBodyLocationPrecoodinated
 Id: bpmeasbodylocationprecoord
 Title: "Blood Pressure Measurement Body Location Precoordinated value set"
-Description: "SELECT SNOMED CT code system values."
+Description: "SELECT SNOMED CT code system values that describe the location on the body where the blood pressure was measured."
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SNOMED_CT#49256001 "Structure of dorsal digital artery of foot (body structure)"
 * SNOMED_CT#368469003 "Structure of proper volar digital arteries (body structure)"

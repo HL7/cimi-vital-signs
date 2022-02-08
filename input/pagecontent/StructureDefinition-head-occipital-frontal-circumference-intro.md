@@ -18,18 +18,9 @@ The measurement of the distance around an individual's head using the occipital-
 		<tbody>
 			<tr>
 			  <td>Observation.code</td>
-			  <td>Head Occipital-frontal circumference</td>
-			  <td>9843-4</td>
+			  <td>Head Occipital-frontal circumference by Tape measure</td>
+			  <td>8287-5</td>
 			  <td>LOINC</td>
-			</tr>
-			<tr>
-			  <td colspan="4"><i>Head circumference measurement device extension bindings</i></td>
-			</tr>
-			<tr>
-			  <td>Observation.extension(measurementDeviceExt).value</td>
-			  <td>Measuring tape</td>
-			  <td>5179100</td>
-			  <td>SNOMED CT Solor extension <br> VSAC</td>
 			</tr>
 		</tbody>
 	</table>

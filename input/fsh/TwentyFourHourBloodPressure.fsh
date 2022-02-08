@@ -5,11 +5,9 @@ Title: "Twenty Four Hour Blood Pressure"
 Description: "An average blood pressure (systolic and diastolic) over a twenty four hour period."
 * extension contains
     ExtBodyPosition named BodyPosition 0..1 MS and
-    ExerciseAssociationExt named exerciseAssociation 0..* MS and
-    MeasurementSettingExt named MeasurementSetting 0..* MS
+    MeasurementSettingExt named MeasurementSetting 0..1 MS
 * extension[BodyPosition] ^short = "Body Position"
 * extension[BodyPosition].valueCodeableConcept from BodyPositionvalueset (extensible)
-* extension[exerciseAssociation] ^short = "Exercise Association"
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * status MS
 * code = LNC#97844-5

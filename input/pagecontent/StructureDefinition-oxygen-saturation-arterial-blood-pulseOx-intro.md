@@ -53,7 +53,7 @@ The following examples are provided to illustrate conformant resource content to
 		</thead>
 		<tbody>
 			<tr>
-			  <td><a href="ValueSet-sensorDescriptionVS.html">Oxygen saturation sensor type reference set</a></td>
+			  <td><a href="ValueSet-sensorDescriptionVS.html">Sensor Description value set</a></td>
 			  <td>This reference set contains the instrument used when an oxygen saturation is measured in arterial blood by pulse oximetry, referencing the LOINC term "Oxygen Saturation Sensor Type" 73803-9</td>
 			</tr> 
 			<tr>

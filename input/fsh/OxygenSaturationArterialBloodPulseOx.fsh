@@ -2,11 +2,11 @@ Profile: OxygenSaturationArterialBloodPulseOx
 Parent: USCorePulsOx
 Id: oxygen-saturation-arterial-blood-pulseOx
 Title: "Oxygen Saturation in Arterial Blood by Pulse Oximetry"
-Description: "Oxygen Saturation in Arterial Blood via pulse oximetry."
+Description: "A measurement of the percentage to which oxygen is bound to hemoglobin in arterial blood via pulse oximetry."
 * extension contains
     SensorDescription named sensorDescription 0..* MS and
-    MeasurementSettingExt named MeasurementSetting 0..* MS and
-    ExerciseAssociationExt named exerciseAssociation 0..* MS
+    MeasurementSettingExt named MeasurementSetting 0..1 MS and
+    ExerciseAssociationExt named exerciseAssociation 0..1 MS
 * extension[sensorDescription] ^short = "Sensor Description"
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * extension[exerciseAssociation] ^short = "Exercise Association"
@@ -23,9 +23,9 @@ Description: "Oxygen Saturation in Arterial Blood via pulse oximetry."
 * valueQuantity.code only code
 * valueQuantity.code = UCUM#% (exactly)
 * dataAbsentReason MS
-* interpretation 0..1
+* interpretation 0..1 MS
 * interpretation only CodeableConcept
-* interpretation from NumericResultInterpretationNom (extensible)
+* interpretation from LowOnlyNumericResultInterpretationNom (extensible)
 * bodySite MS
 * bodySite from OxygenSaturationBodyLocationvalueset (extensible)
 

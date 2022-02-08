@@ -1,20 +1,9 @@
-CodeSystem: APCTemporaryCodeSystem
-Id: APCTemporaryCodeSystem
-Title: "Associated Precondition Temporary Code System"
+CodeSystem: MeasurementProtocolTemporaryCodeSystem
+Id: MeasurementProtocolTemporaryCodeSystem
+Title: "Measurement Protocol Temporary Code System"
 Description: "This is a temporary code system for terms that are not yet defined in either SNOMED CT nor Solor.  This will be deprecated when the terms are defined in either of those systems."
 * ^caseSensitive = false
-* #AFAN "After anesthesia" "An indication that a procedure, event, or other took place after the administration of anesthesia."
-* #BFAN "Before anesthesia" "An indication that a procedure, event, or other took place before the administration of anesthesia."
-* #DUAN "During anesthesia" "An indication that a procedure, event, or other took place during the administration of anesthesia."
-* #AFAE "After apneic episode" "An indication that a procedure, event, or other took place after an episode of apnea."
-* #BFAE "Before apneic episode" "An indication that a procedure, event, or other took place before an episode of apnea."
-* #DUAE "During apneic episode" "An indication that a procedure, event, or other took place during an episode of apnea."
-* #AFCV "After cardioversion" "An indication that a procedure, event, or other took place after a cardioversion procedure."
-* #BFCV "Before cardioversion" "An indication that a procedure, event, or other took place just prior to a cardioversion procedure."
-* #AFCN "After Condition" "An indication that a procedure, event, or other took place after an identified condition."
-* #BFCN "Before Condition" "An indication that a procedure, event, or other took place before an identified condition."
-* #DUCN "During Condition" "An indication that a procedure, event, or other took place during an identified condition."
-* #AOBP "Automated office blood pressure protocol"
+* #AOBP "Automated office blood pressure protocol" "A blood pressure measurement method using an automated oscillometeric sphygmomanometer with the patient resting and alone in a quite place."
 
 CodeSystem: OrganizationHSPCOrganizationType
 Id: organization-hspc-organizationtype
