@@ -1,0 +1,14 @@
+/temp**
+/template**
+/input-cache**
+/output
+# ig.ini
+Thumbs.db
+/package.json
+/package-list-old.json
+logfile.txt
+.DS_Store
+SUSHI-GENERATED-FILES.md
+*.jar
+
+/fsh-generated**
