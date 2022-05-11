@@ -16,9 +16,6 @@ The Implementation Guide contains no examples for this profile
 The code 24781000205105 is not valid in the system http://snomed.info/sct
 The code 24791000205107 is not valid in the system http://snomed.info/sct
 
-# The codes are provided for exmaples only.
-A code with no system has no defined meaning. A system should be provided
-
 # This name is capable of being used as an identifier.
 ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 

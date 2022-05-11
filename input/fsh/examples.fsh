@@ -2,7 +2,7 @@ Instance: patient-example
 InstanceOf: USCorePatient
 Description: "Patient example"
 Usage: #example
-* meta.security = #HTEST "test health data"
+* meta.security = EX#HTEST "test health data"
 * extension[0].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
 * extension[=].extension[0].url = "ombCategory"
 * extension[=].extension[=].valueCoding = urn:oid:2.16.840.1.113883.6.238#2106-3 "White"
@@ -20,7 +20,7 @@ Usage: #example
 * extension[+].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
 * extension[=].valueCode = #F
 * identifier.use = #usual
-* identifier.type = #MR "Medical record number"
+* identifier.type = EX#MR "Medical record number"
 * identifier.type.text = "Medical Record Number"
 * identifier.system = "http://hospital.smarthealthit.org"
 * identifier.value = "1032702"
@@ -45,7 +45,7 @@ Instance: practitioner-example
 InstanceOf: USCorePractitioner
 Description: "Practitioner example"
 Usage: #example
-* meta.security = #HTEST "test health data"
+* meta.security = EX#HTEST "test health data"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "9941339108"
 * name.family = "Bone"

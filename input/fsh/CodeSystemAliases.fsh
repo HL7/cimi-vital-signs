@@ -33,3 +33,4 @@ Alias:   CVX = http://hl7.org/fhir/sid/cvx
 Alias:   STATUS = http://hl7.org/fhir/ValueSet/observation-status
 Alias:   CondCat = http://terminology.hl7.org/CodeSystem/condition-category
 Alias:   DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
+Alias:   EX = http://example.org
