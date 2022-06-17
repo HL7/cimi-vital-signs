@@ -5,9 +5,19 @@
   "introduction": "The scope of this project is to produce and ballot a Standard for Trial Use (STU) Fast Healthcare Interoperability Resources (FHIR) implementation guide (IG) for use in reporting vital signs observations with qualifying extensions.  Such as cuff size, clothing worn during measure, etc.",
   "list": [
     
+
+    {
+      "version": "1.0.0",
+      "fhirversion": "4.0.1",
+      "date": "2022-06-10",
+      "desc": "STU 1 release",
+      "path": "http://hl7.org/fhir/us/vitals/STU1",
+      "status": "trial-use",
+      "sequence": "STU1"
+    },
     {
       "version": "0.2.0",
-      "fhir-vsersion": "4.0.1",
+      "fhirversion": "4.0.1",
       "date": "2022-01-19",
       "desc": "STU 1 release",
       "path": "http://hl7.org/fhir/us/vitals/STU1",

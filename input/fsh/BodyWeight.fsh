@@ -11,7 +11,7 @@ Description: "The measured mass of an individual's body."
 * extension[measurmentDevice].valueCodeableConcept from WeightMeasurementDevice (extensible)
 * extension[measurmentDevice] ^short = "Measurement Device Type"
 * extension[associatedSituation].value[x] only CodeableConcept
-* extension[associatedSituation].valueCodeableConcept  from AssociatedSituationvalueset (extensible)
+* extension[associatedSituation].valueCodeableConcept  from BodyWeightAssociatedSituationvalueset (extensible)
 * extension[associatedSituation] ^short = "Associated Situation"
 * extension[measurementSetting] ^short = "Measurement setting"
 * status MS

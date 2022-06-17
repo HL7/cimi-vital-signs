@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/vitals/2020Sep" ciUrl="http://build.fhir.org/ig/HL7/vitals" defaultVersion="0.2.0" defaultWorkgroup="cimi" gitUrl="https://github.com/HL7/cimi-vital-signs" url="http://hl7.org/fhir/us/vitals">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/vitals/2020Sep" ciUrl="http://build.fhir.org/ig/HL7/vitals" defaultVersion="1.0.0" defaultWorkgroup="cimi" gitUrl="https://github.com/HL7/cimi-vital-signs" url="http://hl7.org/fhir/us/vitals">
+<version code="1.0.0" url="http://hl7.org/fhir/us/vitals/STU1"/>
 <version code="0.2.0" url="http://hl7.org/fhir/us/vitals/STU1"/>
 <version code="0.1" url="http://hl7.org/fhir/us/vitals/2020Sep"/>
 <version code="current" url="http://build.fhir.org/ig/HL7/vitals"/>
@@ -8,7 +9,7 @@
 <artifactPageExtension value="-mappings"/>
 <artifact deprecated="true" id="CodeSystem/APCTemporaryCodeSystem" key="CodeSystem-APC-Temporary-Code-System" name="Associated Precondition Temporary Code System"/>
 <artifact id="StructureDefinition/AssociatedSituationExt" key="StructureDefinition-AssociatedSituationExt" name="Associated Situation"/>
-<artifact id="ValueSet/AssociatedSituationVS" key="ValueSet-AssociatedSituationVS" name="Associated Situation value set"/>
+<artifact id="ValueSet/BodyWeightAssociatedSituationVS" key="ValueSet-AssociatedSituationVS" name="Associated Situation value set"/>
 <artifact id="StructureDefinition/average-blood-pressure" key="Observation-Average-Blood-Pressure" name="Average Blood Pressure"/>
 <artifact id="Observation/AverageBloodPressure-example" key="Observation-AverageBloodPressure-example" name="AverageBloodPressure-example"/>
 <artifact deprecated="true" id="Device/BPDevice-example" key="Device-BPDevice-example" name="BPDevice-example"/>
@@ -70,6 +71,7 @@
 <artifact id="Observation/TwentyFourHourBloodPressure-example" key="Observation-TwentyFourHourBloodPressure-example" name="TwentyFourHourBloodPressure-example"/>
 <artifact deprecated="true" id="ValueSet/vitalSignAssociatedPrecondVS" key="ValueSet-vital-Sign-Associated-Precond-VS" name="Vital Sign Associated Precondition value set"/>
 <artifact id="StructureDefinition/vital-signs-panel" key="Observation-Vital-Signs-Panel" name="Vital Signs Panel"/>
+<artifact id="Observation/VitalSignsPanel-example" key="Observation-VitalSignsPanel-example" name="VitalSignsPanel-example"/>
 <artifact id="ValueSet/weightMeasurementDeviceVS" key="ValueSet-weight-Measurement-Device-VS" name="Weight Measurement Device value set"/>
 <artifact id="ValueSet/WeightUOMVS" key="ValueSet-WeightUOMVS" name="Weight Units of Measure value set"/>
 <artifact deprecated="true" id="ValueSet/abn-Int-Numeric-Nom-VS" key="ValueSet-abn-Int-Numeric-Nom-VS" name="abnIntNumericNomVS"/>

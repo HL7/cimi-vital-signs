@@ -57,7 +57,7 @@ The following examples are provided to illustrate conformant resource content to
 			  <td>This value set contains concepts used to result the type of instrument used to measure a body weight, referencing the LOINC term 8356-8 Type of Weighing device.</td>
 			</tr>
 			<tr>
-			  <td><a href="ValueSet-AssociatedSituationVS.html">Associated Situation value set</a></td>
+			  <td><a href="ValueSet-BodyWeightAssociatedSituationVS.html">Body Weight Associated Situation value set</a></td>
 			  <td>This value set contains concepts used to result the amount of clothing worn during the measure, referencing the SNOMED Code 248159006 "State of dress (observable entity)" and the LOINC term "Clothing worn during measure” 8352-7.</td>
 			</tr>
 		</tbody>

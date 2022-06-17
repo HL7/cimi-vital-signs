@@ -20,12 +20,11 @@ Description: "A vital signs panel as defined by Logica Health.  It includes Oxyg
 * referenceRange 0..0
 * component 0..0
 * hasMember ^slicing.discriminator.type = #profile
-* hasMember ^slicing.discriminator.path = "hasmember.reference.resolve"
+* hasMember ^slicing.discriminator.path = "resolve()"
 * hasMember ^slicing.rules = #closed
 * hasMember ^slicing.ordered = false
 * hasMember contains
     OxygenSaturationArterialBloodPulseOx 0..1 and
-    OxygenSaturationArterialBlood 0..1 and
     BodyWeight 0..1 and
     HeadOccipitalFrontalCircumference 0..1 and
     Height 0..1 and
@@ -36,7 +35,6 @@ Description: "A vital signs panel as defined by Logica Health.  It includes Oxyg
     RespiratoryRate 0..1 and
     BodyMassIndex 0..1
 * hasMember[OxygenSaturationArterialBloodPulseOx] only Reference(OxygenSaturationArterialBloodPulseOx)
-* hasMember[OxygenSaturationArterialBlood] only Reference(OxygenSaturationArterialBlood)
 * hasMember[BodyWeight] only Reference(BodyWeight)
 * hasMember[HeadOccipitalFrontalCircumference] only Reference(HeadOccipitalFrontalCircumference)
 * hasMember[Height] only Reference(Height)

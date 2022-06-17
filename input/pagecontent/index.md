@@ -87,14 +87,14 @@ Link to the formal definition views for the vital signs listed in this table.
       <tr>
 		<td><a href="StructureDefinition-average-blood-pressure.html" target="_blank">Average Blood Pressure&nbsp;&nbsp;</a></td>
         <td><a href="https://loinc.org/96607-7/" target="_blank">&nbsp;&nbsp;96607-7&nbsp;&nbsp;</a></td>
-        <td>Currently there are no LOINC codes to assign to this profile nor its components.  They have been requested and will replace the SCT code when released.  The Observation.code and Observation.component.code (both components) have been assigned to SNOMED CT Observable Entity codes.</td>
+        <td>Blood pressure panel unspecified time mean.  This observations will have components of Systolic (LOINC code 96608-5) and Diastolic (LOINC code 96609-3) average blood pressures over an unspecified period of time.</td>
         <td>-</td>
 		<td><a href="Observation-AverageBloodPressure-example.html" target="_blank">Average Blood Pressure Example&nbsp;&nbsp;</a></td>
       </tr>
       <tr>
         <td><a href="StructureDefinition-twenty-four-hour-blood-pressure.html" target="_blank">24 hour blood pressure&nbsp;&nbsp;</a></td>
         <td><a href="https://loinc.org/97844-5/" target="_blank">&nbsp;&nbsp;97844-5&nbsp;&nbsp;</a></td>
-        <td>Currently there isn't a LOINC code for this profile. One has been requested and will replace the SCT code when released.  There are LOINC codes for its components.</td>
+        <td>Blood pressure panel 24 hour mean.  This observation has components of Systolic (LOINC code 8490-5) and Diastolic (LOINC code 8472-3) average blood pressures over a 24 hour period.</td>
         <td>-</td>
         <td><a href="Observation-TwentyFourHourBloodPressure-example.html" target="_blank">24 hour blood pressure Example&nbsp;&nbsp;</a></td>
       </tr>

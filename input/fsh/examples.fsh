@@ -63,6 +63,8 @@ Description: "Average Blood Pressure example"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"
 * extension.valueCodeableConcept = SCT#264362003 "Home (environment)"
+* extension.url = "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementProtocolExt"
+* extension.valueCodeableConcept = MeasurementProtocolTemporaryCodeSystem#AOBP "Automated office blood pressure protocol"
 * status = #final
 * category = ObsCat#vital-signs "Vital Signs"
 * code = LNC#96607-7 "Blood pressure panel unspecified time mean"
@@ -258,7 +260,7 @@ Usage: #example
 * status = #final
 * category = ObsCat#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
-* code.coding = #2708-6 "Oxygen saturation in Arterial blood"
+//* code.coding = #2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[PulseOx] = #59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
 * subject.display = "Small Child1234"
 * encounter.display = "GP Visit"
@@ -306,3 +308,27 @@ Usage: #example
 * component[=].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[+].code = LNC#8472-3 "Diastolic blood pressure 24 hour mean"
 * component[=].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
+
+Instance: VitalSignsPanel-example
+InstanceOf: VitalSignsPanel
+Description: "Vital Signs Panel example"
+Usage: #example
+* status = #final
+* category = ObsCat#vital-signs "Vital Signs"
+* category.text = "Vital Signs"
+* code = LNC#85353-1 "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
+* subject.display = "OldMan 1234"
+* effectivePeriod.start = "2020-10-16T12:30:00+10:00"
+* effectivePeriod.end = "2020-10-17T12:30:00+10:00"
+* issued = "2020-10-17T12:35:00+10:00"
+* performer.display = "OldMan 1234"
+* hasMember[0] = Reference(oxygenSaturationPulseOx-example)
+* hasMember[+] = Reference(bodyWeight-example)
+* hasMember[+] = Reference(headCircumference-example)
+* hasMember[+] = Reference(height-example)
+* hasMember[+] = Reference(bodyLength-example)
+* hasMember[+] = Reference(bodyTemperature-example)
+* hasMember[+] = Reference(BloodPressurePanel-example)
+* hasMember[+] = Reference(heartRate-example)
+* hasMember[+] = Reference(respiratoryRate-example)
+* hasMember[+] = Reference(bmi-example)

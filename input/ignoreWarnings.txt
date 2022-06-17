@@ -1,23 +1,14 @@
 ﻿== Suppressed Messages ==
 
-# US Core has a profile of Device called Implantable Device.  This is a sibling profile and cannot be used as a base for our BP Device profile.
+# US Core has a profile of Device called Implantable Device.  This is a sibling profile and cannot be used as a base for our BP Device profile.  Variance approved by CGP on June 16, 2022, Jira id FHIR-37522.
 US FHIR Usage rules require that all profiles on Device derive from the core US profile
 
-# Using US Core version 3.1.1 which does not define specific profiles for vital signs.
+# Using US Core version 3.1.1 which does not define specific profiles for vital signs.  This applies to Vital Signs Panel, Average Blood Pressure, Blood Pressure Device, Blood Pressure Panel, Body Length, Body Mass Index, Body Temperature, Body Weight, Head Occipital-Frontal Circumference, Heart Rate, Height, Oxygen Saturation Arterial Blood, and Respiratory Rate.  Variance approved by CGP on June 16, 2022, Jira id FHIR-37522.
 US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-
-# US Core does not define an extension for this.
-The Implementation Guide contains no examples for this extension
-
-# No example will be created for this since its members will all have examples.
-The Implementation Guide contains no examples for this profile
 
 # These are Solor Snomed extension codes.
 The code 24781000205105 is not valid in the system http://snomed.info/sct
 The code 24791000205107 is not valid in the system http://snomed.info/sct
 
-# This name is capable of being used as an identifier.
-ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-
-# The value element has been constrained to quantity only for the following proifles; average blood pressure, blood pressure panel, body length, BMI, body temp., body weight, head circumference, heart rate, oxygen saturation in arterial blood, SPO2, respiratory rate, 24 hour blood pressure, and vital signs panel.
-The element Observation.component.value[x] has a binding, and has multiple types ([dateTime, boolean, string, SampledData, Quantity, Period, Ratio, integer, time, Range, CodeableConcept]). The binding will apply to all the types
+# Using a madeup system for example codes in the Patient and Provider examples.
+Code System URI 'http://example.org' is unknown so the code cannot be validated

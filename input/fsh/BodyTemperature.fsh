@@ -5,11 +5,15 @@ Title: "Body Temperature"
 Description: "The measured heat of an individual's body."
 * extension contains
     ExtDeviceCode named measurmentDevice 0..1 MS and
-    MeasurementSettingExt named MeasurementSetting 0..1 MS
+    MeasurementSettingExt named MeasurementSetting 0..1 MS and
+    AssociatedSituationExt named associatedSituation 0..1 MS
 * extension[measurmentDevice].value[x] only CodeableConcept
 * extension[measurmentDevice].valueCodeableConcept from BodyTemperatureMeasurementDevicevalueset (extensible)
 * extension[measurmentDevice] ^short = "Measurement Device Type"
 * extension[MeasurementSetting] ^short = "Measurement setting"
+* extension[associatedSituation].value[x] only CodeableConcept
+* extension[associatedSituation].valueCodeableConcept from BodyTempAssociatedSituationvalueset (example)
+* extension[associatedSituation] ^short = "Associated situation"
 * status MS
 * code ^short = "Body temperature"
 * subject 1..1 MS
