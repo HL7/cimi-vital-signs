@@ -75,7 +75,7 @@ Link to the formal definition views for the vital signs listed in this table.
         <td><a href="http://r.details.loinc.org/LOINC/85353-1.html?sections=Comprehensive" target="_blank">&nbsp;&nbsp;85353-1&nbsp;&nbsp;</a></td>
         <td>Vital signs, weight, height, head circumference, oxygen saturation and BMI panel - It represent a panel of vital signs listed in this table. All members of the   panel are optional and note that querying for the panel may miss individual results that are not part of the actual panel. When used, Observation.valueQuantity is not present; instead, related links (with   type=has-member) reference the vital signs observations (e.g. respiratory rate, heart rate, BP, etc.). This code replaces the deprecated code 8716-3 - Vital signs which is used in the Argonaut Data Query Implementation Guide.</td>
         <td>-</td>
-		<td>-</td>
+		<td><a href="Observation-VitalSignsPanel-example.html" target=" blank">Vital Signs Panel Example&nbsp;&nbsp;</a></td>
       </tr>
       <tr>
 		<td><a href="StructureDefinition-blood-pressure-panel.html" target="_blank">Blood Pressure Panel&nbsp;&nbsp;</a></td>
@@ -184,9 +184,9 @@ Link to the formal definition views for the vital signs listed in this table.
 
 * *Monique Van Berkum, AMA*
 * *Corey Smith, AMA*
-* *Nathan Davis, Intermountain Healthcare*
-* *Susan Matney, Intermountain Healthcare*
-* *Patrick Langford, Intermountain Healthcare*
+* *Nathan Davis, Graphite Health*
+* *Susan Matney, PhD*
+* *Patrick Langford, Graphite Health*
 
 ### Publisher
 
