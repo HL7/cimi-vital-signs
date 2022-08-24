@@ -67,7 +67,7 @@ Usage: #example
 * extension.valueCodeableConcept = MeasurementProtocolTemporaryCodeSystem#AOBP "Automated office blood pressure protocol"
 * status = #final
 * category = ObsCat#vital-signs "Vital Signs"
-* code = LNC#96607-7 "Blood pressure panel unspecified time mean"
+* code = LNC#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject.display = "OldMan 1234"
 * effectivePeriod.start = "2019-10-16T12:12:29-09:00"
 * effectivePeriod.end = "2019-10-16T12:42:29-09:00"
@@ -75,9 +75,9 @@ Usage: #example
 * performer.display = "OldMan 1234"
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * device = Reference(BPDevice2-example)
-* component[0].code = LNC#96608-5 "Systolic blood pressure unspecified time mean"
+* component[0].code = LNC#96608-5 "Systolic blood pressure mean"
 * component[=].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
-* component[+].code = LNC#96609-3 "Diastolic blood pressure unspecified time mean"
+* component[+].code = LNC#96609-3 "Diastolic blood pressure mean"
 * component[=].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
 Instance: BPDevice1-example
