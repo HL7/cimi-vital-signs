@@ -22,7 +22,7 @@
       "path": "http://hl7.org/fhir/us/vitals/STU1",
       "status": "trial-use",
       "sequence": "STU1"
-    },
+    },  
     {
       "version": "0.1",
       "fhirversion": "4.0.1",
