@@ -22,7 +22,16 @@
       "path": "http://hl7.org/fhir/us/vitals/STU1",
       "status": "trial-use",
       "sequence": "STU1"
-    },  
+    },      
+    {
+      "version": "0.2.0",
+      "fhirversion": "4.0.1",
+      "date": "2022-01-19",
+      "desc": "STU 1 release",
+      "path": "http://hl7.org/fhir/us/vitals/0.2.0",
+      "status": "trial-use",
+      "sequence": "STU1"
+    },
     {
       "version": "0.1",
       "fhirversion": "4.0.1",
