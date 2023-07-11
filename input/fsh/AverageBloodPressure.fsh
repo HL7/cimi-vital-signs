@@ -14,9 +14,9 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * extension[MeasurementProtocol] ^short = "Rules and algorithm for Average Blood Pressure calculation."
 * status MS
 * code = LNC#96607-7
-* code ^short = "Blood pressure panel unspecified time mean"
+* code ^short = "Blood pressure panel mean systolic and mean diastolic"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] 0..0
 * bodySite MS
