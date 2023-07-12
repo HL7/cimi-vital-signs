@@ -1,5 +1,5 @@
 Profile: BloodPressurePanel
-Parent: VitalSigns
+Parent: Observation
 Id: blood-pressure-panel
 Title: "Blood Pressure Panel"
 Description: "Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components."
@@ -14,10 +14,12 @@ Description: "Blood Pressure Panel; a grouping of systolic, diastolic, and mean 
 * extension[exerciseAssociation] ^short = "Exercise Association"
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * status MS
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
+* category.coding.code = ObsCat#vital-signs
 * code = LNC#85354-9
 * code ^short = "Blood pressure panel with all children optional"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] 0..0
 * interpretation 0..1

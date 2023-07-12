@@ -20,6 +20,8 @@ Description: "The number of heart beats in a minute."
 * extension[sleepStatus] ^short = "Sleep Status"
 * extension[associatedSituation] ^short = "Associated Situation"
 * status MS
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
+* category.coding.code = ObsCat#vital-signs
 * code ^short = "Heart rate"
 * subject 1..1 MS
 * subject only Reference(USCorePatient)

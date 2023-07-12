@@ -4,7 +4,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: CIMI-Vital-Signs
 canonical: http://hl7.org/fhir/us/vitals
-version: "current"
+version: "ci-build"
 name: CIMIVitalSigns
 title: Vital Signs with Qualifying Elements
 status: draft

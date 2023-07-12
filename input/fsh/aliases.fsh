@@ -23,4 +23,5 @@ Alias:   CoreBodyWeight = http://hl7.org/fhir/StructureDefinition/bodyweight
 Alias:   HeadCirc = http://hl7.org/fhir/StructureDefinition/headcircum
 Alias:   O2Sat = http://hl7.org/fhir/StructureDefinition/oxygensat
 Alias:   RespRate = http://hl7.org/fhir/StructureDefinition/resprate
-Alias:   VitalsPan = http://hl7.org/fhir/StructureDefinition/vitalspanel
+Alias:   VitalsPan = http://hl7.org/fhir/StructureDefinition/vitalspanel 
+Alias:   ObsCat = http://terminology.hl7.org/CodeSystem/observation-category

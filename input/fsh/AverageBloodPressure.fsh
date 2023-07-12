@@ -1,5 +1,5 @@
 Profile: AverageBloodPressure
-Parent: VitalSigns
+Parent: Observation
 Id: average-blood-pressure
 Title: "Average Blood Pressure"
 Description: "A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component."
@@ -13,8 +13,10 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * extension[MeasurementProtocol] ^short = "Rules and algorithm for Average Blood Pressure calculation."
 * status MS
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
+* category.coding.code = ObsCat#vital-signs
 * code = LNC#96607-7
-* code ^short = "Blood pressure panel mean systolic and mean diastolic"
+* code ^short = "Blood pressure panel; mean systolic and mean diastolic pressures"
 * subject 1..1 MS
 * subject only Reference(Patient)
 * effective[x] 1..1 MS
@@ -38,10 +40,10 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component contains
     SystolicBP 1..1 and
     DiastolicBP 0..1
-* component[SystolicBP] ^short = "Systolic Blood Pressure"
+* component[SystolicBP] ^short = "Systolic blood pressure mean"
 * component[SystolicBP].code = LNC#96608-5
 * component[SystolicBP].code MS
-* component[SystolicBP].code ^short = "Systolic blood pressure unspecified time mean"
+* component[SystolicBP].code ^short = "Systolic blood pressure mean"
 * component[SystolicBP].value[x] only Quantity
 * component[SystolicBP].valueQuantity MS
 * component[SystolicBP].valueQuantity.value 1..1 MS
@@ -52,10 +54,10 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component[SystolicBP].valueQuantity.code 1..1 MS
 * component[SystolicBP].valueQuantity.code only code
 * component[SystolicBP].valueQuantity.code = #mm[Hg] (exactly)
-* component[DiastolicBP] ^short = "Diastolic Blood Pressure"
+* component[DiastolicBP] ^short = "Diastolic blood pressure mean"
 * component[DiastolicBP].code = LNC#96609-3
 * component[DiastolicBP].code MS
-* component[DiastolicBP].code ^short = "Diastolic blood pressure unspecified time mean"
+* component[DiastolicBP].code ^short = "Diastolic blood pressure mean"
 * component[DiastolicBP].value[x] only Quantity
 * component[DiastolicBP].valueQuantity MS
 * component[DiastolicBP].valueQuantity.value 1..1 MS

@@ -1,5 +1,5 @@
 Profile: VitalSignsPanel
-Parent: VitalsPan
+Parent: Observation
 Id: vital-signs-panel
 Title: "Vital Signs Panel"
 Description: "A vital signs panel as defined by Logica Health.  It includes Oxygen Saturation via Pulse Oximetry, Oxygen Saturation in Arterial blood, body height, body length, body weight, body temperature, blood pressure panel, heart rate, respiratory rate, head-occcipital/frontal circumference, oxygen saturation via pulse oximetry, and body mass index."
