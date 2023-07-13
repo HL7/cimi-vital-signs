@@ -17,7 +17,7 @@ Description: "The measured mass of an individual's body."
 * status MS
 * code ^short = "Body weight"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity MS

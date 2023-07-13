@@ -8,7 +8,7 @@ Description: "A vital signs panel as defined by Logica Health.  It includes Oxyg
 * code MS
 * code ^short = "Vital signs, weight, height, head circumference, oxygen saturation, and BMI panel"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] 0..0
 * dataAbsentReason 0..0

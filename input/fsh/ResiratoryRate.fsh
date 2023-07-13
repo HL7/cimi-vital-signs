@@ -20,7 +20,7 @@ Description: "The measured number of breaths taken in a minute."
 * status MS
 * code ^short = "Respiratory rate"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity MS

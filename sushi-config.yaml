@@ -4,7 +4,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: CIMI-Vital-Signs
 canonical: http://hl7.org/fhir/us/vitals
-version: "current"
+version: "2.0.0"
 name: CIMIVitalSigns
 title: Vital Signs with Qualifying Elements
 status: draft
@@ -17,12 +17,12 @@ publisher:
     url: https://www.logicahealth.org/
 description: This IG describes vital signs observations that include qualifying information such as cuff size for blood pressure, or an associated situation of "during exercise" for blood pressure or heart rate, etc.
 fhirVersion: 4.0.1
-dependencies: 
-  hl7.fhir.us.core: 3.1.1
+# dependencies: 
+#  hl7.fhir.us.core: 3.1.1
 copyrightYear: 2021+
 copyright: Logica Health, all rights reserved Creative Commons License
 releaseLabel: ci-build
-jurisdiction: urn:iso:std:iso:3166#US "United States of America"
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 packageId: hl7.fhir.us.vitals
 parameters:
   show-inherited-invariants: false

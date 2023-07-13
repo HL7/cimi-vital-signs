@@ -13,7 +13,7 @@ Description: "An average blood pressure (systolic and diastolic) over a twenty f
 * code = LNC#97844-5
 * code ^short = "Blood pressure panel 24 hour mean"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * effective[x] only Period
 * effective[x] ^short = "The dates and times over which the 24 hour period falls."

@@ -7,7 +7,7 @@ Description: "The measured length around and individual's head via a tape measur
 * code = LNC#8287-5
 * code ^short = "Head Occipital-frontal circumference by Tape measure"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity MS

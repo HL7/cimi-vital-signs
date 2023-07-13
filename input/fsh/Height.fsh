@@ -16,7 +16,7 @@ Description: "The measurement in centimeters or feet and inches from the top of 
 * status MS
 * code ^short = "Body height"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity MS

@@ -1,5 +1,5 @@
 Profile: OxygenSaturationArterialBloodPulseOx
-Parent: USCorePulsOx
+Parent: Observation
 Id: oxygen-saturation-arterial-blood-pulseOx
 Title: "Oxygen Saturation in Arterial Blood by Pulse Oximetry"
 Description: "A measurement of the percentage to which oxygen is bound to hemoglobin in arterial blood via pulse oximetry."
@@ -11,7 +11,7 @@ Description: "A measurement of the percentage to which oxygen is bound to hemogl
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * extension[exerciseAssociation] ^short = "Exercise Association"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * value[x] only Quantity
 * valueQuantity MS
 * valueQuantity.value 1..1 MS

@@ -24,7 +24,7 @@ Description: "The number of heart beats in a minute."
 * category.coding.code = ObsCat#vital-signs
 * code ^short = "Heart rate"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity MS

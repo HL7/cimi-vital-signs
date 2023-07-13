@@ -14,7 +14,7 @@ Description: "The measurement in centimeters or inches from the top of the head 
 * code = LNC#8306-3
 * code ^short = "Body height --lying"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity MS

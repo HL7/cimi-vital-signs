@@ -8,7 +8,7 @@ Description: "A numerical index based on an individual's weight in kilograms div
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * status MS
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity MS

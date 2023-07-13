@@ -6,7 +6,7 @@
   "list": [
     
     {
-      "version": "current",
+      "version": "2.0.0",
       "fhir-version": "4.0.1",
       "date" : "n/a",
       "desc": "Continuous Integration Build for Vital Signs with Qualifying Extensions (latest in version control)",

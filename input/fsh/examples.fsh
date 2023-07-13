@@ -1,5 +1,5 @@
 Instance: patient-example
-InstanceOf: USCorePatient
+InstanceOf: Patient
 Description: "Patient example"
 Usage: #example
 * meta.security = EX#HTEST "test health data"
@@ -42,7 +42,7 @@ Usage: #example
 * address.country = "US"
 
 Instance: practitioner-example
-InstanceOf: USCorePractitioner
+InstanceOf: Practitioner
 Description: "Practitioner example"
 Usage: #example
 * meta.security = EX#HTEST "test health data"
@@ -261,7 +261,7 @@ Usage: #example
 * category = ObsCat#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 //* code.coding = #2708-6 "Oxygen saturation in Arterial blood"
-* code.coding[PulseOx] = #59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
+* code.coding = #59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
 * subject.display = "Small Child1234"
 * encounter.display = "GP Visit"
 * effectiveDateTime = "2019-10-16T12:12:29-09:00"
