@@ -75,10 +75,10 @@ Usage: #example
 * performer.display = "OldMan 1234"
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * device = Reference(BPDevice2-example)
-* component[0].code = LNC#96608-5 "Systolic blood pressure mean"
-* component[=].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
-* component[+].code = LNC#96609-3 "Diastolic blood pressure mean"
-* component[=].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
+* component[SystolicBP].code = LNC#96608-5 "Systolic blood pressure mean"
+* component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
+* component[DiastolicBP].code = LNC#96609-3 "Diastolic blood pressure mean"
+* component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
 Instance: BPDevice1-example
 InstanceOf: BloodPressureDevice
