@@ -27,6 +27,7 @@ packageId: hl7.fhir.us.vitals
 parameters:
   show-inherited-invariants: false
   path-expansion-params: ../../exp-params.json
+  viewDefinition: input/sql/sql-view-observations.json
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │

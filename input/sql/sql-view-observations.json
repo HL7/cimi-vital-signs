@@ -1,0 +1,53 @@
+{
+  "name" : "ObservationsView",
+  "resource" : "Observation",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/view-definition-scope-x",
+    "valueCode" : "*"
+  }],
+  "select" : [{
+    "column" : [{
+      "name" : "Resource",
+      "path" : "getResourceKey()"
+    },{
+      "name" : "Id",
+      "path" : "id"
+    },{
+      "name" : "Profile",
+      "path" : "meta.profile[0]"
+    },{
+      "name" : "Code",
+      "path" : "code.coding[0].code"
+    },{
+      "name" : "Display",
+      "path" : "code.coding[0].display"
+    },{
+      "name" : "Units",
+      "path" : "value.ofType(Quantity).code"
+    },{
+      "name" : "BodySiteCode",
+      "path" : "bodySite.coding[0].code"
+    },{
+      "name" : "BodySiteDisplay",
+      "path" : "bodySite.coding[0].display"
+    },{
+      "name" : "Comp1Code",
+      "path" : "component[0].code.coding[0].code"
+    },{
+      "name" : "Comp1Display",
+      "path" : "component[0].code.coding[0].display"
+    },{
+      "name" : "Units1",
+      "path" : "component[0].value.ofType(Quantity).code"
+    },{
+      "name" : "Comp2Code",
+      "path" : "component[1].code.coding[0].code"
+    },{
+      "name" : "Comp2Display",
+      "path" : "component[1].code.coding[0].display"
+    },{
+      "name" : "Units2",
+      "path" : "component[1].value.ofType(Quantity).code"
+    }]
+  }]
+}
