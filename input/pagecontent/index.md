@@ -32,7 +32,6 @@ The profiles were extended by the [Clinical Information Modeling Initiative](htt
 }
 %}
 
-fmt:grid;l:2;a;a;c:http://loinc.org;d:4;a;c:http://snomed.info/sct;d:7;a;a;a Select Resource, Id, Profile, Code, Display, Units, BodySiteCode, BodySiteDisplay, Comp1Code, Comp1Display, Comp2Code, Comp2Display from ObservationsView %}
 
 ### Scope
 
