@@ -9,6 +9,31 @@ project and were used as references in the creation of the profiles in this IG.
 
 The profiles were extended by the [Clinical Information Modeling Initiative](https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative) in Jan. 2020 to include associated qualifying observations and required terminology bindings. The work was informed by Intermountain Healthcare’s clinical element models, the Federal Health Information Model, and the American Medical Association’s home blood pressure monitoring use cases.
 
+### Summary
+
+{% sql Select Resource, Id, Profile, Code, Display, Units, BodySiteCode, BodySiteDisplay from ObservationsView %}
+
+### Summary 2
+
+{% sql {
+  "query": "Select Resource, Id, Profile, Code, Display, Units, BodySiteCode, BodySiteDisplay, Comp1Code, Comp1Display, Comp2Code, Comp2Display, Units1, Units2 from ObservationsView",
+  "class" : "grid",
+  "columns" : [
+    { "title" : "Resource", "type" : "resource", "source" : "Resource"},
+    { "title" : "Profile", "type" : "canonical" },
+    { "title" : "Code", "type" : "coding", "system" : "http://loinc.org", "source" : "Code", "display" : "Display" },
+    { "title" : "Units" },
+    { "title" : "Site", "type" : "coding", "system" : "http://snomed.info/sct", "source" : "BodySiteCode", "display" : "BodySiteDisplay" },
+    { "title" : "Component 1", "type" : "coding", "system" : "http://loinc.org", "source" : "Comp1Code", "display" : "Comp1Display" },
+    { "title" : "Units", "source" : "Units1" },
+    { "title" : "Component 2", "type" : "coding", "system" : "http://loinc.org", "source" : "Comp2Code", "display" : "Comp2Display" },
+    { "title" : "Units",  "source" : "Units2" }
+  ]
+}
+%}
+
+fmt:grid;l:2;a;a;c:http://loinc.org;d:4;a;c:http://snomed.info/sct;d:7;a;a;a Select Resource, Id, Profile, Code, Display, Units, BodySiteCode, BodySiteDisplay, Comp1Code, Comp1Display, Comp2Code, Comp2Display from ObservationsView %}
+
 ### Scope
 
 #### Realm
